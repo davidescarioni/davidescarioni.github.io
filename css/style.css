@@ -380,12 +380,12 @@ footer {
 
 @media screen and (min-width: 769px) {
     .website-article:hover {
-        transform: scale(1.1);
-        -moz-transform: scale(1.1);
+        transform: scale(1.01);
+        -moz-transform: scale(1.01);
         box-shadow: 10px 10px 10px #efefef;
     }
     .social-icons svg:hover {
-        transform: scale(1.1);
-        -moz-transform: scale(1.1);
+        transform: scale(1.01);
+        -moz-transform: scale(1.01);
     }
 }
