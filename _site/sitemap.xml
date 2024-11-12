@@ -2,27 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
-		<loc>https://example.com/blog/firstpost/</loc>
+		<loc>https://example.com/blog-examples/firstpost/</loc>
 		<lastmod>2018-05-01</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/blog/secondpost/</loc>
+		<loc>https://example.com/blog-examples/secondpost/</loc>
 		<lastmod>2018-07-04</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/blog/thirdpost/</loc>
+		<loc>https://example.com/blog-examples/thirdpost/</loc>
 		<lastmod>2018-08-24</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/blog/fourthpost/</loc>
+		<loc>https://example.com/blog-examples/fourthpost/</loc>
 		<lastmod>2018-09-30</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/blog/fifthpost/</loc>
+		<loc>https://example.com/blog-examples/fifthpost/</loc>
 		<lastmod>2023-01-23</lastmod>
 	</url>
 	
@@ -47,7 +47,12 @@
 	</url>
 	
 	<url>
+		<loc>https://example.com/blog/ciao/</loc>
+		<lastmod>2024-11-12</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://example.com/feed/feed.xml</loc>
-		<lastmod>2024-11-11</lastmod>
+		<lastmod>2024-11-12</lastmod>
 	</url>
 </urlset>
