@@ -235,7 +235,10 @@ html {
 	overflow-y: scroll;
 }
 body {
-	max-width: 40em;
+	max-width: 50em;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
@@ -269,6 +272,10 @@ a[href]:visited {
 a[href]:hover,
 a[href]:active {
 	color: var(--text-color-link-active);
+}
+
+main {
+	flex: 1;
 }
 
 main,
@@ -457,13 +464,16 @@ header {
 		<main id="skip">
 			<heading-anchors>
 				
+
 <h1 id="ciao-ci-sono-anch-io">Ciao, ci sono anch&#39;io.</h1>
-
 <ul class="post-metadata">
-	<li><time datetime="2024-11-12">12 November 2024</time></li>
-	<li><a href="/tags/personal/" class="post-tag">personal</a></li>
+    <li>
+        <time datetime="2024-11-12">12 November 2024</time>
+    </li>
+        <li>
+            <a href="/tags/personal/" class="post-tag">personal</a>
+        </li>
 </ul>
-
 <p>Ciao, mi chiamo Davide ma sul web mi faccio chiamare <strong>Scario</strong>: non è un nickname molto originale dato che è anche il soprannome che ho sin dalle scuole medie, ma è diventato da anni il mio alter ego sul web e va bene così.</p>
 <p>E' molto tempo che provo ad aprire un sito personale / blog, ma ogni volta c'è sempre qualche pensiero che mi frena dal farlo, che sia un problema tecnico o meno:</p>
 <ul>
@@ -486,7 +496,6 @@ Sia sul web che sulla vita reale non sono una persona che <em>urla</em> la propr
 <p>Insomma... questa volta ci siamo, <strong>finalmente</strong>.</p>
 <p>(Un saluto a Scario del futuro, che non ricorderà minimamente queste parole e le leggerà sicuramente imbarazzato tra qualche anno).</p>
 
-
 			</heading-anchors>
 		</main>
 
@@ -494,7 +503,7 @@ Sia sul web che sulla vita reale non sono una persona che <em>urla</em> la propr
 			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
 		</footer>
 
-		<!-- This page `/blog/ciao/` was built on 2024-11-14T05:33:31.610Z -->
+		<!-- This page `/blog/ciao/` was built on 2024-11-15T06:22:42.306Z -->
 		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
 	</body>
 </html>

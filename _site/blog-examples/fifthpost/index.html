@@ -67,7 +67,10 @@ html {
 	overflow-y: scroll;
 }
 body {
-	max-width: 40em;
+	max-width: 50em;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
@@ -101,6 +104,10 @@ a[href]:visited {
 a[href]:hover,
 a[href]:active {
 	color: var(--text-color-link-active);
+}
+
+main {
+	flex: 1;
 }
 
 main,
@@ -288,12 +295,8 @@ header {
 
 		<main id="skip">
 			<heading-anchors>
-				<!-- Delete this block, which will also remove the component CSS from the bundle -->
-
-<!-- Stop deleting -->
-
+				
 <p>This is a draft post</p>
-
 
 			</heading-anchors>
 		</main>
@@ -302,7 +305,7 @@ header {
 			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
 		</footer>
 
-		<!-- This page `/blog-examples/fifthpost/` was built on 2024-11-14T05:33:31.610Z -->
+		<!-- This page `/blog-examples/fifthpost/` was built on 2024-11-15T06:22:08.856Z -->
 		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
 	</body>
 </html>
