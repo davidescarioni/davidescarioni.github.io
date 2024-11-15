@@ -57,7 +57,10 @@ html {
 	overflow-y: scroll;
 }
 body {
-	max-width: 40em;
+	max-width: 50em;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
@@ -91,6 +94,10 @@ a[href]:visited {
 a[href]:hover,
 a[href]:active {
 	color: var(--text-color-link-active);
+}
+
+main {
+	flex: 1;
 }
 
 main,
