@@ -47,7 +47,12 @@
 	</url>
 	
 	<url>
+		<loc>https://example.com/blog/valve-difference/</loc>
+		<lastmod>2024-11-16</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://example.com/feed/feed.xml</loc>
-		<lastmod>2024-11-15</lastmod>
+		<lastmod>2024-11-16</lastmod>
 	</url>
 </urlset>

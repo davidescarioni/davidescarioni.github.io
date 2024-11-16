@@ -72,7 +72,7 @@ Or you can run [debug mode](https://www.11ty.dev/docs/debugging/) to see all the
   - Automated next/previous links
   - Accessible deep links to headings
 - Generated Pages
-  - Home, Archive, and About pages.
+  - Home, Blog, and About pages.
   - [Atom feed included (with easy one-line swap to use RSS or JSON](https://www.11ty.dev/docs/plugins/rss/)
   - `sitemap.xml`
   - Zero-maintenance tag pages ([View on the Demo](https://scario-side-quest.netlify.app/tags/))
