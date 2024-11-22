@@ -2,57 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
-		<loc>https://example.com/blog-examples/firstpost/</loc>
+		<loc>https://davidescarioni.github.io/blog-examples/firstpost/</loc>
 		<lastmod>2018-05-01</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/blog-examples/secondpost/</loc>
+		<loc>https://davidescarioni.github.io/blog-examples/secondpost/</loc>
 		<lastmod>2018-07-04</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/blog-examples/thirdpost/</loc>
+		<loc>https://davidescarioni.github.io/blog-examples/thirdpost/</loc>
 		<lastmod>2018-08-24</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/blog-examples/fourthpost/</loc>
+		<loc>https://davidescarioni.github.io/blog-examples/fourthpost/</loc>
 		<lastmod>2018-09-30</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/blog/ciao/</loc>
+		<loc>https://davidescarioni.github.io/blog/ciao/</loc>
 		<lastmod>2024-11-12</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/blog/valve-difference/</loc>
+		<loc>https://davidescarioni.github.io/blog/valve-difference/</loc>
 		<lastmod>2024-11-16</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/about/</loc>
-		<lastmod>2024-11-17</lastmod>
+		<loc>https://davidescarioni.github.io/about/</loc>
+		<lastmod>2024-11-22</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/blog/</loc>
-		<lastmod>2024-11-17</lastmod>
+		<loc>https://davidescarioni.github.io/blog/</loc>
+		<lastmod>2024-11-22</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/</loc>
-		<lastmod>2024-11-17</lastmod>
+		<loc>https://davidescarioni.github.io/</loc>
+		<lastmod>2024-11-22</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/tags/</loc>
-		<lastmod>2024-11-17</lastmod>
+		<loc>https://davidescarioni.github.io/tags/</loc>
+		<lastmod>2024-11-22</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/feed/feed.xml</loc>
-		<lastmod>2024-11-17</lastmod>
+		<loc>https://davidescarioni.github.io/feed/feed.xml</loc>
+		<lastmod>2024-11-22</lastmod>
 	</url>
 </urlset>
