@@ -64,8 +64,8 @@ export default async function(eleventyConfig) {
 		metadata: {
 			language: "it",
 			title: "Scario Side Quest",
-			subtitle: "This is a longer description about your blog.",
-			base: "https://example.com/",
+			subtitle: "My personal blog.",
+			base: "https://davidescarioni.github.io/",
 			author: {
 				name: "Davide Scarioni"
 			}
