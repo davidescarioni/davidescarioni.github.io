@@ -1,6 +1,6 @@
 ---
 title: La Valve Difference.
-description: Sul perchè ogni passo di quella casa videoludica mi fa ragioanre.
+description: Valve preserva i videogiochi, e lo fa molto bene.
 date: 2024-11-16
 tags: videogames
 ---
