@@ -57,12 +57,17 @@
 	</url>
 	
 	<url>
-		<loc>https://davidescarioni.github.io/blog/un-nuovo-modo-di-giocare/</loc>
+		<loc>https://davidescarioni.github.io/blog/il-mio-nuovo-modo-di-giocare/</loc>
 		<lastmod>2024-12-12</lastmod>
 	</url>
 	
 	<url>
+		<loc>https://davidescarioni.github.io/blog/secret-santa-jam-2024/</loc>
+		<lastmod>2024-12-21</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://davidescarioni.github.io/feed/feed.xml</loc>
-		<lastmod>2024-12-27</lastmod>
+		<lastmod>2024-12-30</lastmod>
 	</url>
 </urlset>

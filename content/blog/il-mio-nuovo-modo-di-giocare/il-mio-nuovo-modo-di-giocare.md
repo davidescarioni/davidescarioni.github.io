@@ -1,5 +1,5 @@
 ---
-title: Un nuovo modo di giocare
+title: Il mio nuovo modo di giocare
 description: O, almeno, nuovo per me.
 date: 2024-12-12
 tags: videogames
@@ -8,7 +8,6 @@ tags: videogames
 Ho avuto precedentemente un *Nintendo 2ds*, e ora gioco su *Nintendo Switch* e *Steam Deck*.
 
 Perchè mai non ho approfondito prima il funzionamento dello *standby* sulle console? È **la svolta**!
-
 Soprattutto ora che gioco principalmente nei ritagli di tempo, poter *mettere in pausa* per lungo tempo la console con un gioco avviato mi permette di giocare di più, perchè:
 
 - evitato i tempi anche lunghi sia di console che di gioco
