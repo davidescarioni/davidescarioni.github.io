@@ -3,11 +3,179 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Tagged &#39;another tag&#39;</title>
-		<meta name="description" content="Descrizione del blog">
+		<title>Caricare giochi sulla Miyoo Mini Plus tramite WiFi</title>
+		<meta name="description" content="Basato su Onion OS 4.3">
 		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Scario Side Quest">
 		
-		<style>/* This is an arbitrary CSS string added to the bundle */
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/* This is an arbitrary CSS string added to the bundle */
 /* Defaults */
 :root {
 	--font-family: -apple-system, system-ui, sans-serif;
@@ -336,42 +504,40 @@ a[href]:active {
 		<main id="skip">
 			<heading-anchors>
 				
-<h1 id="tagged-another-tag">Tagged “another tag”</h1>
 
+<div class="post-header">
+<time class="post-date" datetime="2024-12-30">30 December 2024</time>
+<h1 class="post-title" id="caricare-giochi-sulla-miyoo-mini-plus-tramite-wifi">Caricare giochi sulla Miyoo Mini Plus tramite WiFi</h1>
+<div>Basato su Onion OS 4.3</div>
+<div class="post-tags">Tags: <ul class="post-metadata">
+        <li>
+            <a href="/tags/tutorial/" class="post-tag">tutorial</a>
+        </li>
+        <li>
+            <a href="/tags/miyoo-mini-plus/" class="post-tag">miyoo mini plus</a>
+        </li>
+</ul></div>
+</div>
+<ul>
+<li>Dalla console, navigare sotto <em>Apps -&gt; Tweaks -&gt; Network -&gt; HTTP: Web-based file sync</em></li>
+<li>Mettere le spunte sia su <strong>Enable</strong> che su <strong>Enable authentication</strong></li>
+<li>Tornare alla pagina precedente: in alto sarà segnato un indirizzo IP</li>
+<li>Usare quell'indirizzo IP in un browser di un dispositivo connesso alla stessa rete</li>
+<li>Verrà chiesta un nome utente ed una password: entrambi sono admin di default</li>
+</ul>
+<p><strong>Operazione completata!</strong></p>
+<p>Nota: su <strong>MacOS</strong>, per rendere accessibile l'interfaccia remota di Onion OS, bisogna:</p>
+<ul>
+<li>Andare su <em>Impostazioni -&gt; Privacy e Sicurezza -&gt; Rete locale</em></li>
+<li>Consentire che il browser che stiamo utilizzando possa vedere dispositivi sulla stessa rete locale</li>
+</ul>
 
-<script>
-  const startFrom = 2;
-  const options = {
-    day: '2-digit',
-    month: 'long',
-    year: 'numeric'
-  };
-</script>
-
-<style>
-  .postlist {
-    counter-reset: start-from 2;
-  }
-</style>
-
-<ol reversed="" class="postlist">
-
-	<li class="postlist-item">
-		<a href="/blog-examples/firstpost/" class="postlist-link">
-			
-				This is my first post.
-			
-		</a>
-		<time class="postlist-date" datetime="Tue May 01 2018 00:00:00 GMT+0000 (Coordinated Universal Time)">
-			01 maggio 2018
-		</time>
-	</li>
-
-</ol>
-
-
-<p>See <a href="/tags/">all tags</a>.</p>
-
+        <ul class="links-nextprev">
+                <li class="links-nextprev-prev">← Precedente<br>
+                        <a href="/blog/secret-santa-jam-2024/">Secret Santa Jam 2024</a>
+                    </li>
+                
+                </ul>
 			</heading-anchors>
 		</main>
 
@@ -379,7 +545,7 @@ a[href]:active {
 			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
 		</footer>
 
-		<!-- This page `/tags/another-tag/` was built on 2024-12-30T15:44:29.151Z -->
+		<!-- This page `/blog/caricare-giochi-miyoo-mini-plus-wifi/caricare-giochi-miyoo-mini-plus/` was built on 2024-12-30T15:44:29.153Z -->
 		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
 	</body>
 </html>
