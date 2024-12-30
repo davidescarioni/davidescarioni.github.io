@@ -431,14 +431,43 @@ header {
 	font-weight: bold;
 }
 
+/* Post */
+.post-header {
+	padding-bottom: 1em;
+	border-bottom: 1px solid var(--text-color);
+}
+.post-title {
+	margin-top: .2em;
+	margin-bottom: 0;
+}
+
+.post-date {
+	font-size: .8em;
+}
+
+.post-tags {
+	margin-top: .2em;
+}
+
 /* Tags */
-.post-tag {
+a.post-tag {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	text-transform: capitalize;
 	font-style: italic;
+	background-color: var(--text-color-link);
+	border: 1px solid var(--text-color-link);
+	color: var(--background-color);
+	padding: 0 10px;
+	text-decoration: none;
+	border-radius: 50px;
 }
+a.post-tag:hover,
+a[href]:active {
+	background-color: transparent;
+	border-color: var(--text-color-link-active);
+}
+
 .postlist-item > .post-tag {
 	align-self: center;
 }
@@ -450,7 +479,7 @@ header {
 	gap: .5em;
 	list-style: none;
 	padding: 0;
-	margin: 0;
+	margin: 1em 0 0;
 }
 .post-metadata time {
 	margin-right: 1em;
@@ -476,23 +505,23 @@ header {
 			<heading-anchors>
 				
 
-<h1 id="secret-santa-jam-2024">Secret Santa Jam 2024</h1>
-<ul class="post-metadata">
-    <li>
-        <time datetime="2024-12-21">21 December 2024</time>
-    </li>
+<div class="post-header">
+<time class="post-date" datetime="2024-12-21">21 December 2024</time>
+<h1 class="post-title" id="secret-santa-jam-2024">Secret Santa Jam 2024</h1>
+<div>Quella nella quale ho salvato (un) Natale insieme a Mad.</div>
+<div class="post-tags">Tags: <ul class="post-metadata">
         <li>
-            <a href="/tags/gmi/" class="post-tag">gmi</a>,
-            
+            <a href="/tags/gmi/" class="post-tag">gmi</a>
         </li>
         <li>
             <a href="/tags/videogames/" class="post-tag">videogames</a>
         </li>
-</ul>
+</ul></div>
+</div>
 <p>La <em>Secret Santa Jam</em> è una jam che ho proposto e che facciamo ormai da tre anni su <a href="https://www.gamemakeritalia.it">GameMaker Italia</a>: sono davvero contento che è stata apprezzata e portata avanti dalla community perchè è la mia preferita tra quelle che organizziamo là dentro.</p>
 <p>In cosa consiste? Ogni partecipante deve <strong>scrivere una letterina</strong> in cui specificherà cosa gli piacerebbe ricevere, evitando di specificare generi o stili grafici così da rendere la jam il più possibile inclusiva. Per ogni partecipante verrà estratto un altro partecipante al quale <strong>confezionare un gioco secondo le indicazioni della letterina</strong>. Il gioco verrà poi consegnato e giocato direttamente in live.</p>
 <p>Perchè mi piace? Perchè, a differenza di altre jam, spinge davvero a sperimentare: mi sono trovato più volte a <em>piegare</em> il tema della jam per far sì di riuscire a sviluppare un platform :D Invece qui le letterine sono talmente <strong>pazze</strong> che è impossibile non inventare qualcosa di nuovo.</p>
-<p>Quest'anno ho pescato la letterina di Zigoon, un utente di GMI al quale piace sviluppare esperienze immediate e arcade.</p>
+<p>Quest'anno ho pescato la letterina di <a href="https://zigoon.itch.io">Zigoon</a>, un utente di GMI al quale piace sviluppare esperienze immediate e arcade.</p>
 <p><picture><source type="image/avif" srcset="/blog/secret-santa-jam-2024/NXop5j-04T-792.avif 792w"><source type="image/webp" srcset="/blog/secret-santa-jam-2024/NXop5j-04T-792.webp 792w"><img loading="lazy" decoding="async" src="/blog/secret-santa-jam-2024/NXop5j-04T-792.png" alt="Letterina Zigoon" width="792" height="442"></picture></p>
 <p>Il gioco che ho confezionato per lui è stato <a href="https://mega.nz/file/wU5AAA6b#v66BPi4cOGHphOAgpKw2QF9xJ4Y4mgcOVmOIIyzdF90">Crazy Space Pool</a>, un gioco nel quale <strong>alcune</strong> regole del biliardo vengono usate per spazzare via degli asteroidi.</p>
 <p><picture><source type="image/avif" srcset="/blog/secret-santa-jam-2024/wmrP31Dwco-1265.avif 1265w"><source type="image/webp" srcset="/blog/secret-santa-jam-2024/wmrP31Dwco-1265.webp 1265w"><img loading="lazy" decoding="async" src="/blog/secret-santa-jam-2024/wmrP31Dwco-1265.png" alt="Immagine del primo livello di Crazy Space Pool" width="1265" height="784"></picture></p>
@@ -504,7 +533,7 @@ header {
 <p><a href="https://zigoon.itch.io/project-scario">Project S.C.A.R.I.O.</a> è un roguelike dove i protagonisti, le ambientazioni, i nemici e le musiche sono tratte dai giochi che ho sviluppato fino ad ora: praticamente un enorme fan game! È venuto davvero bene, mi lusinga e si gioca davvero bene... <strong>non avrei potuto chiedere regalo migliore</strong>! <a href="https://www.youtube.com/watch?v=zdvzZ2pV9MU&amp;t=7807s">Qui trovate il punto preciso della live nel quale lo gioco e rimango estasiato per la prima volta :D</a>.</p>
 <p>Ma cosa sarebbe la <em>Secret Santa Jam</em> senza una sana dose di magia, colpi di scena e sorprese?</p>
 <p>Un utente (jak di denari) aveva consegnato una letterina e glie ne era stata affidata una, cioè quella di <a href="https://noemifrulio.itch.io">Nannasaurus Rex</a> e del suo amico <a href="https://jsmash-salted.itch.io">JSmash Salted</a>. Purtroppo il suo pc è stato colpito da svariati problemi (nemmeno Carcallo, <em>colui che sa tutto</em>, è riuscito ad aiutarlo). C'era quindi il problema che il gioco della letterina che gli era stata affidata non sarebbe stato consegnato, lasciando due utenti senza regalo proprio alla jam di Natale!</p>
-<p>Così ho prontamente contattato Cocca Natale (l'utente che si è occupata dello smistamento pacchetti e letterine) per propormi di sviluppare il gioco mancante oltre al mio, ma, sorpresa sorpresa, anche Mad si era proposto di fare altrettanto! Quindi, carichissimi, riceviamo la letterina in questione:</p>
+<p>Così ho prontamente contattato Cocca Natale (l'utente che si è occupata dello smistamento pacchetti e letterine) per propormi di sviluppare il gioco mancante oltre al mio, ma, sorpresa sorpresa, anche <a href="https://mymadnessworks.itch.io">MyMadnessWorks</a> (Mad, da ora in avanti) si era proposto di fare altrettanto! Quindi, carichissimi, riceviamo la letterina in questione:</p>
 <p><picture><source type="image/avif" srcset="/blog/secret-santa-jam-2024/8Zigfql8t--1008.avif 1008w"><source type="image/webp" srcset="/blog/secret-santa-jam-2024/8Zigfql8t--1008.webp 1008w"><img loading="lazy" decoding="async" src="/blog/secret-santa-jam-2024/8Zigfql8t--1008.jpeg" alt="Letterina di Nanna e JSmash" width="1008" height="1307"></picture></p>
 <p>Anche dati i nostri caratteri, il desiderio sembrava davvero arduo da realizzare. Fortunatamente Mad è riuscito a salvare la situazione trovando un modo <em>elegante</em> di risolvere la questione e abbiamo cominciato a realizzarlo: io mi sono occupato dello sviluppo, Mad di grafiche, suoni, musica e alcune parti di sviluppo... insomma, è stato grazie a lui se siamo riusciti a portarlo a termine.
 Il gioco risultante, <strong>Ah! My life as a normal girl changed when Santa Claus gave me work so I had to save Christmas all alone</strong> è davvero carino e curato, anche se ovviamente molto breve, ma siamo stati davvero molto contenti del risultato, soprattutto considerando il tempo a disposizione.</p>
@@ -525,7 +554,7 @@ Il gioco risultante, <strong>Ah! My life as a normal girl changed when Santa Cla
 			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
 		</footer>
 
-		<!-- This page `/blog/secret-santa-jam-2024/` was built on 2024-12-30T09:07:17.378Z -->
+		<!-- This page `/blog/secret-santa-jam-2024/` was built on 2024-12-30T09:56:08.718Z -->
 		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
 	</body>
 </html>

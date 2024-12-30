@@ -7,8 +7,7 @@
 		<meta name="description" content="Descrizione del blog">
 		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Scario Side Quest">
 		
-		<style>.postlist { counter-reset: start-from 6 }
-/* This is an arbitrary CSS string added to the bundle */
+		<style>/* This is an arbitrary CSS string added to the bundle */
 /* Defaults */
 :root {
 	--font-family: -apple-system, system-ui, sans-serif;
@@ -264,14 +263,43 @@ header {
 	font-weight: bold;
 }
 
+/* Post */
+.post-header {
+	padding-bottom: 1em;
+	border-bottom: 1px solid var(--text-color);
+}
+.post-title {
+	margin-top: .2em;
+	margin-bottom: 0;
+}
+
+.post-date {
+	font-size: .8em;
+}
+
+.post-tags {
+	margin-top: .2em;
+}
+
 /* Tags */
-.post-tag {
+a.post-tag {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	text-transform: capitalize;
 	font-style: italic;
+	background-color: var(--text-color-link);
+	border: 1px solid var(--text-color-link);
+	color: var(--background-color);
+	padding: 0 10px;
+	text-decoration: none;
+	border-radius: 50px;
 }
+a.post-tag:hover,
+a[href]:active {
+	background-color: transparent;
+	border-color: var(--text-color-link-active);
+}
+
 .postlist-item > .post-tag {
 	align-self: center;
 }
@@ -283,7 +311,7 @@ header {
 	gap: .5em;
 	list-style: none;
 	padding: 0;
-	margin: 0;
+	margin: 1em 0 0;
 }
 .post-metadata time {
 	margin-right: 1em;
@@ -310,34 +338,83 @@ header {
 				
 
 
-<h1 id="latest-3-posts">Latest 3 Posts</h1>
+<h1 id="post-recenti">Post recenti</h1>
 
 
 
+<script>
+  const startFrom = 6;
+  const options = {
+    day: '2-digit',
+    month: 'long',
+    year: 'numeric'
+  };
+</script>
+
+<style>
+  .postlist {
+    counter-reset: start-from 6;
+  }
+</style>
 
 <ol reversed="" class="postlist">
 
 	<li class="postlist-item">
-		<a href="/blog/secret-santa-jam-2024/" class="postlist-link">Secret Santa Jam 2024</a>
-		<time class="postlist-date" datetime="2024-12-21">December 2024</time>
+		<a href="/blog/secret-santa-jam-2024/" class="postlist-link">
+			
+				Secret Santa Jam 2024
+			
+		</a>
+		<time class="postlist-date" datetime="Sat Dec 21 2024 00:00:00 GMT+0000 (Coordinated Universal Time)">
+			21 dicembre 2024
+		</time>
 	</li>
 
 	<li class="postlist-item">
-		<a href="/blog/il-mio-nuovo-modo-di-giocare/" class="postlist-link">Il mio nuovo modo di giocare</a>
-		<time class="postlist-date" datetime="2024-12-12">December 2024</time>
+		<a href="/blog/il-mio-nuovo-modo-di-giocare/" class="postlist-link">
+			
+				Il mio nuovo modo di giocare
+			
+		</a>
+		<time class="postlist-date" datetime="Thu Dec 12 2024 00:00:00 GMT+0000 (Coordinated Universal Time)">
+			12 dicembre 2024
+		</time>
 	</li>
 
 	<li class="postlist-item">
-		<a href="/blog/milano-games-week-2024/" class="postlist-link">Milano Games Week 2024</a>
-		<time class="postlist-date" datetime="2024-11-24">November 2024</time>
+		<a href="/blog/milano-games-week-2024/" class="postlist-link">
+			
+				Milano Games Week 2024
+			
+		</a>
+		<time class="postlist-date" datetime="Sun Nov 24 2024 00:00:00 GMT+0000 (Coordinated Universal Time)">
+			24 novembre 2024
+		</time>
+	</li>
+
+	<li class="postlist-item">
+		<a href="/blog/valve-difference/" class="postlist-link">
+			
+				La Valve Difference.
+			
+		</a>
+		<time class="postlist-date" datetime="Sat Nov 16 2024 00:00:00 GMT+0000 (Coordinated Universal Time)">
+			16 novembre 2024
+		</time>
+	</li>
+
+	<li class="postlist-item">
+		<a href="/blog/ciao/" class="postlist-link">
+			
+				Ciao, ci sono anch&#39;io.
+			
+		</a>
+		<time class="postlist-date" datetime="Tue Nov 12 2024 00:00:00 GMT+0000 (Coordinated Universal Time)">
+			12 novembre 2024
+		</time>
 	</li>
 
 </ol>
-
-
-
-
-<p>2 more posts can be found in <a href="/blog/">the Blog</a>.</p>
 
 
 
@@ -350,7 +427,7 @@ header {
 			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
 		</footer>
 
-		<!-- This page `/` was built on 2024-12-30T09:07:17.375Z -->
+		<!-- This page `/` was built on 2024-12-30T09:56:08.716Z -->
 		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
 	</body>
 </html>

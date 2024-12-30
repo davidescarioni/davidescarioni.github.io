@@ -431,14 +431,43 @@ header {
 	font-weight: bold;
 }
 
+/* Post */
+.post-header {
+	padding-bottom: 1em;
+	border-bottom: 1px solid var(--text-color);
+}
+.post-title {
+	margin-top: .2em;
+	margin-bottom: 0;
+}
+
+.post-date {
+	font-size: .8em;
+}
+
+.post-tags {
+	margin-top: .2em;
+}
+
 /* Tags */
-.post-tag {
+a.post-tag {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	text-transform: capitalize;
 	font-style: italic;
+	background-color: var(--text-color-link);
+	border: 1px solid var(--text-color-link);
+	color: var(--background-color);
+	padding: 0 10px;
+	text-decoration: none;
+	border-radius: 50px;
 }
+a.post-tag:hover,
+a[href]:active {
+	background-color: transparent;
+	border-color: var(--text-color-link-active);
+}
+
 .postlist-item > .post-tag {
 	align-self: center;
 }
@@ -450,7 +479,7 @@ header {
 	gap: .5em;
 	list-style: none;
 	padding: 0;
-	margin: 0;
+	margin: 1em 0 0;
 }
 .post-metadata time {
 	margin-right: 1em;
@@ -476,19 +505,19 @@ header {
 			<heading-anchors>
 				
 
-<h1 id="milano-games-week-2024">Milano Games Week 2024</h1>
-<ul class="post-metadata">
-    <li>
-        <time datetime="2024-11-24">24 November 2024</time>
-    </li>
+<div class="post-header">
+<time class="post-date" datetime="2024-11-24">24 November 2024</time>
+<h1 class="post-title" id="milano-games-week-2024">Milano Games Week 2024</h1>
+<div>anche quest&#39;anno solo fiera e niente Meetup</div>
+<div class="post-tags">Tags: <ul class="post-metadata">
         <li>
-            <a href="/tags/gmi/" class="post-tag">gmi</a>,
-            
+            <a href="/tags/gmi/" class="post-tag">gmi</a>
         </li>
         <li>
             <a href="/tags/videogames/" class="post-tag">videogames</a>
         </li>
-</ul>
+</ul></div>
+</div>
 <p>Sono stato tre volte alla Milano Games Week:</p>
 <ul>
 <li>la prima volta, poco più di una decina di anni fa, ci sono stato per lavoro come promoter della linea gaming di Acer</li>
@@ -519,7 +548,7 @@ Cito qui per non dimenticarmene l'episodio nel quale, mentre Nannasaura patecipa
 			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
 		</footer>
 
-		<!-- This page `/blog/milano-games-week-2024/` was built on 2024-12-30T09:07:17.378Z -->
+		<!-- This page `/blog/milano-games-week-2024/` was built on 2024-12-30T09:56:08.718Z -->
 		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
 	</body>
 </html>

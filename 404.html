@@ -263,14 +263,43 @@ header {
 	font-weight: bold;
 }
 
+/* Post */
+.post-header {
+	padding-bottom: 1em;
+	border-bottom: 1px solid var(--text-color);
+}
+.post-title {
+	margin-top: .2em;
+	margin-bottom: 0;
+}
+
+.post-date {
+	font-size: .8em;
+}
+
+.post-tags {
+	margin-top: .2em;
+}
+
 /* Tags */
-.post-tag {
+a.post-tag {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	text-transform: capitalize;
 	font-style: italic;
+	background-color: var(--text-color-link);
+	border: 1px solid var(--text-color-link);
+	color: var(--background-color);
+	padding: 0 10px;
+	text-decoration: none;
+	border-radius: 50px;
 }
+a.post-tag:hover,
+a[href]:active {
+	background-color: transparent;
+	border-color: var(--text-color-link-active);
+}
+
 .postlist-item > .post-tag {
 	align-self: center;
 }
@@ -282,7 +311,7 @@ header {
 	gap: .5em;
 	list-style: none;
 	padding: 0;
-	margin: 0;
+	margin: 1em 0 0;
 }
 .post-metadata time {
 	margin-right: 1em;
@@ -327,7 +356,7 @@ This will work for both GitHub pages and Netlify:
 			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
 		</footer>
 
-		<!-- This page `/404.html` was built on 2024-12-30T09:07:17.377Z -->
+		<!-- This page `/404.html` was built on 2024-12-30T09:56:08.717Z -->
 		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
 	</body>
 </html>
