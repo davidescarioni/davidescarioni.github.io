@@ -11,7 +11,7 @@ In cosa consiste? Ogni partecipante deve **scrivere una letterina** in cui speci
 
 Perchè mi piace? Perchè, a differenza di altre jam, spinge davvero a sperimentare: mi sono trovato più volte a _piegare_ il tema della jam per far sì di riuscire a sviluppare un platform :D Invece qui le letterine sono talmente **pazze** che è impossibile non inventare qualcosa di nuovo.
 
-Quest'anno ho pescato la letterina di Zigoon, un utente di GMI al quale piace sviluppare esperienze immediate e arcade.
+Quest'anno ho pescato la letterina di [Zigoon](https://zigoon.itch.io), un utente di GMI al quale piace sviluppare esperienze immediate e arcade.
 
 ![Letterina Zigoon](./letterina-zigoon.png)
 
@@ -35,7 +35,7 @@ Ma cosa sarebbe la _Secret Santa Jam_ senza una sana dose di magia, colpi di sce
 
 Un utente (jak di denari) aveva consegnato una letterina e glie ne era stata affidata una, cioè quella di [Nannasaurus Rex](https://noemifrulio.itch.io) e del suo amico [JSmash Salted](https://jsmash-salted.itch.io). Purtroppo il suo pc è stato colpito da svariati problemi (nemmeno Carcallo, _colui che sa tutto_, è riuscito ad aiutarlo). C'era quindi il problema che il gioco della letterina che gli era stata affidata non sarebbe stato consegnato, lasciando due utenti senza regalo proprio alla jam di Natale!
 
-Così ho prontamente contattato Cocca Natale (l'utente che si è occupata dello smistamento pacchetti e letterine) per propormi di sviluppare il gioco mancante oltre al mio, ma, sorpresa sorpresa, anche Mad si era proposto di fare altrettanto! Quindi, carichissimi, riceviamo la letterina in questione:
+Così ho prontamente contattato Cocca Natale (l'utente che si è occupata dello smistamento pacchetti e letterine) per propormi di sviluppare il gioco mancante oltre al mio, ma, sorpresa sorpresa, anche [MyMadnessWorks](https://mymadnessworks.itch.io) (Mad, da ora in avanti) si era proposto di fare altrettanto! Quindi, carichissimi, riceviamo la letterina in questione:
 
 ![Letterina di Nanna e JSmash](letterina-nanna-jsmash.jpg)
 
