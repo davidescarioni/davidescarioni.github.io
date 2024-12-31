@@ -268,7 +268,8 @@ header {
 }
 
 .post-tags {
-	margin-top: .2em;
+    margin-top: 0.8em;
+    font-size: .8em;
 }
 
 /* Tags */
