@@ -11,15 +11,15 @@ const pagination = {
 const eleventyExcludeFromCollections = true;
 
 const eleventyComputed = {
-	title: "Tagged '{{ tag }}'",
+	title: "Post con tag  '{{ tag }}'",
 	permalink: function(data) {
 		return `/tags/${this.slugify(data.tag)}/`;
 	}
 };
 ---
-<h1>Tagged “{{ tag }}”</h1>
+<h1>Post con tag “{{ tag }}”</h1>
 
 {% set postslist = collections[ tag ] %}
 {% include "postslist.njk" %}
 
-<p>See <a href="tags.njk">all tags</a>.</p>
+<p>Vedi tutti i <a href="tags.njk">tag</a>.</p>
