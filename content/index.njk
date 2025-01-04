@@ -16,5 +16,5 @@ const numberOfLatestPostsToShow = 5;
 
 {% set morePosts = postsCount - numberOfLatestPostsToShow %}
 {% if morePosts > 0 %}
-<p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="blog.njk">the Blog</a>.</p>
+<p>Altri {{ morePosts }} post{% if morePosts != 1 %}s{% endif %} possono essere letti alla pagina <a href="blog.njk">blog</a>.</p>
 {% endif %}
