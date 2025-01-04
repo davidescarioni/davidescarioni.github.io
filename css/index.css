@@ -273,7 +273,7 @@ header {
 }
 
 /* Tags */
-a.post-tag {
+a.post-tag, a.post-tag:visited {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
@@ -291,8 +291,6 @@ a.post-tag:active {
 	border-color: var(--text-color-link-active);
 	color: var(--text-color-link-active);
 }
-
-
 
 .postlist-item > .post-tag {
 	align-self: center;
