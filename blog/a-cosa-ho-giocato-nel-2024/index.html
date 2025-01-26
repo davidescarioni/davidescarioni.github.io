@@ -1,0 +1,671 @@
+<!doctype html>
+<html lang="it">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>A cosa ho giocato nel 2024</title>
+		<meta name="description" content="O, per meglio dire, cosa ho terminato">
+		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Scario Side Quest">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/* This is an arbitrary CSS string added to the bundle */
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #f1f2da;
+		--color-gray-50: #f1f2da;
+		--color-gray-90: #f1f2da;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #ffce96;
+		--text-color-link-active: #ff7777;
+		--text-color-link-visited: #ffce96;
+
+		/* Valutare se usare questo verde */
+		/* --text-color-link: #00fc7f; */
+
+		/* --background-color: #00303b; */
+		--background-color: #1d1d21;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+@view-transition {
+	navigation: auto;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 50em;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	flex: 1;
+}
+
+main > * {
+	display: flex;
+    flex-direction: column;
+}
+
+p:has(picture) {
+	align-self: center;
+}
+
+picture img {
+	max-width: 100%;
+	height: auto;
+}
+
+main,
+footer {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	display: flex;
+	justify-content: space-between;
+	gap: .5em 1em;
+	list-style: "";
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+.links-nextprev > * {
+	flex-grow: 1;
+}
+.links-nextprev-next {
+	text-align: right;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	overflow-x: auto;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Post */
+.post-header {
+	padding-bottom: 1em;
+	border-bottom: 1px solid var(--text-color);
+}
+.post-title {
+	margin-top: .2em;
+	margin-bottom: 0;
+}
+
+.post-date {
+	font-size: .8em;
+}
+
+.post-tags {
+    margin-top: 0.8em;
+    font-size: .8em;
+}
+
+/* Tags */
+a.post-tag, a.post-tag:visited {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-style: italic;
+	background-color: var(--text-color-link);
+	border: 1px solid var(--text-color-link);
+	color: var(--background-color);
+	padding: 0 10px;
+	text-decoration: none;
+	border-radius: 50px;
+}
+a.post-tag:hover,
+a.post-tag:active {
+	background-color: transparent;
+	border-color: var(--text-color-link-active);
+	color: var(--text-color-link-active);
+}
+
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 1em 0 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<a href="/" class="home-link">Scario Side Quest</a>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/">Home</a></li>
+					<li class="nav-item"><a href="/blog/">Blog</a></li>
+					<li class="nav-item"><a href="/about/">About</a></li>
+					<li class="nav-item"><a href="/feed/feed.xml">Feed</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			<heading-anchors>
+				
+
+<div class="post-header">
+<time class="post-date" datetime="2025-01-13">13 January 2025</time>
+<h1 class="post-title" id="a-cosa-ho-giocato-nel-2024">A cosa ho giocato nel 2024</h1>
+<div>O, per meglio dire, cosa ho terminato</div>
+<div class="post-tags">Tags: <ul class="post-metadata">
+        <li>
+            <a href="/tags/videogames/" class="post-tag">videogames</a>
+        </li>
+</ul></div>
+</div>
+<p>Da due anni a questa parte sto tenendo traccia dei videogiochi che compro, di quanto spendo e di quanti ne finisco: mi piace farlo perchè mi rende più consapevole del tempo e del costo che ha una delle mie principali passioni.</p>
+<p>Uno dei motivi che mi ha spinto ad aprire questo blog è anche quello di avere un posto in cui parlarne. Perchè quindi non iniziare facendo un recap di cosa ho giocato nell'ultimo anno? Credevo che il 2023 mi avesse regalato le mie migliori esperienze videoludiche recenti, ma ci sono stati dei picchi quest'anno che quasi mi stavo dimenticando.</p>
+<p>Non saranno delle vere e proprie recensioni: non sapendo che avrei aperto un blog, quello che scriverò saranno solo le mie impressioni <em>a freddo</em>, ma ci tengo comunque a metterle nero su bianco.</p>
+<p>Bando alle ciance, cominciamo! Ecco quali giochi ho finito quest'anno, in rigoroso ordine di completamento.</p>
+<h2 id="nuclear-blaze">Nuclear Blaze</h2>
+<p>Piattaforma: <em>Steam Deck</em></p>
+<p><picture><source type="image/avif" srcset="/blog/a-cosa-ho-giocato-nel-2024/hr7W7Nm51N-2559.avif 2559w"><source type="image/webp" srcset="/blog/a-cosa-ho-giocato-nel-2024/hr7W7Nm51N-2559.webp 2559w"><img loading="lazy" decoding="async" src="/blog/a-cosa-ho-giocato-nel-2024/hr7W7Nm51N-2559.png" alt="Nuclear Blaze" width="2559" height="1440"></picture></p>
+<p><a href="https://store.steampowered.com/app/1662480/Nuclear_Blaze/">Nuclear Blaze</a> è un gioco che ho acquistato &quot;a scatola chiusa&quot;, non avevo idea di cosa fosse prima che Steam me lo proponesse durante i saldi tra i suggeriti: e devo dire che è stato un buon consiglio.</p>
+<p><em>Nuclear</em> è un mix tra un gioco d'azione e un puzzle game. È un gioco <em>dritto</em>, senza biforcazioni o senza possibilità di ripercorrere vecchie stanze, si va semplicemente dal punto A al punto B per passare alla stanza successiva: i due punti però sono ostacolati da incendi e noi, nei panni di un pompiere particolarmente ligio al lavoro, avremo il compito di spegnerli, magari salvando più gattini in pericolo possibile: lo definisco puzzle perchè il nostro (quasi) unico nemico è il fuoco, e riuscire a spegnerlo prima che l'incendio si propaghi dovendo al tempo stesso gestire la quantità d'acqua che abbiamo con noi fa davvero lavorare le nostre cellule grigie più di quanto ci si potrebbe aspettare.</p>
+<p>Dal punto di vista grafico, Nuclear Blaze è davvero appagante: tante particelle, gestione delle luci fantastica, inquadrature e scene di intermezzo con un taglio spiccatamente cinematografico... Non ho davvero nulla di negativo da dire in merito.</p>
+<p>Il gioco è abbastanza breve (circa 2 ore di gioco), ma ha una New Game Plus davvero bella e ben studiata: gli ambienti che andremo ad affrontare saranno gli stessi di prima, con alcune stanze impossibili da aprire nella prima run ora esplorabili che regaleranno qualche enigma in più e qualche chiarimento alla trama del gioco.</p>
+<p>Ecco, la trama: come dicevo prima riguardo al taglio cinematografico, la storia è raccontata bene e mi aveva davvero coinvolto... peccato solo che il mistero di fondo che permea tutta la questione sia un po' banale.</p>
+<p>Ultima nota positiva: il gioco presenta una grande attenzione sull'accessibilità, riuscendo a rendere il gioco più o meno difficile cambiando pochi parametri dalle opzioni direttamente mentre si gioca.</p>
+<h2 id="new-super-luckys-tale">New Super Lucky's Tale</h2>
+<p>Piattaforma: <em>Steam Deck</em></p>
+<p><picture><source type="image/avif" srcset="/blog/a-cosa-ho-giocato-nel-2024/O9a6ISQpHB-600.avif 600w"><source type="image/webp" srcset="/blog/a-cosa-ho-giocato-nel-2024/O9a6ISQpHB-600.webp 600w"><img loading="lazy" decoding="async" src="/blog/a-cosa-ho-giocato-nel-2024/O9a6ISQpHB-600.png" alt="New Super Lucky's Tale" width="600" height="337"></picture></p>
+<p>È difficile trovare un buon platform 3d al di fuori del classico Mario. Anzi, potrei addirittura dire che è difficile trovare platform 3d in generale.
+<a href="https://store.steampowered.com/app/1038300/New_Super_Luckys_Tale/">New Super Lucky's Tale</a> fortunatamente è un platform 3d davvero davvero carino: controlliamo una volpe che viaggia tra mondi tramite un libro magico alla ricerca della propria famiglia, separata dal cattivo di turno. Si, la trama non è il suo forte, e nemmeno la difficoltà: se escludiamo il mondo post-game (quello davvero eccezionale, oserei dire), il resto del gioco  è discretamente facile. L'ho comunque apprezzato perchè è molto vario nelle situazioni proposte, è coloratissimo e simpatico, proprio un gioco che ti mette di buon umore mentre lo stai provando.
+Non aspettatevi comunque un capolavoro: è un collectaton abbastanza classico, e la sola meccanica del potersi muovere anche sottoterra a mo' di talpa non ve lo farà acquistare se non vi piace il genere.</p>
+<h2 id="froggos-adventure-verdant-venture">Froggo's Adventure: Verdant Venture</h2>
+<p>Piattaforma: <em>Steam Deck</em></p>
+<p><picture><source type="image/avif" srcset="/blog/a-cosa-ho-giocato-nel-2024/krTOift57y-600.avif 600w"><source type="image/webp" srcset="/blog/a-cosa-ho-giocato-nel-2024/krTOift57y-600.webp 600w"><img loading="lazy" decoding="async" src="/blog/a-cosa-ho-giocato-nel-2024/krTOift57y-600.png" alt="Froggo's Adventure: Verdant Venture" width="600" height="337"></picture></p>
+<p>Visto per caso su X, quando il gioco è uscito e ho visto il suo prezzo irrisorio di meno di 1€ o deciso di prenderlo al volo.
+<a href="https://store.steampowered.com/app/2854780/Froggos_Adventure_Verdant_Venture/">Froggo's Adventure: Verdant Venture</a> è un gioco che sembra uscito direttamente dal NES, ed ha una cura pazzesca nel farlo: non è solo la palette a ricordarlo, è proprio una sensazione che riesce a trasmetterti &quot;pad alla mano&quot;. Ho giocato a molti giochi indie dal prezzo irrisorio, ma mai con una cura simile.
+Non l'ho detto, ma Froggo's è un platform vecchia scuola, con il personaggio principale che ha una meccanica <em>alla Yoshi</em>, nel senso che può usare la sua lingua per catturare e lanciare i nemici, ma anche usarla per attivare interruttori o colpire blocchi da distruggere.</p>
+<p>È un platform intrinsecamente vecchio, ma davvero ben fatto: se siete nel target lo capirete anche solo guardando gli screenshot.</p>
+<h2 id="metroid-zero-mission">Metroid: Zero Mission</h2>
+<p>Piattaforma: <em>Miyoo Mini Plus</em></p>
+<p><picture><source type="image/avif" srcset="/blog/a-cosa-ho-giocato-nel-2024/9Ls5m50m5r-1280.avif 1280w"><source type="image/webp" srcset="/blog/a-cosa-ho-giocato-nel-2024/9Ls5m50m5r-1280.webp 1280w"><img loading="lazy" decoding="async" src="/blog/a-cosa-ho-giocato-nel-2024/9Ls5m50m5r-1280.png" alt="Metroid: Zero Mission" width="1280" height="720"></picture></p>
+<p>Quando ho comprato il mio Miyoo Mini Plus ho deciso di non riempirlo completamente di giochi, ma di installare solo quello che volevo davvero provare. Metroid: Zero Mission è stato uno dei prescelti e, appena ho fatto partire la ROM per vedere se tutto funzionasse alla perfezione, non sono più riuscito a staccarmene.</p>
+<p>Zero Mission è il remake del primo gioco della serie MetroidVania per eccellenza, adattato non solo per renderlo più appetibile ai palati moderni, ma anche per essere giocato comodamente in mobilità.
+Infatti:</p>
+<ul>
+<li>è sempre chiaro il nostro obiettivo, che ci verrà segnalato sulla mappa: il backtracking incentrato sulla scoperta c'è sempre, ma è legato più che altro al ritrovamente di potenziamenti opzionali</li>
+<li>i punti di salvataggio sono numerosi, così da non dover rifare sezioni molto lunghe in caso di dipartita della protagonista</li>
+<li>i power up sono presenti in gran numero, ed è difficile non trovarne nessuno in una run</li>
+<li>il senso di progressione è davvero percepibile, e andando avanti sentiremo che la protagonista sta diventando una <em>macchina da guerra</em>. Per me questo tra l'altro è un punto che deve essere fondamentale quando gioco ad un MetroidVania</li>
+</ul>
+<p>I punti elencati sopra non sono dei pro in generale, ma in un gioco pensato per essere giocato in mobilità e per brevi sessioni trovo che le scelte siano davvero tutte azzeccate.</p>
+<p>Se poi consideriamo che lo stile grafico scelto, per me, tocca su GBA l'apice dell'intera serie... Si, questo è stato uno dei miei giochi preferiti dell'anno.</p>
+<h2 id="luigis-mansion-3">Luigi's Mansion 3</h2>
+<p>Piattaforma: <em>Nintendo Switch</em></p>
+<p><picture><source type="image/avif" srcset="/blog/a-cosa-ho-giocato-nel-2024/8CdQ_ktowF-720.avif 720w"><source type="image/webp" srcset="/blog/a-cosa-ho-giocato-nel-2024/8CdQ_ktowF-720.webp 720w"><img loading="lazy" decoding="async" src="/blog/a-cosa-ho-giocato-nel-2024/8CdQ_ktowF-720.png" alt="Luigi's Mansion 3" width="720" height="405"></picture></p>
+<p>Non ho mai capito l'entusiasmo dietro questa saga: l'immaginario mi sembrava carino, ma lato gameplay mi è sempre sembrato un po'... monotono?
+Così, quando ho trovato in sconto il terzo capitolo della saga, definito dalle testate online il migliore dei 3, non ci ho pensato due volte per prenderlo e toccare con mano il titolo. Ma devo dire che, nonostante l'entusiasmo iniziale, continuo a non avere una risposta alla mia domanda.
+Luigi's Mansion 3 non è un titolo brutto, anzi! Le situazioni proposte sono varie e ingegnose, la grafica è ottima, il protagonista è ben caratterizzato... Ma, nonostante questo, e anche se il gioco è durato circa 13 ore, mi è sembrato un po' troppo lungo per quello che aveva da proporre, come se gli ultimi piani dell'hotel in cui è ambientato il gioco fossero di troppo.</p>
+<p>Probabilmente quindi la verità sta nel mezzo: il gioco è generalmente bello, ma non lo ricordo con entusiasmo perchè gli ultimi livelli non li ho apprezzati. Un po' come quando vai al ristorante, ti trovi bene, ma non ci torni più perchè ti ricordi del dolce poco entusiasmante.</p>
+<h2 id="hades">Hades</h2>
+<p>Piattaforma: <em>Steam Deck</em></p>
+<p><picture><source type="image/avif" srcset="/blog/a-cosa-ho-giocato-nel-2024/YlaIEe_hpL-600.avif 600w"><source type="image/webp" srcset="/blog/a-cosa-ho-giocato-nel-2024/YlaIEe_hpL-600.webp 600w"><img loading="lazy" decoding="async" src="/blog/a-cosa-ho-giocato-nel-2024/YlaIEe_hpL-600.png" alt="Hades" width="600" height="337"></picture></p>
+<p><a href="https://store.steampowered.com/app/1145360/Hades/">Hades</a> è perfetto. Si ok, la perfezione non è di questo mondo, e un gioco non può essere globalmente apprezzato da tutti... Ma se siete nel target del gioco, secondo me, non gli riuscirete a trovare un difetto. È un roguelike ottimamente caratterizzato, con una trama che da' davvero un senso alla morte continua del protagonista, che ti fa percepire davvero la progressione ad ogni run (sia del giocatore sia di Zagreus). Dai video pensavo di non apprezzare lo stile grafico, che mi sembrava confusionario nei momenti d'azione, e avevo paura che la narrazione fosse simile a quella di Bastion (che avevo trovato un po' noiosa), e invece...
+Grazie davvero <strong>Andrea</strong> per avermelo inaspettatamente regalato.</p>
+<h2 id="brume">Brume</h2>
+<p>Piattaforma: <em>Steam Deck</em></p>
+<p><picture><source type="image/avif" srcset="/blog/a-cosa-ho-giocato-nel-2024/m2i9ojqcnF-540.avif 540w"><source type="image/webp" srcset="/blog/a-cosa-ho-giocato-nel-2024/m2i9ojqcnF-540.webp 540w"><img loading="lazy" decoding="async" src="/blog/a-cosa-ho-giocato-nel-2024/m2i9ojqcnF-540.png" alt="Brume" width="540" height="338"></picture></p>
+<p><a href="https://store.steampowered.com/app/1119800/Brume/">Brume</a> è un souls-like indie creato da Sokpop, un collettivo di sviluppatori olandesi: è uno di quei giochi che <em>conosco solo io</em>, come dicono i miei amici IRL quando ne parlo.
+L'ho definito souls-like, ma io non ne ho mai giocato uno all'infuori di questo: qui c'è un'avventura criptica, mostri che ti uccidono in breve se non capisci il loro pattern d'attacco, scorciatoie che collegano zone prima inaccessibili.
+È breve (circa 2 ore di gioco), ha una grafica low poly che mi ha colpito subito, e l'ho trovato davvero divertente portarlo a termine: non è bilanciatissimo, ma l'atmosfera e il gameplay semplice non mi hanno fatto demordere nonostante l'elevata difficoltà.</p>
+<h2 id="finding-xavier">Finding Xavier</h2>
+<p>Piattaforma: <em>Steam Deck</em></p>
+<p><picture><source type="image/avif" srcset="/blog/a-cosa-ho-giocato-nel-2024/ALmdUj3Fs1-600.avif 600w"><source type="image/webp" srcset="/blog/a-cosa-ho-giocato-nel-2024/ALmdUj3Fs1-600.webp 600w"><img loading="lazy" decoding="async" src="/blog/a-cosa-ho-giocato-nel-2024/ALmdUj3Fs1-600.png" alt="Finding Xavier" width="600" height="337"></picture></p>
+<p>Quando ho visto questo gioco su YouTube, mi sono detto che non era possibile.
+Quando ho visto questo gioco su Steam, mi sono detto che non era possibile.</p>
+<p>No, non è possibile che un gioco del genere venga venduto, perchè un gioco così <em>saprei farlo anche io</em>: e no, non è detto in maniera denigratoria, tutto l'opposto. È il gioco che mi ha fatto pensare di provare a fare anche io una cosa simile, e da lì è nato il mio Boonaburra... e lì ho capito perchè Finding Xavier viene venduto mentre il mio è gratis su itch, insomma è stata un'esperienza formativa.</p>
+<p><a href="https://store.steampowered.com/app/2254210/Finding_Xavier/">Finding Xavier</a> è un platform &quot;alla Celeste&quot;, tutto lo ricorda: la presenza dei <em>classici</em> coyote jump e jump buffer, il modo in cui la telecamera si sposta, il modo in cui il protagonista esiste nel mondo di gioco.
+Ha anche qualcosa di caratteristico che lo differenzia: non tutte le meccaniche che recuperiamo all'interno del mondo <em>metroidvaniesco</em> del gioco possono essere usate insieme, ma va scelto di volta in volta un subset delle stesse in base a quanto è grosso il nostro inventario. Non l'ho trovata un'idea vincente, ma capisco il motivo per cui è stata scelta.</p>
+<p>Non è un capolavoro, ci sono gioco gratis su itch che, secondo me, fanno meglio (vedi nonricordoilnome, ad esempio): costa però molto poco ed è istruttivo (nel bene e nel male) se siete sviluppatori.</p>
+<h2 id="planet-of-lana">Planet of Lana</h2>
+<p>Piattaforma: <em>Steam Deck</em></p>
+<p><picture><source type="image/avif" srcset="/blog/a-cosa-ho-giocato-nel-2024/qNmrnjkEGB-1280.avif 1280w"><source type="image/webp" srcset="/blog/a-cosa-ho-giocato-nel-2024/qNmrnjkEGB-1280.webp 1280w"><img loading="lazy" decoding="async" src="/blog/a-cosa-ho-giocato-nel-2024/qNmrnjkEGB-1280.jpeg" alt="Planet of Lana" width="1280" height="800"></picture></p>
+<p>Prendete Limbo, dategli una grafica carina e colorata basata su immaginario sci-fi, aggiungete un companion amorevole e... la ricetta per un gioco godibile è terminata: questo in pochissime parole è <a href="https://store.steampowered.com/app/1608230/Planet_of_Lana/">Planet of Lana</a>.
+Non ho mai fatto così tanti screenshot come in questo gioco (anche l'immagine qui sopra è un mio screen, per dire), ogni angolo sembra studiato (bene) proprio per darti un <strong>effetto wow</strong> (come dicono i designer odierni). Lato gameplay, a parte la trovata del poter dare ordini al proprio companion, se avete già giocato Limbo sapete già cosa aspettarvi: puzzle fisici e momenti &quot;stealth&quot; contro nemici che non possiamo affrontare saranno le nostre sfide principali.</p>
+<p>Il gioco in sè è corto, o meglio, lungo il giusto. Anche questo non è un capolavoro, ma mi ha divertito, e soprattutto il gioco è esattamamente come ce lo si immagina dopo aver visto il trailer.</p>
+<p>Grazie ancora <em>Stefano e Andrea</em> per il regalo ;)</p>
+<h2 id="castaway">Castaway</h2>
+<p>Piattaforma: <em>Steam Deck</em></p>
+<p><a href="https://store.steampowered.com/app/2564860/Castaway/">Castaway</a> è un gioco che mi aveva fatto rimanere con l'amaro in bocca dopo averlo completato: ok, è nelle premesse stesse del prodotto essere un piccolo omaggio a Link's Awakening, ma non mi aspettavo di completare il tutto in 45 minuti. Se guardo però quanto ci ho giocato vedo che il numero di ore essere poco inferiore a 4. Come è possibile? Perchè, oltre alla storia, c'è una modalità &quot;Torre&quot;, che in sostanza lo transforma in un roguelike composto da 45 stanze da affrontare sempre identiche una dopo l'altra, ma con una scelta di 3 potenziamenti random ogni volta che si sale di livello. Questa modalità fa davvero la differenza, e lo fa passare da una delusione ad un piccolo gioco che ho davvero apprezzato.</p>
+<h2 id="super-mario-land-3-warioland">Super Mario Land 3: WarioLand</h2>
+<p>Piattaforma: <em>Miyoo Mini Plus</em></p>
+<p><picture><source type="image/avif" srcset="/blog/a-cosa-ho-giocato-nel-2024/kteVEazDdC-249.avif 249w"><source type="image/webp" srcset="/blog/a-cosa-ho-giocato-nel-2024/kteVEazDdC-249.webp 249w"><img loading="lazy" decoding="async" src="/blog/a-cosa-ho-giocato-nel-2024/kteVEazDdC-249.png" alt="Super Mario Land 3: WarioLand" width="249" height="202"></picture></p>
+<p>WarioLand non l'ho mai posseduto da bambino, ma lo aveva mio cugino: quando ci trovavamo da mia nonna gli chiedevo spesso di cambiare cartuccia per poterlo provare, ma ricordo che non ero mai riuscito a completarlo al 100%... così ho rimediato. L'ho rigiocato tutto e l'ho completato. È ancora bellissimo, un collectaton 2d pieno di segreti, mappe che si modificano come Super Mario World insegna, finali multipli... Tutto in un cartuccia GameBoy. Top!</p>
+<h2 id="hollow-floor">Hollow Floor</h2>
+<p>Piattaforma: <em>Steam Deck</em></p>
+<p><picture><source type="image/avif" srcset="/blog/a-cosa-ho-giocato-nel-2024/qZNQOV43o5-526.avif 526w"><source type="image/webp" srcset="/blog/a-cosa-ho-giocato-nel-2024/qZNQOV43o5-526.webp 526w"><img loading="lazy" decoding="async" src="/blog/a-cosa-ho-giocato-nel-2024/qZNQOV43o5-526.jpeg" alt="Hollow Floor" width="526" height="338"></picture></p>
+<p>Altro gioco che <em>conosco solo io</em>, questa volta incredibilmente scoperto grazie alla sua demo proposta su Indiexpo.
+<a href="https://store.steampowered.com/app/2815150/Hollow_Floor/">Hollow Floor</a> sembra essere un <em>platform in cui non si salta</em>, tanto che leggendo i commenti della demo molti utenti pensano ci sia un problema tecnico per il quale non si possa fare. In realtà il gioco è quello che ora va di moda chiamare un MetroidBrania: un mondo aperto in cui bisogna capire come funzionano le cose perchè nessuno te le spiega. E, devo dire, il gioco lo fa bene, nonostante sia davvero un prodotto piccolo piccolo sviluppato con PICO-8. Decisamente di nicchia, ma l'ho apprezzato.</p>
+<h2 id="the-legend-of-zelda-tears-of-the-kingdom">The Legend of Zelda: Tears of the Kingdom</h2>
+<p>Piattaforma: <em>Nintendo Switch</em></p>
+<p><picture><source type="image/avif" srcset="/blog/a-cosa-ho-giocato-nel-2024/j2W5Y43RQt-1920.avif 1920w"><source type="image/webp" srcset="/blog/a-cosa-ho-giocato-nel-2024/j2W5Y43RQt-1920.webp 1920w"><img loading="lazy" decoding="async" src="/blog/a-cosa-ho-giocato-nel-2024/j2W5Y43RQt-1920.png" alt="The Legend of Zelda: Tears of the Kingdom" width="1920" height="1080"></picture></p>
+<p>Amore e odio per questo titolo, il secondo videogioco che ho preordinato nella mia vita (il primo era stato Tunic).
+TOTK è enorme, pieno di cose da fare nel modo in cui più ci piace, avendo dei poteri che davvero possono piegare il gioco al nostro gusto. Ma andiamo con ordine:</p>
+<ul>
+<li>
+<p>Perchè lo odio? No, non perchè riutilizza molto del gioco precedente (ho vissuto un'epoca in cui i sequel era scontato riciclassero asset e meccaniche, e che fossero dei more of the same), ma per due motivi</p>
+<ul>
+<li>A differenza del primo, qui la sospensione di incredulità (e quindi l'immersività all'interno del mondo di gioco) secondo me è peggiore del primo capitolo: qui da un momento all'altro delle isole cadono dal cielo, si formano dei buchi nel terreno che portano chissà dove e il castello di Hyrule si solleva in aria: come è possibile che gli abitanti possano vivere tranquillamente la loro vita, chiedendoti aiuto per montare cartelli o per spiare qualcuno durante un concorso di moda? Nel primo capitolo per lo meno erano passati cento anni dalla calamità, quindi accetto che la gente viva la sua quotidianità prendendo per fatto immutabile la coesistenza con mostri di vario tipo.</li>
+<li>La libertà di gioco è un plus, è davvero quasi come giocare con i lego, ma spesso mi è sembrato di <em>barare</em> per completare i puzzle di gioco: se ho la possibilità di attaccare un missile ad uno scudo per salire di vari metri, perchè dovrei fare una scarpinata interminabile? È vero, questo fa in modo che l'avventura sia davvero tua, ma mi piace vedere come i designer pensano che una sezione andrebbe affrontata. Ho preferito BOTW in questo caso, perchè lì la mia avventura era semplicemente dettata da quante e quali quest seguire o meno.</li>
+</ul>
+</li>
+<li>
+<p>Perchè lo amo? Perchè è un gioco che mi da' nostalgia, quello che mi fa dire &quot;Sai cosa? Adesso lo accendo, risolvo un paio di sacrari, batto qualche grublin, e poi passo ad altro&quot;. È proprio bello da giocare, si respira lo spirito Nintendo in ogni angolo del gioco.</p>
+</li>
+</ul>
+<p>Insomma, per me BOTK è stato un gioco migliore sotto molti aspetti, ma non posso dire che TOTK mi abbia deluso: batterei quei draghi a 3 teste per la prima volta è stato veramente bellissimo, e persino il finale del gioco mi è piaciuto più di quello del primo capitolo.</p>
+<h2 id="toem-a-photo-adventure">TOEM: A Photo Adventure</h2>
+<p>Piattaforma: <em>Steam Deck</em></p>
+<p><picture><source type="image/avif" srcset="/blog/a-cosa-ho-giocato-nel-2024/BW9ZM9looC-1280.avif 1280w"><source type="image/webp" srcset="/blog/a-cosa-ho-giocato-nel-2024/BW9ZM9looC-1280.webp 1280w"><img loading="lazy" decoding="async" src="/blog/a-cosa-ho-giocato-nel-2024/BW9ZM9looC-1280.jpeg" alt="TOEM" width="1280" height="800"></picture></p>
+<p>Quando ho visto <a href="https://store.steampowered.com/app/1307580/TOEM_A_Photo_Adventure/">TOEM: A Photo Adventure</a> la prima volta, ho pensato che potesse essere il degno successore di A Short Hike, uno dei miei giochi preferiti. Quando ho cominciato a giocarci, ho capito di trovarmi davanti ad un gioco che ha davvero le stesse vibe: le interazioni con i personaggi sono sempre carine e positive, ci si sposta tra i vari livelli compiendo buone azioni (in questo caso, tutte legate alla fotografia), è un gioco davvero rilassato e rilasssante... diciamo pure che mette di buonumore.
+C'è un però, che sento essere davvero soggettivo: ho trovato gli ultimi due mondo un po' troppo grandi, e li ho davvero mal digeriti. Tutti i livelli di gioco sono divisi in sezioni simili a diorami, e spesso gli enigmi di gioco ci portano a spostarci da uno all'altro per portare oggetti / fotografie: in generale funziona come meccanica, ma appunto, gli ultimi due livelli li ho trovati un po' troppo labirintici per riuscire a rilassarsi davvero quando si gioca (fare una foto per qualcuno che chiede qualcosa di non propriamente specifico, cercarlo e poi scoprire che non è quello che voleva è una rottura per davvero).
+In generale però è un gioco che consiglio a chi voglia giocare ad un passatempo tranquillo: anche solo girare i livelli con questa grafica è una gioia per gli occhi.</p>
+<h2 id="mind-over-magnet">Mind Over Magnet</h2>
+<p>Piattaforma: <em>Steam Deck</em></p>
+<p><picture><source type="image/avif" srcset="/blog/a-cosa-ho-giocato-nel-2024/EkuFcvSh5u-1920.avif 1920w"><source type="image/webp" srcset="/blog/a-cosa-ho-giocato-nel-2024/EkuFcvSh5u-1920.webp 1920w"><img loading="lazy" decoding="async" src="/blog/a-cosa-ho-giocato-nel-2024/EkuFcvSh5u-1920.png" alt="Mind Over Magnet" width="1920" height="1080"></picture></p>
+<p><a href="https://store.steampowered.com/app/2685900/Mind_Over_Magnet/">Mind Over Magnet</a> è il primo gioco di Mark Brown: lui è un'istutizione su YouTube per i gamedev, in quanto il suo canale ne tratta da anni in ogni singolo aspetto.
+Il gioco è stato sviluppato in due anni, periodo nel quale Mark ha descritto passo passo gli step e le difficoltà che ha dovuto affrontare: qui trovate il link se volete dare un'occhiata, è davvero interessante e fa capire anche ai &quot;non addetti ai lavori&quot; le difficoltà che ci possono essere dietro ad un gioco.
+Ma veniamo al dunque: Mind Over Magnet è un puzzle game davvero carino, ben curato e con una dose di polish che è fuori scala rispetto ai classici indie sviluppati da una sola persona... Insomma, si vede che Mark, pur non avendo esperienze pregresse nello sviluppo, ne capisce di videogiochi.
+Il difetto più grande del gioco è che è molto semplice, e quando dopo circa due ore si arriva al momento in cui davvero bisogna spremere le meningi per riuscire a risolvere uno schema, il gioco termina. Spero uscirà un DLC con ulteriori livelli, dato il successo (ovviamente relativamente ad un gioco indie) avuto dal gioco.
+Due note che mi sono piaciute particolarmente:</p>
+<ul>
+<li>il sistema di hint che, se attivato, mostra solamente dove dovrebbe stare un elemento di gioco per risolvere la stanza: non da' quindi la soluzione ma solo un suggerimento, che spesso è quello che manca nei giochi di questo tipo e bisogna spoilerarsi l'intero puzzle da un walkthrough su YouTube</li>
+<li>la possiblità di attivare il commento dello sviluppatore mentre si gioca: l'ho adorato in Half-Life e in Portal, quindi anche qui per me è un grandissimo punto a favore</li>
+</ul>
+<h2 id="kirby-e-la-terra-perduta">Kirby e la Terra Perduta</h2>
+<p>Piattaforma: <em>Nintendo Switch</em></p>
+<p><picture><source type="image/avif" srcset="/blog/a-cosa-ho-giocato-nel-2024/j0kMWV-BG8-936.avif 936w"><source type="image/webp" srcset="/blog/a-cosa-ho-giocato-nel-2024/j0kMWV-BG8-936.webp 936w"><img loading="lazy" decoding="async" src="/blog/a-cosa-ho-giocato-nel-2024/j0kMWV-BG8-936.png" alt="Kirby e la Terra Perduta" width="936" height="527"></picture></p>
+<p>La Terra Perduta è il primo platform in 3d della serie Kirby, eppure c'è talmente tanta cura dietro che sembra l'ennesimo capitolo di una serie che non ha fatto altro fin'ora.
+È un platform completo: presenta tantissima varietà di situazioni grazie sia ad un ottimo level design sia alle innumerevoli trasformazioni del protagonista, ci sono dei bei boss da affrontare (soprattutto se volete terminare tutte le 5 missioni che ci sono in ogni livello, come il sottoscritto), presenta un'ottima curva della difficoltà ed è davvero pieno zeppo di contenuti.</p>
+<p>A differenza di altri giochi della serie, La Terra Perduta è sì un gioco colorato e che ti strappa un sorriso in ogni angolo, ma al tempo stesso presenta una bella critica verso la società moderna grazie agli ambienti in cui si svolge il gioco: tutti gli ambienti di gioco sono luoghi costruiti dall'uomo ormai abbandonati da tempo. Evito di dirvi il perchè sono abbandonati, è &quot;solo&quot; un platform ma non vorrei fare spoiler ;)</p>
+<p>Ancora un accenno sulla difficoltà: non è un gioco difficile, ma se volete completarlo al 100% preparatevi perchè le sezioni impegnative non mancano. Da questo punto di vista è proprio un gioco Nintendo, che può essere giocato da tutti indipendentemente dall'età e dalle skill.</p>
+<p>Ho chiuso l'anno decisamente bene: Kirby e la Terra Perduta è un gioco bellissimo.</p>
+
+        <ul class="links-nextprev">
+                <li class="links-nextprev-prev">← Precedente<br>
+                        <a href="/blog/digital-decluttering-checklist/">Digital Decluttering Checklist</a>
+                    </li>
+                
+                </ul>
+			</heading-anchors>
+		</main>
+
+		<footer>
+			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
+		</footer>
+
+		<!-- This page `/blog/a-cosa-ho-giocato-nel-2024/` was built on 2025-01-26T13:55:34.851Z -->
+		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
+	</body>
+</html>
