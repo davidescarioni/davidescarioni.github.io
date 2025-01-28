@@ -47,11 +47,12 @@ Piattaforma: *Steam Deck*
 
 ![Froggo's Adventure: Verdant Venture](./froggos-adventure-verdant-venture.png)
 
-Visto per caso su X, quando il gioco è uscito e ho visto il suo prezzo irrisorio di meno di 1€ o deciso di prenderlo al volo.
-[Froggo's Adventure: Verdant Venture](https://store.steampowered.com/app/2854780/Froggos_Adventure_Verdant_Venture/) è un gioco che sembra uscito direttamente dal NES, ed ha una cura pazzesca nel farlo: non è solo la palette a ricordarlo, è proprio una sensazione che riesce a trasmetterti "pad alla mano". Ho giocato a molti giochi indie dal prezzo irrisorio, ma mai con una cura simile.
-Non l'ho detto, ma Froggo's è un platform vecchia scuola, con il personaggio principale che ha una meccanica *alla Yoshi*, nel senso che può usare la sua lingua per catturare e lanciare i nemici, ma anche usarla per attivare interruttori o colpire blocchi da distruggere.
+Visto per caso su X, quando il gioco è uscito e ho visto il suo prezzo irrisorio di 1€ ho deciso di prenderlo al volo.
+[Froggo's Adventure: Verdant Venture](https://store.steampowered.com/app/2854780/Froggos_Adventure_Verdant_Venture/) è un gioco che sembra uscito direttamente dal NES, ed ha una cura pazzesca nel farlo: non è solo la palette a ricordarlo, è proprio una sensazione che riesce a trasmetterti "pad alla mano". Ho giocato a molti giochi indie anche più costosi che non presentano una cura simile.
 
-È un platform intrinsecamente vecchio, ma davvero ben fatto: se siete nel target lo capirete anche solo guardando gli screenshot.
+Non l'ho detto, ma Froggo's è un platform vecchia scuola, con il personaggio principale che ha una meccanica *alla Yoshi*, nel senso che può usare la sua lingua per catturare e lanciare i nemici, solo che in questo caso può anche usarla per attivare interruttori o colpire blocchi da distruggere.
+
+È un platform intrinsecamente vecchio, ma davvero ben fatto: capirete se siete nel target anche solo guardando gli screenshot.
 
 ## Metroid: Zero Mission
 
@@ -59,14 +60,14 @@ Piattaforma: *Miyoo Mini Plus*
 
 ![Metroid: Zero Mission](./zero-mission.png)
 
-Quando ho comprato il mio Miyoo Mini Plus ho deciso di non riempirlo completamente di giochi, ma di installare solo quello che volevo davvero provare. Metroid: Zero Mission è stato uno dei prescelti e, appena ho fatto partire la ROM per vedere se tutto funzionasse alla perfezione, non sono più riuscito a staccarmene.
+Quando ho comprato il mio [Miyoo Mini Plus](https://miyooofficial.com/product/miyoo-mini-plus/) ho deciso di non riempirlo completamente di giochi, ma di installare solo quello che volevo davvero provare. Metroid: Zero Mission è stato uno dei prescelti e, appena ho fatto partire la ROM per vedere se tutto funzionasse, non sono più riuscito a staccarmene.
 
 Zero Mission è il remake del primo gioco della serie MetroidVania per eccellenza, adattato non solo per renderlo più appetibile ai palati moderni, ma anche per essere giocato comodamente in mobilità.
 Infatti:
 
 - è sempre chiaro il nostro obiettivo, che ci verrà segnalato sulla mappa: il backtracking incentrato sulla scoperta c'è sempre, ma è legato più che altro al ritrovamente di potenziamenti opzionali
 - i punti di salvataggio sono numerosi, così da non dover rifare sezioni molto lunghe in caso di dipartita della protagonista
-- i power up sono presenti in gran numero, ed è difficile non trovarne nessuno in una run
+- i power up sono presenti in gran numero, ed è difficile non trovarne nessuno in una sessione di gioco
 - il senso di progressione è davvero percepibile, e andando avanti sentiremo che la protagonista sta diventando una *macchina da guerra*. Per me questo tra l'altro è un punto che deve essere fondamentale quando gioco ad un MetroidVania
 
 I punti elencati sopra non sono dei pro in generale, ma in un gioco pensato per essere giocato in mobilità e per brevi sessioni trovo che le scelte siano davvero tutte azzeccate.
@@ -79,11 +80,14 @@ Piattaforma: *Nintendo Switch*
 
 ![Luigi's Mansion 3](./luigis-mansion-3.png)
 
+Luigi's Mansion 3 è il gioco con protagonista il fratello del famoso Mario nel quale si ritrova, suo malgrado, a fare da acchiappafantasmi: non è un gioco di piattaforme ma un mix tra avventura e puzzle.
+
 Non ho mai capito l'entusiasmo dietro questa saga: l'immaginario mi sembrava carino, ma lato gameplay mi è sempre sembrato un po'... monotono?
 Così, quando ho trovato in sconto il terzo capitolo della saga, definito dalle testate online il migliore dei 3, non ci ho pensato due volte per prenderlo e toccare con mano il titolo. Ma devo dire che, nonostante l'entusiasmo iniziale, continuo a non avere una risposta alla mia domanda.
+
 Luigi's Mansion 3 non è un titolo brutto, anzi! Le situazioni proposte sono varie e ingegnose, la grafica è ottima, il protagonista è ben caratterizzato... Ma, nonostante questo, e anche se il gioco è durato circa 13 ore, mi è sembrato un po' troppo lungo per quello che aveva da proporre, come se gli ultimi piani dell'hotel in cui è ambientato il gioco fossero di troppo.
 
-Probabilmente quindi la verità sta nel mezzo: il gioco è generalmente bello, ma non lo ricordo con entusiasmo perchè gli ultimi livelli non li ho apprezzati. Un po' come quando vai al ristorante, ti trovi bene, ma non ci torni più perchè ti ricordi del dolce poco entusiasmante.
+Probabilmente quindi la verità sta nel mezzo: il gioco è generalmente bello, ma non lo ricordo con entusiasmo perchè gli ultimi livelli non li ho apprezzati. Un po' come quando vai al ristorante, ti trovi bene, ma non ci torni più perchè ti ha deluso il dolce.
 
 ## Hades
 
@@ -91,7 +95,7 @@ Piattaforma: *Steam Deck*
 
 ![Hades](./hades.png)
 
-[Hades](https://store.steampowered.com/app/1145360/Hades/) è perfetto. Si ok, la perfezione non è di questo mondo, e un gioco non può essere globalmente apprezzato da tutti... Ma se siete nel target del gioco, secondo me, non gli riuscirete a trovare un difetto. È un roguelike ottimamente caratterizzato, con una trama che da' davvero un senso alla morte continua del protagonista, che ti fa percepire davvero la progressione ad ogni run (sia del giocatore sia di Zagreus). Dai video pensavo di non apprezzare lo stile grafico, che mi sembrava confusionario nei momenti d'azione, e avevo paura che la narrazione fosse simile a quella di Bastion (che avevo trovato un po' noiosa), e invece...
+[Hades](https://store.steampowered.com/app/1145360/Hades/) è un gioco perfetto. Ovviamente è solo il mio parere, un gioco non può essere globalmente apprezzato da tutti... Ma se siete nel target del gioco, secondo me, non gli riuscirete a trovare un difetto. È un roguelike ottimamente caratterizzato, con una trama che da' davvero un senso alla morte continua del protagonista (fattore intrinseco del genere), che ti fa percepire davvero la progressione ad ogni run (sia del giocatore sia di Zagreus). Dai video pensavo di non apprezzare lo stile grafico, che mi sembrava confusionario nei momenti d'azione, e avevo paura che la narrazione fosse simile a quella di Bastion (che avevo trovato un po' noiosa), e invece...
 Grazie davvero **Andrea** per avermelo inaspettatamente regalato.
 
 ## Brume
@@ -100,9 +104,10 @@ Piattaforma: *Steam Deck*
 
 ![Brume](./brume.png)
 
-[Brume](https://store.steampowered.com/app/1119800/Brume/) è un souls-like indie creato da Sokpop, un collettivo di sviluppatori olandesi: è uno di quei giochi che *conosco solo io*, come dicono i miei amici IRL quando ne parlo.
-L'ho definito souls-like, ma io non ne ho mai giocato uno all'infuori di questo: qui c'è un'avventura criptica, mostri che ti uccidono in breve se non capisci il loro pattern d'attacco, scorciatoie che collegano zone prima inaccessibili.
-È breve (circa 2 ore di gioco), ha una grafica low poly che mi ha colpito subito, e l'ho trovato davvero divertente portarlo a termine: non è bilanciatissimo, ma l'atmosfera e il gameplay semplice non mi hanno fatto demordere nonostante l'elevata difficoltà.
+[Brume](https://store.steampowered.com/app/1119800/Brume/) è un souls-like indie creato da [Sokpop](https://www.sokpop.co), un collettivo di sviluppatori olandesi: è uno di quei giochi che *conosco solo io*, come dicono i miei amici IRL quando ne parlo.
+L'ho definito souls-like, ma io non ne ho mai giocato uno all'infuori di questo: qui c'è un'avventura criptica, mostri che ti uccidono in breve se non capisci il loro pattern d'attacco, scorciatoie che collegano zone prima inaccessibili... cose che dovrebbero rientrare in questo genere insomma.
+
+È lungo il giusto (circa 2 ore di gioco), ha una grafica low poly che mi ha colpito subito, e l'ho trovato davvero divertente portarlo a termine: non è bilanciatissimo, ma l'atmosfera e il gameplay semplice non mi hanno fatto demordere nonostante l'elevata difficoltà.
 
 ## Finding Xavier
 
@@ -111,14 +116,15 @@ Piattaforma: *Steam Deck*
 ![Finding Xavier](./finding-xavier.png)
 
 Quando ho visto questo gioco su YouTube, mi sono detto che non era possibile.
+
 Quando ho visto questo gioco su Steam, mi sono detto che non era possibile.
 
-No, non è possibile che un gioco del genere venga venduto, perchè un gioco così *saprei farlo anche io*: e no, non è detto in maniera denigratoria, tutto l'opposto. È il gioco che mi ha fatto pensare di provare a fare anche io una cosa simile, e da lì è nato il mio Boonaburra... e lì ho capito perchè Finding Xavier viene venduto mentre il mio è gratis su itch, insomma è stata un'esperienza formativa.
+No, non è possibile che un gioco del genere venga venduto, perchè un gioco così *saprei farlo anche io*: e no, non è detto in maniera denigratoria, tutto l'opposto. È il gioco che mi ha spinto a provare a fare anche io una cosa simile, e da lì è nato il mio [Boonaburra](https://scario88.itch.io/boonaburra)... ed è lì ho capito perchè Finding Xavier viene venduto mentre il mio è gratis su itch xD Insomma, giocarlo è stata comunque un'esperienza formativa.
 
 [Finding Xavier](https://store.steampowered.com/app/2254210/Finding_Xavier/) è un platform "alla Celeste", tutto lo ricorda: la presenza dei *classici* coyote jump e jump buffer, il modo in cui la telecamera si sposta, il modo in cui il protagonista esiste nel mondo di gioco.
-Ha anche qualcosa di caratteristico che lo differenzia: non tutte le meccaniche che recuperiamo all'interno del mondo *metroidvaniesco* del gioco possono essere usate insieme, ma va scelto di volta in volta un subset delle stesse in base a quanto è grosso il nostro inventario. Non l'ho trovata un'idea vincente, ma capisco il motivo per cui è stata scelta.
+Ha anche qualcosa di caratteristico che lo differenzia: non tutte le meccaniche che recuperiamo all'interno del mondo *metroidvaniesco* del gioco possono essere usate insieme, ma va scelto di volta in volta un subset delle stesse in base a quanto è grosso il nostro inventario. Non l'ho trovata un'idea vincente, ma capisco il motivo per cui è stata realizzata.
 
-Non è un capolavoro, ci sono gioco gratis su itch che, secondo me, fanno meglio (vedi nonricordoilnome, ad esempio): costa però molto poco ed è istruttivo (nel bene e nel male) se siete sviluppatori.
+Non è un capolavoro, ci sono gioco gratis su itch che, secondo me, fanno meglio (vedi [Escape the Temple of Kashteki](https://securas.itch.io/temple-of-kashteki), ad esempio): costa però molto poco ed è istruttivo (nel bene e nel male) se siete sviluppatori.
 
 ## Planet of Lana
 
@@ -136,6 +142,8 @@ Grazie ancora *Stefano e Andrea* per il regalo ;)
 ## Castaway
 
 Piattaforma: *Steam Deck*
+
+![Castaway](./castaway.jpeg)
 
 [Castaway](https://store.steampowered.com/app/2564860/Castaway/) è un gioco che mi aveva fatto rimanere con l'amaro in bocca dopo averlo completato: ok, è nelle premesse stesse del prodotto essere un piccolo omaggio a Link's Awakening, ma non mi aspettavo di completare il tutto in 45 minuti. Se guardo però quanto ci ho giocato vedo che il numero di ore essere poco inferiore a 4. Come è possibile? Perchè, oltre alla storia, c'è una modalità "Torre", che in sostanza lo transforma in un roguelike composto da 45 stanze da affrontare sempre identiche una dopo l'altra, ma con una scelta di 3 potenziamenti random ogni volta che si sale di livello. Questa modalità fa davvero la differenza, e lo fa passare da una delusione ad un piccolo gioco che ho davvero apprezzato.
 
@@ -183,6 +191,28 @@ Piattaforma: *Steam Deck*
 Quando ho visto [TOEM: A Photo Adventure](https://store.steampowered.com/app/1307580/TOEM_A_Photo_Adventure/) la prima volta, ho pensato che potesse essere il degno successore di A Short Hike, uno dei miei giochi preferiti. Quando ho cominciato a giocarci, ho capito di trovarmi davanti ad un gioco che ha davvero le stesse vibe: le interazioni con i personaggi sono sempre carine e positive, ci si sposta tra i vari livelli compiendo buone azioni (in questo caso, tutte legate alla fotografia), è un gioco davvero rilassato e rilasssante... diciamo pure che mette di buonumore.
 C'è un però, che sento essere davvero soggettivo: ho trovato gli ultimi due mondo un po' troppo grandi, e li ho davvero mal digeriti. Tutti i livelli di gioco sono divisi in sezioni simili a diorami, e spesso gli enigmi di gioco ci portano a spostarci da uno all'altro per portare oggetti / fotografie: in generale funziona come meccanica, ma appunto, gli ultimi due livelli li ho trovati un po' troppo labirintici per riuscire a rilassarsi davvero quando si gioca (fare una foto per qualcuno che chiede qualcosa di non propriamente specifico, cercarlo e poi scoprire che non è quello che voleva è una rottura per davvero).
 In generale però è un gioco che consiglio a chi voglia giocare ad un passatempo tranquillo: anche solo girare i livelli con questa grafica è una gioia per gli occhi.
+
+## Gato Roboto
+
+Piattaforma: *Nintendo Switch*
+
+![Gato Roboto](./gato-roboto.png)
+
+Durante il Black Friday ho comprato [The Doinksoft Collection](https://www.amazon.it/Devolver-Digital-The-Doinksoft-Collection), una cartuccia per Switch comprendente tre giochi dello stesso autore:
+
+- Gato Roboto
+- Gunbrella
+- Demon Throttle
+
+ha destato la mia curiosità perchè Demon Throttle è disponibile solo in edizione fisica, o dentro a questa collection o in una cartuccia dedicata: il motivo di questa scelta è che il gioco ricalca in pieno lo stile NES, e lo vuole fare non solo dal punto di vista grafico, ma anche per il metodo di distribuzione.
+Ero indeciso sull'acquisto, visto che Gato Roboto l'avevo completato anni fa su PC.
+Sono quindi partito provando Demon Throttle, impegnativo ma bello.
+Ho poi provato Gunbrella, di cui avevo sentito tanto parlare: anche lui non facilissimo, lo lascio un momento da parte perchè ho voglia di qualcosa di più rilassante in questo momento.
+Lancio Gato Roboto per vedere com'è su Switch. Mi reinnamoro. Lo termino al 100%.
+
+Gato Roboto per me è il MetroidVania per eccellenza: ha tutto quello che ci si aspetta da un gioco di questo genere (power up, segreti, backtracking), una veste grafica per cui ho un debole, un personaggio simpatico e una meccanica innovativa. Si, forse esagero con il definirla "innovativa", ma la forma "gatto" (che equivarrebbe alla morphball dei vari Metroid) ha delle sezioni platform interessanti e piacevoli in questo particolare gioco.
+
+Anche questo gioco dura il giusto (poco più di 2h), non allunga il brodo e sfrutta bene il tempo che richiede per essere completato. Lo si trova a pochissimo in digitale, per me è un acquisto da fare senza nemmeno pensarci.
 
 ## Mind Over Magnet
 
