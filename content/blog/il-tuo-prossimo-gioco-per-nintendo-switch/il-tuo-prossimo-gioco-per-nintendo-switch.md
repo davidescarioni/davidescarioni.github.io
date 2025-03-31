@@ -1,6 +1,6 @@
 ---
 title: Il tuo prossimo gioco per Nintendo Switch
-description: Giusto un paio di giorni, ma piacevoli
+description:
 date: 2025-03-21
 tags: ["videogames"]
 ---
