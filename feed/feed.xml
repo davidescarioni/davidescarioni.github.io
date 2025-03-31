@@ -5,11 +5,23 @@
   <subtitle>My personal blog.</subtitle>
   <link href="https://davidescarioni.github.io/feed/feed.xml" rel="self" />
   <link href="https://davidescarioni.github.io/" />
-  <updated>2025-03-21T00:00:00Z</updated>
+  <updated>2025-03-30T00:00:00Z</updated>
   <id>https://davidescarioni.github.io/</id>
   <author>
     <name>Davide Scarioni</name>
   </author>
+  <entry>
+    <title>Milano Indies, seconda edizione</title>
+    <link href="https://davidescarioni.github.io/blog/milano-indies-seconda-edizione/" />
+    <updated>2025-03-30T00:00:00Z</updated>
+    <id>https://davidescarioni.github.io/blog/milano-indies-seconda-edizione/</id>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Milano Indies&lt;/strong&gt; è un evento nel quale viene dato spazio a sviluppatori di videogiochi indie per presentare i proprio prodotti, siano essi terminati, in sviluppo o in via di definizione.&lt;/p&gt;
+&lt;p&gt;È stato organizzato al Nemiex, un locale a Milano (o meglio, Cologno Monzese) che mi sembra ormai sia diventato il punto di riferimento principale per questo tipo di eventi, sicuramente con merito: l&#39;area messa a disposizione per l&#39;evento aveva una parte adibita a museo di hardware e software con qualche anno sulle spalle, mentre quella principale era una grossa sala comprendente un palco con proiettore affinchè i partecipanti potessero mostrare il loro gioco.&lt;/p&gt;
+&lt;p&gt;Io ho partecipato solo come pubblico: ho tergiversato fino all&#39;ultimo perchè non ero sicuro di avere qualcosa degno di essere presentato e avevo paura davvero di avere solo prodotti poco interessanti. Come dicevo all&#39;inizio, però, alcune presentazioni hanno mostrato solamente dei mockup di idee, quindi potenzialmente la prossima volta potrei buttarmi se trovo il coraggio di parlare davanti ad una platea :D.&lt;/p&gt;
+&lt;p&gt;Sono andato all&#39;evento per conto mio, ma ho trovato parecchie vecchie conoscenze: c&#39;erano Wolfrost e Nannasaurus Rex (che fanno parte di GameMaker Italia) a presentare i loro giochi, e ho trovato un po&#39; di persone conosciute alla Milano GamesWeek (o meglio, Nanna conosce il mondo e lei non si fa problemi a presentarti chiunque) come Jahir e Giorgio, che ogni volta tirano fuori grandi sorprese.&lt;/p&gt;
+&lt;p&gt;L&#39;evento è stato davvero bellissimo: il mondo degli sviluppatori mi piace sempre un sacco, perchè le persone all&#39;interno si vede che hanno un sogno e ce la mettono tutta per realizzarlo. È vero, probabilmente non tutti quei sogni verranno realizzati, ma sono sicuro che anche solo avere delle persone che ti ascoltano e dimostrano interesse per quello che stai creando ti da&#39; la carica che ti serve per portare avanti i tuoi progetti.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Il tuo prossimo gioco per Nintendo Switch</title>
     <link href="https://davidescarioni.github.io/blog/il-tuo-prossimo-gioco-per-nintendo-switch/" />
@@ -348,34 +360,6 @@ Cito qui per non dimenticarmene l&#39;episodio nel quale, mentre Nannasaura pate
 &lt;p&gt;Questo, per me, è un&#39;autentica dimostrazione di amore verso i videogiochi: si parla tanto di preservazione degli stessi, ma un trattamento simile non lo vedo fare da altre case sviluppatrici.&lt;/p&gt;
 &lt;p&gt;Scrivo di tutto questo sul mio blog perchè è questo il risultato a cui voglio ambire: amo sviluppare giochi, e la voglia di cominciare sempre qualcosa di nuovo è fortissima. Ma sto valutando di fare una pausa quest&#39;anno dallo sviluppare qualcosa di nuovo per dedicarmi a ciò che ho già realizzato e &lt;strong&gt;prendermene cura&lt;/strong&gt;, migliorandolo e preservandolo.&lt;/p&gt;
 &lt;p&gt;Vedremo come andrà. Ma ora scusatemi, voglio andare giocare Half-Life 2 (rigorosamente con il commento degli sviluppatori attivato).&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Ciao, ci sono anch&#39;io.</title>
-    <link href="https://davidescarioni.github.io/blog/ciao/" />
-    <updated>2024-11-12T00:00:00Z</updated>
-    <id>https://davidescarioni.github.io/blog/ciao/</id>
-    <content type="html">&lt;p&gt;Ciao, mi chiamo Davide ma sul web mi faccio chiamare &lt;strong&gt;Scario&lt;/strong&gt;: non è un nickname molto originale dato che è anche il soprannome che ho sin dalle scuole medie, ma è diventato da anni il mio alter ego sul web e va bene così.&lt;/p&gt;
-&lt;p&gt;E&#39; molto tempo che provo ad aprire un sito personale / blog, ma ogni volta c&#39;è sempre qualche pensiero che mi frena dal farlo, che sia un problema tecnico o meno:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;in quale linguaggio / framework lo sviluppo?&lt;/li&gt;
-&lt;li&gt;Ho bisogno di un solo blog o devo crearne uno per argomento che voglio trattare?&lt;/li&gt;
-&lt;li&gt;Cosa può essere interessante oppure no?&lt;/li&gt;
-&lt;li&gt;In quale lingua scrivo? Italiano, inglese o entrambi?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Tutti dubbi leciti direi, ma che mi hanno allonato sempre più dal mio obiettivo.&lt;/p&gt;
-&lt;p&gt;Questa volta sono partito da un approccio differente, e cioè chiedendomi perchè volessi aprire un blog.
-Sia sul web che sulla vita reale non sono una persona che &lt;em&gt;urla&lt;/em&gt; la propria opinione o gli piace mettersi in mostra (infatti i social tradizionali, soprattutto crescendo, li ho un po&#39; patiti sotto questo aspetto), però ho voglia di scrivere e lasciare nero su bianco i miei pensieri da qualche parte, magari in un luogo &lt;em&gt;appartato&lt;/em&gt; e tutto mio.&lt;/p&gt;
-&lt;p&gt;Non voglio scrivere su una piattaforma / social già esistente perchè, a.d. 2024, le chiusure di servizi web sono all&#39;ordine del giorno e si da&#39; davvero poco valore alla privacy online (argomento di cui mi sto interessando sempre di più ultimamente).&lt;/p&gt;
-&lt;p&gt;E poi da un anno a questa parte ho scoperto che c&#39;è un mondo di blog personali là fuori, fatta di persone vere e non bot, che mi ricorda tanto il web che frequentavo da ragazzo. E si sa, la nostalgia vince sempre, soprattutto passati i 30 anni.&lt;/p&gt;
-&lt;p&gt;Così sono partito dal chiedere consiglio a &lt;a href=&quot;https://manuelmoreale.com&quot;&gt;Manuel Monreale&lt;/a&gt;, una persona che ha un blog che seguo che è davvero bellissimo anche esteticamente, almeno per i miei gusti.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Allora, concordo con lo scrivere per te e non farti problemi per l’argomento. Alla fine il bello dei blog personali è che sono appunto personali. E in quanto persone siamo variegati. Ci sta quindi che il blog rifletta chi sei tu in tutte le tue sfumature&lt;/em&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;E niente, queste poche parole mi hanno convinto a buttarmi. Comincerò scrivendo di tutto quello che mi interessa, senza remore.  E lo farò in italiano per evitare qualsiasi tipo di frizione che, almeno inizialmente, potrebbero tenermi lontano dallo scrivere.&lt;/p&gt;
-&lt;p&gt;E che tecnologia utilizzo? Ho deciso di partire dalla &lt;a href=&quot;https://github.com/11ty/eleventy-base-blog&quot;&gt;base blog di 11ty/eleventy&lt;/a&gt; (un framework per siti statici) con modifiche minime giusto per lanciare un blog funzionante nel minor tempo possibile, e che personalizzerò pian piano per renderlo davvero mio.&lt;/p&gt;
-&lt;p&gt;Insomma... questa volta ci siamo, &lt;strong&gt;finalmente&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;(Un saluto a Scario del futuro, che non ricorderà minimamente queste parole e le leggerà sicuramente imbarazzato tra qualche anno).&lt;/p&gt;
 </content>
   </entry>
 </feed>
