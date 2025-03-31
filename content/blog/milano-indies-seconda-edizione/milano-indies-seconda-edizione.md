@@ -19,7 +19,7 @@ Il gioco di Wolfrost (un progetto universatario di un esame fighissimo del Polit
 
 ![Banner di Mira, il gioco di Wolfrost](./mira.png)
 
-I progetti di Nanna invece non hanno ancora un link dove poterli seguire, aggiornerò il post una volta che saranno pubblicati.
+I progetti di Nanna invece non hanno ancora purtroppo un link dove poterli seguire: aggiornerò il post una volta che saranno pubblicati.
 
 L'evento comunque è stato davvero bellissimo: il mondo degli sviluppatori mi piace sempre un sacco, perchè le persone all'interno si vede che hanno un sogno e ce la mettono tutta per realizzarlo. È vero, probabilmente non tutti quei sogni verranno realizzati, ma sono sicuro che anche solo avere delle persone che ti ascoltano e dimostrano interesse per quello che stai creando ti da' la carica che ti serve per portare avanti i tuoi progetti.
 
