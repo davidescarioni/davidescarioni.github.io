@@ -5,11 +5,22 @@
   <subtitle>My personal blog.</subtitle>
   <link href="https://davidescarioni.github.io/feed/feed.xml" rel="self" />
   <link href="https://davidescarioni.github.io/" />
-  <updated>2025-03-30T00:00:00Z</updated>
+  <updated>2025-04-15T00:00:00Z</updated>
   <id>https://davidescarioni.github.io/</id>
   <author>
     <name>Davide Scarioni</name>
   </author>
+  <entry>
+    <title>Project Hailstorm</title>
+    <link href="https://davidescarioni.github.io/blog/project-hailstorm/milano-indies-seconda-edizione/" />
+    <updated>2025-04-15T00:00:00Z</updated>
+    <id>https://davidescarioni.github.io/blog/project-hailstorm/milano-indies-seconda-edizione/</id>
+    <content type="html">&lt;p&gt;&lt;a href=&quot;https://store.steampowered.com/app/3388760/Project_Hailstorm/&quot;&gt;Project Hailstorm&lt;/a&gt; è un &lt;em&gt;atmosferic walking simulator&lt;/em&gt; della durata di 15 minuti che si può scaricare gratis da Steam.&lt;/p&gt;
+&lt;p&gt;È l&#39;esempio lampante che a volte pochi minuti possono bastare per lasciare il segno: il gioco non inventa nulla, non è complesso, ma ha un&#39;atmosfera davvero incredibile e una grafica curata in una maniera che non ti aspetti da un gioco così piccolo.&lt;/p&gt;
+&lt;p&gt;L&#39;autore ha poi girato quello che lui chiama &lt;a href=&quot;https://www.youtube.com/watch?v=2VKxeXylZb4&quot;&gt;Documentario&lt;/a&gt; su YouTube per mostrare come e quanto l&#39;ha realizzato.&lt;/p&gt;
+&lt;p&gt;Che belli questi progetti, che belli gli indie.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Milano Indies, seconda edizione</title>
     <link href="https://davidescarioni.github.io/blog/milano-indies-seconda-edizione/" />
@@ -349,22 +360,6 @@ Ritrovarsi poi a girare per ~la fiera~ l&#39;indie dungeon (l&#39;area dedicata 
 Cito qui per non dimenticarmene l&#39;episodio nel quale, mentre Nannasaura patecipa ad un concorso di disegno, un suo amico estrae un Game Boy con la Game Boy camera e la fotografa. Wow!&lt;/p&gt;
 &lt;p&gt;Come dicevo nella description di questo stesso post, anche quest&#39;anno non si è riusciti ad organizzare un Meetup in concomitanza con la MGW. Ormai è una sorta di missione impossibile, è il secondo anno che provo a metterla in piedi ma le richieste di YoYoGames (che finanzia il tutto) sono davvero incompatibili con i tempi burocratici e fiscali italiani. Quest&#39;anno poi l&#39;organizzazione mi ha davvero distrutto: le chiamate quasi quotidiane con il Nemiex (la location che avevamo scelto) per riportare quanto il referente di GameMaker diceva e viceversa unite nel calderone delle &lt;em&gt;rotture&lt;/em&gt; provenienti dalle nuove incombenze da proprietario di casa sono state davvero un impegno che, ora come ora, non vorrei più ripetere.&lt;/p&gt;
 &lt;p&gt;Non voglio però chiudere con un pensiero triste una giornata che è stata sicuramente positiva, quindi vorrei ricordare come il mitico Carcallo mi ha svoltato la giornata e fatto scoprire che i giochi (soprattutto i preordini) in fiera costano davvero poco: mi ero ripromesso di non comprare nessun videogioco nei prossimi mesi, ma potevo davvero lasciare lì Echoes of Wisdom a 35€?&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>La Valve Difference.</title>
-    <link href="https://davidescarioni.github.io/blog/valve-difference/" />
-    <updated>2024-11-16T00:00:00Z</updated>
-    <id>https://davidescarioni.github.io/blog/valve-difference/</id>
-    <content type="html">&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/valve-difference/-nNUHarnnu-532.avif 532w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/valve-difference/-nNUHarnnu-532.webp 532w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/valve-difference/-nNUHarnnu-532.jpeg&quot; alt=&quot;Half-Life 2 Logo&quot; width=&quot;532&quot; height=&quot;339&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
-&lt;p&gt;Oggi, 16 novembre 2024, è &lt;a href=&quot;https://www.half-life.com/it/halflife2/20th&quot;&gt;il 20esimo anniversario di &lt;em&gt;Half-Life 2&lt;/em&gt;&lt;/a&gt;: un traguardo significativo per un gioco che ha rivoluzionato il mondo dei videogiochi in molti modi.
-È un titolo che è stato sicuramente importante anche per me, ma non è questo il motivo per il quale sento il bisogno di scriverne.&lt;/p&gt;
-&lt;p&gt;Per questa occasione, Valve, la casa produttrice del gioco, ha deciso di &lt;strong&gt;regalare il gioco&lt;/strong&gt; comprensivo dei due DLC usciti per i prossimi due giorni, di far uscire un &lt;strong&gt;aggiornamento importante&lt;/strong&gt; (vari QoL, miglioramenti grafici, fix di bug, commentary degli sviluppatori all&#39;interno del gioco, piena compatibilità con tutte le feature di Steam Deck, ...), e di rilasciare un &lt;strong&gt;documentario di due ore&lt;/strong&gt; sulla storia produttiva dello stesso.&lt;/p&gt;
-&lt;p&gt;Leggere questo genere di notizie mi fa &lt;strong&gt;rimanere estasiato&lt;/strong&gt;. È lo stesso trattamento che Valve stessa aveva dedicato qualche tempo fa per l&#39;anniversario dell&#39;uscita del primo capitolo quindi non dovrei stupirmi, ma se penso allo stato attuale del mondo dei videogiochi, queste eccezioni le apprezzo ancora di più.&lt;/p&gt;
-&lt;p&gt;Quanti giochi hanno &amp;quot;festeggiato&amp;quot; i loro anniversari con aggiornamenti a pagamento, remaster o remake? E quanti, invece, hanno ricevuto aggiornamenti gratuiti e costanti che li rendono perfettamente giocabili su hardware moderno, vent’anni dopo la loro uscita? Half-Life 2 oggi si presenta in una versione persino migliore di quella originale.&lt;/p&gt;
-&lt;p&gt;Questo, per me, è un&#39;autentica dimostrazione di amore verso i videogiochi: si parla tanto di preservazione degli stessi, ma un trattamento simile non lo vedo fare da altre case sviluppatrici.&lt;/p&gt;
-&lt;p&gt;Scrivo di tutto questo sul mio blog perchè è questo il risultato a cui voglio ambire: amo sviluppare giochi, e la voglia di cominciare sempre qualcosa di nuovo è fortissima. Ma sto valutando di fare una pausa quest&#39;anno dallo sviluppare qualcosa di nuovo per dedicarmi a ciò che ho già realizzato e &lt;strong&gt;prendermene cura&lt;/strong&gt;, migliorandolo e preservandolo.&lt;/p&gt;
-&lt;p&gt;Vedremo come andrà. Ma ora scusatemi, voglio andare giocare Half-Life 2 (rigorosamente con il commento degli sviluppatori attivato).&lt;/p&gt;
 </content>
   </entry>
 </feed>
