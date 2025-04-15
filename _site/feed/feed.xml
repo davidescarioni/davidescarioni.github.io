@@ -5,11 +5,36 @@
   <subtitle>My personal blog.</subtitle>
   <link href="https://davidescarioni.github.io/feed/feed.xml" rel="self" />
   <link href="https://davidescarioni.github.io/" />
-  <updated>2025-03-21T00:00:00Z</updated>
+  <updated>2025-04-15T00:00:00Z</updated>
   <id>https://davidescarioni.github.io/</id>
   <author>
     <name>Davide Scarioni</name>
   </author>
+  <entry>
+    <title>Project Hailstorm</title>
+    <link href="https://davidescarioni.github.io/blog/project-hailstorm/milano-indies-seconda-edizione/" />
+    <updated>2025-04-15T00:00:00Z</updated>
+    <id>https://davidescarioni.github.io/blog/project-hailstorm/milano-indies-seconda-edizione/</id>
+    <content type="html">&lt;p&gt;&lt;a href=&quot;https://store.steampowered.com/app/3388760/Project_Hailstorm/&quot;&gt;Project Hailstorm&lt;/a&gt; è un &lt;em&gt;atmosferic walking simulator&lt;/em&gt; della durata di 15 minuti che si può scaricare gratis da Steam.&lt;/p&gt;
+&lt;p&gt;È l&#39;esempio lampante che a volte pochi minuti possono bastare per lasciare il segno: il gioco non inventa nulla, non è complesso, ma ha un&#39;atmosfera davvero incredibile e una grafica curata in una maniera che non ti aspetti da un gioco così piccolo.&lt;/p&gt;
+&lt;p&gt;L&#39;autore ha poi girato quello che lui chiama &lt;a href=&quot;https://www.youtube.com/watch?v=2VKxeXylZb4&quot;&gt;Documentario&lt;/a&gt; su YouTube per mostrare come e quanto l&#39;ha realizzato.&lt;/p&gt;
+&lt;p&gt;Che belli questi progetti, che belli gli indie.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Milano Indies, seconda edizione</title>
+    <link href="https://davidescarioni.github.io/blog/milano-indies-seconda-edizione/" />
+    <updated>2025-03-30T00:00:00Z</updated>
+    <id>https://davidescarioni.github.io/blog/milano-indies-seconda-edizione/</id>
+    <content type="html">&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/milano-indies-seconda-edizione/vMle_nIUrL-2048.avif 2048w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/milano-indies-seconda-edizione/vMle_nIUrL-2048.webp 2048w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/milano-indies-seconda-edizione/vMle_nIUrL-2048.jpeg&quot; alt=&quot;Locandina Milano Indies&quot; width=&quot;2048&quot; height=&quot;1463&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Milano Indies&lt;/strong&gt; è un evento nel quale viene dato spazio a sviluppatori di videogiochi indie per presentare i proprio prodotti, siano essi terminati, in sviluppo o in via di definizione.&lt;/p&gt;
+&lt;p&gt;È stato organizzato al Nemiex, un locale a Milano (o meglio, Cologno Monzese) che mi sembra ormai sia diventato il punto di riferimento principale per questo tipo di eventi, sicuramente con merito: l&#39;area messa a disposizione per l&#39;evento aveva una parte adibita a museo di hardware e software con qualche anno sulle spalle, mentre quella principale era una grossa sala comprendente un palco con proiettore affinchè i partecipanti potessero mostrare il loro gioco.&lt;/p&gt;
+&lt;p&gt;Io ho partecipato solo come pubblico: ho tergiversato fino all&#39;ultimo perchè non ero sicuro di avere qualcosa degno di essere presentato e avevo paura davvero di avere solo prodotti poco interessanti. Come dicevo all&#39;inizio, però, alcune presentazioni hanno mostrato solamente dei mockup di idee, quindi potenzialmente la prossima volta potrei buttarmi se trovo il coraggio di parlare davanti ad una platea :D.&lt;/p&gt;
+&lt;p&gt;Sono andato all&#39;evento per conto mio, ma ho trovato parecchie vecchie conoscenze: c&#39;erano &lt;a href=&quot;https://giovanni.orciuolo.it/&quot;&gt;Wolfrost&lt;/a&gt; e Nannasaurus Rex (che fanno parte di GameMaker Italia) a presentare i loro giochi, e ho trovato un po&#39; di persone conosciute alla Milano Games Week (o meglio, Nanna conosce il mondo e lei non si fa problemi a presentarti chiunque) come Jahir e Giorgio, che ogni volta tirano fuori grandi sorprese.&lt;/p&gt;
+&lt;p&gt;L&#39;evento è stato davvero bellissimo: il mondo degli sviluppatori mi piace sempre un sacco, perchè le persone all&#39;interno si vede che hanno un sogno e ce la mettono tutta per realizzarlo. È vero, probabilmente non tutti quei sogni verranno realizzati, ma sono sicuro che anche solo avere delle persone che ti ascoltano e dimostrano interesse per quello che stai creando ti da&#39; la carica che ti serve per portare avanti i tuoi progetti.&lt;/p&gt;
+&lt;p&gt;... E tra l&#39;altro ha dato la carica anche a me per il progetto della competizione: ieri mi sono rimboccato le maniche e ora comincia ad avere una &amp;quot;forma&amp;quot; da gioco vero e proprio, sono soddisfatto.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Il tuo prossimo gioco per Nintendo Switch</title>
     <link href="https://davidescarioni.github.io/blog/il-tuo-prossimo-gioco-per-nintendo-switch/" />
@@ -332,50 +357,6 @@ Ritrovarsi poi a girare per ~la fiera~ l&#39;indie dungeon (l&#39;area dedicata 
 Cito qui per non dimenticarmene l&#39;episodio nel quale, mentre Nannasaura patecipa ad un concorso di disegno, un suo amico estrae un Game Boy con la Game Boy camera e la fotografa. Wow!&lt;/p&gt;
 &lt;p&gt;Come dicevo nella description di questo stesso post, anche quest&#39;anno non si è riusciti ad organizzare un Meetup in concomitanza con la MGW. Ormai è una sorta di missione impossibile, è il secondo anno che provo a metterla in piedi ma le richieste di YoYoGames (che finanzia il tutto) sono davvero incompatibili con i tempi burocratici e fiscali italiani. Quest&#39;anno poi l&#39;organizzazione mi ha davvero distrutto: le chiamate quasi quotidiane con il Nemiex (la location che avevamo scelto) per riportare quanto il referente di GameMaker diceva e viceversa unite nel calderone delle &lt;em&gt;rotture&lt;/em&gt; provenienti dalle nuove incombenze da proprietario di casa sono state davvero un impegno che, ora come ora, non vorrei più ripetere.&lt;/p&gt;
 &lt;p&gt;Non voglio però chiudere con un pensiero triste una giornata che è stata sicuramente positiva, quindi vorrei ricordare come il mitico Carcallo mi ha svoltato la giornata e fatto scoprire che i giochi (soprattutto i preordini) in fiera costano davvero poco: mi ero ripromesso di non comprare nessun videogioco nei prossimi mesi, ma potevo davvero lasciare lì Echoes of Wisdom a 35€?&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>La Valve Difference.</title>
-    <link href="https://davidescarioni.github.io/blog/valve-difference/" />
-    <updated>2024-11-16T00:00:00Z</updated>
-    <id>https://davidescarioni.github.io/blog/valve-difference/</id>
-    <content type="html">&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/valve-difference/-nNUHarnnu-532.avif 532w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/valve-difference/-nNUHarnnu-532.webp 532w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/valve-difference/-nNUHarnnu-532.jpeg&quot; alt=&quot;Half-Life 2 Logo&quot; width=&quot;532&quot; height=&quot;339&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
-&lt;p&gt;Oggi, 16 novembre 2024, è &lt;a href=&quot;https://www.half-life.com/it/halflife2/20th&quot;&gt;il 20esimo anniversario di &lt;em&gt;Half-Life 2&lt;/em&gt;&lt;/a&gt;: un traguardo significativo per un gioco che ha rivoluzionato il mondo dei videogiochi in molti modi.
-È un titolo che è stato sicuramente importante anche per me, ma non è questo il motivo per il quale sento il bisogno di scriverne.&lt;/p&gt;
-&lt;p&gt;Per questa occasione, Valve, la casa produttrice del gioco, ha deciso di &lt;strong&gt;regalare il gioco&lt;/strong&gt; comprensivo dei due DLC usciti per i prossimi due giorni, di far uscire un &lt;strong&gt;aggiornamento importante&lt;/strong&gt; (vari QoL, miglioramenti grafici, fix di bug, commentary degli sviluppatori all&#39;interno del gioco, piena compatibilità con tutte le feature di Steam Deck, ...), e di rilasciare un &lt;strong&gt;documentario di due ore&lt;/strong&gt; sulla storia produttiva dello stesso.&lt;/p&gt;
-&lt;p&gt;Leggere questo genere di notizie mi fa &lt;strong&gt;rimanere estasiato&lt;/strong&gt;. È lo stesso trattamento che Valve stessa aveva dedicato qualche tempo fa per l&#39;anniversario dell&#39;uscita del primo capitolo quindi non dovrei stupirmi, ma se penso allo stato attuale del mondo dei videogiochi, queste eccezioni le apprezzo ancora di più.&lt;/p&gt;
-&lt;p&gt;Quanti giochi hanno &amp;quot;festeggiato&amp;quot; i loro anniversari con aggiornamenti a pagamento, remaster o remake? E quanti, invece, hanno ricevuto aggiornamenti gratuiti e costanti che li rendono perfettamente giocabili su hardware moderno, vent’anni dopo la loro uscita? Half-Life 2 oggi si presenta in una versione persino migliore di quella originale.&lt;/p&gt;
-&lt;p&gt;Questo, per me, è un&#39;autentica dimostrazione di amore verso i videogiochi: si parla tanto di preservazione degli stessi, ma un trattamento simile non lo vedo fare da altre case sviluppatrici.&lt;/p&gt;
-&lt;p&gt;Scrivo di tutto questo sul mio blog perchè è questo il risultato a cui voglio ambire: amo sviluppare giochi, e la voglia di cominciare sempre qualcosa di nuovo è fortissima. Ma sto valutando di fare una pausa quest&#39;anno dallo sviluppare qualcosa di nuovo per dedicarmi a ciò che ho già realizzato e &lt;strong&gt;prendermene cura&lt;/strong&gt;, migliorandolo e preservandolo.&lt;/p&gt;
-&lt;p&gt;Vedremo come andrà. Ma ora scusatemi, voglio andare giocare Half-Life 2 (rigorosamente con il commento degli sviluppatori attivato).&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Ciao, ci sono anch&#39;io.</title>
-    <link href="https://davidescarioni.github.io/blog/ciao/" />
-    <updated>2024-11-12T00:00:00Z</updated>
-    <id>https://davidescarioni.github.io/blog/ciao/</id>
-    <content type="html">&lt;p&gt;Ciao, mi chiamo Davide ma sul web mi faccio chiamare &lt;strong&gt;Scario&lt;/strong&gt;: non è un nickname molto originale dato che è anche il soprannome che ho sin dalle scuole medie, ma è diventato da anni il mio alter ego sul web e va bene così.&lt;/p&gt;
-&lt;p&gt;E&#39; molto tempo che provo ad aprire un sito personale / blog, ma ogni volta c&#39;è sempre qualche pensiero che mi frena dal farlo, che sia un problema tecnico o meno:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;in quale linguaggio / framework lo sviluppo?&lt;/li&gt;
-&lt;li&gt;Ho bisogno di un solo blog o devo crearne uno per argomento che voglio trattare?&lt;/li&gt;
-&lt;li&gt;Cosa può essere interessante oppure no?&lt;/li&gt;
-&lt;li&gt;In quale lingua scrivo? Italiano, inglese o entrambi?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Tutti dubbi leciti direi, ma che mi hanno allonato sempre più dal mio obiettivo.&lt;/p&gt;
-&lt;p&gt;Questa volta sono partito da un approccio differente, e cioè chiedendomi perchè volessi aprire un blog.
-Sia sul web che sulla vita reale non sono una persona che &lt;em&gt;urla&lt;/em&gt; la propria opinione o gli piace mettersi in mostra (infatti i social tradizionali, soprattutto crescendo, li ho un po&#39; patiti sotto questo aspetto), però ho voglia di scrivere e lasciare nero su bianco i miei pensieri da qualche parte, magari in un luogo &lt;em&gt;appartato&lt;/em&gt; e tutto mio.&lt;/p&gt;
-&lt;p&gt;Non voglio scrivere su una piattaforma / social già esistente perchè, a.d. 2024, le chiusure di servizi web sono all&#39;ordine del giorno e si da&#39; davvero poco valore alla privacy online (argomento di cui mi sto interessando sempre di più ultimamente).&lt;/p&gt;
-&lt;p&gt;E poi da un anno a questa parte ho scoperto che c&#39;è un mondo di blog personali là fuori, fatta di persone vere e non bot, che mi ricorda tanto il web che frequentavo da ragazzo. E si sa, la nostalgia vince sempre, soprattutto passati i 30 anni.&lt;/p&gt;
-&lt;p&gt;Così sono partito dal chiedere consiglio a &lt;a href=&quot;https://manuelmoreale.com&quot;&gt;Manuel Monreale&lt;/a&gt;, una persona che ha un blog che seguo che è davvero bellissimo anche esteticamente, almeno per i miei gusti.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Allora, concordo con lo scrivere per te e non farti problemi per l’argomento. Alla fine il bello dei blog personali è che sono appunto personali. E in quanto persone siamo variegati. Ci sta quindi che il blog rifletta chi sei tu in tutte le tue sfumature&lt;/em&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;E niente, queste poche parole mi hanno convinto a buttarmi. Comincerò scrivendo di tutto quello che mi interessa, senza remore.  E lo farò in italiano per evitare qualsiasi tipo di frizione che, almeno inizialmente, potrebbero tenermi lontano dallo scrivere.&lt;/p&gt;
-&lt;p&gt;E che tecnologia utilizzo? Ho deciso di partire dalla &lt;a href=&quot;https://github.com/11ty/eleventy-base-blog&quot;&gt;base blog di 11ty/eleventy&lt;/a&gt; (un framework per siti statici) con modifiche minime giusto per lanciare un blog funzionante nel minor tempo possibile, e che personalizzerò pian piano per renderlo davvero mio.&lt;/p&gt;
-&lt;p&gt;Insomma... questa volta ci siamo, &lt;strong&gt;finalmente&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;(Un saluto a Scario del futuro, che non ricorderà minimamente queste parole e le leggerà sicuramente imbarazzato tra qualche anno).&lt;/p&gt;
 </content>
   </entry>
 </feed>
