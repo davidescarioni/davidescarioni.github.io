@@ -3,11 +3,179 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Scario Side Quest</title>
+		<title>Musica e palestra</title>
 		<meta name="description" content="Descrizione del blog">
 		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Scario Side Quest">
 		
-		<style>/* This is an arbitrary CSS string added to the bundle */
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/* This is an arbitrary CSS string added to the bundle */
 /* Defaults */
 :root {
 	--font-family: -apple-system, system-ui, sans-serif;
@@ -342,19 +510,33 @@ a.post-tag:active {
 		<main id="skip">
 			<heading-anchors>
 				
-<h1 id="content-not-found">Content not found.</h1>
-<p>Go <a href="/">home</a>.</p>
-<!--
 
-Read more: https://www.11ty.dev/docs/quicktips/not-found/
+<div class="post-header">
+<time class="post-date" datetime="2025-04-30">30 April 2025</time>
+<h1 class="post-title" id="musica-e-palestra">Musica e palestra</h1>
+<div></div>
+<div class="post-tags">Tags: <ul class="post-metadata">
+        <li>
+            <a href="/tags/personale/" class="post-tag">personale</a>
+        </li>
+</ul></div>
+</div>
+<p>Ho sempre trovato ascoltare musica durante lo sport solo un accompagnamento per non annoiarsi. Anzi, a volte era persino una distrazione fastidiosa: nuotare / correre senza musica mi permetteva di perdermi nei miei pensieri, quasi l'equivalente di una meditazione.</p>
+<p>Andando a fare corsi in palestra, mi sono sentito dire dai vari Personal Trainer:</p>
+<ul>
+<li>&quot;E' un esercizio pesante, ma la musica ci darà una mano&quot;</li>
+<li>&quot;Andiamo tutti insieme a ritmo di musica, divideremo la fatica&quot;</li>
+<li>&quot;La musica è l'esercizio&quot;</li>
+</ul>
+<p>E in effetti è vero. Seguire il ritmo della musica e andare tutti insieme a tempo da' l'idea davvero di essere tutti uniti in uno sforzo unico, e grazie a questa pratica il proprio corpo quasi si muove da se' una volta imparato l'esercizio, e si sente meno la fatica.</p>
+<p>Orami ho accettato la cosa, ma continua a stupirmi ogni volta che me ne rendo conto.</p>
 
-This will work for both GitHub pages and Netlify:
-
-* https://help.github.com/articles/creating-a-custom-404-page-for-your-github-pages-site/
-* https://www.netlify.com/docs/redirects/#custom-404
-
--->
-
+        <ul class="links-nextprev">
+                <li class="links-nextprev-prev">← Precedente<br>
+                        <a href="/blog/project-hailstorm/milano-indies-seconda-edizione/">Project Hailstorm</a>
+                    </li>
+                
+                </ul>
 			</heading-anchors>
 		</main>
 
@@ -362,7 +544,7 @@ This will work for both GitHub pages and Netlify:
 			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
 		</footer>
 
-		<!-- This page `/404.html` was built on 2025-04-30T06:24:23.416Z -->
+		<!-- This page `/blog/musica-e-palestra/` was built on 2025-04-30T06:24:23.416Z -->
 		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
 	</body>
 </html>
