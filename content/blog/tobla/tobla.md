@@ -2,12 +2,12 @@
 title: Tobla - Divine Path
 description:
 date: 2025-05-19
-tags: ["videogame"]
+tags: ["videogames"]
 ---
 
 ![La locandina di Tobla - Divine Path](./tobla-title-screen.jpg)
 
-**Tobla** lo avevo da parecchio nella mia wishlist, ma non avevo mai premuto sul pulsante "Acquista" perchè nelle recensioni è spesso bollato come "troppo corto e semplice" e il prezzo a cui era venduto mi sembrava eccessivo per quello che sembrava offrire.
+[Tobla - Divine Path](https://store.steampowered.com/app/2717750/Tobla__Divine_Path/) lo avevo da parecchio nella mia wishlist, ma non avevo mai premuto sul pulsante "Acquista" perchè nelle recensioni è spesso bollato come "troppo corto e semplice" e il prezzo a cui era venduto mi sembrava eccessivo per quello che sembrava offrire.
 Dopo aver letto questo commento di uno degli sviluppatori, però, ho pensato che se il gioco mi interessa è giusto supportarlo.
 
 ![Messaggio su Steam dello sviluppatore](./tobla-developer-comment.png)
