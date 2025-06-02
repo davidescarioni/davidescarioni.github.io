@@ -5,11 +5,22 @@
   <subtitle>My personal blog.</subtitle>
   <link href="https://davidescarioni.github.io/feed/feed.xml" rel="self" />
   <link href="https://davidescarioni.github.io/" />
-  <updated>2025-05-21T00:00:00Z</updated>
+  <updated>2025-06-02T00:00:00Z</updated>
   <id>https://davidescarioni.github.io/</id>
   <author>
     <name>Davide Scarioni</name>
   </author>
+  <entry>
+    <title>Finalmente ho un dominio</title>
+    <link href="https://davidescarioni.github.io/blog/dominio.md/dominio/" />
+    <updated>2025-06-02T00:00:00Z</updated>
+    <id>https://davidescarioni.github.io/blog/dominio.md/dominio/</id>
+    <content type="html">&lt;p&gt;Se siete arrivati qui lo saprete già, ma finalmente ho acquistato un dominio: &lt;a href=&quot;https://scario.xyz&quot;&gt;scario.xyz&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Non è il dominio che ho sempre sognato (continuerò a bramare scar.io fino a quando non sarà possibile acquistarlo xD), ma sinceramente l&#39;unica cosa che mi interessava era finalmente mettere online questo progetto, oltre al fatto che non volevo spenderci molto.&lt;/p&gt;
+&lt;p&gt;Come avevo già &lt;a href=&quot;https://davidescarioni.github.io/blog/ciao/&quot;&gt;scritto nel primissimo post&lt;/a&gt;, l&#39;importante per me è buttarsi: questo sito è ancora solo un blog, è ancora discretamente generico, non ho ancora pagine dedicate alle mie creazioni, ma vedo che riesco ad essere abbastanza costante nella scrittura (prendo persino appunti su cose che vorrei scrivere prima di sedermi davanti al pc), quindi direi che l&#39;esperimento sta funzionando.&lt;/p&gt;
+&lt;p&gt;Vedremo come andrà il futuro, ma sono contento che questo progetto pian piano cresca e non venga abbandonato come altri miei progetti, almeno fino ad ora.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Una passeggiata di 24km</title>
     <link href="https://davidescarioni.github.io/blog/una-passeggiata-di-24-km/" />
@@ -329,26 +340,6 @@ Due note che mi sono piaciute particolarmente:&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;Riordinare &#92; Cancellare dalle playlist di YouTube i video non più utili&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Nota: il titolo del post riprende quello del documento di easlo e fa tanto 2024... ai miei tempi si sarebbe chiamato semplicemente &amp;quot;Riordinare&amp;quot; :D&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Caricare giochi sulla Miyoo Mini Plus tramite WiFi</title>
-    <link href="https://davidescarioni.github.io/blog/caricare-giochi-miyoo-mini-plus-wifi/caricare-giochi-miyoo-mini-plus/" />
-    <updated>2024-12-30T00:00:00Z</updated>
-    <id>https://davidescarioni.github.io/blog/caricare-giochi-miyoo-mini-plus-wifi/caricare-giochi-miyoo-mini-plus/</id>
-    <content type="html">&lt;ul&gt;
-&lt;li&gt;Dalla console, navigare sotto &lt;em&gt;Apps -&amp;gt; Tweaks -&amp;gt; Network -&amp;gt; HTTP: Web-based file sync&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Mettere le spunte sia su &lt;strong&gt;Enable&lt;/strong&gt; che su &lt;strong&gt;Enable authentication&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Tornare alla pagina precedente: in alto sarà segnato un indirizzo IP&lt;/li&gt;
-&lt;li&gt;Usare quell&#39;indirizzo IP in un browser di un dispositivo connesso alla stessa rete&lt;/li&gt;
-&lt;li&gt;Verrà chiesta un nome utente ed una password: entrambi sono admin di default&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Operazione completata!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Nota: su &lt;strong&gt;MacOS&lt;/strong&gt;, per rendere accessibile l&#39;interfaccia remota di Onion OS, bisogna:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Andare su &lt;em&gt;Impostazioni -&amp;gt; Privacy e Sicurezza -&amp;gt; Rete locale&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Consentire che il browser che stiamo utilizzando possa vedere dispositivi sulla stessa rete locale&lt;/li&gt;
-&lt;/ul&gt;
 </content>
   </entry>
 </feed>

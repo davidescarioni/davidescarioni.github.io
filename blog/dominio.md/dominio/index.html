@@ -3,11 +3,179 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Post con tag  &#39;tutorial&#39;</title>
+		<title>Finalmente ho un dominio</title>
 		<meta name="description" content="Descrizione del blog">
 		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Scario Side Quest">
 		
-		<style>/* This is an arbitrary CSS string added to the bundle */
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/* This is an arbitrary CSS string added to the bundle */
 /* Defaults */
 :root {
 	--font-family: -apple-system, system-ui, sans-serif;
@@ -342,42 +510,28 @@ a.post-tag:active {
 		<main id="skip">
 			<heading-anchors>
 				
-<h1 id="post-con-tag-tutorial">Post con tag “tutorial”</h1>
 
+<div class="post-header">
+<time class="post-date" datetime="2025-06-02">02 June 2025</time>
+<h1 class="post-title" id="finalmente-ho-un-dominio">Finalmente ho un dominio</h1>
+<div></div>
+<div class="post-tags">Tags: <ul class="post-metadata">
+        <li>
+            <a href="/tags/personale/" class="post-tag">personale</a>
+        </li>
+</ul></div>
+</div>
+<p>Se siete arrivati qui lo saprete già, ma finalmente ho acquistato un dominio: <a href="https://scario.xyz">scario.xyz</a>.</p>
+<p>Non è il dominio che ho sempre sognato (continuerò a bramare scar.io fino a quando non sarà possibile acquistarlo xD), ma sinceramente l'unica cosa che mi interessava era finalmente mettere online questo progetto, oltre al fatto che non volevo spenderci molto.</p>
+<p>Come avevo già <a href="/blog/ciao/">scritto nel primissimo post</a>, l'importante per me è buttarsi: questo sito è ancora solo un blog, è ancora discretamente generico, non ho ancora pagine dedicate alle mie creazioni, ma vedo che riesco ad essere abbastanza costante nella scrittura (prendo persino appunti su cose che vorrei scrivere prima di sedermi davanti al pc), quindi direi che l'esperimento sta funzionando.</p>
+<p>Vedremo come andrà il futuro, ma sono contento che questo progetto pian piano cresca e non venga abbandonato come altri miei progetti, almeno fino ad ora.</p>
 
-<script>
-  const startFrom = 2;
-  const options = {
-    day: '2-digit',
-    month: 'long',
-    year: 'numeric'
-  };
-</script>
-
-<style>
-  .postlist {
-    counter-reset: start-from 2;
-  }
-</style>
-
-<ol reversed="" class="postlist">
-
-	<li class="postlist-item">
-		<a href="/blog/caricare-giochi-miyoo-mini-plus-wifi/caricare-giochi-miyoo-mini-plus/" class="postlist-link">
-			
-				Caricare giochi sulla Miyoo Mini Plus tramite WiFi
-			
-		</a>
-		<time class="postlist-date" datetime="Mon Dec 30 2024 00:00:00 GMT+0000 (Coordinated Universal Time)">
-			30 dicembre 2024
-		</time>
-	</li>
-
-</ol>
-
-
-<p>Vedi tutti i <a href="/tags/">tag</a>.</p>
-
+        <ul class="links-nextprev">
+                <li class="links-nextprev-prev">← Precedente<br>
+                        <a href="/blog/una-passeggiata-di-24-km/">Una passeggiata di 24km</a>
+                    </li>
+                
+                </ul>
 			</heading-anchors>
 		</main>
 
@@ -385,7 +539,7 @@ a.post-tag:active {
 			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
 		</footer>
 
-		<!-- This page `/tags/tutorial/` was built on 2025-06-02T07:09:25.344Z -->
+		<!-- This page `/blog/dominio.md/dominio/` was built on 2025-06-02T07:09:25.249Z -->
 		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
 	</body>
 </html>
