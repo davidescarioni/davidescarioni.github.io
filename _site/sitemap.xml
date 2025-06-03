@@ -102,7 +102,12 @@
 	</url>
 	
 	<url>
+		<loc>https://davidescarioni.github.io/blog/1000-giorni/</loc>
+		<lastmod>2025-06-03</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://davidescarioni.github.io/feed/feed.xml</loc>
-		<lastmod>2025-06-02</lastmod>
+		<lastmod>2025-06-03</lastmod>
 	</url>
 </urlset>
