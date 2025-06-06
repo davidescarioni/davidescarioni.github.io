@@ -1,0 +1,590 @@
+<!doctype html>
+<html lang="it">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Stardrop, il mio gioco per la Compe 2025</title>
+		<meta name="description" content="Descrizione del blog">
+		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Scario Side Quest">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/* This is an arbitrary CSS string added to the bundle */
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #f1f2da;
+		--color-gray-50: #f1f2da;
+		--color-gray-90: #f1f2da;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #ffce96;
+		--text-color-link-active: #ff7777;
+		--text-color-link-visited: #ffce96;
+
+		/* Valutare se usare questo verde */
+		/* --text-color-link: #00fc7f; */
+
+		/* --background-color: #00303b; */
+		--background-color: #1d1d21;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+@view-transition {
+	navigation: auto;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 50em;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	flex: 1;
+}
+
+main > * {
+	display: flex;
+    flex-direction: column;
+}
+
+p:has(picture) {
+	align-self: center;
+}
+
+picture img {
+	max-width: 100%;
+	height: auto;
+}
+
+main,
+footer {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	display: flex;
+	justify-content: space-between;
+	gap: .5em 1em;
+	list-style: "";
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+.links-nextprev > * {
+	flex-grow: 1;
+}
+.links-nextprev-next {
+	text-align: right;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	overflow-x: auto;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Post */
+.post-header {
+	padding-bottom: 1em;
+	border-bottom: 1px solid var(--text-color);
+}
+.post-title {
+	margin-top: .2em;
+	margin-bottom: 0;
+}
+
+.post-date {
+	font-size: .8em;
+}
+
+.post-tags {
+    margin-top: 0.8em;
+    font-size: .8em;
+}
+
+/* Tags */
+a.post-tag, a.post-tag:visited {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-style: italic;
+	background-color: var(--text-color-link);
+	border: 1px solid var(--text-color-link);
+	color: var(--background-color);
+	padding: 0 10px;
+	text-decoration: none;
+	border-radius: 50px;
+}
+a.post-tag:hover,
+a.post-tag:active {
+	background-color: transparent;
+	border-color: var(--text-color-link-active);
+	color: var(--text-color-link-active);
+}
+
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 1em 0 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<a href="/" class="home-link">Scario Side Quest</a>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/">Home</a></li>
+					<li class="nav-item"><a href="/blog/">Blog</a></li>
+					<li class="nav-item"><a href="/about/">About</a></li>
+					<li class="nav-item"><a href="/feed/feed.xml">Feed</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			<heading-anchors>
+				
+
+<div class="post-header">
+<time class="post-date" datetime="2025-06-04">04 June 2025</time>
+<h1 class="post-title" id="stardrop-il-mio-gioco-per-la-compe-2025">Stardrop, il mio gioco per la Compe 2025</h1>
+<div></div>
+<div class="post-tags">Tags: <ul class="post-metadata">
+        <li>
+            <a href="/tags/gmi/" class="post-tag">gmi</a>
+        </li>
+        <li>
+            <a href="/tags/videogames/" class="post-tag">videogames</a>
+        </li>
+</ul></div>
+</div>
+<p><picture><source type="image/avif" srcset="/blog/stardrop/SJh0ezYiXc-1024.avif 1024w"><source type="image/webp" srcset="/blog/stardrop/SJh0ezYiXc-1024.webp 1024w"><img loading="lazy" decoding="async" src="/blog/stardrop/SJh0ezYiXc-1024.png" alt="Schermata del titolo del gioco" width="1024" height="576"></picture></p>
+<p><strong>Stardrop</strong> è la mia <em>entry</em> di quest'anno alla Competizione di GameMaker Italia: dovrebbe essere quello che ultimamente viene definito <a href="https://www.nintendolife.com/features/what-the-heck-is-a-metroidbrainia-introducing-the-newest-genre-on-the-block">MetroidBrainia</a>, ma molto probabilmente è un puzzle platform, quasi un labirinto con regole non scritte.</p>
+<p><a href="https://scario88.itch.io/stardrop">Premi qui per scaricarlo da itch.io</a>. Password della pagina: <strong>gmi</strong></p>
+<p>NB: questo articolo presenta parecchi spoiler sul gioco, quindi se volete provarlo vi consiglio di leggerlo una volta terminata la vostra run.</p>
+<p>La mia idea iniziare era quella di creare qualcosa che spiazzasse e stupisse il giocatore: negli scorsi mesi ho giocato a <a href="https://www.cocoongame.com/">COCOON</a>, <a href="https://amidos2006.itch.io/hollow-floor">Hollow Floor</a>, <a href="https://tunicgame.com/">Tunic</a> e <a href="https://tiz010.itch.io/pigments">Pigments</a>, giochi tutti di caratura diversa ma con in comune il fatto di avermi regalato delle <em>serendipity</em> ogni volta nella quale il gioco riusciva a insegnarmi una meccanica senza che me lo dicesse.</p>
+<p>Partendo da queste premesse, mi sono chiesto come reagirebbe un giocatore di fronte a ostacoli tipici &quot;da platform classico&quot;, se improvvisamente le regole venissero sovvertite. Da questa riflessione è nata l’idea di sviluppare un gioco in cui il personaggio cambia forma e comportamento in base a cosa calpestasse.</p>
+<p>L'idea mi è piaciuta subito, e con una caratteristica così &quot;lasca&quot; ho dato spazio alla fantasia: forme nelle quali non si può cadere, altre nelle si può passare attraverso a qualcosa, altre ancora che intervengono sulla gravità: messo tutto in una stanza singola, con tanti poteri a disposizione, l'idea sembrava funzionare alla grande. Però c'è un motivo se volevo chiamare questo articolo <em>Come NON sviluppare un MetroidBrania</em>...</p>
+<p>Sono partito disegnando la possibile mappa di gioco su iPad, partendo da situazioni che volevo che il giocatore affrontasse in base al potere aquisito</p>
+<p><picture><source type="image/avif" srcset="/blog/stardrop/7sEVppJMh3-1143.avif 1143w"><source type="image/webp" srcset="/blog/stardrop/7sEVppJMh3-1143.webp 1143w"><img loading="lazy" decoding="async" src="/blog/stardrop/7sEVppJMh3-1143.png" alt="Primi disegni del mega livello" width="1143" height="644"></picture></p>
+<p>Ho scelto di disegnare il personaggio giocabile come una <em>goccia di stella</em>, per fare in modo di avere qualcosa di potenzialmente &quot;malleabile&quot;: volevo poi che, come in COCOON, interpretassimo un alieno alle prese con un pianeta che non conosce, così da poter stupire e straniare il giocatore ribaltando le sue aspettative.... ma si è rivelata un po' un'arma a doppio taglio.</p>
+<blockquote>
+<p><em>aliento (/a·liè·no/, aggettivo, &quot;Che appartiene ad altri; non com., estraneo, fuor di proposito&quot;) [Oxford Languages]</em></p>
+</blockquote>
+<p>Veniamo allo sviluppo.</p>
+<p>La schermata introduttiva non è niente di speciale, se non fosse che il pianeta che ruota fa la sua porca figura. E' stato realizzato utilizzando il tool <a href="https://deep-fold.itch.io/pixel-planet-generator">Pixel Planet Generator</a></p>
+<p><picture><source type="image/avif" srcset="/blog/stardrop/inorgo0pH--1011.avif 1011w"><source type="image/webp" srcset="/blog/stardrop/inorgo0pH--1011.webp 1011w"><img loading="lazy" decoding="async" src="/blog/stardrop/inorgo0pH--1011.png" alt="Pixel Planet Generator" width="1011" height="650"></picture></p>
+<p>Il gioco in se' è invece una singola grande room, anzi, una <strong>esageratamente</strong> enorme: il mio vecchio Macbook Air 2017 si blocca costantemente spostandomi all'interno! L'avevo fatta così grande perchè ho cominciato a svilupparla prima di terminare di disegnarla, per cui non avevo idea delle reali dimensioni di cui avrei necessitato.
+Dallo screenshot qui sotto la vedete grande la metà di quella che ho consegnato, perchè ho sperimentato con successo (almeno per 3 lati su 4) <a href="https://github.com/YAL-GameMaker/room-shift">Room Shift</a>, una web app del buon YAL che permette di ridimensionare la room in tutte le direzioni, a differenza di quello che fa GameMaker nativamente.</p>
+<p><picture><source type="image/avif" srcset="/blog/stardrop/Z6CC-WEuCx-844.avif 844w"><source type="image/webp" srcset="/blog/stardrop/Z6CC-WEuCx-844.webp 844w"><img loading="lazy" decoding="async" src="/blog/stardrop/Z6CC-WEuCx-844.png" alt="Room di gioco" width="844" height="451"></picture></p>
+<p>Il rettangolo nero in alto è la soluzione che ho adottato per avere una &quot;cornice&quot; attorno alla mia schermata di gioco: una viewport punta verso la cornice, mentre la viewport successiva inquadra la room di gioco.</p>
+<p><picture><source type="image/avif" srcset="/blog/stardrop/eTqDwch2Iz-1011.avif 1011w"><source type="image/webp" srcset="/blog/stardrop/eTqDwch2Iz-1011.webp 1011w"><img loading="lazy" decoding="async" src="/blog/stardrop/eTqDwch2Iz-1011.png" alt="Bordo nero attorno alla schermata di gioco" width="1011" height="569"></picture></p>
+<p>Alla fine non l'ho poi veramente sfruttata come feature, ma è stato sicuramente formativo imparare come fare una cosa del genere, sono sicuro che potrei utilizzarla per il futuro.</p>
+<p>Il codice di gioco non è particolarmente rifinito, anzi. E no, non intendo per alcuni problemi con le collisioni, ma perchè ho cercato di scrivere tutto nella maniera più semplice possibile. I motivi sono due:</p>
+<ul>
+<li>lavorando al progetto al mattino prima di andare a lavoro, e nemmeno tutti i giorni, se il codice non era più che leggibile avrei passato più tempo a capire cosa fare che effettivamente farlo</li>
+<li>dato che il potere di ruotare le stanze (spoiler) è stato uno dei primi che ho inserito, ho voluto che tutti i poteri potessero venire usati in tutte e 4 le direzioni in cui posso ruotare le stanze e la gravità. Dato che ho perso una settimana per riuscire a rendere tutto più astratto possibile, fallendo, ho duplicato il codice per tutte e 4 le direzioni di gravità (Jak di GMI, perdonami xD)</li>
+</ul>
+<p><picture><source type="image/avif" srcset="/blog/stardrop/YVnQlaZudS-869.avif 869w"><source type="image/webp" srcset="/blog/stardrop/YVnQlaZudS-869.webp 869w"><img loading="lazy" decoding="async" src="/blog/stardrop/YVnQlaZudS-869.png" alt="Step Event di obj_player" width="869" height="528"></picture></p>
+<p>Veniamo ora ai motivi per il quale accennavo prima di non essere soddisfatto del mio sviluppo:</p>
+<ul>
+<li>il gioco richiede moltissimi test: i tanti poteri con cui affrontare diverse situazioni, cercando di dare al giocatore la possibilità di spostarsi come e dove più preferisce dando origine a tantissimi problemi. Il giorno successivo al rilascio mi ero accorto di un possibile softlock e mi sono mangiato le mani, ma dopo il test dei giudici mi sono accorto che le possibilità di <em>incastrarsi</em> nel livello sono davvero molte</li>
+<li>sempre riferito al punto prima, il gioco è di fatto un enigma di cui io so già la soluzione: tutto quello che mi sembra chiaro e/o banale non è detto che lo sia anche per il giocatore, e anche qui quello che mi sarebbe servito davvero è del testing da una parte di almeno una persona terza</li>
+<li>non avevo molto tempo a disposizione, ho provato a scegliere un'idea che mi sembrava poco complessa e veloce nella realizzazione, puntando tutto sul level design. Beh, così non è stato: la realizzazione del livello di ha fatto ammattire, e la mia scelta di rendere possibile le transformazioni per ogni angolo di gravità ha fatto sì che anche il codice sia più complesso del previsto. Tutto questo a scapito del polishing grafico e audio, ovviamente :(</li>
+</ul>
+<p>Credo poi che il gioco in sè non sia così divertente e non invogli il giocatore a completarlo: i giudici della competizione non sono riusciti a portarlo a termine, e ho ricevuto pochissime richieste di aiuto riguardo a puzzle non ben comprensibili.</p>
+<p>Il gioco <a href="https://gamemakeritalia.it/competizioni/contest/?contest=28">si è posizionato al 9° posto su 16</a>: vedendo la qualità dei giochi di quest'anno non posso sicuramente lamentarmi, anzi, credo che qualche gioco arrivato sotto al mio sarebbe dovuto essere premiato di più.</p>
+<p><a href="https://youtu.be/_sj5MZDS73M?si=qqR-bGsvUXKn7FzU&amp;t=5421">Qui trovi il link del video della live di premiazione, nel momento in cui viene mostrato StarDrop</a>.</p>
+<p>Ma non tutto il male viene per nuocere. Ho chiesto feedback alla community di GMI, e ne sono arrivati parecchi!</p>
+<ul>
+<li>Secondo i giudici la mappa &quot;consultabile&quot; (se ci giocate sapete cosa intendo) mostra troppo poco dell'area di gioco. Era una scelta per invogliare il giocatore a disegnare la mappa su carta, ma nessuno lo ha fatto, per cui tengo in considerazione di cambiare completamente questa parte</li>
+<li>Patience mi ha suggerito (e ho prontamente sviluppato) un panic button per resettare la posizione e il potere del giocatore, così da permettere di terminare la partita durante un softlock</li>
+<li><a href="https://youtu.be/fKC5rcu6WZc?si=Ew6TMUwQo4tjWBZb&amp;t=3866">Jak ha apprezzato tantissimo l'introduzione dei comandi</a>, e la cosa non potrebbe rendermi più felice. Mi ha però detto che ha trovato alcuni poteri ma posizionati: se i primi ti permettono di &quot;provarli e giocare&quot; prima di effettivamente usarli, altri vanno presi e capiti &quot;al volo&quot;.</li>
+<li>Mad consiglia di rendere più comprensibile l'enigma degli animali, mentre quello sonoro l'ha trovato abbastanza comprensibile.</li>
+</ul>
+<p>Voglio portare a termine questo gioco e dargli un degno &quot;confezionamento&quot;: metto in pausa gli sviluppi per un po', rifiato, prendo un po' di feedback e poi penso a come farlo evolvere.
+Se tu che stai leggendo hai voglia di darmi un feedback non farti problemi, anzi, apprezzerei moltissimo!</p>
+
+        <ul class="links-nextprev">
+                <li class="links-nextprev-prev">← Precedente<br>
+                        <a href="/blog/1000-giorni/">1000 giorni</a>
+                    </li>
+                
+                </ul>
+			</heading-anchors>
+		</main>
+
+		<footer>
+			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
+		</footer>
+
+		<!-- This page `/blog/stardrop/` was built on 2025-06-06T06:38:30.575Z -->
+		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
+	</body>
+</html>
