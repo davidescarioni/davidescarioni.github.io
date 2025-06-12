@@ -5,11 +5,25 @@
   <subtitle>My personal blog.</subtitle>
   <link href="https://davidescarioni.github.io/feed/feed.xml" rel="self" />
   <link href="https://davidescarioni.github.io/" />
-  <updated>2025-06-09T00:00:00Z</updated>
+  <updated>2025-06-12T00:00:00Z</updated>
   <id>https://davidescarioni.github.io/</id>
   <author>
     <name>Davide Scarioni</name>
   </author>
+  <entry>
+    <title>On Browsers, AI and the web</title>
+    <link href="https://davidescarioni.github.io/blog/on-browsers-ai-and-the-web/" />
+    <updated>2025-06-12T00:00:00Z</updated>
+    <id>https://davidescarioni.github.io/blog/on-browsers-ai-and-the-web/</id>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Manuel Monreale&lt;/strong&gt; nel suo blog post &lt;a href=&quot;https://manuelmoreale.com/on-browsers-ai-and-the-web&quot;&gt;On Browser,s AI, and the web&lt;/a&gt;, parla del fatto che alcune compagnie stiano trattando le pagine web come meri strumenti da dare in pasto all&#39;AI, e che c&#39;è il pericolo che questa diventerà il modo delle persone non tecniche per interfacciarsi con internet.&lt;/p&gt;
+&lt;p&gt;E dice, con rammarico, che lui è scettico riguardo a questo modo di prendere informazioni da internet, per un motivo ben specifico:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;But more importantly, there’s something else about this whole idea of chatting-with-a-computer-to-get-answers-from-the-web that I find incredibly off-putting: the complete lack of potential for serendipity. Clicking on links and landing on random sites has the potential to take me in unexpected directions. And also the web is filled with creative people who have incredibly interesting sites from a visual point of view. All that is absent in a chat-based world and that’s something I just can’t personally accept for myself. Feels like such a boring way to browse the web.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Mi ritrovo perfettamente in quanto lui scrive: anche a me piace &lt;em&gt;&amp;quot;&lt;em&gt;perdermi&lt;/em&gt;&amp;quot;&lt;/em&gt; nei link che portano da un blog personale ad un altro, scoprendo cose più o meno interessanti e apprezzando la bellezza delle nostre unicità.&lt;/p&gt;
+&lt;p&gt;Ecco, se dovessi descrivere il motivo per il quale mi sto appassionando così tanto al mondo dei blog personali e al curare il mio feed RSS, riporterei &lt;strong&gt;parola per parola&lt;/strong&gt; questo suo paragrafo.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Prince of Persia - The Lost Crown è bellissimo</title>
     <link href="https://davidescarioni.github.io/blog/prince-of-persia-the-lost-crown/" />
@@ -189,17 +203,6 @@ Dopo aver letto questo commento di uno degli sviluppatori, però, ho pensato che
 &lt;p&gt;I progetti di Nanna invece non hanno ancora purtroppo un link dove poterli seguire: aggiornerò il post una volta che saranno pubblicati.&lt;/p&gt;
 &lt;p&gt;L&#39;evento comunque è stato davvero bellissimo: il mondo degli sviluppatori mi piace sempre un sacco, perchè le persone all&#39;interno si vede che hanno un sogno e ce la mettono tutta per realizzarlo. È vero, probabilmente non tutti quei sogni verranno realizzati, ma sono sicuro che anche solo avere delle persone che ti ascoltano e dimostrano interesse per quello che stai creando ti da&#39; la carica che ti serve per portare avanti i tuoi progetti.&lt;/p&gt;
 &lt;p&gt;... E tra l&#39;altro ha dato la carica anche a me per il progetto della competizione: ieri mi sono rimboccato le maniche e ora comincia ad avere una &amp;quot;forma&amp;quot; da gioco vero e proprio, sono soddisfatto.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Il tuo prossimo gioco per Nintendo Switch</title>
-    <link href="https://davidescarioni.github.io/blog/il-tuo-prossimo-gioco-per-nintendo-switch/" />
-    <updated>2025-03-21T00:00:00Z</updated>
-    <id>https://davidescarioni.github.io/blog/il-tuo-prossimo-gioco-per-nintendo-switch/</id>
-    <content type="html">&lt;p&gt;&lt;em&gt;... l&#39;hai già comprato!&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Questo è l&#39;oggetto della mail che ho ricevuto ieri, un messaggio di posta che mi suggeriva di giocare a giochi che possiedo già su Switch ma che non ho ancora giocato o che ho avviato solo per pochi minuti.&lt;/p&gt;
-&lt;p&gt;Nintendo, la compagnia &lt;em&gt;brutta e cattiva&lt;/em&gt; che vende i suoi giochi sempre senza sconti, mi invita a giocare un gioco che ho già invece di comprarne uno nuovo?&lt;/p&gt;
-&lt;p&gt;Non so, questo messaggio in controtendenza mi ha davvero colpito positivamente, soprattutto in questo periodo in cui cerco davvero di essere più consapevole di quello che ho nel backlog invece di acquistare sempre qualcosa di nuovo.&lt;/p&gt;
 </content>
   </entry>
 </feed>
