@@ -5,11 +5,33 @@
   <subtitle>My personal blog.</subtitle>
   <link href="https://davidescarioni.github.io/feed/feed.xml" rel="self" />
   <link href="https://davidescarioni.github.io/" />
-  <updated>2025-06-12T00:00:00Z</updated>
+  <updated>2025-06-14T00:00:00Z</updated>
   <id>https://davidescarioni.github.io/</id>
   <author>
     <name>Davide Scarioni</name>
   </author>
+  <entry>
+    <title>Steam Next Fest 2025, cosa ho provato</title>
+    <link href="https://davidescarioni.github.io/blog/steam-next-fest-2025/" />
+    <updated>2025-06-14T00:00:00Z</updated>
+    <id>https://davidescarioni.github.io/blog/steam-next-fest-2025/</id>
+    <content type="html">&lt;p&gt;Si, lo Steam Next Fest non è ancora finito, ma sono in partenza per un viaggio all&#39;estero e non avrò modo di giocare settimana prossima, per cui lascio qui i miei feedback prima che le demo vengano rimosse da Steam.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://store.steampowered.com/app/3793150/Gecko_Gods_Demo/&quot;&gt;Gecko Gods&lt;/a&gt;: un&#39;avventura puzzle nel quale si impersonifica appunto un geco. Il sistema di movimento è super interessante: tutte le pareti sono liberamente scalabili indipendentemente dalla ripidità e senza barre di stamina), ma ho trovato la camera del gioco veramente fastidiosa da muovere. Lo terrò comunque in wishlist perchè, nei due giorni in cui è rimasto installato, ha costantemente ricevuto update, e questo mi fa ben sperare.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://store.steampowered.com/app/2602230/MotionRec/&quot;&gt;Motionrec&lt;/a&gt;: un puzzle-platfom che ricorda molto &lt;a href=&quot;https://store.steampowered.com/app/1456880/ElecHead/&quot;&gt;Elechead&lt;/a&gt;, ma con una meccanica del tutto originale: il giocatore può &lt;em&gt;registrare&lt;/em&gt; il proprio movimento, e azionare il pattern di movimento al bisogno. Capisco di non averlo descritto al meglio, ma è davvero una bomba, non vedo l&#39;ora che esca la versione completa.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://store.steampowered.com/app/2391460/Halve_Demo/&quot;&gt;Halve&lt;/a&gt;: un puzzle platform nel quale si controllano due personaggi contemporaneamente, uno &amp;quot;normale&amp;quot; e la sua versione &amp;quot;specchiata&amp;quot;, e anche il mondo di gioco è diviso in due. Un gioco dalla meccanica semplice, ben relizzato ma che non fa gridare al miracolo, soprattutto perchè quanto c&#39;è nella demo è lo stesso che è stato mostrato dallo sviluppatore nei trailer visti in giro, quindi sapevo già cosa aspettarmi.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://store.steampowered.com/app/3496520/MIO_Memories_in_Orbit_Demo/&quot;&gt;MIO - Memories In Orbit&lt;/a&gt; è un MetroidVania 2.5d con un&#39;estetica sci-fi davvero particolare e una HUD che mi ha davvero stupito in quanto a cura. Non è ben ottimizzato su Steam Deck, la demo è più lunga delle altre e non sono riuscito a completarla, ma così su due piedi direi di tenerlo d&#39;occhio, è davvero promettente e sembra avere una lore davvero interessante. Ah, ultima cosa: l&#39;intro è davvero stupenda a livello di messa in scena e di tutorial &amp;quot;non tutorial&amp;quot; per imparare i movimenti, davvero da manuale.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
   <entry>
     <title>On Browsers, AI and the web</title>
     <link href="https://davidescarioni.github.io/blog/on-browsers-ai-and-the-web/" />
@@ -186,23 +208,6 @@ Dopo aver letto questo commento di uno degli sviluppatori, però, ho pensato che
 &lt;p&gt;È l&#39;esempio lampante che a volte pochi minuti possono bastare per lasciare il segno: il gioco non inventa nulla, non è complesso, ma ha un&#39;atmosfera davvero incredibile e una grafica curata in una maniera che non ti aspetti da un gioco così piccolo.&lt;/p&gt;
 &lt;p&gt;L&#39;autore ha poi girato quello che lui chiama &lt;a href=&quot;https://www.youtube.com/watch?v=2VKxeXylZb4&quot;&gt;Documentario&lt;/a&gt; su YouTube per mostrare come e quanto l&#39;ha realizzato.&lt;/p&gt;
 &lt;p&gt;Che belli questi progetti, che belli gli indie.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Milano Indies, seconda edizione</title>
-    <link href="https://davidescarioni.github.io/blog/milano-indies-seconda-edizione/" />
-    <updated>2025-03-30T00:00:00Z</updated>
-    <id>https://davidescarioni.github.io/blog/milano-indies-seconda-edizione/</id>
-    <content type="html">&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/milano-indies-seconda-edizione/vMle_nIUrL-2048.avif 2048w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/milano-indies-seconda-edizione/vMle_nIUrL-2048.webp 2048w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/milano-indies-seconda-edizione/vMle_nIUrL-2048.jpeg&quot; alt=&quot;Locandina Milano Indies&quot; width=&quot;2048&quot; height=&quot;1463&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Milano Indies&lt;/strong&gt; è un evento nel quale viene dato spazio a sviluppatori di videogiochi indie per presentare i proprio prodotti, siano essi terminati, in sviluppo o in via di definizione.&lt;/p&gt;
-&lt;p&gt;È stato organizzato al Nemiex, un locale a Milano (o meglio, Cologno Monzese) che mi sembra ormai sia diventato il punto di riferimento principale per questo tipo di eventi, sicuramente con merito: l&#39;area messa a disposizione per l&#39;evento aveva una parte adibita a museo di hardware e software con qualche anno sulle spalle, mentre quella principale era una grossa sala comprendente un palco con proiettore affinchè i partecipanti potessero mostrare il loro gioco.&lt;/p&gt;
-&lt;p&gt;Io ho partecipato solo come pubblico: ho tergiversato fino all&#39;ultimo perchè non ero sicuro di avere qualcosa degno di essere presentato e avevo paura davvero di avere solo prodotti poco interessanti. Come dicevo all&#39;inizio, però, alcune presentazioni hanno mostrato solamente dei mockup di idee, quindi potenzialmente la prossima volta potrei buttarmi se trovo il coraggio di parlare davanti ad una platea :D.&lt;/p&gt;
-&lt;p&gt;Sono andato all&#39;evento per conto mio, ma ho trovato parecchie vecchie conoscenze: c&#39;erano &lt;a href=&quot;https://giovanni.orciuolo.it/&quot;&gt;Wolfrost&lt;/a&gt; e &lt;a href=&quot;https://linktr.ee/nannasaurus_rex/&quot;&gt;Nannasaurus Rex&lt;/a&gt; (che fanno parte di GameMaker Italia) a presentare i loro giochi, e ho trovato un po&#39; di persone conosciute alla Milano Games Week (o meglio, Nanna conosce il mondo e lei non si fa problemi a presentarti chiunque) come Jahir e Giorgio, che ogni volta tirano fuori grandi sorprese.&lt;/p&gt;
-&lt;p&gt;Il gioco di Wolfrost (un progetto universatario di un esame fighissimo del Politecnico di Milano), tra l&#39;altro, è già scaricabile su &lt;a href=&quot;https://polimi-game-collective.itch.io/mira-shadow-of-the-past&quot;&gt;itch&lt;/a&gt;: è un puzzle platform bello tosto, ma mi ha davvero divertito giocarlo.&lt;/p&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/milano-indies-seconda-edizione/ZMxmZD0fXB-635.avif 635w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/milano-indies-seconda-edizione/ZMxmZD0fXB-635.webp 635w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/milano-indies-seconda-edizione/ZMxmZD0fXB-635.png&quot; alt=&quot;Banner di Mira, il gioco di Wolfrost&quot; width=&quot;635&quot; height=&quot;358&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
-&lt;p&gt;I progetti di Nanna invece non hanno ancora purtroppo un link dove poterli seguire: aggiornerò il post una volta che saranno pubblicati.&lt;/p&gt;
-&lt;p&gt;L&#39;evento comunque è stato davvero bellissimo: il mondo degli sviluppatori mi piace sempre un sacco, perchè le persone all&#39;interno si vede che hanno un sogno e ce la mettono tutta per realizzarlo. È vero, probabilmente non tutti quei sogni verranno realizzati, ma sono sicuro che anche solo avere delle persone che ti ascoltano e dimostrano interesse per quello che stai creando ti da&#39; la carica che ti serve per portare avanti i tuoi progetti.&lt;/p&gt;
-&lt;p&gt;... E tra l&#39;altro ha dato la carica anche a me per il progetto della competizione: ieri mi sono rimboccato le maniche e ora comincia ad avere una &amp;quot;forma&amp;quot; da gioco vero e proprio, sono soddisfatto.&lt;/p&gt;
 </content>
   </entry>
 </feed>
