@@ -27,33 +27,51 @@ Nel pomeriggio invece siamo stati al [Parco di Vigeland](https://it.wikipedia.or
 
 In compenso questa nota amara è stata cancellata da un softies con dei brownies fatti in casa, comprato dentro al parco stesso.
 
+Abbiammo poi scelto di prendere il traghetto e dirigersi nella prima isola di fronte ad Oslo, l'[Isola di Hovedøya](https://www.visitoslo.com/it/prodotto/?tlp=2982863&name=Isola-di-Hovedoya), dove sono presenti le rovine di un vecchio monastero.
+
 Alla sera un secondo street food, questa volta dovuto più che altro a motivi di orario (i Norvegesi cenano alle 17.30, a orari "italiani" è difficile trovare qualcosa di aperto). Qui ho mangiato un "normale" tacos spagnolo, davvero buono e con tantissimo ripieno.
 
 Martedì la giornata è iniziata con una bella pioggia, così ne abbiamo approfittato per _nerdare_ un po' la mattina e dedicarci a dei boardgame (Cartae, Nome in Codice Duel, Hanabi). Il pomeriggio invece siamo stati al lago [Sognsvann](https://www.visitnorway.it/listings/sognsvann-lake/44806/), bellissimo per fare una passeggiata e comodo da raggiungere direttamente in metro: tra l'altro ho potuto constatare quanto sia importante lo sport per i Norvegesi, qui corrono tutti, grandi, anziani e bambini!
 
 Dopo la passeggiata siamo andati a fare una cena di pesce, sia perchè abbiamo pensato che mangiare il salmone in Norvegia sarebbe stato un must, sia per sdebitarci dell'ospitalità con Giovanni. Il primo locale in cui siamo stati non ci ha accettato, in quanto la cucina era già chiusa (erano le 20... l'ho già detto che cenano presissimo? xD), mentre il secondo, tale [Lofoten Fiskerestaurant](https://www.lofoten-fiskerestaurant.no/) non solo ci ha accettato, ma con un pescato del giorno con salsa di basilico e un salmerino con purea di cavolfiore ci ha fatto davvero passare una bella serata!
 
---- check fino a qui ---
-
-Mercoledì per me e il mio collega è stata la prima giornata senza essere "accompagnati" da Giò, e ci siamo lanciati all'avventura prendendo l'Oslo Pass, la carta turistica che da' accesso a mezzi e a svariati punti di interesse. L'abbiamo sfruttata per andare al National Museum, museo dove è ubicato il famoso Urlo di Munch. Il resto del museo è interessante ma davvero grande, e ad una certa abbiamo accusato la stanchezza. Menzione d'onore però per l'app del museo, completissima, con audioguide e percorsi personalizzati in base al tempo che si ha a disposione, e completamente in italiano.
+Mercoledì per me e Simone è stata la prima giornata senza essere accompagnati da Giò, e ci siamo lanciati all'avventura prendendo l'[Oslo Pass](https://www.visitoslo.com/it/attivita-e-attrazioni/oslo-pass/), la carta turistica che da' accesso a mezzi e a svariati punti di interesse. L'abbiamo sfruttata per andare al [National Museum](https://www.visitoslo.com/it/attivita-e-attrazioni/attrazioni-turistiche/?tlp=6258223&name=Museo-Nazionale), museo dove è esposto tra gli altri il famoso **Urlo di Munch**. Il resto del museo è interessante ma davvero grande, e ad una certa abbiamo accusato la stanchezza. Menzione d'onore però per l'[app del museo](https://www.nasjonalmuseet.no/en/visit/locations/the-national-museum/the-national-museum-visitor-guide/), completissima, con audioguide e percorsi personalizzati in base al tempo che si ha a disposione, e completamente in italiano.
 
 Il pranzo lo abbiamo poi fatto da Backstube, una catena _tipica_ norvegese nel quale abbiamo mangiato dei semplici panini farciti, un dolcetto a base di cannella e mela e... il mio primo caffè americano! Che, nonostante tutti me ne parlassero male, non ho disprezzato. Ma sulla cucina Norvegese in generale tornerò a fine post.
 
-Nel pomeriggio abbiamo deciso di stare all'aria aperta facendo una passeggiata nella seconda isola, che a quanto pare è anche un'oasi naturale, tra l'altro habitat naturale dei miei acerrimi nemici gabbiani testa nera. Mentre la raggiungevamo abbiamo fatto la conoscenza (e suonato) la campana stonata.
+Nel pomeriggio abbiamo deciso di stare all'aria aperta facendo una passeggiata sull'[Isola di Lindøya](https://www.visitnorway.it/listings/isola-di-lind%C3%B8ya/44815/), che a quanto pare è anche un'oasi naturale, tra l'altro habitat naturale dei miei acerrimi nemici gabbiani testa nera.
 
-Una volta arrivato Giò dopo il lavoro, abbiamo fatto una "pazzia": la sauna con il bagno nel porto di Oslo. Bellissima esperienza! E... si, l'acqua è fredda come uno si può immaginare :D Anche cercando di nuotare i piedi diventano ghiacciati in un'attimo... ma il tuffo rinfrescante dopo la sauna ci vuole proprio!
+Mentre la raggiungevamo abbiamo fatto la conoscenza (e suonato) la [campana stonata](https://www.akdolven.com/untuned-bell-oslo), una campana rimossa dalla torre campanaria di Oslo nel 1949 perchè non più accordata insieme alle altre e che un artista ha deciso di posizionare sul lungomare di Oslo, permettendo a chiunque di suonarla premendo un pedale posto ai suoi piedi.
 
-Alla sera abbiamo cucinato tutti insieme una bella carbonara, accompagnata da un valpolicella ripasso... Un bel tocco di italianità in questa fresca norvegia :d
+Una volta arrivato Giò dopo il lavoro, abbiamo fatto una "pazzia": [la sauna con il bagno nel porto di Oslo](https://www.visitoslo.com/it/articoli/saune-urbane-sul-fiordo-di-oslo/). Bellissima esperienza! E... si, l'acqua è fredda come uno si può immaginare :D Anche cercando di nuotare i piedi diventano ghiacciati in un'attimo... ma il tuffo rinfrescante dopo la sauna ci vuole proprio!
 
-Giovedì è stata un'altra giornata in cui io e Simone non eravamo accompagnati da Giò. Al mattino abbiamo fatto il pieno di avventure navali con la visita al museo delle esplorazioni artiche (FRAM) e quello della pazza avventura con una zattera (tiki). A pranzo ci siamo spostati al museo del folklore norvegese e abbiamo pranzato con un _tipico_ panino e la davvero tipica torta del successo.
+Alla sera, mentre Giò ci mostrava i prodotti intaliani che si era portano in Norvegia, ha notato di avere del pecorino romano che aveva perso il sottovuoto, così Simone ha proposto di sfruttarlo subito davendo una carbonara. L'abbiamo quindi cucinata tutti insieme e l'abbiamo accompagnata con un buon Valpolicella Ripasso... Un tocco di italianità in questa fresca norvegia :D
 
-Una volta che Giò ci ha raggiunto abbiamo imbastito una sorta di picnic alla terza isola davanti ad oslo.
+--- check fino a qui ---
+
+Giovedì è stata un'altra giornata che abbiamo trascorso insieme solo io e Simone.
+Siamo partiti facendo il pieno di avventure navali con la visita al [Museo della nave polare Fram](https://www.visitoslo.com/it/prodotto/?tlp=2982663&name=Fram-Museo) e quello della [pazza avventura con la zattera Kon-Tiki](https://www.visitoslo.com/it/prodotto/?tlp=2982703&name=Museo-Kon-Tiki)).
+Il primo è davvero qualcosa di epico, con la presenza di due navi con le quali sono state fatte le prime spedizioni artiche nella loro interezza e con una marea di reperti e reportage.
+
+Il secondo è la descrizione di un'impresa assurda: un tale Thor Heyerdahl, appena dopo la seconda guerra mondiale, con altre 5 persone senza esperienza di viaggio navale decidono di partire dal Perù per raggiungere in zattera la Polinesia, per dimostrare (in opposizione alla comunità scientifica internazionale) che la colonizzazione di quelle isole poteva essere avvenuta partendo proprio dall'America.
+
+A pranzo ci siamo spostati al [Museo Folkloristico Norvegese](https://www.visitoslo.com/it/prodotto/?tlp=2978173&name=Museo-Folkloristico-Norvegese) e abbiamo pranzato con un _tipico_ panino e la davvero tipica Suksessterte ("torta del successo").
+
+Questo museo a cielo aperto è davvero particolare: dal 1850 in poi sono state portati qui svariati edifici (soprattutto case, ma il vero simbolo / gioiello dell'esposizione è una tipica chiesa in legno) da tutta la Norvegia, per fare in modo di preservare la loro cultura anche sotto l'aspetto degli edifici. Particolare, un po' "pesante" senza guida, ma è troppo unico per non essere visto.
+
+Una volta che Giò ci ha raggiunto abbiamo imbastito una sorta di picnic sull'[Isola Langøyene](https://www.visitnorway.it/listings/isola-di-lang%C3%B8yene/44809/), frequentata soprattutto come meta turistica estiva (ha una spiaggia piuttosto grande).
 
 Rincasando poi abbiamo fatto la nostra ultima "prima" esperienza: il tragitto verso casa con il monopattino!
 
-Venerdì siamo partiti, e ci è voluto poco che ci mancasse la Norvegia, soprattutto lato clima :d
+Venerdì siamo partiti, e ci è voluto poco che ci mancasse la Norvegia, soprattutto lato clima: in tutte queste giornate siamo partiti in maglietta, messo il maglioncino nel pomeriggio e, a volte, indossato anche il giubbotto leggero alla sera... Ora sto scrivendo da una candissima collina del Monferrato e non c'è proprio paragone!
 
-Grazie ancora Giò per averci ospitati, è stata una bellissima avventura.
+Grazie ancora Giò per averci ospitati, è stata una bellissima avventura <3.
 
 Note finali:
-il cibo in norvegia
+il cibo in Norvegia mi era stato descritto come pessimo, insapore, mangiato solo per necessità. Io devo dire di non aver mangiato male in generale, ma credo di aver capito il motivo del primo giudizio: in Norvegia si pranza alle 11.30 e si cena alle 17.30, quindi mangiando noi "fuori orario" quello che si trova nei locali sono principalmente panini. Poi c'è da dire che effettivamente il pranzo per loro è spesso un panino farcito, ma ad esempio la sera a cena ho trovato una discreta varietà per lo meno di pesce. C'è da dire anche che Oslo è una città davvero multi etnica sia negli abitanti sia nella cucina, e i ristoranti con cucina esterna sono in ogni dove.
+Sarebbe carino approfondire su quali sono effettivamente i loro cibi tipici e poterli assaggiare... Io sono comunque tornato in italia con il Brunost, il "formaggio marrone" che ha accompagnato le mie colazioni norvegesi (di fatto è un burro più dolce).
+
+Sempre riguardo alla cucina c'è il discorso caffè: dall'italia [avevo letto benissimo della loro cultura del caffè](https://www.visitoslo.com/it/ristoranti-vita-notturna/caffe/), ma viaggiando con persone italiane "normali" si sono sempre aspettare di trovare un espresso buono, fallendo. Da quando mi sono appassionato di Specialty Coffee ho capito davvero che ogni paese ha un suo modo di farlo (tendenzialmente filtrato in qualche modo), quindi non ci si può aspettare di bere la stessa cosa. Tra l'altro il caffè in italia non è proprio il massimo ed è principlamente bruciato, quindi fa sempre specie sentire qualcuno che si lamenta di quello estero.
+
+Ancora una menzione sulle App.
+L'app [Ruter](https://play.google.com/store/apps/details?id=no.ruter.reise&hl=it) per i mezzi, quella per il treno tra l'Aeroporto e Oslo centrale, e la già citata app per il museo nazionale sono tutte bellissime: esteticamente rispettano i canoni di Google (ho un telefono Android, quindi ho provato solo quelle) ma sono poi facili da usare, chiare e con tutte le funzionalità che ci si possa aspettare. Ah, e soprattutto niente malefico effetto glass che sembra andare tanto di moda.
