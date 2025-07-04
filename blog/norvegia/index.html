@@ -1,0 +1,601 @@
+<!doctype html>
+<html lang="it">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Norvegia</title>
+		<meta name="description" content="Descrizione del blog">
+		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Scario Side Quest">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/* This is an arbitrary CSS string added to the bundle */
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #f1f2da;
+		--color-gray-50: #f1f2da;
+		--color-gray-90: #f1f2da;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #ffce96;
+		--text-color-link-active: #ff7777;
+		--text-color-link-visited: #ffce96;
+
+		/* Valutare se usare questo verde */
+		/* --text-color-link: #00fc7f; */
+
+		/* --background-color: #00303b; */
+		--background-color: #1d1d21;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+@view-transition {
+	navigation: auto;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 50em;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	flex: 1;
+}
+
+main > * {
+	display: flex;
+    flex-direction: column;
+}
+
+p:has(picture) {
+	align-self: center;
+}
+
+picture img {
+	max-width: 100%;
+	height: auto;
+}
+
+main,
+footer {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	display: flex;
+	justify-content: space-between;
+	gap: .5em 1em;
+	list-style: "";
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+.links-nextprev > * {
+	flex-grow: 1;
+}
+.links-nextprev-next {
+	text-align: right;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	overflow-x: auto;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Post */
+.post-header {
+	padding-bottom: 1em;
+	border-bottom: 1px solid var(--text-color);
+}
+.post-title {
+	margin-top: .2em;
+	margin-bottom: 0;
+}
+
+.post-date {
+	font-size: .8em;
+}
+
+.post-tags {
+    margin-top: 0.8em;
+    font-size: .8em;
+}
+
+/* Tags */
+a.post-tag, a.post-tag:visited {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-style: italic;
+	background-color: var(--text-color-link);
+	border: 1px solid var(--text-color-link);
+	color: var(--background-color);
+	padding: 0 10px;
+	text-decoration: none;
+	border-radius: 50px;
+}
+a.post-tag:hover,
+a.post-tag:active {
+	background-color: transparent;
+	border-color: var(--text-color-link-active);
+	color: var(--text-color-link-active);
+}
+
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 1em 0 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<a href="/" class="home-link">Scario Side Quest</a>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/">Home</a></li>
+					<li class="nav-item"><a href="/blog/">Blog</a></li>
+					<li class="nav-item"><a href="/about/">About</a></li>
+					<li class="nav-item"><a href="/feed/feed.xml">Feed</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			<heading-anchors>
+				
+
+<div class="post-header">
+<time class="post-date" datetime="2025-06-23">23 June 2025</time>
+<h1 class="post-title" id="norvegia">Norvegia</h1>
+<div></div>
+<div class="post-tags">Tags: <ul class="post-metadata">
+        <li>
+            <a href="/tags/personale/" class="post-tag">personale</a>
+        </li>
+</ul></div>
+</div>
+<p>La scorsa settimana io e il mio collega Simone siamo andati a trovare un nostro ex-collega (Giovanni) ad Oslo, città nella quale si è trasferito per fare un'esperienza lavorativa all'estero. Avevo qualche timore prima di partire, perchè sono persone che frequento poco fuori dal lavoro, e visto che ormai sono anni che vado in ferie solo con la mia compagna, pensavo di aver perso un po' l'abiudine a stare con gli altri per così tanto tempo: devo dire che invece è andata bene, ci sono dei compromessi da tenere ma riesco ancora ad adattarmi facilmente.</p>
+<p><strong>Domenica</strong>, al nostro arrivo, Giò ci ha portato a fare un giro per il centro città: siamo partiti dalla <a href="https://www.visitoslo.com/it/articoli/biblioteca-deichman/">Biblioteca Deichman</a>, poi siamo saliti all'<a href="https://www.visitnorway.it/dove-andare/norvegia-orientale/oslo/opera-di-oslo/">Opera House</a> e infine abbiamo fatto quattro passi dentro le mura della <a href="https://www.visitoslo.com/it/prodotto/?tlp=2978773&amp;name=Fortezza-di-Akershus">Fortezza di Akershus</a>.</p>
+<p><picture><source type="image/avif" srcset="/blog/norvegia/co6j1U5fMo-1440.avif 1440w"><source type="image/webp" srcset="/blog/norvegia/co6j1U5fMo-1440.webp 1440w"><img loading="lazy" decoding="async" src="/blog/norvegia/co6j1U5fMo-1440.jpeg" alt="Opera e Biblioteca viste dal Museo Munch" width="1440" height="1920"></picture></p>
+<p>La <strong>biblioteca</strong> è un luogo incredibile: non immaginatela come il classico completamente silenzioso e frequentato solo da quei pochi che entrano per ritirare un libro, ma come un luogo nel quale poter davvero trascorrere del tempo al suo interno, anche in compagia. La struttura è composta da 5 piani, ognuno a tema, e nel quale non solo poter noleggiare o leggere libri, ma anche a dedicarsi ad imparare altre discipline: abbiamo trovato macchine da cucito, stampanti 3d, tastiere elettroniche, tutte a disposizione da pate degli utenti per apprendere una nuova <em>skill</em>.
+Sono presenti ovviamente anche tanti luoghi dove studiare e lavorare, sia comuni sia affittabili (un po' come gli spazi di co-working, se avete presente) per stare effettivamente al silenzio all'interno.
+Ci sono anche delle sale adibite a &quot;Cinema&quot; privati, nel quale poter riprodurre film presi a noleggio dalla stessa biblioteca.</p>
+<p><picture><source type="image/avif" srcset="/blog/norvegia/KVL96BS_3H-1440.avif 1440w"><source type="image/webp" srcset="/blog/norvegia/KVL96BS_3H-1440.webp 1440w"><img loading="lazy" decoding="async" src="/blog/norvegia/KVL96BS_3H-1440.jpeg" alt="L'interno della biblioteca" width="1440" height="1920"></picture></p>
+<p>Sono rimasto davvero affascinato, e Giò stesso ci ha detto di andare spesso a lavorare lì nel pomeriggio (è uno sviluppatore e può lavorare praticamente sempre da remoto) per poi fermarsi a suonare la tastiera quando gli va.</p>
+<p>Altra cosa curiosa della biblitoca è la sezione dedicata alla <a href="https://it.wikipedia.org/wiki/Biblioteca_del_futuro">Biblioteca del futuro</a>: 100 autori selezionati per il loro contributo alla letteratura stanno realizzando un libro che viene &quot;sigillato&quot; dentro a questa sezione, e solo tra 100 anni verrà estratto e stampato, tra l'altro con alberi già &quot;segnati&quot; all'interno di un bosco specifico.</p>
+<p>Niente da segnalare invece riguardo all'<strong>Opera House</strong>, struttura dal design moderno e bella da passeggiarci sopra, se non che, se sei italiano, ti verrà ricordato <em>ad nauseam</em> che è tutta fatta in marmo di Carrara :D.</p>
+<p><picture><source type="image/avif" srcset="/blog/norvegia/qXNyeVDdsz-1920.avif 1920w"><source type="image/webp" srcset="/blog/norvegia/qXNyeVDdsz-1920.webp 1920w"><img loading="lazy" decoding="async" src="/blog/norvegia/qXNyeVDdsz-1920.jpeg" alt="L'Opera House" width="1920" height="1441"></picture></p>
+<p>Alla sera Giò ci ha portato a mangiare all'<a href="https://www.visitoslo.com/it/prodotto/?tlp=4751143&amp;name=Oslo-Street-Food">Oslo Street Food</a>, dei locali con all'interno più stand appartenenti a diverse cucine del mondo: io ho preso un ramen coreano davvero niente male, piccante il giusto... peccato solo averlo ordinato sbadatamente vegetariano -.-&quot;.</p>
+<p><strong>Lunedì</strong> invece ho fatto un'esperienza nuova indipendentemente dallo stato in cui mi trovavo: abbiamo scalato in palestra. Bellissima esperienza, era da tanto che volevo provare a farlo... E pare non sia nemmeno così male, per lo meno a salire: ci è voluto un po' prima che mi convincessi a lanciarmi dall'alto di una parete xD</p>
+<p><picture><source type="image/avif" srcset="/blog/norvegia/iYNHP5SA6U-1200.avif 1200w"><source type="image/webp" srcset="/blog/norvegia/iYNHP5SA6U-1200.webp 1200w"><img loading="lazy" decoding="async" src="/blog/norvegia/iYNHP5SA6U-1200.jpeg" alt="Una delle mie scalate sul percorso 5b" width="1200" height="1600"></picture></p>
+<p>Nel pomeriggio invece siamo stati al <a href="https://it.wikipedia.org/wiki/Parco_di_Vigeland">Parco di Vigeland</a>, un parco nel quale tutte le numerosissime e inquietanti strutture sono state scolpite dall'omonimo autore. Dico inquetanti perchè tutte ritraggono persone avvinghiate ad altre, alcune in abbracci, altre in scene di lotta, altre interpretabili in più modi. Sarebbe stato bello avere una guida per capirne qualcosa in più.</p>
+<p><picture><source type="image/avif" srcset="/blog/norvegia/2P5zP3KiRk-1439.avif 1439w"><source type="image/webp" srcset="/blog/norvegia/2P5zP3KiRk-1439.webp 1439w"><img loading="lazy" decoding="async" src="/blog/norvegia/2P5zP3KiRk-1439.jpeg" alt="La terrazza del monolito" width="1439" height="1920"></picture></p>
+<p>In compenso questa nota amara è stata cancellata da un softies con dei brownies fatti in casa, comprato dentro al parco stesso. E dal sorriso che il Maestro Scapin ci ha strappato quando ci siamo seduti su una panchina qualsiasi.</p>
+<p><picture><source type="image/avif" srcset="/blog/norvegia/oXfD84Ko11-1920.avif 1920w"><source type="image/webp" srcset="/blog/norvegia/oXfD84Ko11-1920.webp 1920w"><img loading="lazy" decoding="async" src="/blog/norvegia/oXfD84Ko11-1920.jpeg" alt="La targa con dedica al maestro del baccalà alla vicentina" width="1920" height="1440"></picture></p>
+<p>Abbiammo poi scelto di prendere il traghetto e dirigersi nella prima isola di fronte ad Oslo, l'<a href="https://www.visitoslo.com/it/prodotto/?tlp=2982863&amp;name=Isola-di-Hovedoya">Isola di Hovedøya</a>, dove sono presenti le rovine di un vecchio monastero.</p>
+<p><picture><source type="image/avif" srcset="/blog/norvegia/R1vs5Bfw2C-1920.avif 1920w"><source type="image/webp" srcset="/blog/norvegia/R1vs5Bfw2C-1920.webp 1920w"><img loading="lazy" decoding="async" src="/blog/norvegia/R1vs5Bfw2C-1920.jpeg" alt="Foto random di un panorama durante il nostro giro per l'isola" width="1920" height="1440"></picture></p>
+<p>Alla sera un secondo street food, questa volta dovuto più che altro a motivi di orario (i Norvegesi cenano alle 17.30, a orari &quot;italiani&quot; è difficile trovare qualcosa di aperto). Qui ho mangiato un &quot;normale&quot; tacos spagnolo, davvero buono e con tantissimo ripieno.</p>
+<p><strong>Martedì</strong> la giornata è iniziata con una bella pioggia, così ne abbiamo approfittato per <em>nerdare</em> un po' la mattina e dedicarci a dei boardgame (Cartae, Nome in Codice Duel, Hanabi). Il pomeriggio invece siamo stati al lago <a href="https://www.visitnorway.it/listings/sognsvann-lake/44806/">Sognsvann</a>, bellissimo per fare una passeggiata e comodo da raggiungere direttamente in metro: tra l'altro ho potuto constatare quanto sia importante lo sport per i Norvegesi, qui corrono tutti, grandi, anziani e bambini!</p>
+<p><picture><source type="image/avif" srcset="/blog/norvegia/2aE6ppFWjG-1920.avif 1920w"><source type="image/webp" srcset="/blog/norvegia/2aE6ppFWjG-1920.webp 1920w"><img loading="lazy" decoding="async" src="/blog/norvegia/2aE6ppFWjG-1920.jpeg" alt="Il lago di Sognsvann" width="1920" height="1440"></picture></p>
+<p>Dopo la passeggiata siamo andati a fare una cena di pesce, sia perchè abbiamo pensato che mangiare il salmone in Norvegia sarebbe stato un must, sia per sdebitarci dell'ospitalità con Giovanni. Il primo locale in cui siamo stati non ci ha accettato, in quanto la cucina era già chiusa (erano le 20... l'ho già detto che cenano presissimo? xD), mentre il secondo, tale <a href="https://www.lofoten-fiskerestaurant.no/">Lofoten Fiskerestaurant</a> non solo ci ha accettato, ma con un pescato del giorno con crema al basilico e un salmerino con purea di cavolfiore ci ha fatto davvero passare una bella serata!</p>
+<p><picture><source type="image/avif" srcset="/blog/norvegia/B3P0GAXDVD-1440.avif 1440w"><source type="image/webp" srcset="/blog/norvegia/B3P0GAXDVD-1440.webp 1440w"><img loading="lazy" decoding="async" src="/blog/norvegia/B3P0GAXDVD-1440.jpeg" alt="Pescato del giorno con crema al basilico" width="1440" height="1920"></picture>
+<picture><source type="image/avif" srcset="/blog/norvegia/W0sgVUyuaZ-1440.avif 1440w"><source type="image/webp" srcset="/blog/norvegia/W0sgVUyuaZ-1440.webp 1440w"><img loading="lazy" decoding="async" src="/blog/norvegia/W0sgVUyuaZ-1440.jpeg" alt="Il salmerino" width="1440" height="1920"></picture></p>
+<p><strong>Mercoledì</strong> per me e Simone è stata la prima giornata senza essere accompagnati da Giò, e ci siamo lanciati all'avventura prendendo l'<a href="https://www.visitoslo.com/it/attivita-e-attrazioni/oslo-pass/">Oslo Pass</a>, la carta turistica che da' accesso a mezzi e a svariati punti di interesse. L'abbiamo sfruttata per andare al <a href="https://www.visitoslo.com/it/attivita-e-attrazioni/attrazioni-turistiche/?tlp=6258223&amp;name=Museo-Nazionale">National Museum</a>, museo dove è esposto tra gli altri il famoso <strong>Urlo di Munch</strong>. Il resto del museo è interessante ma davvero grande, e ad una certa abbiamo accusato la stanchezza. Menzione d'onore però per l'<a href="https://www.nasjonalmuseet.no/en/visit/locations/the-national-museum/the-national-museum-visitor-guide/">app del museo</a>, completissima, con audioguide e percorsi personalizzati in base al tempo che si ha a disposione, e completamente in italiano.</p>
+<p><picture><source type="image/avif" srcset="/blog/norvegia/vhg-H9F3qW-864.avif 864w"><source type="image/webp" srcset="/blog/norvegia/vhg-H9F3qW-864.webp 864w"><img loading="lazy" decoding="async" src="/blog/norvegia/vhg-H9F3qW-864.jpeg" alt="La bellissima app del National Museum" width="864" height="1920"></picture></p>
+<p>Il pranzo lo abbiamo poi fatto da Backstube, una catena <em>tipica</em> norvegese nel quale abbiamo mangiato dei semplici panini farciti, un dolcetto a base di cannella e mela e... il mio primo caffè americano! Che, nonostante tutti me ne parlassero male, non ho disprezzato. Ma sulla cucina Norvegese in generale tornerò a fine post.</p>
+<p><picture><source type="image/avif" srcset="/blog/norvegia/-LiB_tQVJc-1440.avif 1440w"><source type="image/webp" srcset="/blog/norvegia/-LiB_tQVJc-1440.webp 1440w"><img loading="lazy" decoding="async" src="/blog/norvegia/-LiB_tQVJc-1440.jpeg" alt="Il mio primo caffè americano" width="1440" height="1920"></picture></p>
+<p>Nel pomeriggio abbiamo deciso di stare all'aria aperta facendo una passeggiata sull'<a href="https://www.visitnorway.it/listings/isola-di-lind%C3%B8ya/44815/">Isola di Lindøya</a>, che a quanto pare è anche un'oasi naturale, tra l'altro habitat naturale dei miei acerrimi nemici gabbiani testa nera.</p>
+<p>Mentre la raggiungevamo abbiamo fatto la conoscenza (e suonato) la <a href="https://www.akdolven.com/untuned-bell-oslo">campana stonata</a>, una campana rimossa dalla torre campanaria di Oslo nel 1949 perchè non più accordata insieme alle altre e che un artista ha deciso di posizionare sul lungomare di Oslo, permettendo a chiunque di suonarla premendo un pedale posto ai suoi piedi.</p>
+<p><picture><source type="image/avif" srcset="/blog/norvegia/YN0sJqhnk6-1440.avif 1440w"><source type="image/webp" srcset="/blog/norvegia/YN0sJqhnk6-1440.webp 1440w"><img loading="lazy" decoding="async" src="/blog/norvegia/YN0sJqhnk6-1440.jpeg" alt="La campana stonata" width="1440" height="1920"></picture></p>
+<p>Una volta arrivato Giò dopo il lavoro, abbiamo fatto una &quot;pazzia&quot;: <a href="https://www.visitoslo.com/it/articoli/saune-urbane-sul-fiordo-di-oslo/">la sauna con il bagno nel porto di Oslo</a>. Bellissima esperienza! E... si, l'acqua è fredda come uno si può immaginare :D Anche cercando di nuotare i piedi diventano ghiacciati in un'attimo... ma il tuffo rinfrescante dopo la sauna ci vuole proprio!</p>
+<p>Alla sera, mentre Giò ci mostrava i prodotti italiani che si era portano in Norvegia, ha notato di avere del pecorino romano che aveva perso il sottovuoto, così Simone ha proposto di sfruttarlo subito davendo una carbonara. L'abbiamo quindi cucinata tutti insieme e l'abbiamo accompagnata con un buon Valpolicella Ripasso... Un tocco di italianità in questa fresca norvegia :D</p>
+<p><strong>Giovedì</strong> è stata un'altra giornata che abbiamo trascorso insieme solo io e Simone.
+Siamo partiti facendo il pieno di avventure navali con la visita al <a href="https://www.visitoslo.com/it/prodotto/?tlp=2982663&amp;name=Fram-Museo">Museo della nave polare Fram</a> e quello della <a href="https://www.visitoslo.com/it/prodotto/?tlp=2982703&amp;name=Museo-Kon-Tiki">pazza avventura con la zattera Kon-Tiki</a>).
+Il primo è davvero qualcosa di epico, con la presenza di due navi con le quali sono state fatte le prime spedizioni artiche nella loro interezza e con una marea di reperti e reportage.</p>
+<p><picture><source type="image/avif" srcset="/blog/norvegia/GaBpMX9Zqi-1440.avif 1440w"><source type="image/webp" srcset="/blog/norvegia/GaBpMX9Zqi-1440.webp 1440w"><img loading="lazy" decoding="async" src="/blog/norvegia/GaBpMX9Zqi-1440.jpeg" alt="Il museo FRAM" width="1440" height="1920"></picture>
+<picture><source type="image/avif" srcset="/blog/norvegia/cU8CvHGKFY-1440.avif 1440w"><source type="image/webp" srcset="/blog/norvegia/cU8CvHGKFY-1440.webp 1440w"><img loading="lazy" decoding="async" src="/blog/norvegia/cU8CvHGKFY-1440.jpeg" alt="La nave FRAM all'interno del museo" width="1440" height="1920"></picture></p>
+<p>Il secondo è la descrizione di un'impresa assurda: un tale Thor Heyerdahl, appena dopo la seconda guerra mondiale, con altre 5 persone senza esperienza di viaggio navale decidono di partire dal Perù per raggiungere in zattera la Polinesia, per dimostrare (in opposizione alla comunità scientifica internazionale) che la colonizzazione di quelle isole poteva essere avvenuta partendo proprio dall'America.</p>
+<p><picture><source type="image/avif" srcset="/blog/norvegia/bp30ia5_0L-1440.avif 1440w"><source type="image/webp" srcset="/blog/norvegia/bp30ia5_0L-1440.webp 1440w"><img loading="lazy" decoding="async" src="/blog/norvegia/bp30ia5_0L-1440.jpeg" alt="La zattera Kon-Tiki" width="1440" height="1920"></picture></p>
+<p>A pranzo ci siamo spostati al <a href="https://www.visitoslo.com/it/prodotto/?tlp=2978173&amp;name=Museo-Folkloristico-Norvegese">Museo Folkloristico Norvegese</a> e abbiamo pranzato con un <em>tipico</em> panino pieno di salsa all'uovo e cipolle e la davvero tipica Suksessterte (&quot;torta del successo&quot;).</p>
+<p><picture><source type="image/avif" srcset="/blog/norvegia/KHG5X-0E4N-1440.avif 1440w"><source type="image/webp" srcset="/blog/norvegia/KHG5X-0E4N-1440.webp 1440w"><img loading="lazy" decoding="async" src="/blog/norvegia/KHG5X-0E4N-1440.jpeg" alt="Un pranzo a base di panini e dolci" width="1440" height="1920"></picture></p>
+<p>Questo museo a cielo aperto è davvero particolare: dal 1850 in poi sono state portati qui svariati edifici (soprattutto case, ma il vero simbolo / gioiello dell'esposizione è una tipica chiesa in legno) da tutta la Norvegia, per fare in modo di preservare la loro cultura anche sotto l'aspetto degli edifici. Particolare, un po' &quot;pesante&quot; senza guida, ma è troppo unico per non essere visto.</p>
+<p><picture><source type="image/avif" srcset="/blog/norvegia/hVEqHvoto_-1439.avif 1439w"><source type="image/webp" srcset="/blog/norvegia/hVEqHvoto_-1439.webp 1439w"><img loading="lazy" decoding="async" src="/blog/norvegia/hVEqHvoto_-1439.jpeg" alt="La chiesa di legno" width="1439" height="1920"></picture>
+<picture><source type="image/avif" srcset="/blog/norvegia/1be3mIh5xI-1920.avif 1920w"><source type="image/webp" srcset="/blog/norvegia/1be3mIh5xI-1920.webp 1920w"><img loading="lazy" decoding="async" src="/blog/norvegia/1be3mIh5xI-1920.jpeg" alt="Una delle tante case con il tetto in prato" width="1920" height="1440"></picture></p>
+<p>Una volta che Giò ci ha raggiunto abbiamo imbastito una sorta di picnic sull'<a href="https://www.visitnorway.it/listings/isola-di-lang%C3%B8yene/44809/">Isola Langøyene</a>, frequentata soprattutto come meta turistica estiva (ha una spiaggia piuttosto grande).</p>
+<p><picture><source type="image/avif" srcset="/blog/norvegia/Nvu4LcemkS-1440.avif 1440w"><source type="image/webp" srcset="/blog/norvegia/Nvu4LcemkS-1440.webp 1440w"><img loading="lazy" decoding="async" src="/blog/norvegia/Nvu4LcemkS-1440.jpeg" alt="Panino vista mare al tramonto" width="1440" height="1920"></picture></p>
+<p>Rincasando poi abbiamo fatto la nostra ultima &quot;prima&quot; esperienza: il tragitto verso casa con il monopattino!</p>
+<p><picture><source type="image/avif" srcset="/blog/norvegia/R0RZebCpNz-1440.avif 1440w"><source type="image/webp" srcset="/blog/norvegia/R0RZebCpNz-1440.webp 1440w"><img loading="lazy" decoding="async" src="/blog/norvegia/R0RZebCpNz-1440.jpeg" alt="In monopattino!" width="1440" height="1920"></picture></p>
+<p><strong>Venerdì</strong> siamo partiti, e ci è voluto poco che ci mancasse la Norvegia, soprattutto lato clima: in tutte queste giornate siamo partiti in maglietta, messo il maglioncino nel pomeriggio e, a volte, indossato anche il giubbotto leggero alla sera... Ora sto scrivendo da una candissima collina del Monferrato e non c'è proprio paragone!</p>
+<p>Grazie ancora Giò per averci ospitati, è stata una bellissima avventura &lt;3.</p>
+<h2 id="note">Note:</h2>
+<h3 id="il-cibo-norvegese">Il cibo norvegese</h3>
+<p>il <strong>cibo</strong> in Norvegia mi era stato descritto come pessimo, insapore, mangiato solo per necessità. Io devo dire di non aver mangiato male in generale, ma credo di aver capito il motivo del primo giudizio: in Norvegia si pranza alle 11.30 e si cena alle 17.30, quindi mangiando noi &quot;fuori orario&quot; quello che si trova nei locali sono principalmente panini. Poi c'è da dire che effettivamente il pranzo per loro è spesso un panino farcito, ma ad esempio la sera a cena ho trovato una discreta varietà per lo meno di pesce. C'è da dire anche che Oslo è una città davvero multietnica sia negli abitanti sia nella cucina, e i ristoranti con cucina estera sono in ogni dove.
+Sarebbe carino approfondire su quali sono effettivamente i loro cibi tipici e poterli assaggiare... Io sono comunque tornato in italia con il Brunost, il &quot;formaggio marrone&quot; che ha accompagnato le mie colazioni norvegesi (anche se di fatto è un burro più dolce).</p>
+<p>Sempre riguardo alla cucina c'è il discorso caffè: dall'italia <a href="https://www.visitoslo.com/it/ristoranti-vita-notturna/caffe/">avevo letto benissimo della loro cultura del caffè</a>, ma viaggiando con persone italiane &quot;comuni&quot; si sono sempre aspettate di trovare un espresso buono, rimanendo poi deluse. Da quando mi sono appassionato di <a href="https://en.wikipedia.org/wiki/Specialty_coffee">Specialty Coffee</a> ho capito davvero che ogni paese ha un suo modo di farlo (tendenzialmente filtrato in qualche modo), e approcciandosi con una &quot;mente aperta&quot; è facile apprezzarlo.. l'importante è che non ci si deve aspettare di bere la stessa cosa. Tra l'altro il caffè in italia non è proprio il massimo ed è principalmente bruciato quello che ci viene dato in caffetteria, quindi fa sempre specie sentire qualche italiano che si lamenta di quello estero.</p>
+<h3 id="le-app">Le app</h3>
+<p>L'app <a href="https://play.google.com/store/apps/details?id=no.ruter.reise&amp;hl=it">Ruter</a> per i mezzi, l'app <a href="https://flytoget.no/en/travel-information/tickets-and-fares/flytoget-app/">Flytoget</a> per acquistare il biglietto del treno tra l'Aeroporto e Oslo centrale, e la già citata <a href="https://www.nasjonalmuseet.no/en/visit/locations/the-national-museum/the-national-museum-visitor-guide/">app per il museo nazionale</a> sono tutte bellissime: esteticamente rispettano i canoni di Google (ho un telefono Android, quindi ho provato solo quelle) e sono facili da usare, chiare e con tutte le funzionalità che ci si possa aspettare. Ah, e soprattutto niente malefico effetto glass che sembra andare tanto di moda :D.</p>
+
+        <ul class="links-nextprev">
+                <li class="links-nextprev-prev">← Precedente<br>
+                        <a href="/blog/steam-next-fest-2025/">Steam Next Fest 2025, cosa ho provato</a>
+                    </li>
+                
+                </ul>
+			</heading-anchors>
+		</main>
+
+		<footer>
+			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
+		</footer>
+
+		<!-- This page `/blog/norvegia/` was built on 2025-07-04T21:16:20.278Z -->
+		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
+	</body>
+</html>
