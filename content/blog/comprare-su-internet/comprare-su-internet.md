@@ -1,6 +1,6 @@
 ---
 title: Comprare su Internet
-date: 2024-07-16
+date: 2025-07-16
 tags: ["personale"]
 ---
 
