@@ -5,11 +5,34 @@
   <subtitle>My personal blog.</subtitle>
   <link href="https://davidescarioni.github.io/feed/feed.xml" rel="self" />
   <link href="https://davidescarioni.github.io/" />
-  <updated>2025-07-16T00:00:00Z</updated>
+  <updated>2025-07-30T00:00:00Z</updated>
   <id>https://davidescarioni.github.io/</id>
   <author>
     <name>Davide Scarioni</name>
   </author>
+  <entry>
+    <title>Tempo di upgrade</title>
+    <link href="https://davidescarioni.github.io/blog/tempo-di-upgrade/" />
+    <updated>2025-07-30T00:00:00Z</updated>
+    <id>https://davidescarioni.github.io/blog/tempo-di-upgrade/</id>
+    <content type="html">&lt;p&gt;Più passa il tempo, più il fare upgrade software o hardware mi sembra sempre meno un piacere e sempre più un peso, a differenza di quando ero più giovane dove anzi era quasi un momento di festa.&lt;/p&gt;
+&lt;p&gt;Purtroppo, per una serie di sfortunati eventi, mi sono ritrovato a pianificare &lt;em&gt;decisamente troppi&lt;/em&gt; upgrade obbligati.&lt;/p&gt;
+&lt;p&gt;Il ~mio pc fisso~ pc di Serena ha Windows 10, e a ottobre questo sistema sarà in dismissione. Non è possibile fare un upgrade diretto a Windows 11, ma ho letto che è comunque fattibile in qualche modo disattivando il controllo sul TPM 2.0. Mi preoccupa però il fatto che il pc non è più così prestante (è pur sempre un pc con un G3258 come processore, 8 gb di RAM e una scheda video radeon del 2017) e ho quindi paura che il nuovo sistema di Microsoft lo pianti definitivamente.&lt;/p&gt;
+&lt;p&gt;Potrei passare a Linux, magari una distribuzione semplice come Mint o Zorin in maniera tale che Serena non impazzisca ad usarlo: ho mantenuto Windows per tre due motivi:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;essendo principalemte il pc di Serena, e facendo lei l&#39;insegnante, aveva bisogno di determinati software supportati solo lì, quindi la scelta era obbligata&lt;/li&gt;
+&lt;li&gt;amo &lt;em&gt;giocare&lt;/em&gt; giochi indie, e spessissimo l&#39;unico sistema utilizzato è Windows&lt;/li&gt;
+&lt;li&gt;amo &lt;em&gt;sviluppare&lt;/em&gt; giochi indie, e per rilasciare un prodotto su Windows c&#39;è bisogno di un pc Windows&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ora, ho un ssd nuovo da inserire e questo potrebbe aiutare, o comunque potrei pensare ad un dual boot, ma la questione mi preoccupa lo stesso.&lt;/p&gt;
+&lt;p&gt;Fortunatamente potrei avere un asso nella manica per evitare l&#39;installazione di Windows: mi è stato regalato un &lt;strong&gt;vecchio Thinkpad&lt;/strong&gt; in quanto in dismissione dal posto di lavoro di mia madre: è un vecchio i5 di seconda generazione, con 8gb di RAM e hard disk meccanico. Ho comprato anche per lui un ssd (economico, questa volta) e voglio provare a installare Windows 11: se lo regge, nonostante le probabili pessime performance potrei parzialmente coprire i due casi d&#39;uso indicati prima.&lt;/p&gt;
+&lt;p&gt;Veniamo al terzo upgrade: il mio &lt;a href=&quot;https://support.apple.com/it-it/111924&quot;&gt;Macbook Air 2017&lt;/a&gt;, prodotto che adoro perchè mi offre un&#39;ottimo compromesso tra comfort di utilizzo, performance per task base e portabilità, non supporta l&#39;ultima versione di &lt;a href=&quot;https://gamemaker.io/&quot;&gt;GameMaker&lt;/a&gt;, praticamente unico software che utilizzo al di fuori del browser e di VSCode.
+Mi è stato suggerito di usare &lt;a href=&quot;https://dortania.github.io/OpenCore-Legacy-Patcher/&quot;&gt;OpenCore Legacy Patcher&lt;/a&gt; per portarlo a MacOS Ventura (non ufficialmente supportata): se tutto funziona potrebbe essere un buon compromesso, perchè l&#39;unica alternativa sarebbe installare anche qui Windows 11.&lt;/p&gt;
+&lt;p&gt;Quarto upgrade: mia madre ha un &lt;a href=&quot;https://support.hp.com/it-it/drivers/hp-stream-14-ax000-laptop-pc/model/16122589&quot;&gt;HP Stream 14&lt;/a&gt;, uno di quei pc con un eMMC da 64gb come memoria interna. Windows 10 ha cominciato a rallentare praticamente dopo un anno di vita del prodotto, perchè lo spazio interno impedisce di fare aggiornamenti. Colierò l&#39;occasione della dismissione di W10 per provare ChromeOS Flex: ho comprato un Chromebook a mio padre poco più di un anno fa, e mi ha stupito quanto si trovi bene rispetto a prima, sarà un bell&#39;esperimento.&lt;/p&gt;
+&lt;p&gt;Quinto e ultimo upgrade: il mio smartphone, il Pixel 6a, ha appena ricevuto &lt;a href=&quot;https://www.tuttoandroid.net/news/2025/07/03/pixel-6a-aggiornamento-limiti-batteria-1103306/&quot;&gt;un aggiornamento che diminuisce le prestazioni della batteria&lt;/a&gt; in base ai cicli di carica, perchè alcuni esemplari del mio stesso modello hanno preso fuoco mentre erano collegati alla corrente. Dato la pericolosità della cosa, e dato un buono sconto che Google ha &lt;em&gt;generosamente&lt;/em&gt; donato a chi ha il mio telefono, ho iniziato l&#39;iter per passare ad un Pixel 9: avrei preferito puntare ad altro (Fairphone 6 su tutti, ma anche un Nothing 3(a) era un&#39;opzione), ma se il buono sconto arriva in tempo con la promo attuale del sito di Google comprerei il loro top di gamma a 225€, prezzo che è francamente imbattibile.&lt;/p&gt;
+&lt;p&gt;Vi tengo aggiornati sugli upgrade. Fortuna che ho da poco comprato un NAS (ve ne parlerò una volta installato) e iniziato l&#39;iter per mettere la fibra FTC, ne avrò bisogno per tutti i backup che mi toccherà fare!&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Comprare su Internet</title>
     <link href="https://davidescarioni.github.io/blog/comprare-su-internet/" />
@@ -255,24 +278,6 @@ Se tu che stai leggendo hai voglia di darmi un feedback non farti problemi, anzi
 Promosse sia la pizza mia e della &amp;quot;suocera&amp;quot; sia la pasta allo scoglio della mia compagna: la pizza poi aveva un formato &amp;quot;tradizionale&amp;quot;, e mi è quasi sembrato strano non mangiarne una con il cornicione alto alla napoletana... finalmente. No, non ho nulla contro quella, anzi, ma sembra che sia diventato obbligatorio ormai fare una pizza con il bordo così alto, ma non è scontato saperlo fare.&lt;/p&gt;
 &lt;p&gt;Purtroppo la camminata non verrà più riproposta, perchè è nata come un&#39;alternativa alla Milano - Pavia che non è stato possibile fare per lavori sulla strada da percorrere. Ma quella è lunga 34km, e l&#39;ho già provata nel 2018... è stata davvero faticosa.&lt;/p&gt;
 &lt;p&gt;Portiamoci dietro il bel ricordo di questa.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Tobla - Divine Path</title>
-    <link href="https://davidescarioni.github.io/blog/tobla/" />
-    <updated>2025-05-19T00:00:00Z</updated>
-    <id>https://davidescarioni.github.io/blog/tobla/</id>
-    <content type="html">&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/tobla/-Eqz5N6Lhj-460.avif 460w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/tobla/-Eqz5N6Lhj-460.webp 460w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/tobla/-Eqz5N6Lhj-460.jpeg&quot; alt=&quot;La locandina di Tobla - Divine Path&quot; width=&quot;460&quot; height=&quot;215&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://store.steampowered.com/app/2717750/Tobla__Divine_Path/&quot;&gt;Tobla - Divine Path&lt;/a&gt; lo avevo da parecchio nella mia wishlist, ma non avevo mai premuto sul pulsante &amp;quot;Acquista&amp;quot; perchè nelle recensioni è spesso bollato come &amp;quot;troppo corto e semplice&amp;quot; e il prezzo a cui era venduto mi sembrava eccessivo per quello che sembrava offrire.
-Dopo aver letto questo commento di uno degli sviluppatori, però, ho pensato che se il gioco mi interessa è giusto supportarlo.&lt;/p&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/tobla/TLZqSmS9GC-630.avif 630w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/tobla/TLZqSmS9GC-630.webp 630w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/tobla/TLZqSmS9GC-630.png&quot; alt=&quot;Messaggio su Steam dello sviluppatore&quot; width=&quot;630&quot; height=&quot;425&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
-&lt;p&gt;Ora che l&#39;ho giocato e terminato, posso dire anche io che è troppo corto? No, non userei questa definizione: ho completato al 100% Tobla in circa 2h 30m, ma sono state delle ore in cui mi sono divertito e che hanno &lt;em&gt;saziato&lt;/em&gt; la mia voglia di puzzle game in un weekend trascorso a casa.&lt;/p&gt;
-&lt;p&gt;Il gioco è, appunto, un puzzle game che trae decisamente ispirazione da Portal: una divinità ci osserva dall&#39;altro e ci sfida a superare delle prove di intelligenza dopo averci donato il potere di far scambiare di posto due oggetti.... Non trovate anche voi delle somiglianze? :D&lt;/p&gt;
-&lt;p&gt;Gli oggetti in questione, se Sokoban ci ha insegnato qualcosa, hanno tutte caratteristiche diverse: si va da differenze di dimensione, alla possibilità di poter essere spostati alzandoli a (senza fare troppi spoiler) avere effetti particolari solo &lt;strong&gt;dopo&lt;/strong&gt; essere stati scambiati di posto.&lt;/p&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/tobla/FM5makp0i1-600.avif 600w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/tobla/FM5makp0i1-600.webp 600w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/tobla/FM5makp0i1-600.jpeg&quot; alt=&quot;Uno screenshot di gioco&quot; width=&quot;600&quot; height=&quot;337&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
-&lt;p&gt;La meccanica dello swap, cioè la possibilità di scambiare due oggetti di posto, è quella che mi aveva convinto a mettere in wishlist il gioco (ho un progetto con una meccanica molto simile che ho mostrato sul Discord di GMI tempo addietro), e devo dire che vengono fuori davvero dei bei puzzle, anche se qui la difficoltà non mi sembra tarata benissimo: si passa da livelli quasi &amp;quot;guidati&amp;quot; ad altri in cui va davvero capito come funziona la fisica del gioco: non nego che per il secondo livello con &amp;quot;le sfere&amp;quot; e l&#39;ultima sezione del boss finale ho dovuto dare un&#39;occhiata su YouTube.&lt;/p&gt;
-&lt;p&gt;La divinità che segue le nostre peripezie ha un carattere che ricorda molto GLaDOS di Portal, con un po&#39; meno carisma ma con davvero un ottimo livello di recitazione.&lt;/p&gt;
-&lt;p&gt;A parte la questione del bilanciamento menzionata prima non ho trovato reali difetti: la grafica non è da urlo ma fa il suo dovere, si gioca comodamente su Steam Deck, intrattiene e mette insieme degli enigmi ben studiati. Se vi piace il genere e volete divertirvi un paio di sere mi sento di consigliarlo.&lt;/p&gt;
 </content>
   </entry>
 </feed>
