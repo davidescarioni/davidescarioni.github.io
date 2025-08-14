@@ -8,7 +8,7 @@ Più passa il tempo, più il fare upgrade software o hardware mi sembra sempre m
 
 Purtroppo, per una serie di sfortunati eventi, mi sono ritrovato a pianificare *decisamente troppi* upgrade obbligati.
 
-Il ~mio pc fisso~ pc di Serena ha Windows 10, e a ottobre questo sistema sarà in dismissione. Non è possibile fare un upgrade diretto a Windows 11, ma ho letto che è comunque fattibile in qualche modo disattivando il controllo sul TPM 2.0. Mi preoccupa però il fatto che il pc non è più così prestante (è pur sempre un pc con un G3258 come processore, 8 gb di RAM e una scheda video radeon del 2017) e ho quindi paura che il nuovo sistema di Microsoft lo pianti definitivamente.
+Il ~~mio pc fisso~~ pc di Serena ha Windows 10, e a ottobre questo sistema sarà in dismissione. Non è possibile fare un upgrade diretto a Windows 11, ma ho letto che è comunque fattibile in qualche modo disattivando il controllo sul TPM 2.0. Mi preoccupa però il fatto che il pc non è più così prestante (è pur sempre un pc con un G3258 come processore, 8 gb di RAM e una scheda video radeon del 2017) e ho quindi paura che il nuovo sistema di Microsoft lo pianti definitivamente.
 
 Potrei passare a Linux, magari una distribuzione semplice come Mint o Zorin in maniera tale che Serena non impazzisca ad usarlo: ho mantenuto Windows per tre due motivi:
 

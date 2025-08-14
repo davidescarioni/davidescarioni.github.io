@@ -11,7 +11,7 @@ tags: ["videogames"]
 
 Dalla [demo](https://namatakahashi.itch.io/oo) e dai vari post su [Bluesky](https://bsky.app/profile/namataka.bsky.social) il gioco sembrava essere un "normale" puzzle-platform con la sua meccanica innovativa, mentre, una volta portato a termine, posso dire con certezza che si tratta di un MetroidBrania.
 
-Ma partiamo dall'ininizio: in Öoo impersonifichiamo un bruco (anche il titolo del gioco stesso lo "impersonifica", tra l'altro) che non può saltare, ma che può perdere una porzione della coda che si tramuta in una bomba, e la sua esplosione ci permetterà di muoversi e spostarci nei vari livelli di gioco. Se inizialmente la bomba sembra appunto solo un esplosivo per far saltare in aria pareti crepate o muri nascosti, capiremo ben presto che tutto il fulcro del gioco è quello di capire come utilizzarle per spostarci tra i vari enigmi ambientali che ci vengono proposti.
+Ma partiamo dall'inizio: in Öoo impersonifichiamo un bruco (anche il titolo del gioco stesso lo "impersonifica", tra l'altro) che non può saltare, ma che può perdere una porzione della coda che si tramuta in una bomba, e la sua esplosione ci permetterà di muoversi e spostarci nei vari livelli di gioco. Se inizialmente la bomba sembra appunto solo un esplosivo per far saltare in aria pareti crepate o muri nascosti, capiremo ben presto che tutto il fulcro del gioco è quello di capire come utilizzarle per spostarci tra i vari enigmi ambientali che ci vengono proposti.
 
 ![Screenshot di Öoo, quello con le cose da far esplodere](./ooo-s1.png)
 
