@@ -3,12 +3,180 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Scario Side Quest</title>
+		<title>I videogiochi non scadono</title>
 		<meta name="description" content="Descrizione del blog">
 		<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
 		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Scario Side Quest">
 		
-		<style>/* This is an arbitrary CSS string added to the bundle */
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/* This is an arbitrary CSS string added to the bundle */
 /* Defaults */
 :root {
 	--font-family: -apple-system, system-ui, sans-serif;
@@ -334,7 +502,7 @@ a.post-tag:active {
 				<ul class="nav">
 					<li class="nav-item"><a href="/">Home</a></li>
 					<li class="nav-item"><a href="/blog/">Blog</a></li>
-					<li class="nav-item"><a href="/about/" aria-current="page">About</a></li>
+					<li class="nav-item"><a href="/about/">About</a></li>
 					<li class="nav-item"><a href="/feed/feed.xml">Feed</a></li>
 				</ul>
 			</nav>
@@ -343,10 +511,30 @@ a.post-tag:active {
 		<main id="skip">
 			<heading-anchors>
 				
-<h1 id="about">About</h1>
-<p>Mi chiamo Davide, ma sul web mi firmo come Scario.</p>
-<p>Sono uno sviluppatore FrontEnd per lavoro, ma amo programmare anche nel mio tempo libero, soprattutto piccoli <a href="https://scario88.itch.io">videogiochi</a>.</p>
 
+<div class="post-header">
+<time class="post-date" datetime="2025-08-14">14 August 2025</time>
+<h1 class="post-title" id="i-videogiochi-non-scadono">I videogiochi non scadono</h1>
+<div></div>
+<div class="post-tags">Tags: <ul class="post-metadata">
+        <li>
+            <a href="/tags/videogames/" class="post-tag">videogames</a>
+        </li>
+</ul></div>
+</div>
+<p>Ho sentito questa affermazione da Fossetti di <a href="https://www.youtube.com/@RoundTwoTwitch">Round Two</a>, e non potrei essere più d’accordo.
+Quando qualcuno dice che la <a href="https://www.steamdeck.com/it/">Steam Deck</a> oggi non vale la pena perché non riesce a far girare gli ultimi tripla A, proprio non riesco a condividerlo: ci sono migliaia di titoli del passato pronti da giocare, e chissà quanti capolavori ci siamo lasciati sfuggire. Senza contare quanti indie, anche recenti, meritano di essere scoperti, e questi su SD girano benissimo (vedi <a href="https://scario.xyz/blog/ooo/">Öoo</a> di cui parlavo giusto ieri).</p>
+<p>Anzi, se vogliamo dirla tutta, forse il limite di Steam Deck è il suo punto di forza: considerando i giochi regalati tramite Prime Gaming, quelli su Epic, e i giochi in backlog che già possediamo, la Deck ci invita a giocare a ciò che già abbiamo (e a cui spesso vogliamo davvero giocare, visto che li abbiamo acquistati) invece di fare acquisti inutili sulla foga del momento.</p>
+<p>L’altro giorno parlavo con un collega che si diceva annoiato dalle ultime uscite su Game Pass. Guardando insieme il catalogo, ho notato tantissimi giochi interessanti, ma lui ne ha scartati a metà perché “la grafica in pixel art sa di vecchio”, altri invece perché “ormai non ne parla più nessuno, voglio qualcosa di recente”.
+Mi dispiace per lui: con la valanga di uscite di oggi è impossibile stare dietro a tutto, e recuperare giochi di qualche anno fa è spesso più economico.</p>
+<p>Secondo me a causa della sua <a href="https://it.wikipedia.org/wiki/FOMO">FOMO</a> rischia di perdersi un sacco di esperienze valide, e senza un vero motivo.</p>
+
+        <ul class="links-nextprev">
+                <li class="links-nextprev-prev">← Precedente<br>
+                        <a href="/blog/ooo/">Öoo è una bomba</a>
+                    </li>
+                
+                </ul>
 			</heading-anchors>
 		</main>
 
@@ -354,7 +542,7 @@ a.post-tag:active {
 			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
 		</footer>
 
-		<!-- This page `/about/` was built on 2025-08-14T07:19:58.999Z -->
+		<!-- This page `/blog/i-videogiochi-non-scadono/` was built on 2025-08-14T07:19:59.000Z -->
 		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
 	</body>
 </html>
