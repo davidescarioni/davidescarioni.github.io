@@ -273,32 +273,11 @@ header {
 
 .post-tags {
     margin-top: 0.8em;
-    font-size: .8em;
+    font-size: 0.8125em;
 }
 
 /* Tags */
-a.post-tag, a.post-tag:visited {
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	font-style: italic;
-	background-color: var(--text-color-link);
-	border: 1px solid var(--text-color-link);
-	color: var(--background-color);
-	padding: 0 10px;
-	text-decoration: none;
-	border-radius: 50px;
-}
-a.post-tag:hover,
-a.post-tag:active {
-	background-color: transparent;
-	border-color: var(--text-color-link-active);
-	color: var(--text-color-link-active);
-}
 
-.postlist-item > .post-tag {
-	align-self: center;
-}
 
 /* Tags list */
 .post-metadata {

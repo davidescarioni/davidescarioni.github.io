@@ -23,9 +23,21 @@
 				<code>{{ post.url }}</code>
 			{% endif %}
 		</a>
-		<time class="postlist-date" datetime="{{ post.date }}">
-			{{ post.date.toLocaleDateString('it-IT', { day: '2-digit', month: 'long', year: 'numeric' }) }}
-		</time>
+		<div>
+			<time class="postlist-date" datetime="{{ post.date }}">
+				{{ post.date.toLocaleDateString('it-IT', { day: '2-digit', month: 'long', year: 'numeric' }) }}
+			</time>
+			-
+			<span class="post-tags">tags:
+				<ul class="post-metadata">{%- for tag in post.data.tags | filterTagList %}
+					{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+						<li>
+							<a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>
+						</li>
+					{%- endfor %}
+				</ul>
+			</span>
+		</div>
 	</li>
 {% endfor %}
 </ol>

@@ -5,11 +5,43 @@
   <subtitle>My personal blog.</subtitle>
   <link href="https://davidescarioni.github.io/feed/feed.xml" rel="self" />
   <link href="https://davidescarioni.github.io/" />
-  <updated>2025-08-14T00:00:00Z</updated>
+  <updated>2025-08-18T00:00:00Z</updated>
   <id>https://davidescarioni.github.io/</id>
   <author>
     <name>Davide Scarioni</name>
   </author>
+  <entry>
+    <title>Il mio primo NAS</title>
+    <link href="https://davidescarioni.github.io/blog/il-mio-primo-nas/" />
+    <updated>2025-08-18T00:00:00Z</updated>
+    <id>https://davidescarioni.github.io/blog/il-mio-primo-nas/</id>
+    <content type="html">&lt;p&gt;Dopo tanto, tantissimo tergiversare, mi sono deciso a comprare un NAS. E&#39; un mio pallido da anni perchè ho paura di perdere dati: da ragazzo ho cambiato più sistemi di archiviazione e ho ancora roba un po&#39; sparsa tra dischi removibili e cloud, e vorrei finalmente avere un punto centralizzato con tutto dentro.
+Nel frattempo è cresciuta anche la mia allergia a servizi che, nonostante siano a pagamento, sfruttano i tuoi dati per pubblicità mirata e per fare training dell&#39;AI. Insomma, ora ho una casa e (finalmente) anche una rete internet decente, se volevo fare questo passo è proprio il momento giusto.&lt;/p&gt;
+&lt;h2 id=&quot;il-nas&quot;&gt;Il NAS&lt;/h2&gt;
+&lt;p&gt;Ho scelto di acquistare un &lt;a href=&quot;https://nas-eu.ugreen.com/en-it/products/ugreen-nasync-dxp2800-nas-storage?from=mega-menu&quot;&gt;Ugreen DXP2800&lt;/a&gt;: ho avuto occhi solo per Synology negli anni passati ma, date le loro ultime &lt;a href=&quot;https://www.dday.it/redazione/52749/synology-meno-funzioni-sui-nas-consumer-se-non-si-usano-dischi-certificati-o-marchiati-synology&quot;&gt;decisioni aziendali volte a limitare la libertà di scelta degli utenti&lt;/a&gt;, ho preferito acquistare la new entry del settore. Rispetto alla concorrenza è più performante (ha un processore Intel N100, quindi niente ARM), 8GB di RAM espandibili, capienda di 2 dischi da 3.5/2.5 + 2 nvme da usare come dischi stessi o come cache. Io ho scelto di acquistare due dischi Seagate IronWolf da 4tb al momento.
+Avevo un po&#39; di timore per il sistema operativo, ma, dopo tante ricerche, sembra che sia ben supportato e di facile compresione (punto fondamentale, di Reti ho fatto un esame in università ma non direi proprio di essere sul pezzo).&lt;/p&gt;
+&lt;p&gt;Elenco qui come ho cominciato ad usare il mio &lt;em&gt;disco di rete intelligente&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;time-machine&quot;&gt;Time Machine&lt;/h2&gt;
+&lt;p&gt;Dopo l&#39;installazione guidata e l&#39;inizializzazione dei dischi in formato Btrfs in RAID 1 (durata ben 8 ore!), il primo step che ho voluto fare è stato eseguire il backup del Mac tramite Time Machine: non ho niente di valore qui nonostante sia il mio pc principale, e mi sembrava un buon punto dal quale iniziare.&lt;/p&gt;
+&lt;p&gt;I passi da seguire per attivarlo sono semplicissimi, linko qui il &lt;a href=&quot;https://www.youtube.com/watch?v=cEYphSW7udY&amp;amp;t=4s&quot;&gt;tutorial&lt;/a&gt; che ho seguito.&lt;/p&gt;
+&lt;h2 id=&quot;download-di-iso&quot;&gt;Download di ISO&lt;/h2&gt;
+&lt;p&gt;Dovendo formattare il Thinkpad di cui parlavo nell&#39;articolo &amp;quot;Tempo di upgrade&amp;quot;, ho pensato di provare ad usare la funzione download per scaricare le iso di Windows 11 e, nel caso qualcosa fosse andato storto, di Linux Mint: mi è bastato indicare la url e il NAS ha fatto tutto lui, permettendomi di uscire di casa con il pc spento... Davvero ottimo!&lt;/p&gt;
+&lt;h2 id=&quot;musica&quot;&gt;Musica&lt;/h2&gt;
+&lt;p&gt;Negli ultimi anni ho acquistato 3 giochi splendidi che avevano la colonna sonora tra i contenuti bonus: &lt;a href=&quot;https://www.orithegame.com/&quot;&gt;Ori and the Will of the Wisps&lt;/a&gt;, &lt;a href=&quot;https://tunicgame.com/&quot;&gt;TUNIC&lt;/a&gt; e &lt;a href=&quot;https://playdeathsdoor.com/&quot;&gt;Death&#39;s Door&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;!&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/il-mio-primo-nas/ZGf2Ha99dO-960.avif 960w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/il-mio-primo-nas/ZGf2Ha99dO-960.webp 960w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/il-mio-primo-nas/ZGf2Ha99dO-960.jpeg&quot; alt=&quot;Foto delle edizioni fisiche dei tre giochi sopra menzionati&quot; width=&quot;960&quot; height=&quot;720&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;I primi due hanno la colonna sonora scaricabile in digitale, ma non sapevo bene dove salvarla: le avevo &amp;quot;parcheggiate&amp;quot; su OneDrive, ma ascoltare in remoto è sempre stato un&#39;impresa, e tra l&#39;altro mi sono accorto che deficitavano di parecchi metadati.&lt;/p&gt;
+&lt;p&gt;Ho così creato una cartella sul NAS, l&#39;ho &lt;em&gt;montata&lt;/em&gt; su MacOS e ho usato il software gratuito &lt;a href=&quot;https://picard.musicbrainz.org/&quot;&gt;MusicBrainz Picard&lt;/a&gt; per aggiungere i metadati mancanti (tra l&#39;altro pensavo dovesse essere un&#39;operazione manuale e invece ha fatto tutto in automatico, top). Ora dal NAS, usando l&#39;applicazione Musica, riesco perfettamente ad ascoltare le tracce da remoto.&lt;/p&gt;
+&lt;p&gt;Death&#39;s Door invece presenta una OST in CD, ma non ho nessun lettore a casa.... se non nel Thinkpad di cui accennavo sopra. Devo imparare a ripparlo e a salvarlo sopra.&lt;/p&gt;
+&lt;p&gt;Tra l&#39;altro mentre scrivevo questo articolo mi è venuto in mente che spesso &lt;a href=&quot;https://www.gog.com/en/&quot;&gt;GOG&lt;/a&gt;, sia nei giochi che vende sia in quelli che regala tramite &lt;a href=&quot;https://gaming.amazon.com/&quot;&gt;Prime Gaming&lt;/a&gt;, a volte regala la colonna sonora tra gli extras... vi terrò informati.&lt;/p&gt;
+&lt;p&gt;Ma come ascolto questa musica sul mio telefono se sta sul NAS?&lt;/p&gt;
+&lt;h2 id=&quot;tailscale&quot;&gt;Tailscale&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://tailscale.com/&quot;&gt;Tailscale&lt;/a&gt; è una VPN usata per creare facilmente delle reti private sicure tra dispositivi: praticamente attivandola sia sul mio telefono sia sul NAS, entrambi apparterranno alla stessa rete, per cui posso accedere ai file del NAS stesso senza esporlo su internet.&lt;/p&gt;
+&lt;p&gt;Il processo è molto semplice: va prima di tutto creta un&#39;utenza Tailscale dal sito, e questo ci farà generare una chiave. Questa chiave andrà fornita a tutti i dispositivi e, tramite un client, potranno &amp;quot;vedersI&amp;quot;. Non sono molto ferrato sulla questione, ma il tutorial ufficiale di Ugreen è molto chiaro.&lt;/p&gt;
+&lt;p&gt;Quindi rispondendo alla domanda precedente, ascolto la musica presente nel nas collegandomi con Tailscale alla rete condivisa e usando l&#39;applicazione di Ugreen per ascoltare la musica. Probabilmente cambierà software, ma per il momento va bene così.&lt;/p&gt;
+&lt;h2 id=&quot;e-adesso&quot;&gt;E adesso?&lt;/h2&gt;
+&lt;p&gt;Ok, al momento questo è fin dove mi sono spinto con i miei &amp;quot;esperimenti&amp;quot;. Purtroppo la mia settimana di ferie è finita, per cui non posso dedicargli il tempo che gli ho dato precedentemente. C&#39;è ancora molto da fare, ma ci tenevo a segnare i &amp;quot;primi passi&amp;quot; che ho effettuato. Ci sentiamo presto, spero!&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>I videogiochi non scadono</title>
     <link href="https://davidescarioni.github.io/blog/i-videogiochi-non-scadono/" />
@@ -269,16 +301,6 @@ Dallo screenshot qui sotto la vedete grande la metà di quella che ho consegnato
 &lt;/ul&gt;
 &lt;p&gt;Voglio portare a termine questo gioco e dargli un degno &amp;quot;confezionamento&amp;quot;: metto in pausa gli sviluppi per un po&#39;, rifiato, prendo un po&#39; di feedback e poi penso a come farlo evolvere.
 Se tu che stai leggendo hai voglia di darmi un feedback non farti problemi, anzi, apprezzerei moltissimo!&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>1000 giorni</title>
-    <link href="https://davidescarioni.github.io/blog/1000-giorni/" />
-    <updated>2025-06-03T00:00:00Z</updated>
-    <id>https://davidescarioni.github.io/blog/1000-giorni/</id>
-    <content type="html">&lt;p&gt;Oggi è il 1000° giorno di fila nel quale completo almeno una lezione su Duolingo&lt;/p&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/1000-giorni/nwuQs28ShJ-1000.avif 1000w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/1000-giorni/nwuQs28ShJ-1000.webp 1000w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/1000-giorni/nwuQs28ShJ-1000.jpeg&quot; alt=&quot;Uno slancio di 1000 giorni su Dolingo&quot; width=&quot;1000&quot; height=&quot;1000&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
-&lt;p&gt;Non è chissà quale traguardo: non credo di essere davvero migliorato in inglese usando l&#39;app, a parte imparare qualche parola di uso comune e qualche modo di dire. Ma è comunque una prova &lt;em&gt;tangibile&lt;/em&gt; che so essere costante, se voglio.&lt;/p&gt;
 </content>
   </entry>
 </feed>
