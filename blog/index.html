@@ -284,32 +284,11 @@ header {
 
 .post-tags {
     margin-top: 0.8em;
-    font-size: .8em;
+    font-size: 0.8125em;
 }
 
 /* Tags */
-a.post-tag, a.post-tag:visited {
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	font-style: italic;
-	background-color: var(--text-color-link);
-	border: 1px solid var(--text-color-link);
-	color: var(--background-color);
-	padding: 0 10px;
-	text-decoration: none;
-	border-radius: 50px;
-}
-a.post-tag:hover,
-a.post-tag:active {
-	background-color: transparent;
-	border-color: var(--text-color-link-active);
-	color: var(--text-color-link-active);
-}
 
-.postlist-item > .post-tag {
-	align-self: center;
-}
 
 /* Tags list */
 .post-metadata {
@@ -347,7 +326,7 @@ a.post-tag:active {
 
 
 <script>
-  const startFrom = 27;
+  const startFrom = 28;
   const options = {
     day: '2-digit',
     month: 'long',
@@ -357,11 +336,32 @@ a.post-tag:active {
 
 <style>
   .postlist {
-    counter-reset: start-from 27;
+    counter-reset: start-from 28;
   }
 </style>
 
 <ol reversed="" class="postlist">
+
+	<li class="postlist-item">
+		<a href="/blog/il-mio-primo-nas/" class="postlist-link">
+			
+				Il mio primo NAS
+			
+		</a>
+		<div>
+			<time class="postlist-date" datetime="Mon Aug 18 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
+				18 agosto 2025
+			</time>
+			-
+			<span class="post-tags">tags:
+				<ul class="post-metadata">
+						<li>
+							<a href="/tags/software/" class="post-tag">software</a>
+						</li>
+				</ul>
+			</span>
+		</div>
+	</li>
 
 	<li class="postlist-item">
 		<a href="/blog/i-videogiochi-non-scadono/" class="postlist-link">
@@ -369,9 +369,19 @@ a.post-tag:active {
 				I videogiochi non scadono
 			
 		</a>
-		<time class="postlist-date" datetime="Thu Aug 14 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
-			14 agosto 2025
-		</time>
+		<div>
+			<time class="postlist-date" datetime="Thu Aug 14 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
+				14 agosto 2025
+			</time>
+			-
+			<span class="post-tags">tags:
+				<ul class="post-metadata">
+						<li>
+							<a href="/tags/videogames/" class="post-tag">videogames</a>
+						</li>
+				</ul>
+			</span>
+		</div>
 	</li>
 
 	<li class="postlist-item">
@@ -380,9 +390,19 @@ a.post-tag:active {
 				Öoo è una bomba
 			
 		</a>
-		<time class="postlist-date" datetime="Wed Aug 13 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
-			13 agosto 2025
-		</time>
+		<div>
+			<time class="postlist-date" datetime="Wed Aug 13 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
+				13 agosto 2025
+			</time>
+			-
+			<span class="post-tags">tags:
+				<ul class="post-metadata">
+						<li>
+							<a href="/tags/videogames/" class="post-tag">videogames</a>
+						</li>
+				</ul>
+			</span>
+		</div>
 	</li>
 
 	<li class="postlist-item">
@@ -391,9 +411,22 @@ a.post-tag:active {
 				Tempo di upgrade
 			
 		</a>
-		<time class="postlist-date" datetime="Wed Jul 30 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
-			30 luglio 2025
-		</time>
+		<div>
+			<time class="postlist-date" datetime="Wed Jul 30 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
+				30 luglio 2025
+			</time>
+			-
+			<span class="post-tags">tags:
+				<ul class="post-metadata">
+						<li>
+							<a href="/tags/personale/" class="post-tag">personale</a>
+						</li>
+						<li>
+							<a href="/tags/tech/" class="post-tag">tech</a>
+						</li>
+				</ul>
+			</span>
+		</div>
 	</li>
 
 	<li class="postlist-item">
@@ -402,9 +435,19 @@ a.post-tag:active {
 				Comprare su Internet
 			
 		</a>
-		<time class="postlist-date" datetime="Wed Jul 16 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
-			16 luglio 2025
-		</time>
+		<div>
+			<time class="postlist-date" datetime="Wed Jul 16 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
+				16 luglio 2025
+			</time>
+			-
+			<span class="post-tags">tags:
+				<ul class="post-metadata">
+						<li>
+							<a href="/tags/personale/" class="post-tag">personale</a>
+						</li>
+				</ul>
+			</span>
+		</div>
 	</li>
 
 	<li class="postlist-item">
@@ -413,9 +456,19 @@ a.post-tag:active {
 				Norvegia
 			
 		</a>
-		<time class="postlist-date" datetime="Mon Jun 23 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
-			23 giugno 2025
-		</time>
+		<div>
+			<time class="postlist-date" datetime="Mon Jun 23 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
+				23 giugno 2025
+			</time>
+			-
+			<span class="post-tags">tags:
+				<ul class="post-metadata">
+						<li>
+							<a href="/tags/personale/" class="post-tag">personale</a>
+						</li>
+				</ul>
+			</span>
+		</div>
 	</li>
 
 	<li class="postlist-item">
@@ -424,9 +477,19 @@ a.post-tag:active {
 				Steam Next Fest 2025, cosa ho provato
 			
 		</a>
-		<time class="postlist-date" datetime="Sat Jun 14 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
-			14 giugno 2025
-		</time>
+		<div>
+			<time class="postlist-date" datetime="Sat Jun 14 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
+				14 giugno 2025
+			</time>
+			-
+			<span class="post-tags">tags:
+				<ul class="post-metadata">
+						<li>
+							<a href="/tags/videogames/" class="post-tag">videogames</a>
+						</li>
+				</ul>
+			</span>
+		</div>
 	</li>
 
 	<li class="postlist-item">
@@ -435,9 +498,19 @@ a.post-tag:active {
 				On Browsers, AI and the web
 			
 		</a>
-		<time class="postlist-date" datetime="Thu Jun 12 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
-			12 giugno 2025
-		</time>
+		<div>
+			<time class="postlist-date" datetime="Thu Jun 12 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
+				12 giugno 2025
+			</time>
+			-
+			<span class="post-tags">tags:
+				<ul class="post-metadata">
+						<li>
+							<a href="/tags/personale/" class="post-tag">personale</a>
+						</li>
+				</ul>
+			</span>
+		</div>
 	</li>
 
 	<li class="postlist-item">
@@ -446,9 +519,22 @@ a.post-tag:active {
 				Prince of Persia - The Lost Crown è bellissimo
 			
 		</a>
-		<time class="postlist-date" datetime="Mon Jun 09 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
-			09 giugno 2025
-		</time>
+		<div>
+			<time class="postlist-date" datetime="Mon Jun 09 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
+				09 giugno 2025
+			</time>
+			-
+			<span class="post-tags">tags:
+				<ul class="post-metadata">
+						<li>
+							<a href="/tags/videogames/" class="post-tag">videogames</a>
+						</li>
+						<li>
+							<a href="/tags/switch/" class="post-tag">switch</a>
+						</li>
+				</ul>
+			</span>
+		</div>
 	</li>
 
 	<li class="postlist-item">
@@ -457,9 +543,22 @@ a.post-tag:active {
 				Stardrop, il mio gioco per la Compe 2025
 			
 		</a>
-		<time class="postlist-date" datetime="Wed Jun 04 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
-			04 giugno 2025
-		</time>
+		<div>
+			<time class="postlist-date" datetime="Wed Jun 04 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
+				04 giugno 2025
+			</time>
+			-
+			<span class="post-tags">tags:
+				<ul class="post-metadata">
+						<li>
+							<a href="/tags/gmi/" class="post-tag">gmi</a>
+						</li>
+						<li>
+							<a href="/tags/videogames/" class="post-tag">videogames</a>
+						</li>
+				</ul>
+			</span>
+		</div>
 	</li>
 
 	<li class="postlist-item">
@@ -468,9 +567,19 @@ a.post-tag:active {
 				1000 giorni
 			
 		</a>
-		<time class="postlist-date" datetime="Tue Jun 03 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
-			03 giugno 2025
-		</time>
+		<div>
+			<time class="postlist-date" datetime="Tue Jun 03 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
+				03 giugno 2025
+			</time>
+			-
+			<span class="post-tags">tags:
+				<ul class="post-metadata">
+						<li>
+							<a href="/tags/personale/" class="post-tag">personale</a>
+						</li>
+				</ul>
+			</span>
+		</div>
 	</li>
 
 	<li class="postlist-item">
@@ -479,9 +588,19 @@ a.post-tag:active {
 				Finalmente ho un dominio
 			
 		</a>
-		<time class="postlist-date" datetime="Mon Jun 02 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
-			02 giugno 2025
-		</time>
+		<div>
+			<time class="postlist-date" datetime="Mon Jun 02 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
+				02 giugno 2025
+			</time>
+			-
+			<span class="post-tags">tags:
+				<ul class="post-metadata">
+						<li>
+							<a href="/tags/personale/" class="post-tag">personale</a>
+						</li>
+				</ul>
+			</span>
+		</div>
 	</li>
 
 	<li class="postlist-item">
@@ -490,9 +609,19 @@ a.post-tag:active {
 				Una passeggiata di 24km
 			
 		</a>
-		<time class="postlist-date" datetime="Wed May 21 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
-			21 maggio 2025
-		</time>
+		<div>
+			<time class="postlist-date" datetime="Wed May 21 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
+				21 maggio 2025
+			</time>
+			-
+			<span class="post-tags">tags:
+				<ul class="post-metadata">
+						<li>
+							<a href="/tags/personale/" class="post-tag">personale</a>
+						</li>
+				</ul>
+			</span>
+		</div>
 	</li>
 
 	<li class="postlist-item">
@@ -501,9 +630,19 @@ a.post-tag:active {
 				Tobla - Divine Path
 			
 		</a>
-		<time class="postlist-date" datetime="Mon May 19 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
-			19 maggio 2025
-		</time>
+		<div>
+			<time class="postlist-date" datetime="Mon May 19 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
+				19 maggio 2025
+			</time>
+			-
+			<span class="post-tags">tags:
+				<ul class="post-metadata">
+						<li>
+							<a href="/tags/videogames/" class="post-tag">videogames</a>
+						</li>
+				</ul>
+			</span>
+		</div>
 	</li>
 
 	<li class="postlist-item">
@@ -512,9 +651,19 @@ a.post-tag:active {
 				Musica e palestra
 			
 		</a>
-		<time class="postlist-date" datetime="Wed Apr 30 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
-			30 aprile 2025
-		</time>
+		<div>
+			<time class="postlist-date" datetime="Wed Apr 30 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
+				30 aprile 2025
+			</time>
+			-
+			<span class="post-tags">tags:
+				<ul class="post-metadata">
+						<li>
+							<a href="/tags/personale/" class="post-tag">personale</a>
+						</li>
+				</ul>
+			</span>
+		</div>
 	</li>
 
 	<li class="postlist-item">
@@ -523,9 +672,19 @@ a.post-tag:active {
 				Project Hailstorm
 			
 		</a>
-		<time class="postlist-date" datetime="Tue Apr 15 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
-			15 aprile 2025
-		</time>
+		<div>
+			<time class="postlist-date" datetime="Tue Apr 15 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
+				15 aprile 2025
+			</time>
+			-
+			<span class="post-tags">tags:
+				<ul class="post-metadata">
+						<li>
+							<a href="/tags/videogames/" class="post-tag">videogames</a>
+						</li>
+				</ul>
+			</span>
+		</div>
 	</li>
 
 	<li class="postlist-item">
@@ -534,9 +693,19 @@ a.post-tag:active {
 				Milano Indies, seconda edizione
 			
 		</a>
-		<time class="postlist-date" datetime="Sun Mar 30 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
-			30 marzo 2025
-		</time>
+		<div>
+			<time class="postlist-date" datetime="Sun Mar 30 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
+				30 marzo 2025
+			</time>
+			-
+			<span class="post-tags">tags:
+				<ul class="post-metadata">
+						<li>
+							<a href="/tags/videogames/" class="post-tag">videogames</a>
+						</li>
+				</ul>
+			</span>
+		</div>
 	</li>
 
 	<li class="postlist-item">
@@ -545,9 +714,19 @@ a.post-tag:active {
 				Il tuo prossimo gioco per Nintendo Switch
 			
 		</a>
-		<time class="postlist-date" datetime="Fri Mar 21 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
-			21 marzo 2025
-		</time>
+		<div>
+			<time class="postlist-date" datetime="Fri Mar 21 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
+				21 marzo 2025
+			</time>
+			-
+			<span class="post-tags">tags:
+				<ul class="post-metadata">
+						<li>
+							<a href="/tags/videogames/" class="post-tag">videogames</a>
+						</li>
+				</ul>
+			</span>
+		</div>
 	</li>
 
 	<li class="postlist-item">
@@ -556,9 +735,19 @@ a.post-tag:active {
 				Una gita a Lavarone
 			
 		</a>
-		<time class="postlist-date" datetime="Wed Feb 26 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
-			26 febbraio 2025
-		</time>
+		<div>
+			<time class="postlist-date" datetime="Wed Feb 26 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
+				26 febbraio 2025
+			</time>
+			-
+			<span class="post-tags">tags:
+				<ul class="post-metadata">
+						<li>
+							<a href="/tags/gita/" class="post-tag">gita</a>
+						</li>
+				</ul>
+			</span>
+		</div>
 	</li>
 
 	<li class="postlist-item">
@@ -567,9 +756,19 @@ a.post-tag:active {
 				A cosa ho giocato nel 2024
 			
 		</a>
-		<time class="postlist-date" datetime="Mon Jan 13 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
-			13 gennaio 2025
-		</time>
+		<div>
+			<time class="postlist-date" datetime="Mon Jan 13 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
+				13 gennaio 2025
+			</time>
+			-
+			<span class="post-tags">tags:
+				<ul class="post-metadata">
+						<li>
+							<a href="/tags/videogames/" class="post-tag">videogames</a>
+						</li>
+				</ul>
+			</span>
+		</div>
 	</li>
 
 	<li class="postlist-item">
@@ -578,9 +777,19 @@ a.post-tag:active {
 				Digital Decluttering Checklist
 			
 		</a>
-		<time class="postlist-date" datetime="Thu Jan 02 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
-			02 gennaio 2025
-		</time>
+		<div>
+			<time class="postlist-date" datetime="Thu Jan 02 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
+				02 gennaio 2025
+			</time>
+			-
+			<span class="post-tags">tags:
+				<ul class="post-metadata">
+						<li>
+							<a href="/tags/software/" class="post-tag">software</a>
+						</li>
+				</ul>
+			</span>
+		</div>
 	</li>
 
 	<li class="postlist-item">
@@ -589,9 +798,22 @@ a.post-tag:active {
 				Caricare giochi sulla Miyoo Mini Plus tramite WiFi
 			
 		</a>
-		<time class="postlist-date" datetime="Mon Dec 30 2024 00:00:00 GMT+0000 (Coordinated Universal Time)">
-			30 dicembre 2024
-		</time>
+		<div>
+			<time class="postlist-date" datetime="Mon Dec 30 2024 00:00:00 GMT+0000 (Coordinated Universal Time)">
+				30 dicembre 2024
+			</time>
+			-
+			<span class="post-tags">tags:
+				<ul class="post-metadata">
+						<li>
+							<a href="/tags/tutorial/" class="post-tag">tutorial</a>
+						</li>
+						<li>
+							<a href="/tags/miyoo-mini-plus/" class="post-tag">miyoo mini plus</a>
+						</li>
+				</ul>
+			</span>
+		</div>
 	</li>
 
 	<li class="postlist-item">
@@ -600,9 +822,22 @@ a.post-tag:active {
 				Secret Santa Jam 2024
 			
 		</a>
-		<time class="postlist-date" datetime="Sat Dec 21 2024 00:00:00 GMT+0000 (Coordinated Universal Time)">
-			21 dicembre 2024
-		</time>
+		<div>
+			<time class="postlist-date" datetime="Sat Dec 21 2024 00:00:00 GMT+0000 (Coordinated Universal Time)">
+				21 dicembre 2024
+			</time>
+			-
+			<span class="post-tags">tags:
+				<ul class="post-metadata">
+						<li>
+							<a href="/tags/gmi/" class="post-tag">gmi</a>
+						</li>
+						<li>
+							<a href="/tags/videogames/" class="post-tag">videogames</a>
+						</li>
+				</ul>
+			</span>
+		</div>
 	</li>
 
 	<li class="postlist-item">
@@ -611,9 +846,19 @@ a.post-tag:active {
 				Il mio nuovo modo di giocare
 			
 		</a>
-		<time class="postlist-date" datetime="Thu Dec 12 2024 00:00:00 GMT+0000 (Coordinated Universal Time)">
-			12 dicembre 2024
-		</time>
+		<div>
+			<time class="postlist-date" datetime="Thu Dec 12 2024 00:00:00 GMT+0000 (Coordinated Universal Time)">
+				12 dicembre 2024
+			</time>
+			-
+			<span class="post-tags">tags:
+				<ul class="post-metadata">
+						<li>
+							<a href="/tags/videogames/" class="post-tag">videogames</a>
+						</li>
+				</ul>
+			</span>
+		</div>
 	</li>
 
 	<li class="postlist-item">
@@ -622,9 +867,22 @@ a.post-tag:active {
 				Milano Games Week 2024
 			
 		</a>
-		<time class="postlist-date" datetime="Sun Nov 24 2024 00:00:00 GMT+0000 (Coordinated Universal Time)">
-			24 novembre 2024
-		</time>
+		<div>
+			<time class="postlist-date" datetime="Sun Nov 24 2024 00:00:00 GMT+0000 (Coordinated Universal Time)">
+				24 novembre 2024
+			</time>
+			-
+			<span class="post-tags">tags:
+				<ul class="post-metadata">
+						<li>
+							<a href="/tags/gmi/" class="post-tag">gmi</a>
+						</li>
+						<li>
+							<a href="/tags/videogames/" class="post-tag">videogames</a>
+						</li>
+				</ul>
+			</span>
+		</div>
 	</li>
 
 	<li class="postlist-item">
@@ -633,9 +891,19 @@ a.post-tag:active {
 				La Valve Difference.
 			
 		</a>
-		<time class="postlist-date" datetime="Sat Nov 16 2024 00:00:00 GMT+0000 (Coordinated Universal Time)">
-			16 novembre 2024
-		</time>
+		<div>
+			<time class="postlist-date" datetime="Sat Nov 16 2024 00:00:00 GMT+0000 (Coordinated Universal Time)">
+				16 novembre 2024
+			</time>
+			-
+			<span class="post-tags">tags:
+				<ul class="post-metadata">
+						<li>
+							<a href="/tags/videogames/" class="post-tag">videogames</a>
+						</li>
+				</ul>
+			</span>
+		</div>
 	</li>
 
 	<li class="postlist-item">
@@ -644,9 +912,19 @@ a.post-tag:active {
 				Ciao, ci sono anch&#39;io.
 			
 		</a>
-		<time class="postlist-date" datetime="Tue Nov 12 2024 00:00:00 GMT+0000 (Coordinated Universal Time)">
-			12 novembre 2024
-		</time>
+		<div>
+			<time class="postlist-date" datetime="Tue Nov 12 2024 00:00:00 GMT+0000 (Coordinated Universal Time)">
+				12 novembre 2024
+			</time>
+			-
+			<span class="post-tags">tags:
+				<ul class="post-metadata">
+						<li>
+							<a href="/tags/personale/" class="post-tag">personale</a>
+						</li>
+				</ul>
+			</span>
+		</div>
 	</li>
 
 </ol>
@@ -659,7 +937,7 @@ a.post-tag:active {
 			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
 		</footer>
 
-		<!-- This page `/blog/` was built on 2025-08-14T07:19:58.998Z -->
+		<!-- This page `/blog/` was built on 2025-08-18T13:18:51.981Z -->
 		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
 	</body>
 </html>
