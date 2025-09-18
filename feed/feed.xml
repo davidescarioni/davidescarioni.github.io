@@ -5,11 +5,24 @@
   <subtitle>My personal blog.</subtitle>
   <link href="https://davidescarioni.github.io/feed/feed.xml" rel="self" />
   <link href="https://davidescarioni.github.io/" />
-  <updated>2025-08-18T00:00:00Z</updated>
+  <updated>2025-09-19T00:00:00Z</updated>
   <id>https://davidescarioni.github.io/</id>
   <author>
     <name>Davide Scarioni</name>
   </author>
+  <entry>
+    <title>Un mese impegnativo</title>
+    <link href="https://davidescarioni.github.io/blog/un-mese-impegnativo/" />
+    <updated>2025-09-19T00:00:00Z</updated>
+    <id>https://davidescarioni.github.io/blog/un-mese-impegnativo/</id>
+    <content type="html">&lt;p&gt;A causa di un temporale, un fulmine ha colpito la centralina telefonica e il mio modem / router si è rotto.
+A causa dello stesso fulmine, il mio NAS si è rotto.
+A causa dello stesso temporale, il robot tagliaerba si è rotto.
+A causa di un incidente, che fortunatamente non a ferito persone, una macchina ha distrutto la mia auto.&lt;/p&gt;
+&lt;p&gt;Si, è stato un mese decisamente impegnativo. Fortunatamente &lt;em&gt;sono solo cose&lt;/em&gt;, per cui tutto si può sistemare.
+Che fatica, però.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Il mio primo NAS</title>
     <link href="https://davidescarioni.github.io/blog/il-mio-primo-nas/" />
@@ -248,59 +261,6 @@ Un po&#39; come in Celeste, anche qui sento già la nostalgia delle sensazioni &
 &lt;p&gt;&lt;strong&gt;Fast Forward&lt;/strong&gt;: ... Ops, non avevo ancora pubblicato l&#39;articolo, e nel mentre ho acquistato e completato anche il &lt;strong&gt;DLC Mask of Darkness&lt;/strong&gt;: il contenuto è un&#39;area a se&#39; stante dalla mappa, con un&#39;atmosfera più dark, sempre con mappa &amp;quot;metroidvaniosa&amp;quot; ma senza la possibilità di acquisire nuovi power up. Anzi, in quest&#39;area subiremo un deciso downgrade, probabilmente per permettere a tutti gli utenti di giocare la stessa esperienza.&lt;/p&gt;
 &lt;p&gt;E&#39; un contenuto più focalizzato sul platforming che sul combattimento, anche se in entrambi i casi il livello di sfida è più alto rispetto al gioco base. Gli ostacoli da platform e i nemici sono comunque completamente originali e non &amp;quot;riciclati&amp;quot; dal gioco base, e questo fa davvero incrementare il valore dell&#39;espansione.
 In generale però il &amp;quot;livello&amp;quot; è qualitativamente meno bello delle singole aree presente nel gioco originale, ma è stato comunque divertente e ho avuto difficoltà a non giocarlo ininterrottamente gli scorsi giorni. Se vi è piaciuto il gioco base, anche questo DLC &lt;strong&gt;vi piacerà&lt;/strong&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Stardrop, il mio gioco per la Compe 2025</title>
-    <link href="https://davidescarioni.github.io/blog/stardrop/" />
-    <updated>2025-06-04T00:00:00Z</updated>
-    <id>https://davidescarioni.github.io/blog/stardrop/</id>
-    <content type="html">&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/stardrop/SJh0ezYiXc-1024.avif 1024w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/stardrop/SJh0ezYiXc-1024.webp 1024w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/stardrop/SJh0ezYiXc-1024.png&quot; alt=&quot;Schermata del titolo del gioco&quot; width=&quot;1024&quot; height=&quot;576&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Stardrop&lt;/strong&gt; è la mia &lt;em&gt;entry&lt;/em&gt; di quest&#39;anno alla Competizione di GameMaker Italia: dovrebbe essere quello che ultimamente viene definito &lt;a href=&quot;https://www.nintendolife.com/features/what-the-heck-is-a-metroidbrainia-introducing-the-newest-genre-on-the-block&quot;&gt;MetroidBrainia&lt;/a&gt;, ma molto probabilmente è un puzzle platform, quasi un labirinto con regole non scritte.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://scario88.itch.io/stardrop&quot;&gt;Premi qui per scaricarlo da itch.io&lt;/a&gt;. Password della pagina: &lt;strong&gt;gmi&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;NB: questo articolo presenta parecchi spoiler sul gioco, quindi se volete provarlo vi consiglio di leggerlo una volta terminata la vostra run.&lt;/p&gt;
-&lt;p&gt;La mia idea iniziare era quella di creare qualcosa che spiazzasse e stupisse il giocatore: negli scorsi mesi ho giocato a &lt;a href=&quot;https://www.cocoongame.com/&quot;&gt;COCOON&lt;/a&gt;, &lt;a href=&quot;https://amidos2006.itch.io/hollow-floor&quot;&gt;Hollow Floor&lt;/a&gt;, &lt;a href=&quot;https://tunicgame.com/&quot;&gt;Tunic&lt;/a&gt; e &lt;a href=&quot;https://tiz010.itch.io/pigments&quot;&gt;Pigments&lt;/a&gt;, giochi tutti di caratura diversa ma con in comune il fatto di avermi regalato delle &lt;em&gt;serendipity&lt;/em&gt; ogni volta nella quale il gioco riusciva a insegnarmi una meccanica senza che me lo dicesse.&lt;/p&gt;
-&lt;p&gt;Partendo da queste premesse, mi sono chiesto come reagirebbe un giocatore di fronte a ostacoli tipici &amp;quot;da platform classico&amp;quot;, se improvvisamente le regole venissero sovvertite. Da questa riflessione è nata l’idea di sviluppare un gioco in cui il personaggio cambia forma e comportamento in base a cosa calpestasse.&lt;/p&gt;
-&lt;p&gt;L&#39;idea mi è piaciuta subito, e con una caratteristica così &amp;quot;lasca&amp;quot; ho dato spazio alla fantasia: forme nelle quali non si può cadere, altre nelle si può passare attraverso a qualcosa, altre ancora che intervengono sulla gravità: messo tutto in una stanza singola, con tanti poteri a disposizione, l&#39;idea sembrava funzionare alla grande. Però c&#39;è un motivo se volevo chiamare questo articolo &lt;em&gt;Come NON sviluppare un MetroidBrania&lt;/em&gt;...&lt;/p&gt;
-&lt;p&gt;Sono partito disegnando la possibile mappa di gioco su iPad, partendo da situazioni che volevo che il giocatore affrontasse in base al potere aquisito&lt;/p&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/stardrop/7sEVppJMh3-1143.avif 1143w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/stardrop/7sEVppJMh3-1143.webp 1143w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/stardrop/7sEVppJMh3-1143.png&quot; alt=&quot;Primi disegni del mega livello&quot; width=&quot;1143&quot; height=&quot;644&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
-&lt;p&gt;Ho scelto di disegnare il personaggio giocabile come una &lt;em&gt;goccia di stella&lt;/em&gt;, per fare in modo di avere qualcosa di potenzialmente &amp;quot;malleabile&amp;quot;: volevo poi che, come in COCOON, interpretassimo un alieno alle prese con un pianeta che non conosce, così da poter stupire e straniare il giocatore ribaltando le sue aspettative.... ma si è rivelata un po&#39; un&#39;arma a doppio taglio.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;aliento (/a·liè·no/, aggettivo, &amp;quot;Che appartiene ad altri; non com., estraneo, fuor di proposito&amp;quot;) [Oxford Languages]&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Veniamo allo sviluppo.&lt;/p&gt;
-&lt;p&gt;La schermata introduttiva non è niente di speciale, se non fosse che il pianeta che ruota fa la sua porca figura. E&#39; stato realizzato utilizzando il tool &lt;a href=&quot;https://deep-fold.itch.io/pixel-planet-generator&quot;&gt;Pixel Planet Generator&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/stardrop/inorgo0pH--1011.avif 1011w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/stardrop/inorgo0pH--1011.webp 1011w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/stardrop/inorgo0pH--1011.png&quot; alt=&quot;Pixel Planet Generator&quot; width=&quot;1011&quot; height=&quot;650&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
-&lt;p&gt;Il gioco in se&#39; è invece una singola grande room, anzi, una &lt;strong&gt;esageratamente&lt;/strong&gt; enorme: il mio vecchio Macbook Air 2017 si blocca costantemente spostandomi all&#39;interno! L&#39;avevo fatta così grande perchè ho cominciato a svilupparla prima di terminare di disegnarla, per cui non avevo idea delle reali dimensioni di cui avrei necessitato.
-Dallo screenshot qui sotto la vedete grande la metà di quella che ho consegnato, perchè ho sperimentato con successo (almeno per 3 lati su 4) &lt;a href=&quot;https://github.com/YAL-GameMaker/room-shift&quot;&gt;Room Shift&lt;/a&gt;, una web app del buon YAL che permette di ridimensionare la room in tutte le direzioni, a differenza di quello che fa GameMaker nativamente.&lt;/p&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/stardrop/Z6CC-WEuCx-844.avif 844w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/stardrop/Z6CC-WEuCx-844.webp 844w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/stardrop/Z6CC-WEuCx-844.png&quot; alt=&quot;Room di gioco&quot; width=&quot;844&quot; height=&quot;451&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
-&lt;p&gt;Il rettangolo nero in alto è la soluzione che ho adottato per avere una &amp;quot;cornice&amp;quot; attorno alla mia schermata di gioco: una viewport punta verso la cornice, mentre la viewport successiva inquadra la room di gioco.&lt;/p&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/stardrop/eTqDwch2Iz-1011.avif 1011w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/stardrop/eTqDwch2Iz-1011.webp 1011w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/stardrop/eTqDwch2Iz-1011.png&quot; alt=&quot;Bordo nero attorno alla schermata di gioco&quot; width=&quot;1011&quot; height=&quot;569&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
-&lt;p&gt;Alla fine non l&#39;ho poi veramente sfruttata come feature, ma è stato sicuramente formativo imparare come fare una cosa del genere, sono sicuro che potrei utilizzarla per il futuro.&lt;/p&gt;
-&lt;p&gt;Il codice di gioco non è particolarmente rifinito, anzi. E no, non intendo per alcuni problemi con le collisioni, ma perchè ho cercato di scrivere tutto nella maniera più semplice possibile. I motivi sono due:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;lavorando al progetto al mattino prima di andare a lavoro, e nemmeno tutti i giorni, se il codice non era più che leggibile avrei passato più tempo a capire cosa fare che effettivamente farlo&lt;/li&gt;
-&lt;li&gt;dato che il potere di ruotare le stanze (spoiler) è stato uno dei primi che ho inserito, ho voluto che tutti i poteri potessero venire usati in tutte e 4 le direzioni in cui posso ruotare le stanze e la gravità. Dato che ho perso una settimana per riuscire a rendere tutto più astratto possibile, fallendo, ho duplicato il codice per tutte e 4 le direzioni di gravità (Jak di GMI, perdonami xD)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/stardrop/YVnQlaZudS-869.avif 869w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/stardrop/YVnQlaZudS-869.webp 869w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/stardrop/YVnQlaZudS-869.png&quot; alt=&quot;Step Event di obj_player&quot; width=&quot;869&quot; height=&quot;528&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
-&lt;p&gt;Veniamo ora ai motivi per il quale accennavo prima di non essere soddisfatto del mio sviluppo:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;il gioco richiede moltissimi test: i tanti poteri con cui affrontare diverse situazioni, cercando di dare al giocatore la possibilità di spostarsi come e dove più preferisce dando origine a tantissimi problemi. Il giorno successivo al rilascio mi ero accorto di un possibile softlock e mi sono mangiato le mani, ma dopo il test dei giudici mi sono accorto che le possibilità di &lt;em&gt;incastrarsi&lt;/em&gt; nel livello sono davvero molte&lt;/li&gt;
-&lt;li&gt;sempre riferito al punto prima, il gioco è di fatto un enigma di cui io so già la soluzione: tutto quello che mi sembra chiaro e/o banale non è detto che lo sia anche per il giocatore, e anche qui quello che mi sarebbe servito davvero è del testing da una parte di almeno una persona terza&lt;/li&gt;
-&lt;li&gt;non avevo molto tempo a disposizione, ho provato a scegliere un&#39;idea che mi sembrava poco complessa e veloce nella realizzazione, puntando tutto sul level design. Beh, così non è stato: la realizzazione del livello di ha fatto ammattire, e la mia scelta di rendere possibile le transformazioni per ogni angolo di gravità ha fatto sì che anche il codice sia più complesso del previsto. Tutto questo a scapito del polishing grafico e audio, ovviamente :(&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Credo poi che il gioco in sè non sia così divertente e non invogli il giocatore a completarlo: i giudici della competizione non sono riusciti a portarlo a termine, e ho ricevuto pochissime richieste di aiuto riguardo a puzzle non ben comprensibili.&lt;/p&gt;
-&lt;p&gt;Il gioco &lt;a href=&quot;https://gamemakeritalia.it/competizioni/contest/?contest=28&quot;&gt;si è posizionato al 9° posto su 16&lt;/a&gt;: vedendo la qualità dei giochi di quest&#39;anno non posso sicuramente lamentarmi, anzi, credo che qualche gioco arrivato sotto al mio sarebbe dovuto essere premiato di più.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://youtu.be/_sj5MZDS73M?si=qqR-bGsvUXKn7FzU&amp;amp;t=5421&quot;&gt;Qui trovi il link del video della live di premiazione, nel momento in cui viene mostrato StarDrop&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Ma non tutto il male viene per nuocere. Ho chiesto feedback alla community di GMI, e ne sono arrivati parecchi!&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Secondo i giudici la mappa &amp;quot;consultabile&amp;quot; (se ci giocate sapete cosa intendo) mostra troppo poco dell&#39;area di gioco. Era una scelta per invogliare il giocatore a disegnare la mappa su carta, ma nessuno lo ha fatto, per cui tengo in considerazione di cambiare completamente questa parte&lt;/li&gt;
-&lt;li&gt;Patience mi ha suggerito (e ho prontamente sviluppato) un panic button per resettare la posizione e il potere del giocatore, così da permettere di terminare la partita durante un softlock&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://youtu.be/fKC5rcu6WZc?si=Ew6TMUwQo4tjWBZb&amp;amp;t=3866&quot;&gt;Jak ha apprezzato tantissimo l&#39;introduzione dei comandi&lt;/a&gt;, e la cosa non potrebbe rendermi più felice. Mi ha però detto che ha trovato alcuni poteri ma posizionati: se i primi ti permettono di &amp;quot;provarli e giocare&amp;quot; prima di effettivamente usarli, altri vanno presi e capiti &amp;quot;al volo&amp;quot;.&lt;/li&gt;
-&lt;li&gt;Mad consiglia di rendere più comprensibile l&#39;enigma degli animali, mentre quello sonoro l&#39;ha trovato abbastanza comprensibile.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Voglio portare a termine questo gioco e dargli un degno &amp;quot;confezionamento&amp;quot;: metto in pausa gli sviluppi per un po&#39;, rifiato, prendo un po&#39; di feedback e poi penso a come farlo evolvere.
-Se tu che stai leggendo hai voglia di darmi un feedback non farti problemi, anzi, apprezzerei moltissimo!&lt;/p&gt;
 </content>
   </entry>
 </feed>
