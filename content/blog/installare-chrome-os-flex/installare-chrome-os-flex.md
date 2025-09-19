@@ -1,7 +1,7 @@
 ---
 title: Installare ChromeOS Flex su un vecchio Celeron
 description:
-date: 2025-09-19
+date: 2025-09-20
 tags: ["tech"]
 ---
 
