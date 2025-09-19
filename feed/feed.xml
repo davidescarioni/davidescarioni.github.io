@@ -5,28 +5,15 @@
   <subtitle>My personal blog.</subtitle>
   <link href="https://davidescarioni.github.io/feed/feed.xml" rel="self" />
   <link href="https://davidescarioni.github.io/" />
-  <updated>2025-09-19T00:00:00Z</updated>
+  <updated>2025-09-20T00:00:00Z</updated>
   <id>https://davidescarioni.github.io/</id>
   <author>
     <name>Davide Scarioni</name>
   </author>
   <entry>
-    <title>Un mese impegnativo</title>
-    <link href="https://davidescarioni.github.io/blog/un-mese-impegnativo/" />
-    <updated>2025-09-19T00:00:00Z</updated>
-    <id>https://davidescarioni.github.io/blog/un-mese-impegnativo/</id>
-    <content type="html">&lt;p&gt;A causa di un temporale, un fulmine ha colpito la centralina telefonica e il mio modem / router si è rotto.&lt;/p&gt;
-&lt;p&gt;A causa dello stesso fulmine, il mio NAS si è rotto.&lt;/p&gt;
-&lt;p&gt;A causa dello stesso temporale, il robot tagliaerba si è rotto.&lt;/p&gt;
-&lt;p&gt;A causa di un incidente, che fortunatamente non a ferito persone, una macchina ha distrutto la mia auto.&lt;/p&gt;
-&lt;p&gt;Si, è stato un mese decisamente impegnativo. Fortunatamente &lt;em&gt;sono solo cose&lt;/em&gt;, per cui tutto si può sistemare.
-Che fatica, però.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
     <title>Installare ChromeOS Flex su un vecchio Celeron</title>
     <link href="https://davidescarioni.github.io/blog/installare-chrome-os-flex/" />
-    <updated>2025-09-19T00:00:00Z</updated>
+    <updated>2025-09-20T00:00:00Z</updated>
     <id>https://davidescarioni.github.io/blog/installare-chrome-os-flex/</id>
     <content type="html">&lt;p&gt;.. è assolutamente fattibile, e oserei dire che ne vale la pena.&lt;/p&gt;
 &lt;h2 id=&quot;premessa&quot;&gt;Premessa&lt;/h2&gt;
@@ -54,6 +41,19 @@ Serve poi il browser Chrome (ma credo vada bene qualsiasi a base Chromium anche 
 &lt;p&gt;Niente, come dicevo il processo è molto veloce e l&#39;OS è partito senza nessun problema di driver o simili.
 Il sistema è più reattivo di prima: non è mai un fulmine, ma adesso accendere il pc per andare su una pagina web e navigarla è un&#39;esperienza decisamente più piacevole.&lt;/p&gt;
 &lt;p&gt;Ora restituisco il portatile a mia madre dopo averlo provato sporadicamente per circa un&#39;ora, aggiornerò l&#39;articolo con un feedback se fosse necessario.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Un mese impegnativo</title>
+    <link href="https://davidescarioni.github.io/blog/un-mese-impegnativo/" />
+    <updated>2025-09-19T00:00:00Z</updated>
+    <id>https://davidescarioni.github.io/blog/un-mese-impegnativo/</id>
+    <content type="html">&lt;p&gt;A causa di un temporale, un fulmine ha colpito la centralina telefonica e il mio modem / router si è rotto.&lt;/p&gt;
+&lt;p&gt;A causa dello stesso fulmine, il mio NAS si è rotto.&lt;/p&gt;
+&lt;p&gt;A causa dello stesso temporale, il robot tagliaerba si è rotto.&lt;/p&gt;
+&lt;p&gt;A causa di un incidente, che fortunatamente non a ferito persone, una macchina ha distrutto la mia auto.&lt;/p&gt;
+&lt;p&gt;Si, è stato un mese decisamente impegnativo. Fortunatamente &lt;em&gt;sono solo cose&lt;/em&gt;, per cui tutto si può sistemare.
+Che fatica, però.&lt;/p&gt;
 </content>
   </entry>
   <entry>
