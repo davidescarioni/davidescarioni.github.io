@@ -5,11 +5,33 @@
   <subtitle>My personal blog.</subtitle>
   <link href="https://davidescarioni.github.io/feed/feed.xml" rel="self" />
   <link href="https://davidescarioni.github.io/" />
-  <updated>2025-09-20T00:00:00Z</updated>
+  <updated>2025-09-29T00:00:00Z</updated>
   <id>https://davidescarioni.github.io/</id>
   <author>
     <name>Davide Scarioni</name>
   </author>
+  <entry>
+    <title>Appena prima di pranzo</title>
+    <link href="https://davidescarioni.github.io/blog/appena-prima-di-pranzo/" />
+    <updated>2025-09-29T00:00:00Z</updated>
+    <id>https://davidescarioni.github.io/blog/appena-prima-di-pranzo/</id>
+    <content type="html">&lt;p&gt;Ho recentemente pubblicato Appena prima di pranzo, un piccolissimo gioco sviluppato per la jam a tema &amp;quot;Nostalgia&amp;quot;. Lo potete trovare su &lt;a href=&quot;https://scario88.itch.io/appena-prima-di-pranzo&quot;&gt;itch.io&lt;/a&gt; e su &lt;a href=&quot;https://www.indiexpo.net/it/games/appena-prima-di-pranzo&quot;&gt;indiexpo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Il gioco è stato sviluppato nel 2023, ma non lo avevo mai reso pubblico.
+Non che non fossi soddisfatto, anzi, per il tempo che ho investito credo di aver tirato fuori qualcosa di proprio carino. Tra l&#39;altro ho anche fatto &lt;a href=&quot;https://youtu.be/T0GwJvnlVks?si=S2uLfUjHoQw5v25-&quot;&gt;un video-devlog&lt;/a&gt; a riguardo in cui parlo come ho realizzato la grafica in quella sorta di isometria.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/appena-prima-di-pranzo/VwkaCIuIR9-1276.avif 1276w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/appena-prima-di-pranzo/VwkaCIuIR9-1276.webp 1276w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/appena-prima-di-pranzo/VwkaCIuIR9-1276.png&quot; alt=&quot;Uno screenshot del gioco&quot; width=&quot;1276&quot; height=&quot;788&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;Non lo avevo reso pubblico perchè pensavo fosse troppo personale... ma in fin dei conti perchè tenerlo nascosto? Non ci sono volti se non stilizzati, non ci sono nomi di persone... Insomma, non c&#39;è movito per non &lt;em&gt;mostrarlo al mondo&lt;/em&gt;, per cui ho deciso di riaprire il progetto con l&#39;intenzione di pubblicarlo.&lt;/p&gt;
+&lt;p&gt;Ho fatto due interventi principalmente&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;aggiornarlo all&#39;ultima versione di GM, e riscrivere variabili / funzioni con i pattern di Feather (il linter di GameMaker)&lt;/li&gt;
+&lt;li&gt;aggiungere dei i suggerimenti per gli &amp;quot;enigmi&amp;quot;
+Quest&#39;ultimo punto è nato per il semplice motivo che, quando è stato provato in live, in molti non avevano capito come trovare effettivamente le risposte ai quesiti del gioco. Dato che non c&#39;è una reale sfida, o comunque che non è quello il fulcro del gioco, ho inserito un pulsante per aiutare il giocatore se è bloccato sulla risoluzione di un problema.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Il gioco dura circa 5 minuti, e ho scelto di pubblicarlo in HTML5 (come voglio fare da qui in avanti e retroattivamente) affinchè non sia necessario scaricare un intero progetto per 5 minuti di gameplay.
+oi, essendo utente MacOs, spesso devo posticipare la prova di indie perchè la maggior parte sono disponibili solo per Windows, quindi poter provare un gioco direttamente dalla pagina web è un feature che mi fa molto piacere trovare e mettere a disposizione agli altri.&lt;/p&gt;
+&lt;p&gt;Spero possa piacervi, o comunque possiate trovare qualcosa di interessante da questo mio piccolo progetto nato da una jam.&lt;/p&gt;
+&lt;p&gt;Dimenticavo: &lt;a href=&quot;https://github.com/davidescarioni/appena-prima-di-pranzo&quot;&gt;il repository Github&lt;/a&gt; del progetto è pubblico, sbirciatelo pure se vi interessa qualcosa all&#39;interno.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Installare ChromeOS Flex su un vecchio Celeron</title>
     <link href="https://davidescarioni.github.io/blog/installare-chrome-os-flex/" />
@@ -253,20 +275,6 @@ Sarebbe carino approfondire su quali sono effettivamente i loro cibi tipici e po
 &lt;p&gt;&lt;a href=&quot;https://store.steampowered.com/app/3496520/MIO_Memories_in_Orbit_Demo/&quot;&gt;MIO - Memories In Orbit&lt;/a&gt; è un MetroidVania 2.5d con un&#39;estetica sci-fi davvero particolare e una HUD che mi ha davvero stupito in quanto a cura. Non è ben ottimizzato su Steam Deck, la demo è più lunga delle altre e non sono riuscito a completarla, ma così su due piedi direi di tenerlo d&#39;occhio, è davvero promettente e sembra avere una lore davvero interessante. Ah, ultima cosa: l&#39;intro è davvero stupenda a livello di messa in scena e di tutorial &amp;quot;non tutorial&amp;quot; per imparare i movimenti, davvero da manuale.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-</content>
-  </entry>
-  <entry>
-    <title>On Browsers, AI and the web</title>
-    <link href="https://davidescarioni.github.io/blog/on-browsers-ai-and-the-web/" />
-    <updated>2025-06-12T00:00:00Z</updated>
-    <id>https://davidescarioni.github.io/blog/on-browsers-ai-and-the-web/</id>
-    <content type="html">&lt;p&gt;&lt;strong&gt;Manuel Monreale&lt;/strong&gt; nel suo blog post &lt;a href=&quot;https://manuelmoreale.com/on-browsers-ai-and-the-web&quot;&gt;On Browser,s AI, and the web&lt;/a&gt;, parla del fatto che alcune compagnie stiano trattando le pagine web come meri strumenti da dare in pasto all&#39;AI, e che c&#39;è il pericolo che questa diventerà il modo delle persone non tecniche per interfacciarsi con internet.&lt;/p&gt;
-&lt;p&gt;E dice, con rammarico, che lui è scettico riguardo a questo modo di prendere informazioni da internet, per un motivo ben specifico:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;quot;But more importantly, there’s something else about this whole idea of chatting-with-a-computer-to-get-answers-from-the-web that I find incredibly off-putting: the complete lack of potential for serendipity. Clicking on links and landing on random sites has the potential to take me in unexpected directions. And also the web is filled with creative people who have incredibly interesting sites from a visual point of view. All that is absent in a chat-based world and that’s something I just can’t personally accept for myself. Feels like such a boring way to browse the web.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Mi ritrovo perfettamente in quanto lui scrive: anche a me piace &lt;em&gt;&amp;quot;&lt;em&gt;perdermi&lt;/em&gt;&amp;quot;&lt;/em&gt; nei link che portano da un blog personale ad un altro, scoprendo cose più o meno interessanti e apprezzando la bellezza delle nostre unicità.&lt;/p&gt;
-&lt;p&gt;Ecco, se dovessi descrivere il motivo per il quale mi sto appassionando così tanto al mondo dei blog personali e al curare il mio feed RSS, riporterei &lt;strong&gt;parola per parola&lt;/strong&gt; questo suo paragrafo.&lt;/p&gt;
 </content>
   </entry>
 </feed>
