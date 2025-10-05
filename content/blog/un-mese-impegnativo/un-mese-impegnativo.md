@@ -9,9 +9,9 @@ A causa di un temporale, un fulmine ha colpito la centralina telefonica e il mio
 
 A causa dello stesso fulmine, il mio NAS si è rotto.
 
-A causa dello stesso temporale, il robot tagliaerba si è rotto.
+A causa dello stesso temporale, il robot tagliaerba si è guastato.
 
-A causa di un incidente, che fortunatamente non a ferito persone, una macchina ha distrutto la mia auto.
+A causa di un incidente, che fortunatamente non ha ferito persone, una macchina ha distrutto la mia auto.
 
 Si, è stato un mese decisamente impegnativo. Fortunatamente *sono solo cose*, per cui tutto si può sistemare.
 Che fatica, però.
