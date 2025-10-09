@@ -1,7 +1,7 @@
 ---
 title: Comprare su Internet
 date: 2025-07-16
-tags: ["personale"]
+tags: ["personale", "videogame", "cibo"]
 ---
 
 Amazon ha avuto il grande merito di *sdoganare* gli acquisti online: ricordo, tempo addietro, che comprare qualcosa dalla rete regalava solo ansie e paura sulla possibilità che venissero rubati i soldi spesi o che i prodotti venduti non fossero reali.
