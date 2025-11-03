@@ -1,0 +1,577 @@
+<!doctype html>
+<html lang="it">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>GameMaker Meetup 2025</title>
+		<meta name="description" content="Torniamo a vederci dopo due anni">
+		<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Scario Side Quest">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/* This is an arbitrary CSS string added to the bundle */
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #f1f2da;
+		--color-gray-50: #f1f2da;
+		--color-gray-90: #f1f2da;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #ffce96;
+		--text-color-link-active: #ff7777;
+		--text-color-link-visited: #ffce96;
+
+		/* Valutare se usare questo verde */
+		/* --text-color-link: #00fc7f; */
+
+		/* --background-color: #00303b; */
+		--background-color: #1d1d21;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+@view-transition {
+	navigation: auto;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 50em;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	flex: 1;
+}
+
+main > * {
+	display: flex;
+    flex-direction: column;
+}
+
+p:has(picture) {
+	align-self: center;
+}
+
+picture img {
+	max-width: 100%;
+	height: auto;
+}
+
+main,
+footer {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	display: flex;
+	justify-content: space-between;
+	gap: .5em 1em;
+	list-style: "";
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+.links-nextprev > * {
+	flex-grow: 1;
+}
+.links-nextprev-next {
+	text-align: right;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	overflow-x: auto;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Post */
+.post-header {
+	padding-bottom: 1em;
+	border-bottom: 1px solid var(--text-color);
+}
+.post-title {
+	margin-top: .2em;
+	margin-bottom: 0;
+}
+
+.post-date {
+	font-size: .8em;
+}
+
+.post-tags {
+    margin-top: 0.8em;
+    font-size: 0.8125em;
+}
+
+/* Tags */
+
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 1em 0 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<a href="/" class="home-link">Scario Side Quest</a>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/">Home</a></li>
+					<li class="nav-item"><a href="/blog/">Blog</a></li>
+					<li class="nav-item"><a href="/about/">About</a></li>
+					<li class="nav-item"><a href="/feed/feed.xml">Feed</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			<heading-anchors>
+				
+
+<div class="post-header">
+<time class="post-date" datetime="2025-11-03">03 November 2025</time>
+<h1 class="post-title" id="gamemaker-meetup-2025">GameMaker Meetup 2025</h1>
+<div>Torniamo a vederci dopo due anni</div>
+<div class="post-tags">Tags: <ul class="post-metadata">
+        <li>
+            <a href="/tags/gmi/" class="post-tag">gmi</a>
+        </li>
+        <li>
+            <a href="/tags/videogames/" class="post-tag">videogames</a>
+        </li>
+</ul></div>
+</div>
+<p>Come avevo anticipato nel post della <a href="./milano-games-week-2024.html">Milano Games Week 2024</a>, non era davvero mia intenzione organizzare un altro Meetup per GameMaker</p>
+<blockquote>
+<p>Quest'anno poi l'organizzazione [del Meetup, NdR] mi ha davvero distrutto: le chiamate quasi quotidiane con [...] (la location che avevamo scelto) [...]] unite nel calderone delle <em>rotture</em> provenienti dalle nuove incombenze [...] sono state davvero un impegno che, ora come ora, non vorrei più ripetere.</p>
+</blockquote>
+<p>Ma chi sono io per essere coerente? Eccomi quindi qui a raccontarvi com'è andato il Meetup di quest'anno :D
+Scherzi a parte, l'organizzazione del Meetup è davvero sfiancante: ricerca del locale, ping ai singoli utenti per capire in quanti si possa essere, contattare <em>il signor GameMaker</em> per capire se è possibile essere finanziati, ecc...
+Al tempo stesso però credo sia davvero importante avere questo incontro tra la community, che però è per lo più pigra e non ha la voglia di organizzare. Quindi insomma, forse più per me stesso che per altro, mi sono rimboccato le maniche e ho voluto organizzare anche quest'anno un Meetup: sempre a Roma visto che c'è più partecipazione, e sempre nel locale che già conosciamo, la Civetta Ludopub.</p>
+<h2 id="la-mia-giornata">La mia giornata</h2>
+<p>Sveglia alle 4.30, esco di casa un'ora dopo per riuscire ad arrivare a Famagosta e prendere la prima metro della giornata, quella delle 6.01. Il mondo della domenica mattina quando la notte e la mattina si danno il cambio è incredibile: ho trovato un posto di blocco dei carabinieri per i controlli a chi torna dalla discoteca, e in metropolitana si alternavano persone che andavano da qualche parte e quelle che tornavano, riconoscibili perchè questi ultimi salutavano calorosamente gli amici con in mano una brioche da riportare a casa.</p>
+<p><picture><source type="image/avif" srcset="/blog/meetup-2025/FES0W18ogM-1097.avif 1097w"><source type="image/webp" srcset="/blog/meetup-2025/FES0W18ogM-1097.webp 1097w"><img loading="lazy" decoding="async" src="/blog/meetup-2025/FES0W18ogM-1097.png" alt="La metro di Milano alle 6.01" width="1097" height="619"></picture></p>
+<p>Arrivato in stazione in anticipo (sarò vecchio, ma un po' di ansietta pre viaggio non manca mai) ho fatto una buona seconda colazione a base di bioches e caffè da RossoPomodoro che, a quanto pare, serve anche colazioni al mattino.</p>
+<p>Il viaggio poi in treno verso Roma è stato comodo come al solito: mi piace viaggiare con Italo, ad una bella run ad Alwa's Awakening sulla Miyoo Mini Plus ha fatto il resto.</p>
+<p>Arrivato in stazione ho subito incontrato vecchi e nuovi amici: Benia mi ha aspettato sui binari e mi ha presentato il suo amico (che è stato anche utente per brevissimo tempo su GMI), e da lì ci siamo incamminato e abbiamo incontrato Victroium, Wolfcorp (incredibile, non è un ologramma), KR4ID e la sua fidanzata, Bipo e Wolfrost. Dai nomi avrete sicuramente riconosciuto qualuno che ho già nominato in precedenza, qualcuno no. In ogni caso mi fa sempre piacere rivederli, in particolare Benia: è un utente vecchio come me, abbiamo collaborato insieme, poi lui è diventato un imprenditore e si è staccato dalla scena dello sviluppo, ma a questi eventi gli fa sempre piacere partecipare... un grande insomma.</p>
+<p>Mentre ci incamminavamo verso il luogo del Meetup, Mad e Pat mi hanno contattato riempiendomi d'ansia: il locale non aveva capito fossimo in 35, aveva preso altre prenotazioni e ci aveva riservato solo 20 posti. Fortunatamente grazie al fatto che alcuni degli altri avventori non si sono presentati, e al fatto che hanno notato che io avevo avvertito correttamente, al nostro arrivo era già tutto a posto, meno male. Ho avuto un momento il panico anche per il pranzo per le due ragazze celiache, ma la location è stata velocissima a risolvere una volta capito che fosse stata una mancanza loro... meno male!</p>
+<p>Il Meetup in sè, poi, è stato davvero bello: caotico, divertente, interessante... insomma, esattamente come me lo aspettavo :D</p>
+<p>L'obiettivo era quello di tenere dei talk, e poi di giocare i giochi della community (perchè va bene sviluppare, ma ogni tanto giocare ai propri giochi è davvero divertente!).</p>
+<p><picture><source type="image/avif" srcset="/blog/meetup-2025/OYxr3A7CsW-4003.avif 4003w"><source type="image/webp" srcset="/blog/meetup-2025/OYxr3A7CsW-4003.webp 4003w"><img loading="lazy" decoding="async" src="/blog/meetup-2025/OYxr3A7CsW-4003.jpeg" alt="Foto a caso che mostra le prime chiacchiere al Meetup" width="4003" height="2636"></picture></p>
+<h2 id="i-talk">I talk</h2>
+<h3 id="annuncio-importante">ANNUNCIO IMPORTANTE</h3>
+<p>Quei pazzi di Goldensun e Zigoon hanno tirato fuori dal cappello una cosa meravigliosa: l'album di figurine di GMI. Oltre ad essere un bellissimo progetto, la realizzazione è stata davvero ottima e i presenti sono andati in brodo di giuggiole. Non credo che sarà la prima volta che le vedremo, c'è stato davvero troppo entusiasmo e vogliamo che sia una cosa da far portare avanti, magari come premio alle competizioni... anche perchè non ho trovato nemmeno uno dei miei giochi, devo riuscire a recuperare o scambiare :D</p>
+<p>Il progetto è comunque qualcosa che poteva essere realizzata solo in una vera community unita. Bellissimo.</p>
+<p><picture><source type="image/avif" srcset="/blog/meetup-2025/Pk5TxukZIJ-4000.avif 4000w"><source type="image/webp" srcset="/blog/meetup-2025/Pk5TxukZIJ-4000.webp 4000w"><img loading="lazy" decoding="async" src="/blog/meetup-2025/Pk5TxukZIJ-4000.jpeg" alt="Le figurine di Mirkuto" width="4000" height="2256"></picture></p>
+<h3 id="spazio-ai-giochi-della-community-parte-2">Spazio ai giochi della community (parte 2)</h3>
+<p>Anche quest'anno Ballman ha chiesto agli utenti di GMI un gioco da fargli provare e &quot;recensire&quot;. Peccato per la poca partecipazione, ma, nonostante questo, Ball ha presentato, con il suo fantastico stile, alcuni dei giochi che non avevo mai provato, quindi sono contento che abbia tenuto il talk.
+Io gli avevo chiesto di provare Spooky Chest, ed è andata bene perchè, durante le chiacchiere mentre si pranzava, ho avuto davvero degli ottimo feedback che mi hanno portato a dargli una rinfrescata nei giorni scorsi. Lo vedo come un gioco che papabile da rendere &quot;vendibile&quot; su uno store, quindi sono contento che a qualcuno sia interessato.</p>
+<p><picture><source type="image/avif" srcset="/blog/meetup-2025/lpgp2ArMao-4000.avif 4000w"><source type="image/webp" srcset="/blog/meetup-2025/lpgp2ArMao-4000.webp 4000w"><img loading="lazy" decoding="async" src="/blog/meetup-2025/lpgp2ArMao-4000.jpeg" alt="Ball mostra i giochi della community" width="4000" height="1800"></picture></p>
+<h3 id="room-inheritance">Room inheritance</h3>
+<p>AlexoFalco ha tenuto l'unico vero talk tecnico della giornata. E' partito dal concetto di ereditarietà per poi focalizzarsi sull'applicazione nell'ambito delle room, un argomento davvero molto richiesto dalla community perchè un po' oscuro.
+È stato davvero molto interessante perchè ha anche mostrato dei casi d'uso molto pratici, devo assolutamente provarle in futuro.</p>
+<h3 id="presentazione-moerk-borg-heresy-supreme">Presentazione MÖRK BORG Heresy Supreme</h3>
+<p>Morbidware è un <strong>vero</strong> sviluppatore, nel senso che lo fa proprio come professione, ed è venuto a trovarci grazie a Mad: si sono conosciuti infatti quando il primo ha fatto il porting di un gioco del secondo per Nintendo Switch (FIREWORK).
+Al Meetup ha presentato il gioco a cui sta lavorando, tratto da un RPG da tavolo. Non lo conoscevo, ma lo stile grafico è pazzesco, e la resa del progetto non sembra uscire da GameMaker da quanto è bella.
+Ha detto un paio di cose interessanti tra l'altro, ad esempio che non usa room e pochissimi oggetti perchè fa tutto tramite struct. È un approccio che non ho mai provato, sono davvero curioso di capire quanto può essere vantaggioso con il mio utilizzo di GM.</p>
+<h3 id="presentazione-sylva-demo">Presentazione Sylva + Demo</h3>
+<p>Wolfcorp, utente storico di GMI, si fa vedere per la prima volta e mostra a tutti il gioco a cui lavora ormai da 4 anni, e con il quale aveva partecipato ad una Competizione, Sylva.
+Principalmente ci ha mostrato il nuovo trailer, ci ha raccontato le nuove funzionalità e ci ha regalato la demo in anteprima.
+Ha poi usato una cosa curiosa per avere feedback, o almeno, curiosa per me: ha usato un software che genera Word Clouds, quegli insiemi di parole in cui le stesse sono scritte più o meno grandi in base alla quantità di occorrenze della stessa. Spero che possano tornargli utili!</p>
+<h3 id="presentazione-gioco-nino">Presentazione gioco - Nino</h3>
+<p>Nino, il ragazzo più giovane della community, ha realizzato insieme al suo amico notarore un gioco multiplayer da 4 giocatori, e ce lo ha presentato e fatto provare con una quantità di entusiasmo incredibile. Spero che crescendo continui ad essere una sua caratteristica!</p>
+<p>### 3 tips veloci per GameMaker
+Il mio primo talk, velocissimo, in cui ho mostrato tre funzionalità che ho utilizzato per sviluppae LIESPIRE. Ah giusto, non ho ancora presentato questo gioco qui sul blog... Vedrò di farlo a breve, e riporterò qui sul blog anche queste fantomatiche tips.</p>
+<h3 id="memento">Memento</h3>
+<p>Il mio secondo talk, che ha suscitato un sacco di curiosità. Invecchiando, il tema della preservazione del passato è una questione a me cara, e anche il &quot;passare ai posteri&quot; il proprio lavoro è qualcosa a cui penso spesso. Dato che non ho le capacità di sfondare, tutti i miei piccoli giochi probabilmente spariranno nell'etere, anche e soprattutto perchè produco solo cose digitali. Mi piacebbe che la community realizzare una sorta di GMI50 (un gioco di giochi in stile UFO50), un launcher con i giochi della community o dei libri in cui parlarne, ma la verità è che un progetto con tante persone, per esperienza personale e a parte poche eccezioni, per me è un progetto destinato a fallire.
+La mia personale soluzione è quella di usare un launcher già pronto, Ninty, e popolarlo con i miei giochi. Ma, se a qualcuno va di partecipare, basta che in ogni suo gioco inserisca anche un banner quadrato nei suoi progetti, così che tutti possiamo usare Ninty e popolarlo con i giochi della community. Minima spesa massima resa.
+FLASH FORWARD: yatima, utente del forum che in passato ha sviluppato proprio <strong>per</strong> GameMaker, ha trovato interessante l'idea del launcher e ha cominciato a svilupparlo, tra l'altro con integrato anche Wine. Piango, e spero che non rompa il mio cuore abbandonandolo durante lo sviluppo.</p>
+<h3 id="rally-stil">Rally Stil</h3>
+<p>Avevo chiesto a Benia di portare da mostrare alla community Rally Still, un gioco perso nel tempo di cui praticamente ricordavo solo io l'esistenza. Gli ho chiesto di portalo, oltre che per farlo conoscere, perchè ricordavo avesse fatto una cosa bellissima, ossia dei controller dedicati stile cabinato delle sale giochi. Peccato non averlo potuto provare a dovere per colpa dei tempi stringenti, ma ha suscitato davvero molto entusiasmo e sono contento che Benia si sia prestato alla cosa.</p>
+<h2 id="la-mia-giornata-parte-2">La mia giornata (parte 2)</h2>
+<p>Tra una chiacchiera, un hamburger e qualche scambio di figurine la giornata è volata. Alle 19 ho salutato tutti e mi sono recato in stazione per prendere il treno di ritorno, non prima di essere passato al Mercato Centrale per recuperare le sfogliatelle di Scaturchio e una pizza romana da portare a casa alla mia compagna.</p>
+<p>Il viaggio di ritorno è stato peggio di quello dell'andata: ero stanco ma le luci mi hanno impedito di dormire, la rete era terribile (ecco perchè due anni fa mi ero salvato dei film in locale, bravo Scario del passato) e ho guardato la puntata di MyHero Academia a scatti e non avevo voglia di giocare, per cui mi sono accontentato di portarmi in pare con un paio di podacast.</p>
+<p>Al mio rientro a mezzanotte ho decretato che non ho pià l'età per fare Milano - Roma in giornata :D Ma è stato bellissimo e lo rifarei domani.</p>
+<p>Spero di rivedervi tutti presto, anche se, per forza di cose, non sarà così.</p>
+<p><picture><source type="image/avif" srcset="/blog/meetup-2025/WbAAPD6N8D-1280.avif 1280w"><source type="image/webp" srcset="/blog/meetup-2025/WbAAPD6N8D-1280.webp 1280w"><img loading="lazy" decoding="async" src="/blog/meetup-2025/WbAAPD6N8D-1280.jpeg" alt="Foto di gruppo incredibilmente sgranata dei ragazzi di GMI" width="1280" height="853"></picture></p>
+
+        <ul class="links-nextprev">
+                <li class="links-nextprev-prev">← Precedente<br>
+                        <a href="/blog/appena-prima-di-pranzo/">Appena prima di pranzo</a>
+                    </li>
+                
+                </ul>
+			</heading-anchors>
+		</main>
+
+		<footer>
+			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
+		</footer>
+
+		<!-- This page `/blog/meetup-2025/` was built on 2025-11-03T13:55:26.269Z -->
+		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
+	</body>
+</html>
