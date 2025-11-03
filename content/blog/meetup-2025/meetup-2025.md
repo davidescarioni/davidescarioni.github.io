@@ -1,13 +1,13 @@
 ---
 title: GameMaker Meetup 2025
 description: Torniamo a vederci dopo due anni
-date: 2025-11-03
+date: 2025-11-02
 tags: ["gmi", "videogames"]
 ---
 
-Come avevo anticipato nel post della [Milano Games Week 2024](./milano-games-week-2024.html), non era davvero mia intenzione organizzare un altro Meetup per GameMaker
+Come avevo anticipato nel post della [Milano Games Week 2024](/blog/milano-games-week-2024/), non era davvero mia intenzione organizzare un altro Meetup per GameMaker
 
-> Quest'anno poi l'organizzazione [del Meetup, NdR] mi ha davvero distrutto: le chiamate quasi quotidiane con [...] (la location che avevamo scelto) [...]] unite nel calderone delle _rotture_ provenienti dalle nuove incombenze [...] sono state davvero un impegno che, ora come ora, non vorrei più ripetere.
+> _Quest'anno poi l'organizzazione [del Meetup, NdR] mi ha davvero distrutto: le chiamate quasi quotidiane con [...] (la location che avevamo scelto) [...]] unite nel calderone delle rotture provenienti dalle nuove incombenze [...] sono state davvero un impegno che, ora come ora, non vorrei più ripetere._
 
 Ma chi sono io per essere coerente? Eccomi quindi qui a raccontarvi com'è andato il Meetup di quest'anno :D
 Scherzi a parte, l'organizzazione del Meetup è davvero sfiancante: ricerca del locale, ping ai singoli utenti per capire in quanti si possa essere, contattare _il signor GameMaker_ per capire se è possibile essere finanziati, ecc...
@@ -15,11 +15,11 @@ Al tempo stesso però credo sia davvero importante avere questo incontro tra la 
 
 ## La mia giornata
 
-Sveglia alle 4.30, esco di casa un'ora dopo per riuscire ad arrivare a Famagosta e prendere la prima metro della giornata, quella delle 6.01. Il mondo della domenica mattina quando la notte e la mattina si danno il cambio è incredibile: ho trovato un posto di blocco dei carabinieri per i controlli a chi torna dalla discoteca, e in metropolitana si alternavano persone che andavano da qualche parte e quelle che tornavano, riconoscibili perchè questi ultimi salutavano calorosamente gli amici con in mano una brioche da riportare a casa.
+**Sveglia alle 4.30**, esco di casa un'ora dopo per riuscire ad arrivare a Famagosta e prendere la prima metro della giornata, quella delle 6.01. Il mondo della domenica mattina quando la notte e la mattina si danno il cambio è incredibile: ho trovato un posto di blocco dei carabinieri per i controlli a chi torna dalla discoteca, e in metropolitana si alternavano persone che andavano da qualche parte e quelle che tornavano, riconoscibili perchè questi ultimi salutavano calorosamente gli amici con in mano una brioche da riportare a casa.
 
 ![La metro di Milano alle 6.01](./metro-601.png)
 
-Arrivato in stazione in anticipo (sarò vecchio, ma un po' di ansietta pre viaggio non manca mai) ho fatto una buona seconda colazione a base di bioches e caffè da RossoPomodoro che, a quanto pare, serve anche colazioni al mattino.
+Arrivato in stazione in anticipo (sarò vecchio, ma un po' di ansietta pre viaggio non manca mai) ho fatto una **buona seconda colazione** a base di bioches e caffè da RossoPomodoro che, a quanto pare, serve anche colazioni al mattino.
 
 Il viaggio poi in treno verso Roma è stato comodo come al solito: mi piace viaggiare con Italo, ad una bella run ad Alwa's Awakening sulla Miyoo Mini Plus ha fatto il resto.
 
@@ -46,7 +46,7 @@ Il progetto è comunque qualcosa che poteva essere realizzata solo in una vera c
 ### Spazio ai giochi della community (parte 2)
 
 Anche quest'anno Ballman ha chiesto agli utenti di GMI un gioco da fargli provare e "recensire". Peccato per la poca partecipazione, ma, nonostante questo, Ball ha presentato, con il suo fantastico stile, alcuni dei giochi che non avevo mai provato, quindi sono contento che abbia tenuto il talk.
-Io gli avevo chiesto di provare Spooky Chest, ed è andata bene perchè, durante le chiacchiere mentre si pranzava, ho avuto davvero degli ottimo feedback che mi hanno portato a dargli una rinfrescata nei giorni scorsi. Lo vedo come un gioco che papabile da rendere "vendibile" su uno store, quindi sono contento che a qualcuno sia interessato.
+Io gli avevo chiesto di provare [Spooky Chest](https://scario88.itch.io/spooky-chest), ed è andata bene perchè, durante le chiacchiere mentre si pranzava, ho avuto davvero degli ottimo feedback che mi hanno portato a dargli una rinfrescata nei giorni scorsi. Lo vedo come un gioco che papabile da rendere "vendibile" su uno store, quindi sono contento che a qualcuno sia interessato.
 
 ![Ball mostra i giochi della community](./ball-presenta.jpg)
 
@@ -57,8 +57,10 @@ AlexoFalco ha tenuto l'unico vero talk tecnico della giornata. E' partito dal co
 
 ### Presentazione MÖRK BORG Heresy Supreme
 
-Morbidware è un **vero** sviluppatore, nel senso che lo fa proprio come professione, ed è venuto a trovarci grazie a Mad: si sono conosciuti infatti quando il primo ha fatto il porting di un gioco del secondo per Nintendo Switch (FIREWORK).
+[Morbidware](https://www.morbidwaregames.com/) è un **vero** sviluppatore, nel senso che lo fa proprio come professione, ed è venuto a trovarci grazie a Mad: si sono conosciuti infatti quando il primo ha fatto il porting di un gioco del secondo per Nintendo Switch (FIREWORK).
+
 Al Meetup ha presentato il gioco a cui sta lavorando, tratto da un RPG da tavolo. Non lo conoscevo, ma lo stile grafico è pazzesco, e la resa del progetto non sembra uscire da GameMaker da quanto è bella.
+
 Ha detto un paio di cose interessanti tra l'altro, ad esempio che non usa room e pochissimi oggetti perchè fa tutto tramite struct. È un approccio che non ho mai provato, sono davvero curioso di capire quanto può essere vantaggioso con il mio utilizzo di GM.
 
 ### Presentazione Sylva + Demo
@@ -71,13 +73,16 @@ Ha poi usato una cosa curiosa per avere feedback, o almeno, curiosa per me: ha u
 
 Nino, il ragazzo più giovane della community, ha realizzato insieme al suo amico notarore un gioco multiplayer da 4 giocatori, e ce lo ha presentato e fatto provare con una quantità di entusiasmo incredibile. Spero che crescendo continui ad essere una sua caratteristica!
 
-### 3 tips veloci per GameMaker
-Il mio primo talk, velocissimo, in cui ho mostrato tre funzionalità che ho utilizzato per sviluppae LIESPIRE. Ah giusto, non ho ancora presentato questo gioco qui sul blog... Vedrò di farlo a breve, e riporterò qui sul blog anche queste fantomatiche tips.
+### 3 tips veloci per GameMaker
+
+Il mio primo talk, velocissimo, in cui ho mostrato tre funzionalità che ho utilizzato per sviluppre [LIESPIRE](/blog/liespire/). Vedo ri riportare a breve qui sul blog anche queste fantomatiche tips.
 
 ### Memento
 
-Il mio secondo talk, che ha suscitato un sacco di curiosità. Invecchiando, il tema della preservazione del passato è una questione a me cara, e anche il "passare ai posteri" il proprio lavoro è qualcosa a cui penso spesso. Dato che non ho le capacità di sfondare, tutti i miei piccoli giochi probabilmente spariranno nell'etere, anche e soprattutto perchè produco solo cose digitali. Mi piacebbe che la community realizzare una sorta di GMI50 (un gioco di giochi in stile UFO50), un launcher con i giochi della community o dei libri in cui parlarne, ma la verità è che un progetto con tante persone, per esperienza personale e a parte poche eccezioni, per me è un progetto destinato a fallire.
-La mia personale soluzione è quella di usare un launcher già pronto, Ninty, e popolarlo con i miei giochi. Ma, se a qualcuno va di partecipare, basta che in ogni suo gioco inserisca anche un banner quadrato nei suoi progetti, così che tutti possiamo usare Ninty e popolarlo con i giochi della community. Minima spesa massima resa.
+Il mio secondo talk, che ha suscitato un sacco di curiosità. Invecchiando, il tema della preservazione del passato è una questione a me cara, e anche il "passare ai posteri" il proprio lavoro è qualcosa a cui penso spesso. Dato che non ho le capacità di sfondare, tutti i miei piccoli giochi probabilmente spariranno nell'etere, anche e soprattutto perchè produco solo cose digitali. Mi piacebbe che la community **realizzasse una sorta di GMI50** (un gioco di giochi in stile UFO50), un **launcher con i giochi della community** o dei **libri** in cui parlarne, ma la verità è che un progetto con tante persone, per esperienza personale e a parte poche eccezioni, per me è un progetto destinato a fallire.
+
+La mia personale soluzione è quella di usare un launcher già pronto, [Ninty Launcher](https://ninstars.itch.io/ninty), e popolarlo con i miei giochi. Ma, se a qualcuno va di partecipare, basta che in ogni suo gioco inserisca anche un banner quadrato nei suoi progetti, così che tutti possiamo usare Ninty e popolarlo con i giochi della community. Minima spesa massima resa.
+
 FLASH FORWARD: yatima, utente del forum che in passato ha sviluppato proprio **per** GameMaker, ha trovato interessante l'idea del launcher e ha cominciato a svilupparlo, tra l'altro con integrato anche Wine. Piango, e spero che non rompa il mio cuore abbandonandolo durante lo sviluppo.
 
 ### Rally Stil
