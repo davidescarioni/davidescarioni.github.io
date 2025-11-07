@@ -172,7 +172,22 @@
 	</url>
 	
 	<url>
+		<loc>https://davidescarioni.github.io/blog/meetup-2025/</loc>
+		<lastmod>2025-11-02</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://davidescarioni.github.io/blog/liespire/</loc>
+		<lastmod>2025-11-03</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://davidescarioni.github.io/blog/the-pathless/</loc>
+		<lastmod>2025-11-07</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://davidescarioni.github.io/feed/feed.xml</loc>
-		<lastmod>2025-10-05</lastmod>
+		<lastmod>2025-11-07</lastmod>
 	</url>
 </urlset>
