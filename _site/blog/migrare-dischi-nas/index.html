@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Una passeggiata di 24km</title>
+		<title>Migrare i dischi di un NAS ad un altro modello</title>
 		<meta name="description" content="Descrizione del blog">
 		<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
 		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Scario Side Quest">
@@ -492,36 +492,37 @@ header {
 				
 
 <div class="post-header">
-<time class="post-date" datetime="2025-05-21">21 May 2025</time>
-<h1 class="post-title" id="una-passeggiata-di-24km">Una passeggiata di 24km</h1>
+<time class="post-date" datetime="2025-11-17">17 November 2025</time>
+<h1 class="post-title" id="migrare-i-dischi-di-un-nas-ad-un-altro-modello">Migrare i dischi di un NAS ad un altro modello</h1>
 <div></div>
 <div class="post-tags">Tags: <ul class="post-metadata">
         <li>
-            <a href="/tags/personale/" class="post-tag">personale</a>
+            <a href="/tags/software/" class="post-tag">software</a>
         </li>
 </ul></div>
 </div>
-<p>Sabato, in compagnia della mia compagna, sua madre e altre centinaia di persone, abbiamo fatto la <em>pazzia</em> di fare la Milano - Abbiategrasso, una passeggiata accanto al naviglio di circa 24km.</p>
-<p>Siamo arrivati ad Abbiategrasso alle 6.00, abbiamo lasciato lì la macchina e siamo saliti in treno fino a Milano Porta Genova in perfetto orario: vedere Milano che si sveglia, poi, è stato un plus che non avevo tenuto in considerazione.</p>
-<p>Partenza puntuale alle 7, e un fiume giallo è partito dalla Darsena milanese e ha cominciato ad accostare il Naviglio.</p>
-<p><picture><source type="image/avif" srcset="/blog/una-passeggiata-di-24-km/1V_3ROvd7W-1920.avif 1920w"><source type="image/webp" srcset="/blog/una-passeggiata-di-24-km/1V_3ROvd7W-1920.webp 1920w"><img loading="lazy" decoding="async" src="/blog/una-passeggiata-di-24-km/1V_3ROvd7W-1920.jpeg" alt="Fiumana di gente in giallo ad inizio passeggiata" width="1920" height="1440"></picture></p>
-<p>La camminata è stata piacevole: giornata calda con un filo di vento (quanto basta per scottarsi il braccio senza rendersene conto, NdR) e i 24km sono stati meno faticosi del previsto. Tra l'altro un plauso all'organizzazione dell'evento da parte dei <a href="https://www.facebook.com/iCaminantes/">Caminantes</a>: le tappe ristoro erano ben distanziate una dall'altra, e i bar scelti erano pronti per l'impresa di rifocillarci e darci asilo per un momento in bagno.</p>
-<p><picture><source type="image/avif" srcset="/blog/una-passeggiata-di-24-km/B9f-A2jtpX-1920.avif 1920w"><source type="image/webp" srcset="/blog/una-passeggiata-di-24-km/B9f-A2jtpX-1920.webp 1920w"><img loading="lazy" decoding="async" src="/blog/una-passeggiata-di-24-km/B9f-A2jtpX-1920.jpeg" alt="Ormai distanti e stanchi, ma siamo quasi alla fine" width="1920" height="1440"></picture></p>
-<p>Ci abbiamo messo 6h 30m, un po' più del previsto, ma se consideriamo anche le tappe bagno e cibo direi che non è andata male!</p>
-<p>Al nostro arrivo abbiamo provato la pizzeria <a href="https://www.ristoranteilnapoleone.it/">Napoleone all'Allea</a> di Abbiategrasso.
-Promosse sia la pizza mia e della &quot;suocera&quot; sia la pasta allo scoglio della mia compagna: la pizza poi aveva un formato &quot;tradizionale&quot;, e mi è quasi sembrato strano non mangiarne una con il cornicione alto alla napoletana... finalmente. No, non ho nulla contro quella, anzi, ma sembra che sia diventato obbligatorio ormai fare una pizza con il bordo così alto, ma non è scontato saperlo fare.</p>
-<p>Purtroppo la camminata non verrà più riproposta, perchè è nata come un'alternativa alla Milano - Pavia che non è stato possibile fare per lavori sulla strada da percorrere. Ma quella è lunga 34km, e l'ho già provata nel 2018... è stata davvero faticosa.</p>
-<p>Portiamoci dietro il bel ricordo di questa.</p>
+<h2 id="premessa">Premessa</h2>
+<p>Ho riacquistato un NAS <a href="https://nas-eu.ugreen.com/en-it/products/ugreen-nasync-dxp2800-nas-storage?from=mega-menu">Ugreen DXP2800</a> dopo che lo scorso si era rotto a seguito di un temporale.</p>
+<p>Il mio dubbio al riacquisto è stato se fosse possibile portare i dati da uno all'altro &quot;nativamente&quot;, ed effettivamente così è stato</p>
+<h2 id="migrare-i-dischi">Migrare i dischi</h2>
+<p>Come indicatomi nel <a href="https://www.reddit.com/r/UgreenNASync/comments/1oovk2g/ugreen_dxp2800_nas_doesnt_recognize_old_raid/">thread che ho aperto su Reddit</a> dall'assistenza stessa, il processo è molto semplice:</p>
+<ul>
+<li>inserire i dischi nel nuovo NAS</li>
+<li>all'accensione, quando viene suggerito di creare un nuovo Pool, declinare</li>
+<li>Aprire l'app &quot;Storage&quot; .</li>
+<li>Fare clic su &quot;Hard Drive&quot; &gt; &quot;HDD/SDD&quot; e individuare le unità migrate dal vecchio NAS.</li>
+<li>Fare clic sul pulsante &quot;···&quot; accanto all'unità di destinazione e selezionare &quot;Usa&quot;</li>
+<li>Nella pagina &quot;Usa disco rigido&quot;, seleziona &quot;Memoria interna&quot;</li>
+<li>Qui compare un messaggio di cui non ricordo il contenuto, ma dice che l'operazione è irreversibile. Accettare</li>
+</ul>
+<p>Una volta completata l'operazione, tutti i nostri vecchi file saranno tornati a nostra disposizione. Notare che le applicazioni installate e i Docker invece andranno riconfigurati da zero.</p>
+<p>Devo capire se c'è una soluzione per backuppare l'intero NAS, così da non dover riconfigurare tutto la prossima volta nella quale qualcosa va storto</p>
 
         <ul class="links-nextprev">
                 <li class="links-nextprev-prev">← Precedente<br>
-                        <a href="/blog/tobla/">Tobla - Divine Path</a>
+                        <a href="/blog/the-pathless/">The Pathless, su Switch, non lo consiglio</a>
                     </li>
                 
-                    <li class="links-nextprev-next">Successivo →<br>
-                            <a href="/blog/dominio.md/dominio/">Finalmente ho un dominio</a>
-                        </li>
-                    
                 </ul>
 			</heading-anchors>
 		</main>
@@ -530,7 +531,7 @@ Promosse sia la pizza mia e della &quot;suocera&quot; sia la pasta allo scoglio 
 			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
 		</footer>
 
-		<!-- This page `/blog/una-passeggiata-di-24-km/` was built on 2025-11-17T08:13:57.993Z -->
+		<!-- This page `/blog/migrare-dischi-nas/` was built on 2025-11-17T08:13:57.992Z -->
 		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
 	</body>
 </html>

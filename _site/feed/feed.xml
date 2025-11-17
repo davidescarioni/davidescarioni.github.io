@@ -5,11 +5,34 @@
   <subtitle>My personal blog.</subtitle>
   <link href="https://davidescarioni.github.io/feed/feed.xml" rel="self" />
   <link href="https://davidescarioni.github.io/" />
-  <updated>2025-11-07T00:00:00Z</updated>
+  <updated>2025-11-17T00:00:00Z</updated>
   <id>https://davidescarioni.github.io/</id>
   <author>
     <name>Davide Scarioni</name>
   </author>
+  <entry>
+    <title>Migrare i dischi di un NAS ad un altro modello</title>
+    <link href="https://davidescarioni.github.io/blog/migrare-dischi-nas/" />
+    <updated>2025-11-17T00:00:00Z</updated>
+    <id>https://davidescarioni.github.io/blog/migrare-dischi-nas/</id>
+    <content type="html">&lt;h2 id=&quot;premessa&quot;&gt;Premessa&lt;/h2&gt;
+&lt;p&gt;Ho riacquistato un NAS &lt;a href=&quot;https://nas-eu.ugreen.com/en-it/products/ugreen-nasync-dxp2800-nas-storage?from=mega-menu&quot;&gt;Ugreen DXP2800&lt;/a&gt; dopo che lo scorso si era rotto a seguito di un temporale.&lt;/p&gt;
+&lt;p&gt;Il mio dubbio al riacquisto è stato se fosse possibile portare i dati da uno all&#39;altro &amp;quot;nativamente&amp;quot;, ed effettivamente così è stato&lt;/p&gt;
+&lt;h2 id=&quot;migrare-i-dischi&quot;&gt;Migrare i dischi&lt;/h2&gt;
+&lt;p&gt;Come indicatomi nel &lt;a href=&quot;https://www.reddit.com/r/UgreenNASync/comments/1oovk2g/ugreen_dxp2800_nas_doesnt_recognize_old_raid/&quot;&gt;thread che ho aperto su Reddit&lt;/a&gt; dall&#39;assistenza stessa, il processo è molto semplice:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;inserire i dischi nel nuovo NAS&lt;/li&gt;
+&lt;li&gt;all&#39;accensione, quando viene suggerito di creare un nuovo Pool, declinare&lt;/li&gt;
+&lt;li&gt;Aprire l&#39;app &amp;quot;Storage&amp;quot; .&lt;/li&gt;
+&lt;li&gt;Fare clic su &amp;quot;Hard Drive&amp;quot; &amp;gt; &amp;quot;HDD/SDD&amp;quot; e individuare le unità migrate dal vecchio NAS.&lt;/li&gt;
+&lt;li&gt;Fare clic sul pulsante &amp;quot;···&amp;quot; accanto all&#39;unità di destinazione e selezionare &amp;quot;Usa&amp;quot;&lt;/li&gt;
+&lt;li&gt;Nella pagina &amp;quot;Usa disco rigido&amp;quot;, seleziona &amp;quot;Memoria interna&amp;quot;&lt;/li&gt;
+&lt;li&gt;Qui compare un messaggio di cui non ricordo il contenuto, ma dice che l&#39;operazione è irreversibile. Accettare&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Una volta completata l&#39;operazione, tutti i nostri vecchi file saranno tornati a nostra disposizione. Notare che le applicazioni installate e i Docker invece andranno riconfigurati da zero.&lt;/p&gt;
+&lt;p&gt;Devo capire se c&#39;è una soluzione per backuppare l&#39;intero NAS, così da non dover riconfigurare tutto la prossima volta nella quale qualcosa va storto&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>The Pathless, su Switch, non lo consiglio</title>
     <link href="https://davidescarioni.github.io/blog/the-pathless/" />
@@ -263,29 +286,6 @@ Gli enigmi in generale non li ho trovati mai nè troppo facili nè troppo diffic
 &lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/ooo/VM2LNNZ9cd-960.avif 960w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/ooo/VM2LNNZ9cd-960.webp 960w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/ooo/VM2LNNZ9cd-960.png&quot; alt=&quot;Screenshot di Öoo, quell con la rana&quot; width=&quot;960&quot; height=&quot;540&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
 &lt;p&gt;Ho completato il gioco in 2 ore e 15 minuti, e l&#39;ho giocato in 3 momenti diversi: l&#39;ho davvero adorato, il gioco è davvero rispettoso del tempo del giocatore senza allungamenti di brodo e, nei momenti in cui non giocavo, mi è capitato di tornare a pensare all&#39;enigma con cui avevo lasciato il gioco prima di spegnerlo.&lt;/p&gt;
 &lt;p&gt;Tra l&#39;altro, nonostante abbia completato anche gli achievement di Steam, il gioco ha un post-game segreto di cui mi ha messo a conoscenza Patience di GMI: non voglio spoilerare nulla qui, dico solo che ha a che fare con delle statue... Probabilmente riaprirò il gioco perchè ora sono molto curioso :D ma lo farò con davvero tanto piacere.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Tempo di upgrade</title>
-    <link href="https://davidescarioni.github.io/blog/tempo-di-upgrade/" />
-    <updated>2025-07-30T00:00:00Z</updated>
-    <id>https://davidescarioni.github.io/blog/tempo-di-upgrade/</id>
-    <content type="html">&lt;p&gt;Più passa il tempo, più il fare upgrade software o hardware mi sembra sempre meno un piacere e sempre più un peso, a differenza di quando ero più giovane dove anzi era quasi un momento di festa.&lt;/p&gt;
-&lt;p&gt;Purtroppo, per una serie di sfortunati eventi, mi sono ritrovato a pianificare &lt;em&gt;decisamente troppi&lt;/em&gt; upgrade obbligati.&lt;/p&gt;
-&lt;p&gt;Il &lt;s&gt;mio pc fisso&lt;/s&gt; pc di Serena ha Windows 10, e a ottobre questo sistema sarà in dismissione. Non è possibile fare un upgrade diretto a Windows 11, ma ho letto che è comunque fattibile in qualche modo disattivando il controllo sul TPM 2.0. Mi preoccupa però il fatto che il pc non è più così prestante (è pur sempre un pc con un G3258 come processore, 8 gb di RAM e una scheda video radeon del 2017) e ho quindi paura che il nuovo sistema di Microsoft lo pianti definitivamente.&lt;/p&gt;
-&lt;p&gt;Potrei passare a Linux, magari una distribuzione semplice come Mint o Zorin in maniera tale che Serena non impazzisca ad usarlo: ho mantenuto Windows per tre due motivi:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;essendo principalemte il pc di Serena, e facendo lei l&#39;insegnante, aveva bisogno di determinati software supportati solo lì, quindi la scelta era obbligata&lt;/li&gt;
-&lt;li&gt;amo &lt;em&gt;giocare&lt;/em&gt; giochi indie, e spessissimo l&#39;unico sistema utilizzato è Windows&lt;/li&gt;
-&lt;li&gt;amo &lt;em&gt;sviluppare&lt;/em&gt; giochi indie, e per rilasciare un prodotto su Windows c&#39;è bisogno di un pc Windows&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Ora, ho un ssd nuovo da inserire e questo potrebbe aiutare, o comunque potrei pensare ad un dual boot, ma la questione mi preoccupa lo stesso.&lt;/p&gt;
-&lt;p&gt;Fortunatamente potrei avere un asso nella manica per evitare l&#39;installazione di Windows: mi è stato regalato un &lt;strong&gt;vecchio Thinkpad&lt;/strong&gt; in quanto in dismissione dal posto di lavoro di mia madre: è un vecchio i5 di seconda generazione, con 8gb di RAM e hard disk meccanico. Ho comprato anche per lui un ssd (economico, questa volta) e voglio provare a installare Windows 11: se lo regge, nonostante le probabili pessime performance potrei parzialmente coprire i due casi d&#39;uso indicati prima.&lt;/p&gt;
-&lt;p&gt;Veniamo al terzo upgrade: il mio &lt;a href=&quot;https://support.apple.com/it-it/111924&quot;&gt;Macbook Air 2017&lt;/a&gt;, prodotto che adoro perchè mi offre un&#39;ottimo compromesso tra comfort di utilizzo, performance per task base e portabilità, non supporta l&#39;ultima versione di &lt;a href=&quot;https://gamemaker.io/&quot;&gt;GameMaker&lt;/a&gt;, praticamente unico software che utilizzo al di fuori del browser e di VSCode.
-Mi è stato suggerito di usare &lt;a href=&quot;https://dortania.github.io/OpenCore-Legacy-Patcher/&quot;&gt;OpenCore Legacy Patcher&lt;/a&gt; per portarlo a MacOS Ventura (non ufficialmente supportata): se tutto funziona potrebbe essere un buon compromesso, perchè l&#39;unica alternativa sarebbe installare anche qui Windows 11.&lt;/p&gt;
-&lt;p&gt;Quarto upgrade: mia madre ha un &lt;a href=&quot;https://support.hp.com/it-it/drivers/hp-stream-14-ax000-laptop-pc/model/16122589&quot;&gt;HP Stream 14&lt;/a&gt;, uno di quei pc con un eMMC da 64gb come memoria interna. Windows 10 ha cominciato a rallentare praticamente dopo un anno di vita del prodotto, perchè lo spazio interno impedisce di fare aggiornamenti. Colierò l&#39;occasione della dismissione di W10 per provare ChromeOS Flex: ho comprato un Chromebook a mio padre poco più di un anno fa, e mi ha stupito quanto si trovi bene rispetto a prima, sarà un bell&#39;esperimento.&lt;/p&gt;
-&lt;p&gt;Quinto e ultimo upgrade: il mio smartphone, il Pixel 6a, ha appena ricevuto &lt;a href=&quot;https://www.tuttoandroid.net/news/2025/07/03/pixel-6a-aggiornamento-limiti-batteria-1103306/&quot;&gt;un aggiornamento che diminuisce le prestazioni della batteria&lt;/a&gt; in base ai cicli di carica, perchè alcuni esemplari del mio stesso modello hanno preso fuoco mentre erano collegati alla corrente. Dato la pericolosità della cosa, e dato un buono sconto che Google ha &lt;em&gt;generosamente&lt;/em&gt; donato a chi ha il mio telefono, ho iniziato l&#39;iter per passare ad un Pixel 9: avrei preferito puntare ad altro (Fairphone 6 su tutti, ma anche un Nothing 3(a) era un&#39;opzione), ma se il buono sconto arriva in tempo con la promo attuale del sito di Google comprerei il loro top di gamma a 225€, prezzo che è francamente imbattibile.&lt;/p&gt;
-&lt;p&gt;Vi tengo aggiornati sugli upgrade. Fortuna che ho da poco comprato un NAS (ve ne parlerò una volta installato) e iniziato l&#39;iter per mettere la fibra FTC, ne avrò bisogno per tutti i backup che mi toccherà fare!&lt;/p&gt;
 </content>
   </entry>
 </feed>
