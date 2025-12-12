@@ -5,13 +5,13 @@ date: 2025-11-17
 tags: ["software"]
 ---
 
-##  Premessa
+## Premessa
 
 Ho riacquistato un NAS [Ugreen DXP2800](https://nas-eu.ugreen.com/en-it/products/ugreen-nasync-dxp2800-nas-storage?from=mega-menu) dopo che lo scorso si era rotto a seguito di un temporale.
 
 Il mio dubbio al riacquisto è stato se fosse possibile portare i dati da uno all'altro "nativamente", ed effettivamente così è stato
 
-##  Migrare i dischi
+## Migrare i dischi
 
 Come indicatomi nel [thread che ho aperto su Reddit](https://www.reddit.com/r/UgreenNASync/comments/1oovk2g/ugreen_dxp2800_nas_doesnt_recognize_old_raid/) dall'assistenza stessa, il processo è molto semplice:
 
