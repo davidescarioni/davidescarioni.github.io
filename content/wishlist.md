@@ -46,9 +46,11 @@ Lize
 [under construction]
 
 ## Libri
-[Bitmap Books](https://www.bitmapbooks.com)
-RoundTwo Publishing + ITOMI,
-ZeroCalcare
+
+Partendo dal presupposto che più passa il tempo e meno leggo, ricevere un bel giallo o thriller (soprattutto se non l'ho mai sentito nominare) lo apprezzerei molto, soprattutto se all'interno viene scritta una bella dedica.
+
+Ultimamente mi sto comunque appassionando ai bookazine, soprattutto a tema videogiochi: sono prodotti a metà tra un magazine e un libro con un occhio di riguardo alla veste grafica e ai materiali con i quali vengono prodotti.
+Tra i più interessanti che ho visto ci sono i libri di [Bitmap Books](https://www.bitmapbooks.com) (come quelli dedicati al Super Nintendo) e quelli realizzati dagli italianissimi RoundTwo Publishing e ITOMI: [Void Arcana](https://roundtwo.world/pages/void-arcana), libro interamente dedicato ai due Hollow Knight (che sono tra i miei giochi preferiti) e [PIXEL](https://itomi.shop/collections/pixel) mi piacerebbe davvero molto sfogliarli.
 
 ## Boardgame
 Kingdomino, Pozioni Esplosive, espansione Samurai Sword
