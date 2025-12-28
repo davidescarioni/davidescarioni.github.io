@@ -7,7 +7,7 @@ const eleventyNavigation = {
 
 # Whishlist
 
-*Per nessuna reale ragione*, elenco qui alcune cose che mi piacerebbe avere. È una **lista dei desideri** vera e propria, quindi non necessariamente ciò che mi aspetto che qualcuno mi regali, ma anche cose pazze (si Playdate, parlo di te) che semplicemente desidero.
+_Per nessuna reale ragione_, elenco qui alcune cose che mi piacerebbe avere. È una **lista dei desideri** vera e propria, quindi non necessariamente ciò che mi aspetto che qualcuno mi regali, ma anche cose pazze (si Playdate, parlo di te) che semplicemente desidero. Avete presente quando vi chiedono _Cosa desideresti avere_, indipendentemente da una festa comandata ma solo per capire gli interessi e i desideri di un'altra persona? Ecco, questa è la mia risposta.
 
 Un piccolo sommario delle categorie:
 
@@ -84,4 +84,3 @@ Ah, una cosa che apprezzo particolarmente sono le dediche nelle prime pagine deg
 
 Kingdomino, Pozioni Esplosive, espansione Samurai Sword
 [under construction]
-
