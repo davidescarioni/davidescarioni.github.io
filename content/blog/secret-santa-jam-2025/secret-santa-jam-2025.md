@@ -13,6 +13,13 @@ Questa volta, prima di iniziare a scrivere la mia letterina, Nannasaurus Rex ha 
 
 Ma andiamo con ordine. La letterina che ci è arrivata da sviluppare è stata questa:
 
-... letterina ...
+![Letterina Mad](./letterina-per-scarionanna.png)
 
-Benissimo: io ho giocato a qualche Megaman ma non avevo mai provato prima un Silent Hill, Nanna invece aveva giocato solo a quest'ultimo.
+Benissimo: io ho giocato a qualche **Megaman** ma non avevo mai provato prima un **Silent Hill**, **Nanna** invece aveva giocato **solo a quest'ultimo**.
+Così prima di tutto ho fatto i compiti a casa: ho provato la prima mezz'ora di Silent Hill per Playstation 1 (e mi sono trovato davanti un gioco molto più cinematrografico e godibile rispetto a quanto avrei mai immaginato), poi ho scelto di giocare Megaman 3 per GameBoy (odiando i boss con tutto me stesso, c'è troppo poco spazio per schivare i loro attacchi!).
+
+![Megaman 3](./megaman-3-miyoo-mini-plus.jpg)
+
+Ora che abbiamo tutti i mezzi, come scegliamo di rispettare la letterina? Sviluppiamo un gioco alla Silent Hill o alla Megaman?
+Beh, il gioco è per Mad, non possiamo di certo risparmiarci... perchè quindi non sviluppare qualcosa **che contenga entrambi**?
+
