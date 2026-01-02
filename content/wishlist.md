@@ -76,4 +76,4 @@ Tra i più interessanti che conosco e che mi piacerebbe sfogliare ci sono:
 
 ![La copertina di Void Arcana](../public/img/wl-void-arcana.jpeg)
 ![Le due copertine di TUNIC - Design Works](../public/img/wl-tunic-design-works.jpeg)
-![The SNES Pixel Book](../public/img/wl-the-snes-pixel-book.jpeg)
+![The SNES Pixel Book](../public/img/wl-snes-pixel-book.jpeg)
