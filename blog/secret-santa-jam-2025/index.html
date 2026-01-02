@@ -1,0 +1,574 @@
+<!doctype html>
+<html lang="it">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Secret Santa Jam 2026</title>
+		<meta name="description" content="Quella nella quale ho partecipato insieme a Nanna.">
+		<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Scario Side Quest">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/* This is an arbitrary CSS string added to the bundle */
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #f1f2da;
+		--color-gray-50: #f1f2da;
+		--color-gray-90: #f1f2da;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #ffce96;
+		--text-color-link-active: #ff7777;
+		--text-color-link-visited: #ffce96;
+
+		/* Valutare se usare questo verde */
+		/* --text-color-link: #00fc7f; */
+
+		/* --background-color: #00303b; */
+		--background-color: #1d1d21;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+@view-transition {
+	navigation: auto;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 50em;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	flex: 1;
+}
+
+main > * {
+	display: flex;
+    flex-direction: column;
+}
+
+p:has(picture) {
+	align-self: center;
+}
+
+picture img {
+	max-width: 100%;
+	height: auto;
+}
+
+main,
+footer {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	display: flex;
+	justify-content: space-between;
+	gap: .5em 1em;
+	list-style: "";
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+.links-nextprev > * {
+	flex-grow: 1;
+}
+.links-nextprev-next {
+	text-align: right;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	overflow-x: auto;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Post */
+.post-header {
+	padding-bottom: 1em;
+	border-bottom: 1px solid var(--text-color);
+}
+.post-title {
+	margin-top: .2em;
+	margin-bottom: 0;
+}
+
+.post-date {
+	font-size: .8em;
+}
+
+.post-tags {
+    margin-top: 0.8em;
+    font-size: 0.8125em;
+}
+
+/* Tags */
+
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 1em 0 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<a href="/" class="home-link">Scario Side Quest</a>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/">Home</a></li>
+					<li class="nav-item"><a href="/blog/">Blog</a></li>
+					<li class="nav-item"><a href="/about/">About</a></li>
+					<li class="nav-item"><a href="/wishlist/">Whishlist</a></li>
+					<li class="nav-item"><a href="/feed/feed.xml">Feed</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			<heading-anchors>
+				
+
+<div class="post-header">
+<time class="post-date" datetime="2026-01-02">02 January 2026</time>
+<h1 class="post-title" id="secret-santa-jam-2026">Secret Santa Jam 2026</h1>
+<div>Quella nella quale ho partecipato insieme a Nanna.</div>
+<div class="post-tags">Tags: <ul class="post-metadata">
+        <li>
+            <a href="/tags/gmi/" class="post-tag">gmi</a>
+        </li>
+        <li>
+            <a href="/tags/videogames/" class="post-tag">videogames</a>
+        </li>
+</ul></div>
+</div>
+<p>Come scrivevo giusto l'<a href="./secret-santa-jam-2024.html">anno scorso</a>, la <strong>Secret Santa Jam</strong> è una jam organizzata sul Discord di GMI nella quale</p>
+<blockquote>
+<p>[...] Ogni partecipante deve <strong>scrivere una letterina</strong> in cui specificherà cosa gli piacerebbe ricevere, evitando di specificare generi o stili grafici così da rendere la jam il più possibile inclusiva. Per ogni partecipante verrà estratto un altro partecipante al quale <strong>confezionare un gioco secondo le indicazioni della letterina</strong>. Il gioco verrà poi consegnato e giocato direttamente in live.</p>
+</blockquote>
+<p>Questa volta, prima di iniziare a scrivere la mia letterina, <a href="https://sites.google.com/view/noemi-frulio">Nannasaurus Rex</a> ha scritto sul canale della jam di voler partecipare ma di non voler sviluppare, così mi sono proposto di partecipare con lei come sviluppatore e abbiamo fatto squadra! Lavorare con lei è stata davvero una bella esperienza, perchè Nanna ha sì disegnato, ma ha anche tirato fuori un sacco di belle idee e mi ha insegnato a lavorare in team (cosa che non faccio mai), stilando un GDD, un Excel con i vari task da sviluppare e una Miro Board per prendere ispirazione negli sviluppi.</p>
+<h2 id="cosa-abbiamo-sviluppato">Cosa abbiamo sviluppato</h2>
+<p>Ma andiamo con ordine. La letterina che ci è arrivata da sviluppare è stata questa:</p>
+<p><picture><source type="image/avif" srcset="/blog/secret-santa-jam-2025/MuGj4jvQYb-512.avif 512w"><source type="image/webp" srcset="/blog/secret-santa-jam-2025/MuGj4jvQYb-512.webp 512w"><img loading="lazy" decoding="async" src="/blog/secret-santa-jam-2025/MuGj4jvQYb-512.png" alt="Letterina Mad" width="512" height="512"></picture></p>
+<p>Benissimo: io ho giocato a qualche <strong>Megaman</strong> ma non avevo mai provato prima un <strong>Silent Hill</strong>, <strong>Nanna</strong> invece aveva giocato <strong>solo a quest'ultimo</strong>.
+Così prima di tutto ho fatto i compiti a casa: ho provato la prima mezz'ora di Silent Hill per Playstation 1 (e mi sono trovato davanti un gioco molto più cinematrografico e godibile rispetto a quanto avrei mai immaginato), poi ho scelto di giocare Megaman 3 per GameBoy (odiando i boss con tutto me stesso, c'è troppo poco spazio per schivare i loro attacchi!).</p>
+<p><picture><source type="image/avif" srcset="/blog/secret-santa-jam-2025/B49OPtftvf-768.avif 768w"><source type="image/webp" srcset="/blog/secret-santa-jam-2025/B49OPtftvf-768.webp 768w"><img loading="lazy" decoding="async" src="/blog/secret-santa-jam-2025/B49OPtftvf-768.jpeg" alt="Megaman 3" width="768" height="1024"></picture></p>
+<p>Ora che abbiamo tutti i mezzi, come scegliamo di rispettare la letterina? Sviluppiamo un gioco alla Silent Hill o alla Megaman?
+Beh, il gioco è per Mad, non possiamo di certo risparmiarci... perchè quindi non sviluppare qualcosa <strong>che contenga entrambi</strong>?</p>
+<p>Dopo un confronto, l'idea che abbiamo partorito è stata quella di creare un mondo esplorabile, nel quale dobbiamo muoverci alla ricerca di pile. Queste ci servono per riuscire a giocare a MegaMan con il nostro GameBoy, ma (twist top di Nanna) i mostri sconfitti nel gioco vengono liberati nel mondo reale e saranno lì pronti ad ostacolare la nostra ricerca di pile.</p>
+<p>Ho così sviluppato un prototipo al volo per mostare a Nanna cosa intendevo con mondo esplorabile: la mia preoccupazione era principalmente la creazione della nebbia, per cui ho limitato il movimento del giocatore a 2 direzioni per semplificarmi la vita.</p>
+<p><picture><source type="image/avif" srcset="/blog/secret-santa-jam-2025/6pq_N0o2XD-752.avif 752w"><source type="image/webp" srcset="/blog/secret-santa-jam-2025/6pq_N0o2XD-752.webp 752w"><img loading="lazy" decoding="async" src="/blog/secret-santa-jam-2025/6pq_N0o2XD-752.png" alt="Screenshot del prototipo nelle fasi interne" width="752" height="500"></picture>
+<picture><source type="image/avif" srcset="/blog/secret-santa-jam-2025/8--vBH_gwo-752.avif 752w"><source type="image/webp" srcset="/blog/secret-santa-jam-2025/8--vBH_gwo-752.webp 752w"><img loading="lazy" decoding="async" src="/blog/secret-santa-jam-2025/8--vBH_gwo-752.png" alt="Altro screenshot del prototipo nelle fasi interne" width="752" height="500"></picture></p>
+<p>Nanna a questo punto ha un'altra bellissima idea: perchè non usare la neve al posto della nebbia? L'importante è che il soprannaturale sia nascosto e fraintendibile, <em>eldritch piu' che horror</em> (ho dovuto cercare su Wikipedia, ma mi ha insegnato una cosa nuova).
+Così facendo, tra l'altro, potremmo usare figure del folklore natalizio nordeuropeo come nemici. Così ecco che nascono Krampus, <a href="https://en.wikipedia.org/wiki/Mari_Lwyd">Mari Lwyd</a> e San Nicola.</p>
+<p>L'idea iniziale, che qui condivido ma che non troverete nel gioco, è che il nemico fosse solo uno generato dalla fusione degli altri.</p>
+<p><picture><source type="image/avif" srcset="/blog/secret-santa-jam-2025/pwhKpacLvK-1412.avif 1412w"><source type="image/webp" srcset="/blog/secret-santa-jam-2025/pwhKpacLvK-1412.webp 1412w"><img loading="lazy" decoding="async" src="/blog/secret-santa-jam-2025/pwhKpacLvK-1412.png" alt="Gli spiriti del Natale fusi tra loro" width="1412" height="447"></picture></p>
+<p>Trovato poi il nome del gioco (<strong>Silent Night</strong>, di cui ancora ci chiediamo di chi sia la paternità), il resto è stato solo sviluppo, disegno e... taglio delle feature perchè ormai devo accettare che sviluppare la sera è per me faticoso e sono lento :D</p>
+<p><picture><source type="image/avif" srcset="/blog/secret-santa-jam-2025/JUxt6lGM-Z-1920.avif 1920w"><source type="image/webp" srcset="/blog/secret-santa-jam-2025/JUxt6lGM-Z-1920.webp 1920w"><img loading="lazy" decoding="async" src="/blog/secret-santa-jam-2025/JUxt6lGM-Z-1920.png" alt="La bellissima copertina disegnata da Nanna" width="1920" height="1080"></picture></p>
+<p>Tra le feature tagliate menzioniamo:</p>
+<ul>
+<li>la possibilità di lanciare del VOV per allontanare gli spiriti, sostituita dalla possibilità di schivarli abbassandosi</li>
+<li>dei livelli &quot;veri&quot; per la sezione al Game Boy, e quindi la presenza di minions nemici</li>
+<li>una sorta di minigioco per aprire i bauli alla &quot;The Witness&quot;</li>
+</ul>
+<p>Qualche ritocco lo faremo ancora, magari integrando il punto due, ma per il resto credo che il gioco resterà così com'è. E non è necessariamente un male, dato che Mad sembra averlo davvero apprezzato. Peccato solo che il video mentre &quot;scarta il regalo&quot; sia andato perduto.</p>
+<p><picture><source type="image/avif" srcset="/blog/secret-santa-jam-2025/9tnhg4d4l5-952.avif 952w"><source type="image/webp" srcset="/blog/secret-santa-jam-2025/9tnhg4d4l5-952.webp 952w"><img loading="lazy" decoding="async" src="/blog/secret-santa-jam-2025/9tnhg4d4l5-952.png" alt="Screenshot ambiente esterno" width="952" height="524"></picture>
+<picture><source type="image/avif" srcset="/blog/secret-santa-jam-2025/puOZ7-ozcB-952.avif 952w"><source type="image/webp" srcset="/blog/secret-santa-jam-2025/puOZ7-ozcB-952.webp 952w"><img loading="lazy" decoding="async" src="/blog/secret-santa-jam-2025/puOZ7-ozcB-952.png" alt="Screenshot ambiente interno" width="952" height="524"></picture>
+<picture><source type="image/avif" srcset="/blog/secret-santa-jam-2025/yN476x-c1z-952.avif 952w"><source type="image/webp" srcset="/blog/secret-santa-jam-2025/yN476x-c1z-952.webp 952w"><img loading="lazy" decoding="async" src="/blog/secret-santa-jam-2025/yN476x-c1z-952.png" alt="Screenshot gioco su console" width="952" height="524"></picture></p>
+<p>Spazio ai ringraziamenti ora:</p>
+<ul>
+<li>innanzitutto a Nannasaurus Rex, una compagna di team fantastica piena di idee e bravissima nel disegno</li>
+<li>a <a href="https://tiz010.itch.io/">Tiz</a> per il suo script per la gestione degli input</li>
+<li>ad <a href="https://www.alexofalco.com">AlexoFalco</a> per il <a href="https://gamemakeritalia.it/posts/traduzione-e-internazionalizzazione-con-game-maker/">tutorial sulla gestione del multilinguismo su Game Maker</a></li>
+<li>a <a href="https://santiagocalzolari.wordpress.com/">Freeflip</a> perchè, dopo aver visto la live, mi ha scritto per aiutarmi a correggere come vengono disegnate le particelle</li>
+<li>a <a href="https://www.instagram.com/artpoolinne/">mooncrow</a> per l'aiuto con le traduzioni in inglese e spagnolo</li>
+</ul>
+<p>## Cosa abbiamo ricevuto</p>
+<p>Io e Nanna abbiamo una passione in comune, quindi è stato facile redigere la letterina:</p>
+<p><picture><source type="image/avif" srcset="/blog/secret-santa-jam-2025/y5U5yAmRxw-1190.avif 1190w"><source type="image/webp" srcset="/blog/secret-santa-jam-2025/y5U5yAmRxw-1190.webp 1190w"><img loading="lazy" decoding="async" src="/blog/secret-santa-jam-2025/y5U5yAmRxw-1190.png" alt="Letterina Scario Nanna" width="1190" height="1683"></picture></p>
+<p>Siamo stati fortunati: siamo stati pescati da <a href="https://goldensun-it.itch.io/">Goldensun</a> e abbiamo ricevuti Dino Slop, un puzzle dove bisogna usare dinosauri di forma e dimensione diverse per raggiungere la bandierina di fine livello.s</p>
+<p><picture><source type="image/avif" srcset="/blog/secret-santa-jam-2025/hFwZaJL6pw-957.avif 957w"><source type="image/webp" srcset="/blog/secret-santa-jam-2025/hFwZaJL6pw-957.webp 957w"><img loading="lazy" decoding="async" src="/blog/secret-santa-jam-2025/hFwZaJL6pw-957.png" alt="Velociraptor e Tartarugosauro" width="957" height="641"></picture>
+<picture><source type="image/avif" srcset="/blog/secret-santa-jam-2025/hFwZaJL6pw-957.avif 957w"><source type="image/webp" srcset="/blog/secret-santa-jam-2025/hFwZaJL6pw-957.webp 957w"><img loading="lazy" decoding="async" src="/blog/secret-santa-jam-2025/hFwZaJL6pw-957.png" alt="Il mitico Strettosauro è senza limiti" width="957" height="641"></picture></p>
+<p>Golden si è detto non completamente soddisfatto per la mancanza di polish e di qualche bug, ma a noi è sinceramente piaciuto... Anzi, spero che lo porti avanti e lo chiuda come desidera, è davvero una bella idea!</p>
+<p>E con questo si conclude anche la Secret Santa 2025. Non c'è stato nessun partecipante segreto o gioco segreto da consegnare, ma nonostante questo è stata faticola e soddisfacente come al solito ;) Ci si legge l'anno prossimo!</p>
+
+        <ul class="links-nextprev">
+                <li class="links-nextprev-prev">← Precedente<br>
+                        <a href="/blog/migrare-dischi-nas/">Migrare i dischi di un NAS ad un altro modello</a>
+                    </li>
+                
+                </ul>
+			</heading-anchors>
+		</main>
+
+		<footer>
+			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
+		</footer>
+
+		<!-- This page `/blog/secret-santa-jam-2025/` was built on 2026-01-02T11:24:52.204Z -->
+		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
+	</body>
+</html>
