@@ -72,7 +72,7 @@ Io e Nanna abbiamo una passione in comune, quindi è stato facile redigere la le
 Siamo stati fortunati: siamo stati pescati da [Goldensun](https://goldensun-it.itch.io/) e abbiamo ricevuti Dino Slop, un puzzle dove bisogna usare dinosauri di forma e dimensione diverse per raggiungere la bandierina di fine livello.s
 
 ![Velociraptor e Tartarugosauro](./dino-slop-1.png)
-![Il mitico Strettosauro è senza limiti](./dino-slop-1.png)
+![Il mitico Strettosauro è senza limiti](./dino-slop-2.png)
 
 Golden si è detto non completamente soddisfatto per la mancanza di polish e di qualche bug, ma a noi è sinceramente piaciuto... Anzi, spero che lo porti avanti e lo chiuda come desidera, è davvero una bella idea!
 
