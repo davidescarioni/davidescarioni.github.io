@@ -1,5 +1,5 @@
 ---
-title: Secret Santa Jam 2026
+title: Secret Santa Jam 2025
 description: Quella nella quale ho partecipato insieme a Nanna.
 date: 2026-01-02
 tags: ["gmi", "videogames"]
@@ -61,7 +61,7 @@ Spazio ai ringraziamenti ora:
 - a [Tiz](https://tiz010.itch.io/) per il suo script per la gestione degli input
 - ad [AlexoFalco](https://www.alexofalco.com) per il [tutorial sulla gestione del multilinguismo su Game Maker](https://gamemakeritalia.it/posts/traduzione-e-internazionalizzazione-con-game-maker/)
 - a [Freeflip](https://santiagocalzolari.wordpress.com/) perchè, dopo aver visto la live, mi ha scritto per aiutarmi a correggere come vengono disegnate le particelle
-- a [mooncrow](https://www.instagram.com/artpoolinne/) per l'aiuto con le traduzioni in inglese e spagnolo
+- Enrico Maria Perlini per aver aiutato Nanna con l'utilizzo di Reaper per gli SFx.
 
 ## Cosa abbiamo ricevuto
 
