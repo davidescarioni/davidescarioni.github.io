@@ -9,7 +9,7 @@ const eleventyNavigation = {
 
 Sicuramente è capitato anche a voi che qualcuno vi chieda cosa vogliate per Natale / Compleanno / ecc. Io sono fortunatamente nella posizione di poter dire di non aver bisogno di nulla: ho un lavoro, una casa, una compagna, una salute decente... non ho davvero niente di cui lamentarmi.
 
-Ma effettivamente ci sono cose che desidero, delle passioni che mi piacerebbe approfondire o delle passioni che vorrei fare. Da qui nasce questa pagina.
+Ma effettivamente ci sono cose che desidero, delle passioni che mi piacerebbe approfondire o delle esperienze che vorrei fare. Da qui nasce questa pagina.
 È una **lista dei desideri** vera e propria.
 
 Un piccolo sommario delle categorie:
