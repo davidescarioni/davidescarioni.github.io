@@ -5,11 +5,27 @@
   <subtitle>My personal blog.</subtitle>
   <link href="https://davidescarioni.github.io/feed/feed.xml" rel="self" />
   <link href="https://davidescarioni.github.io/" />
-  <updated>2026-01-02T00:00:00Z</updated>
+  <updated>2026-01-08T00:00:00Z</updated>
   <id>https://davidescarioni.github.io/</id>
   <author>
     <name>Davide Scarioni</name>
   </author>
+  <entry>
+    <title>and Roger</title>
+    <link href="https://davidescarioni.github.io/blog/and-roger/" />
+    <updated>2026-01-08T00:00:00Z</updated>
+    <id>https://davidescarioni.github.io/blog/and-roger/</id>
+    <content type="html">&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/and-roger/BcQs3FK-b--460.avif 460w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/and-roger/BcQs3FK-b--460.webp 460w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/and-roger/BcQs3FK-b--460.png&quot; alt=&quot;Banner di gioco&quot; width=&quot;460&quot; height=&quot;215&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;Comprato a scatola chiusa su &lt;a href=&quot;https://www.finalround.it/recensioni/630/and-roger-recensione&quot;&gt;suggerimento&lt;/a&gt; di &lt;a href=&quot;https://www.finalround.it/staff/6/giulia-martino&quot;&gt;Giulia Martino di Final Round&lt;/a&gt;, &lt;strong&gt;and Roger&lt;/strong&gt; è il primo gioco che ho completato in questo 2026.&lt;/p&gt;
+&lt;p&gt;Il gioco potrebbe essere descritto come una &lt;strong&gt;visual novel interattiva&lt;/strong&gt;, ma in realtà il genere è quasi totalmente irrilevante. Quello che importa è che racconta una storia &lt;em&gt;comune&lt;/em&gt; raccontata da una prospettiva assolutamente inedita. Ma, soprattuto, che è un potentissimo &lt;strong&gt;pugno nello stomaco&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Non posso dire qual è l&#39;argomento principale del gioco perchè vi rovinerei l&#39;esperienza, ma vi posso dire che, una volta capito, &lt;strong&gt;ho dovuto interrompere&lt;/strong&gt; per qualche ora il gioco per &lt;strong&gt;metabolizzare&lt;/strong&gt; quello che stavo giocando.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/and-roger/EiUGpdqQaK-960.avif 960w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/and-roger/EiUGpdqQaK-960.webp 960w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/and-roger/EiUGpdqQaK-960.png&quot; alt=&quot;Un momento di gioco&quot; width=&quot;960&quot; height=&quot;540&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;Nonostante il disagio, quando troveremo il coraggio di andare avanti scopriremo che la storia raccontata è di una &lt;strong&gt;dolcezza davvero toccante&lt;/strong&gt; e che fa stare male perchè, se si è passati anche tangenzialmente per una situazione simile, verranno a galla molti ricordi faticosi da digerire: si vede che l&#39;autore è dentro l&#39;opera e che la storia raccontata prende dal suo vissuto, perchè alcuni dettagli sono davvero &lt;em&gt;troppo reali&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;D&#39;altra parte, questa esperienza è stata una sorta di abbraccio, una maniera per trovare dell&#39;amore in una situazione spiacevole, e per capire che l&#39;esperienza di uno, in questo caso, è l&#39;esperienza di tutti.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/and-roger/4UC9rFLSSh-960.avif 960w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/and-roger/4UC9rFLSSh-960.webp 960w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/and-roger/4UC9rFLSSh-960.png&quot; alt=&quot;Un abbraccio&quot; width=&quot;960&quot; height=&quot;540&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;Posso dire di essere contento di averlo giocato e che non l&#39;avrei mai acquistato se non fosse stato per il consiglio di cui sopra, per cui &lt;strong&gt;grazie davvero Giulia&lt;/strong&gt;.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Secret Santa Jam 2025</title>
     <link href="https://davidescarioni.github.io/blog/secret-santa-jam-2025/" />
@@ -312,19 +328,6 @@ Avevo un po&#39; di timore per il sistema operativo, ma, dopo tante ricerche, se
 &lt;p&gt;Quindi rispondendo alla domanda precedente, ascolto la musica presente nel nas collegandomi con Tailscale alla rete condivisa e usando l&#39;applicazione di Ugreen per ascoltare la musica. Probabilmente cambierà software, ma per il momento va bene così.&lt;/p&gt;
 &lt;h2 id=&quot;e-adesso&quot;&gt;E adesso?&lt;/h2&gt;
 &lt;p&gt;Ok, al momento questo è fin dove mi sono spinto con i miei &amp;quot;esperimenti&amp;quot;. Purtroppo la mia settimana di ferie è finita, per cui non posso dedicargli il tempo che gli ho dato precedentemente. C&#39;è ancora molto da fare, ma ci tenevo a segnare i &amp;quot;primi passi&amp;quot; che ho effettuato. Ci sentiamo presto, spero!&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>I videogiochi non scadono</title>
-    <link href="https://davidescarioni.github.io/blog/i-videogiochi-non-scadono/" />
-    <updated>2025-08-14T00:00:00Z</updated>
-    <id>https://davidescarioni.github.io/blog/i-videogiochi-non-scadono/</id>
-    <content type="html">&lt;p&gt;Ho sentito questa affermazione da Fossetti di &lt;a href=&quot;https://www.youtube.com/@RoundTwoTwitch&quot;&gt;Round Two&lt;/a&gt;, e non potrei essere più d’accordo.
-Quando qualcuno dice che la &lt;a href=&quot;https://www.steamdeck.com/it/&quot;&gt;Steam Deck&lt;/a&gt; oggi non vale la pena perché non riesce a far girare gli ultimi tripla A, proprio non riesco a condividerlo: ci sono migliaia di titoli del passato pronti da giocare, e chissà quanti capolavori ci siamo lasciati sfuggire. Senza contare quanti indie, anche recenti, meritano di essere scoperti, e questi su SD girano benissimo (vedi &lt;a href=&quot;https://scario.xyz/blog/ooo/&quot;&gt;Öoo&lt;/a&gt; di cui parlavo giusto ieri).&lt;/p&gt;
-&lt;p&gt;Anzi, se vogliamo dirla tutta, forse il limite di Steam Deck è il suo punto di forza: considerando i giochi regalati tramite Prime Gaming, quelli su Epic, e i giochi in backlog che già possediamo, la Deck ci invita a giocare a ciò che già abbiamo (e a cui spesso vogliamo davvero giocare, visto che li abbiamo acquistati) invece di fare acquisti inutili sulla foga del momento.&lt;/p&gt;
-&lt;p&gt;L’altro giorno parlavo con un collega che si diceva annoiato dalle ultime uscite su Game Pass. Guardando insieme il catalogo, ho notato tantissimi giochi interessanti, ma lui ne ha scartati a metà perché “la grafica in pixel art sa di vecchio”, altri invece perché “ormai non ne parla più nessuno, voglio qualcosa di recente”.
-Mi dispiace per lui: con la valanga di uscite di oggi è impossibile stare dietro a tutto, e recuperare giochi di qualche anno fa è spesso più economico.&lt;/p&gt;
-&lt;p&gt;Secondo me a causa della sua &lt;a href=&quot;https://it.wikipedia.org/wiki/FOMO&quot;&gt;FOMO&lt;/a&gt; rischia di perdersi un sacco di esperienze valide, e senza un vero motivo.&lt;/p&gt;
 </content>
   </entry>
 </feed>
