@@ -18,6 +18,7 @@ Un piccolo sommario delle categorie:
 - [Caffè](#caffè)
 - [Lego](#lego)
 - [Libri](#libri)
+- [Nuove passioni](#nuove-passioni)
 
 ## VideoGames
 
@@ -57,7 +58,7 @@ Cosa c'è di meglio di un bel LEGO a Natale? Forse solo un dinosauro... Quindi, 
 
 Dato però che mi piacciono molto anche i LEGO "decorativi" (come la serie Botanical, per intenderci), trovo ltrettanto bella e con prezzo difficilmente giustificabile la [Via Lattea](https://www.lego.com/it-it/product/the-milky-way-galaxy-31212).
 
-![Il T-Rex LEGO](../public/img/wl-lego-via-lattea.png)
+![a via lattea in LEGO](../public/img/wl-lego-via-lattea.png)
 
 ## Libri
 
@@ -77,3 +78,15 @@ Tra i più interessanti che conosco e che mi piacerebbe sfogliare ci sono:
 ![La copertina di Void Arcana](../public/img/wl-void-arcana.jpeg)
 ![Le due copertine di TUNIC - Design Works](../public/img/wl-tunic-design-works.jpeg)
 ![The SNES Pixel Book](../public/img/wl-snes-pixel-book.jpeg)
+
+## Nuove passioni
+
+Raggruppo in questa sezione due _cose_ che mi piacerebbe imparare a fare, entrambe accumunate dal verbo **creare**.
+
+- Stampare in 3d
+- _Fare_ gli amigurumi
+
+**Stampare in 3d** è qualcosa che mi ispira da quando le stampanti 3d sono entrate nel mercato _consumer_: prendere un oggetto digitale e portarlo nel mondo reale è qualcosa di incredibile a mio modo di vedere. Avevo letto _da qualche parte_ che sulla Stazione Spaziale Internazionale avevano bisogno di uno strumento e, dalla Terra, gli era stato mandato il progetto digitale che loro si sono stampati per poi utilizzarlo... è la cosa pià vicina alla **magia** che io conosca :D.
+Due cose mi hanno sempre fermato: il costo e il non sapere esattamente cosa farci. Ora però esistono hardware discretamente economici (come la [Bambu lab A1 mini](https://eu.store.bambulab.com/it/products/a1-mini)) e ho trovato anche un buon motivo per possederne una: [Gridfinity](https://gridfinity.xyz/), un sistema open source per organizzare principalmente oggetti nei cassetti ed avere tutto in ordine. Si si lo so cosa stai pensando, ma io lo trovo bellissimo e davvero utile :D
+
+Passiamo invece agli [amigurumi](https://it.wikipedia.org/wiki/Amigurumi): praticamente sono dei piccoli pupazzi all'uncinetto, e trovo davvero belli quelli molto "tondi". Esistono molti kit online per iniziare a farli, ma ho paura di buttare soldi e tempo comprandone uno perchè non ho mai cucito / ricamato (o qualsiasi verbo vada in concordanza, come vedete non sono sul pezzo).
