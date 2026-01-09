@@ -21,7 +21,7 @@ Piattaforma: *Steam Deck*
 
 ![I videogame che ho completato nel 2025](./videogame-2025.png)
 
-**Alieno**. Questa è la prima parola che mi viene in mente per descrivere COCOON. In questo gioco interpreteremo un essere simile ad un insetto, in un mondo completamente fuori da ogni nostro canone, che funziona con regole a noi sconosciute. *Che appartiene ad altri* (Treccani).
+**Alieno**. Questa è la prima parola che mi viene in mente per descrivere [COCOON](https://www.cocoongame.com/). In questo gioco interpreteremo un essere simile ad un insetto, in un mondo completamente fuori da ogni nostro canone, che funziona con regole a noi sconosciute. *Che appartiene ad altri* (Treccani).
 
 Il gioco è sostanzialmente un **puzzle game**, talmente ben pensato che riesce a spiegarci le sue meccaniche **senza una singola riga di testo**: il level design, l'art direction e il sound design saranno ciò che ci guiderà all'interno della nostra avventura.
 
@@ -36,7 +36,7 @@ Io invece l'ho davvero amato, e forse è addirittura uno dei miei puzzle game pr
 
 ![I videogame che ho completato nel 2025](./videogame-2025.png)
 
-ASTRONITE è un gioco che mi ha fatto irritare tanto quanto l'ho amato. Secondo il resoconto di Steam, è stato uno dei 3 giochi che ho giocato più a lungo quest'anno, ed è uno dei rari dove ho raggiunto il 100% degli obiettivi, quindi potete capire che sicuramente il giudizio per questo gioco è sicuramente positivo.
+[ASTRONITE](https://www.jandusoft.com/astronite/) è un gioco che mi ha fatto irritare tanto quanto l'ho amato. Secondo il resoconto di Steam, è stato uno dei 3 giochi che ho giocato più a lungo quest'anno, ed è uno dei rari dove ho raggiunto il 100% degli obiettivi, quindi potete capire che sicuramente il giudizio per questo gioco è sicuramente positivo.
 
 **ASTRONITE** è un metroidvania abbastanza classico nel quale impersoneremo un'astronauta che, per motivi non chiari, precipita su un pianeta alieno. Il solito clichè per un gioco che si ispira a Metroid, non trovate? Tra l'altro, dando un'occhiata alle immagini, potrete capire che anche Gato Roboto è stato preso come ispirazione, anche se qui, oltre al bianco e nero, viene spesso usato il grigio. Non sto dicendo che questi siano difetti, anzi, sono stati per me i suoi selling-point.
 
@@ -51,6 +51,19 @@ Come dite? Ci sono giochi apprezzati e ben pià famosi che usano gli stessi espe
 ## ISLETS
 
 ![I videogame che ho completato nel 2025](./videogame-2025.png)
+
+[Islets](https://isletsgame.com/) è il classico gioco che ti colpisce per lo stile grafico pulito e colorato, ma che poi ti intrattiene per il gameplay semplice ma efficace. 
+
+E' un MetroidVania abbastanza classico, con power up "da manuale", ma che presenta davvero un bel sistema di movimento che garantisce il focus sul platforming: niente di troppo complicato, alla fine Islets è un gioco con la difficoltà tarata abbastanza verso il basso, ma ci sono delle sezioni che danno davvero una bella soddisfazione una volta completate.
+
+Tra l'altro il movimento del protagonista va un po' "digerito": il personaggio è velocissimo, tanto che sembra tarato male e stranisce in un primo momento, ma, una volta presa l’abitudine e data la grandezza delle aree, questo si rivelerà davvero un'arma vincente.
+
+La trama di Islets non è la punta di diamante del prodotto, ma c'è un punto che genera un elemento di gameplay che ho davvero apprezzato.
+L'obiettivo principale è quello di riunire un'isola fluttuante, che è stata divisa in 5 parti tempo addietro. Il fatto che le aree siano inizialmente divise fa sì che alcuni spazi "ai confini" non siano accessibili fintanto che due parti di isola non siano collegate, ed è un'escamotage che ho apprezzato davvero e che non limita solo al "mi manca un potere / non ho una chiave per accedere" il poter non navigare tutto l'ambiente subito.
+
+La cosa che non ho apprezzato, o meglio, che mi hanno stranito, sono i suoni e le musiche: tutte sono molto pacate e piacevoli, ma mi sono trovato stranito durante i combattimenti perchè le ho trovate un po' "fuori luogo".
+
+Alla fine devo dire che l’esperienza di gioco è stata piacevole, se non una delle più memorabili.
 
 ## The Legend of Zelda: Echoes of Wisdom
 
