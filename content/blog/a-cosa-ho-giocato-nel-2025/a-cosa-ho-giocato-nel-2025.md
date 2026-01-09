@@ -69,6 +69,17 @@ Alla fine devo dire che l’esperienza di gioco è stata piacevole, se non una d
 
 ![I videogame che ho completato nel 2025](./videogame-2025.png)
 
+Un ritorno davvero gradito agli Zelda 2d con un capitolo tutto nuovo e con la grafica del remake di Link's Awakening, che avevo a suo tempo apprezzato.
+Questa volta, a differenza degli altri episodi della serie, impersoneremo Zelda che si affida alla magia per combattere i nemici e risolvere gli enigmi: in particolare l'elemento centrale del gameplay è la possibilità di creare delle repliche di oggetti e nemici da utilizzare in qualsiasi momento del gioco.
+
+La meccanica mi è piaciuta molto, ma da un certo punto del gioco in poi subentrano alcuni legati alla gestione di questa meccanica:
+
+- Potendo copiare moltissimi oggetti, il menu di selezione degli stessi diventa enorme e ingestibile, portando il giocatore ad usare sempre gli stessi. Mark Brown, in un video, prova a trovare una soluzione al problema
+- Ogni replica ha un costo, e inizialmente questo ci farà ponderare la scelta di quale evocare. Ad un certo punto però avremo così tanta valuta da "spendere" che ci basterà evocare il mostro più forte o usare molte replice per abbassare drasticamente le difficoltà con i puzzle
+- Come per Tears Of The Kingdom, anche qui la troppa libertà di scelta fa si che mi sembra quasi di **barare** nella soluzione di alcuni enigmi
+
+Nonostante questi limiti il gioco l'ho portato a termine con piacere. Non è il mio preferito della saga ma mi sento comunque di consigliarlo.
+
 ## FELL
 
 ![I videogame che ho completato nel 2025](./videogame-2025.png)
