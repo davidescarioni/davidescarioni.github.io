@@ -21,4 +21,6 @@ D'altra parte, questa esperienza è stata una sorta di abbraccio, una maniera pe
 
 ![Un abbraccio](./and-roger-hug.png)
 
+Aggiungo un'ulteriore riflessione: questa esperienza non poteva essere fatta con un media diverso dal videogioco. Anche con gli stessi argomenti e la stessa storia, qui c'è un tema di _fatica_ nel compiere _determinate azioni_ che in un film, anche con una sceneggiatura migliore, non si sarebbe potuto trasmettere.
+
 Posso dire di essere contento di averlo giocato e che non l'avrei mai acquistato se non fosse stato per il consiglio di cui sopra, per cui **grazie davvero Giulia**.
