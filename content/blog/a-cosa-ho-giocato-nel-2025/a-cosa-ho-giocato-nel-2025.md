@@ -84,11 +84,16 @@ Nonostante questi limiti il gioco l'ho portato a termine con piacere. Non è il 
 
 ![I videogame che ho completato nel 2025](./videogame-2025.png)
 
-## Project Hailstorm
+Fell è un piccolo platform di precisione distribuito su Steam e Itch in forma gratuita. La grafica è molto semplice, con più pixel che colori (come piace a me insomma) e la caratteristica principale, mostrata anche nel trailer, è quella che, una volta terminato il livello di gioco, questo va intrapreso immediatamente a ritroso.
+L’idea di fondo mi è piaciuta molto, è la stessa che avevo usato per lo sviluppo del mio gioco Proh1bited Temple, ed ero curioso di vedere come era stata qui affrontata. In realtà, da questo punto di vista, mi ha un po’ deluso: si arriva al fondo, si torna all’inizio e si può ricominciare: nessuna differenza tra andata e ritorno, nessuna vero “finale” del gioco… Niente. Però il platforming è carino, e c’è anche un interessante devlog su YouTube per seguire il suo sviluppo
+
+## Project Hailstorm
 
 ![I videogame che ho completato nel 2025](./videogame-2025.png)
 
-## Tobla: Divine Path
+Progetto piccolissimo anche questo, ma, che a differenza di FELL, mi ha davvero stregato. Ne avevo scritto qui.
+
+## Tobla: Divine Path
 
 ![I videogame che ho completato nel 2025](./videogame-2025.png)
 
