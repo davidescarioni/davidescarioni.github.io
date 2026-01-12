@@ -91,15 +91,20 @@ L’idea di fondo mi è piaciuta molto, è la stessa che avevo usato per lo svil
 
 ![I videogame che ho completato nel 2025](./videogame-2025.png)
 
-Progetto piccolissimo anche questo, ma, che a differenza di FELL, mi ha davvero stregato. Ne avevo scritto qui.
+Progetto piccolissimo anche questo, ma, che a differenza di FELL, mi ha davvero stregato. Ne avevo scritto [qui](/project-hailstorm/).
 
 ## Tobla: Divine Path
 
 ![I videogame che ho completato nel 2025](./videogame-2025.png)
 
+Puzzle game super carino in prima persona. Anche di questo ne ho fatto [un blog post](/tobla/) per parlarne
+
 ## Prince of Persia: The Lost Crown + Mask of Darkness
 
 ![I videogame che ho completato nel 2025](./videogame-2025.png)
+
+Bello bello bello, un MetroidVania a cui non manca nulla: combattimenti divertenti, platforming impegnativo, movimenti fluidi e un bel senso di progressione. Ne ho parlato [qui](/prince-of-persia-the-lost-crown).
+Non saprei dire se è il gioco più bello a cui ho giocato nel 2025, ma sicuramente è nella top 3 insieme a [COCOON](#cocoon) e... [clicca qui se vuoi spoilerartelo](#öoo)
 
 ## Kena: Bridge of Spirits
 
