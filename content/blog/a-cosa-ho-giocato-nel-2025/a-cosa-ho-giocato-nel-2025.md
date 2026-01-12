@@ -110,6 +110,16 @@ Non saprei dire se è il gioco più bello a cui ho giocato nel 2025, ma sicurame
 
 ![I videogame che ho completato nel 2025](./videogame-2025.png)
 
+Kena: Bridge of Spirits è un gioco che secondo me hai sicuramente già visto da qualche parte, anche se non ricordi il nome: è quel gioco che sembra un film della Pixar, sia per i modelli utilizzati sia per la palette di colori.
+
+È un gioco che avevo iniziato subito dopo aver comprato la Steam Deck, ma che avevo abbandonato a poche ore dal finale e che ho concluso quest’anno.
+I motivi del mio abbandono erano stati due:
+
+- La Steam Deck ~prendeva il volo quando ci giocavo~ risentiva parecchio della sua pesantezza grafica
+- Mi ero bloccato affrontando un boss che trovato troppo difficile rispetto al resto
+
+Il secondo punto però mi tormentava, perchè il resto del gioco era assolutamente alla mia portata. Cosa stavo sbagliando?
+
 ## ITTA
 
 ![I videogame che ho completato nel 2025](./videogame-2025.png)
