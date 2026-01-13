@@ -112,7 +112,11 @@ Non saprei dire se è il gioco più bello a cui ho giocato nel 2025, ma sicurame
 
 Kena: Bridge of Spirits è un gioco che secondo me hai sicuramente già visto da qualche parte, anche se non ricordi il nome: è quel gioco che sembra un film della Pixar, sia per i modelli utilizzati sia per la palette di colori.
 
-È un gioco che avevo iniziato subito dopo aver comprato la Steam Deck, ma che avevo abbandonato a poche ore dal finale e che ho concluso quest’anno.
+Il gioco è un'avventura lineare d'altri tempi, con persino la presenza di alcuni muri invisibili: non sono cose che pregiudicano l'esperienza di gioco, ma vale la pena segnalarle per definire il gioco.
+
+Principalmente, con la nostra protagonista, dovremo esplorare la mappa di gioco e *esorcizzare* alcune anime, aiutandole a suon di colpi di bastone e colpi di arco a passare dal mondo dei vivi a quello ultraterreno.
+
+È un gioco che avevo iniziato subito dopo aver comprato la Steam Deck, lo avevo anche apprezzato, ma lo avevo poi abbandonato a poche ore dal finale e che ho concluso quest’anno.
 I motivi del mio abbandono erano stati due:
 
 - La Steam Deck ~prendeva il volo quando ci giocavo~ risentiva parecchio della sua pesantezza grafica
@@ -129,6 +133,15 @@ Le performance su Steam Deck però hanno pesantemente influito sull’esperienza
 ## ITTA
 
 ![I videogame che ho completato nel 2025](./videogame-2025.png)
+
+I bullet-hell sono un genere che mi ha sempre affascinato ma che non sono mai riuscito ad approcciare: vanno spesso a pari passo con il genere degli shoot'em'up, gli sparatutto da sala giochi, e mi spiace perchè questi ultimi invece li ho sempre apprezzati.
+
+ITTA è una sorta di avventura bullet-hell, ed è decisamente **buona** con il giocatore, essendo abbastanza accomodante sulle collisioni del personaggio e sulla quantità di danni.
+
+Ad un primo sguardo, la grafica sembra un mix riuscito tra Titan Souls e le zone più rigogliose di Hyper Light Drifter, ma ITTA riesce comunque ad avere un'anima oscura, quasi macabra.
+Il nostro protagonista si sveglia e si trova con la quasi totalità della sua famiglia morta in un mondo che non riconosce, popolato da esseri malefici da combattere o da personaggi bizzarri.
+
+La trama non posso dire che mi abbia convinto, resta sempre abbastanza criptica nel suo messaggio, ma a livello di gameplay posso dire che il gioco mi ha divertito, anche grazie al fatto che discretamente compatto (circa 5 ore di gioco).
 
 ## Öoo
 
