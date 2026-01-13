@@ -120,6 +120,12 @@ I motivi del mio abbandono erano stati due:
 
 Il secondo punto però mi tormentava, perchè il resto del gioco era assolutamente alla mia portata. Cosa stavo sbagliando?
 
+Mi sono reso conto giocando ad **Horizon: Zero Dawn** che muovermi e mirare con un controller lo trovo veramente difficile, probabilmente perchè sono cresciuto con mouse e tastiera.
+
+Ho ripreso quindi in mano il gioco, abbassato la difficoltà e ho portato a termine quello che mancava.
+
+Le performance su Steam Deck però hanno pesantemente influito sull’esperienza. Non è un capolavoro ma è un gioco che rigiocherei volentieri su un hardware più performante.
+
 ## ITTA
 
 ![I videogame che ho completato nel 2025](./videogame-2025.png)
@@ -131,6 +137,11 @@ Il secondo punto però mi tormentava, perchè il resto del gioco era assolutamen
 ## Quarion
 
 ![I videogame che ho completato nel 2025](./videogame-2025.png)
+
+Quarion è quel genere di gioco che vibra potentemente nelle mie corde e che mi fa dire "perchè non l'ho fatto io?" (come aveva fatto aaaaa tempo fa).
+Platform di precisione, grafica semplice ma ben pensata, power up e mappa metroidvanesca... il mix di ingredienti non potrebbe essere migliore, e infatti mi sono divertito tantissimo.
+Capisco però che, ad un primo sguardo, molti potrebbero chiedersi perchè comprare un gioco del genere quando l'aspetto è quello di un indie che si può trovare gratis su itch.
+Prima di tutto per supportare il lavoro di uno sviluppatore indie, che non è mai una brutta cosa. Secondo perchè, per 1€ ho giocato per 4 ore: 
 
 ## The Pathless
 
