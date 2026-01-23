@@ -147,7 +147,10 @@ La trama non posso dire che mi abbia convinto, resta sempre abbastanza criptica 
 
 ![I videogame che ho completato nel 2025](./videogame-2025.png)
 
-Ecco il terzo gioco tra i miei preferiti dell'anno. Trovate le mie considerazioni [qui](/ooo/)
+Öoo è un puzzle game in cui si impersona un bruco che può staccare una parte della sua coda per tramutarla in una bomba e, così facendo, riuscire a proseguire nel gioco. 
+So che così non ve l'ho venduto benissimo, ma se vi dicessi che è quasi un MetroidBrania e che l'ho adorato?
+
+È il terzo gioco tra i miei preferiti dell'anno, ma se avete letto il [post in cui ho scritto le mie considerazioni](/ooo/) probabilmente lo avevate già capito.
 
 ## Quarion
 
@@ -175,10 +178,17 @@ Una delle mie delusioni di quest'anno che.... vorrei rigiocare, in altre condizi
 **Immortals** lo avevo completato anni fa, era stato persino il mio gioco più giocato su Nintendo Switch. Quest'anno ho finalmente recuperato i 3 DLC del gioco perchè, nel caso non lo sapeste, sono veramente *pazzi*:
 
 DLC 1:
-il primo è sostanzialmente un sequel del gioco originale, focalizzato sui puzzle. Non mi interessava per cui non posso dire com'è
+il primo è sostanzialmente un sequel del gioco originale, focalizzato sui puzzle. Non mi interessava questo contenuto per cui non posso dire com'è al momento, ma non escludo di provarlo in futuro.
 
-DLC 2:
-**Miti del regno d'oriente** è una reskin del gioco originale basando storia e divinità sulla mitologia XXX. Il mondo di gioco è sostanzialmente un open world condensato in una decina di ore di gioco. Si, il risultato è un gioco piacevole che però è identico al gioco originale: giocato ad anni di distanza si sente che è invecchiato, ma anche qui l'ho portato a termine con molto piacere
+**Miti del regno d'oriente**:
+**Miti** è un'enorme reskin del gioco originale che basa storia e divinità sulla mitologia XXX. 
+Quindi si, il gioco è sempre un'avventura open world "alla Ubisoft" con combattimenti, sfide principali e secondarie, il tutto condensato in una decina di ore di gioco, quindi con una progressione velocissima.
+
+Si, il risultato è un gioco piacevole che però è identico al gioco originale, senza aggiungere niente a livello contenutistico.
+A giocato ad anni di distanza dall'uscita si sente che è invecchiato, ma anche qui l'ho portato a termine con molto piacere.
+È stato davvero interessante comunque vedere l'approccio da open world in un pacchetto così contenuto, ed è fonte di dispiacere 
 
 DLC 3:
-Il vero motivo per il quale ho comprato il DLC: nuova protagonista, sistema di combattimento leggermente rivisto ma, soprattutto, visuale con camera Isometrica. Insomma, sembra una di quelle Total Conversion che andavano di moda negli anni '90 dove si realizzava un gioco basandosi sul motore di un altro, in questo caso l'avventura è più lineare e somiglia a Diablo. Purtroppo su Switch il peso del gioco si fa sentire, e ad una certa l'ho abbandonato... Ma, se mai dovessi prendermi una Switch 2, sarei davvero curioso di provarlo su un hardware più potente.
+Il vero motivo per il quale ho comprato il DLC: nuova protagonista, sistema di combattimento leggermente rivisto ma, soprattutto, visuale con camera **isometrica**. Isometrica, vi rendete conto? Tralasciando il fatto che ho sempre avuto un debole per questo tipo di grafica (chissà se è dovuto al fatto che negli anni '90 ho giocato ad una marea di gestionali ed RTS), mi sembrava davvero da pazzi, nel senso positivo del termine, fare una modifica così importante al gioco principale per riproporlo con gameplay diverso in un "banale" DLC: insomma, sembra una di quelle Total Conversion amatoriali che andavano di moda negli anni '90 dove si realizzava un gioco basandosi sul motore di un altro.
+
+Il risultato è un'avventura più lineare che somiglia a molto a Diablo, pur mantenendo un focus più dinamico sui combattimenti. Purtroppo su Switch il peso del gioco si fa sentire, e ad una certa l'ho abbandonato... Ma, se mai dovessi prendermi una Switch 2, sarei davvero curioso di provarlo su un hardware più potente.
