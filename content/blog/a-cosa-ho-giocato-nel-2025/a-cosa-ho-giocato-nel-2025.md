@@ -147,6 +147,8 @@ La trama non posso dire che mi abbia convinto, resta sempre abbastanza criptica 
 
 ![I videogame che ho completato nel 2025](./videogame-2025.png)
 
+Ecco il terzo gioco tra i miei preferiti dell'anno. Trovate le mie considerazioni [qui](/ooo/)
+
 ## Quarion
 
 ![I videogame che ho completato nel 2025](./videogame-2025.png)
@@ -154,12 +156,29 @@ La trama non posso dire che mi abbia convinto, resta sempre abbastanza criptica 
 Quarion è quel genere di gioco che vibra potentemente nelle mie corde e che mi fa dire "perchè non l'ho fatto io?" (come aveva fatto aaaaa tempo fa).
 Platform di precisione, grafica semplice ma ben pensata, power up e mappa metroidvanesca... il mix di ingredienti non potrebbe essere migliore, e infatti mi sono divertito tantissimo.
 Capisco però che, ad un primo sguardo, molti potrebbero chiedersi perchè comprare un gioco del genere quando l'aspetto è quello di un indie che si può trovare gratis su itch.
-Prima di tutto per supportare il lavoro di uno sviluppatore indie, che non è mai una brutta cosa. Secondo perchè, per 1€ ho giocato per 4 ore: 
+Prima di tutto per supportare il lavoro di uno sviluppatore indie, che non è mai una brutta cosa. Secondo perchè, per 1€ ho giocato per 4 ore... incredibile, vero?
+
+Il gioco mi ha davvero rapito: è davvero semplice nelle meccaniche, ma la mappa e le sfide proposte sono davvero valide e, a parte qualche rage-quit, posso dire che è un gioco rispettoso del tempo del giocatore.
+
+Quarion l'ho terminato due volte: quando ho capito che c'era più di un finale non potevo farmi scappare l'occasione. Tra l'altro lascio ai posteri la mappa completa, nel caso possa essere utile a qualcuno che legge questo blog.
 
 ## The Pathless
 
 ![I videogame che ho completato nel 2025](./videogame-2025.png)
 
+Una delle mie delusioni di quest'anno che.... vorrei rigiocare, in altre condizioni. Ne ho scritto a riguardo [qui](/the-pathless/)
+
 ## Immortals: Fenix Rising - Miti del regno d'oriente
 
 ![I videogame che ho completato nel 2025](./videogame-2025.png)
+
+**Immortals** lo avevo completato anni fa, era stato persino il mio gioco più giocato su Nintendo Switch. Quest'anno ho finalmente recuperato i 3 DLC del gioco perchè, nel caso non lo sapeste, sono veramente *pazzi*:
+
+DLC 1:
+il primo è sostanzialmente un sequel del gioco originale, focalizzato sui puzzle. Non mi interessava per cui non posso dire com'è
+
+DLC 2:
+**Miti del regno d'oriente** è una reskin del gioco originale basando storia e divinità sulla mitologia XXX. Il mondo di gioco è sostanzialmente un open world condensato in una decina di ore di gioco. Si, il risultato è un gioco piacevole che però è identico al gioco originale: giocato ad anni di distanza si sente che è invecchiato, ma anche qui l'ho portato a termine con molto piacere
+
+DLC 3:
+Il vero motivo per il quale ho comprato il DLC: nuova protagonista, sistema di combattimento leggermente rivisto ma, soprattutto, visuale con camera Isometrica. Insomma, sembra una di quelle Total Conversion che andavano di moda negli anni '90 dove si realizzava un gioco basandosi sul motore di un altro, in questo caso l'avventura è più lineare e somiglia a Diablo. Purtroppo su Switch il peso del gioco si fa sentire, e ad una certa l'ho abbandonato... Ma, se mai dovessi prendermi una Switch 2, sarei davvero curioso di provarlo su un hardware più potente.
