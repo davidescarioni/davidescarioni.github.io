@@ -5,7 +5,7 @@ date: 2026-01-02
 tags: ["gmi", "videogames"]
 ---
 
-Come scrivevo giusto l'[anno scorso](./secret-santa-jam-2024.html), la **Secret Santa Jam** è una jam organizzata sul Discord di GMI nella quale
+Come scrivevo giusto l'[anno scorso](/blog/secret-santa-jam-2024/), la **Secret Santa Jam** è una jam organizzata sul Discord di GMI nella quale
 
 > [...] Ogni partecipante deve **scrivere una letterina** in cui specificherà cosa gli piacerebbe ricevere, evitando di specificare generi o stili grafici così da rendere la jam il più possibile inclusiva. Per ogni partecipante verrà estratto un altro partecipante al quale **confezionare un gioco secondo le indicazioni della letterina**. Il gioco verrà poi consegnato e giocato direttamente in live.
 
@@ -32,7 +32,7 @@ Ho così sviluppato un prototipo al volo per mostare a Nanna cosa intendevo con 
 ![Screenshot del prototipo nelle fasi interne](./prototipo-1.png)
 ![Altro screenshot del prototipo nelle fasi interne](./prototipo-2.png)
 
-Nanna a questo punto ha un'altra bellissima idea: perchè non usare la neve al posto della nebbia? L'importante è che il soprannaturale sia nascosto e fraintendibile, *eldritch piu' che horror* (ho dovuto cercare su Wikipedia, ma mi ha insegnato una cosa nuova).
+Nanna a questo punto ha un'altra bellissima idea: perchè non usare la neve al posto della nebbia? L'importante è che il soprannaturale sia nascosto e fraintendibile, _eldritch piu' che horror_ (ho dovuto cercare su Wikipedia, ma mi ha insegnato una cosa nuova).
 Così facendo, tra l'altro, potremmo usare figure del folklore natalizio nordeuropeo come nemici. Così ecco che nascono Krampus, [Mari Lwyd](https://en.wikipedia.org/wiki/Mari_Lwyd) e San Nicola.
 
 L'idea iniziale, che qui condivido ma che non troverete nel gioco, è che il nemico fosse solo uno generato dalla fusione degli altri.
@@ -63,7 +63,9 @@ Spazio ai ringraziamenti ora:
 - a [Freeflip](https://santiagocalzolari.wordpress.com/) perchè, dopo aver visto la live, mi ha scritto per aiutarmi a correggere come vengono disegnate le particelle
 - Enrico Maria Perlini per aver aiutato Nanna con l'utilizzo di Reaper per gli SFx.
 
-## Cosa abbiamo ricevuto
+EDIT 26/01: dopo che Nanna ha aggiunto la traduzione in spagnolo abbiamo pubblicato il gioco su itch! Se ti va di provarlo e vuole lasciarci un feedback puoi farlo cliccando [qui](https://scario88.itch.io/silent-night).
+
+## Cosa abbiamo ricevuto
 
 Io e Nanna abbiamo una passione in comune, quindi è stato facile redigere la letterina:
 
@@ -75,5 +77,7 @@ Siamo stati fortunati: siamo stati pescati da [Goldensun](https://goldensun-it.i
 ![Il mitico Strettosauro è senza limiti](./dino-slop-2.png)
 
 Golden si è detto non completamente soddisfatto per la mancanza di polish e di qualche bug, ma a noi è sinceramente piaciuto... Anzi, spero che lo porti avanti e lo chiuda come desidera, è davvero una bella idea!
+
+Non è stato pubblicato da nessuna parte se non sul [Discord di GMI](https://discord.com/invite/juj4yEF2Yv), quindi ti consiglio di fare un salto all'interno della community per riuscire a giocarlo!
 
 E con questo si conclude anche la Secret Santa 2025. Non c'è stato nessun partecipante segreto o gioco segreto da consegnare, ma nonostante questo è stata faticola e soddisfacente come al solito ;) Ci si legge l'anno prossimo!
