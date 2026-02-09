@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>LIESPIRE</title>
-		<meta name="description" content="Il mio gioco per la Terror0ttobre 2025">
+		<title>Aiutare il mondo passeggiando</title>
+		<meta name="description" content="Contribuiamo ad un progetto open source">
 		<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
 		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Scario Side Quest">
 		
@@ -493,54 +493,28 @@ header {
 				
 
 <div class="post-header">
-<time class="post-date" datetime="2025-11-03">03 November 2025</time>
-<h1 class="post-title" id="liespire">LIESPIRE</h1>
-<div>Il mio gioco per la Terror0ttobre 2025</div>
+<time class="post-date" datetime="2026-02-09">09 February 2026</time>
+<h1 class="post-title" id="aiutare-il-mondo-passeggiando">Aiutare il mondo passeggiando</h1>
+<div>Contribuiamo ad un progetto open source</div>
 <div class="post-tags">Tags: <ul class="post-metadata">
         <li>
-            <a href="/tags/gmi/" class="post-tag">gmi</a>
-        </li>
-        <li>
-            <a href="/tags/videogames/" class="post-tag">videogames</a>
+            <a href="/tags/personale/" class="post-tag">personale</a>
         </li>
 </ul></div>
 </div>
-<p><picture><source type="image/avif" srcset="/blog/liespire/HunwtIU-K5-640.avif 640w"><source type="image/webp" srcset="/blog/liespire/HunwtIU-K5-640.webp 640w"><img loading="lazy" decoding="async" src="/blog/liespire/HunwtIU-K5-640.png" alt="LIESPIRE banner" width="640" height="360"></picture></p>
-<p>Puntuale come ogni Halloween, anche quest'anno MyMadness Works sul Discord di GameMaker Italia ha proposto la TerrorOttobre, una jam spooky / horror con un tema da seguire: quello di questa edizione era <strong>INGANNO</strong>.</p>
-<p>Non era mia intenzione partecipare, però poi, dal nulla, ho pensato che un bel gioco di carte in cui nascondere le vere intenzioni all'avversario poteva essere una bella idea, quindi....</p>
-<h2 id="comincio-a-prototipare">Comincio a prototipare</h2>
-<p>Ho voluto fare un esperimento: dato che in ufficio mi chiedono sempre più di <strong>affidarmi a ChatGPT</strong> per lo sviluppo software ma io continuo ad avere riserve a riguardo, ho deciso di usare questo progetto per fare Vibe Coding, cioè lasciare l'IA a sviluppare e scrivere solo PROMPT. Se inizialmente il tutto sembrava andare correttamente (ho scelto per provare appunto un gioco nel quale potenzialmente mi poteva bastare un singolo oggetto), pian pianino l'IA ha perso il contesto e <strong>ha cominciato a non azzeccarne più una</strong>.
-Nel mentre ho mandato dei vocali a <strong>Giovanni</strong> (il ragazzo che <a href="/blog/norvegia/">sono andato a trovare in Norvegia qualche mese fa</a>) dato che è appassionato di giochi da tavolo, e mi ha un po' smontato la mia idea.</p>
-<p>...Idea che non vi ho ancora raccontato:</p>
-<ul>
-<li>due giocatori si sfidano a costruire <strong>la torre più alta</strong></li>
-<li>ogni carta ha un valore di altezza</li>
-<li>vengono mostrate quattro carte per volta, e ne vengono scelte una per turno da entrambi i giocatori, poi si rimettono sul tavolo quattro nuove carte dal mazzo</li>
-<li><strong>a metà mazzo è posizionata una carta INGANNO</strong>, che cambia una regola fondamentale del gioco, ad esempio: le carte topo smettono di moltiplicare punti, vince la torre più bassa, i mazzi pareggiano l'altezza, ecc.</li>
-</ul>
-<p>Quello che <em>Giò</em> mi ha fatto notare è che è troppo determinante la fortuna, perchè la carta INGANNO può far perdere una partita perfetta e far vincere una partita giocata male.</p>
-<p>Dato però che INGANNO era il tema della jam non potevo semplicemente toglierla, dovevo proprio cambiare il gioco dalle basi. E, siccome ChatGPT ho capito non essere ancora adeguato, avrei dovuto rifare comunque tutto da 0.</p>
-<h2 id="nuova-idea-memory">Nuova idea: memory!</h2>
-<p><picture><source type="image/avif" srcset="/blog/liespire/kZOK-mabS--880.avif 880w"><source type="image/webp" srcset="/blog/liespire/kZOK-mabS--880.webp 880w"><img loading="lazy" decoding="async" src="/blog/liespire/kZOK-mabS--880.png" alt="Un primo prototipo" width="880" height="572"></picture></p>
-<p>Comincio da un'idea che avevo scartato la scorsa competizione, cioè quella di realizzare un memory competitivo: vengono mostrate tutte le carte, poi ad inizio partita vengono girate e si gioca. L'obiettivo qui non è fare <em>coppie</em> come nel memory tradizionale, ma di andare a pescare la carta giusta al momento giusto.</p>
-<p>L'obiettivo resta sempre lo stesso, fare la torre più alta dell'avversario. Cambia però l'INGANNO: questo ora viene mostrato ad inizio partita tramite QR code, così che se l'avversario bara ce ne possiamo rendere conto. Giusto, cosa fondamentale: il gioco multiplayer locale, perchè sviluppare una IA di un gioco di carte per una JAM è troppo <em>time-consuming</em>... e poi quanto è bello giocare insieme a qualcun altro nella stessa stanza?</p>
-<p>Aspetta... perchè non ho integrato la nuova gestione della carta INGANNO nel prototipo precedente? Semplicemente perchè avrei dovuto rifare tutto e un memory mi sembrava più facile e veloce da realizzare nel tempo rimasto.</p>
-<p>Quindi... ecco a voi LIESPIRE.</p>
-<p><picture><source type="image/avif" srcset="/blog/liespire/kio2f9QC_t-1920.avif 1920w"><source type="image/webp" srcset="/blog/liespire/kio2f9QC_t-1920.webp 1920w"><img loading="lazy" decoding="async" src="/blog/liespire/kio2f9QC_t-1920.png" alt="Le carte completamente ruotate ad inizio partita" width="1920" height="1080"></picture></p>
-<p>Il gioco tra l'altro l'ho esportato per web (come precedentemente ho detto di voler sempre fare da ora in avanti), e giocarlo su tablet con un amico è davvero piacevole come esperienza (ma siamo alla stregua di un &quot;<em>Oste, com'è il vino</em>?&quot;).</p>
-<p><picture><source type="image/avif" srcset="/blog/liespire/TboAuCzFF--1920.avif 1920w"><source type="image/webp" srcset="/blog/liespire/TboAuCzFF--1920.webp 1920w"><img loading="lazy" decoding="async" src="/blog/liespire/TboAuCzFF--1920.png" alt="Il primo minuto di una qualsiasi partita" width="1920" height="1080"></picture></p>
-<p>Probabilmente non è ancora ben equilibrato perchè è stato giocato da troppe poche persone, e ho in mente di inserire almeno una nuova carta in futuro (il pipistrello, che finirà nel mazzo dell'avversario e non nel proprio).</p>
-<p>Se vi va, <a href="https://scario88.itch.io/liespire">qui trovate il link da dove poterlo giocare</a>.</p>
+<p>Durante le mie camminate insieme a mia figlia nel passeggino, lei si appisola quasi subito e mi lascia minuti e minuti di silenzio, quindi ho cercato di trovare attività per <em>riempire</em> questi momenti. Si lo so, <strong>la noia fa bene</strong>, ma il mio paese è comunque fin troppo noioso per camminare guardandosi intorno <em>e basta</em> :D.</p>
+<p>I podcast in questi casi sono ottimi, e sto recuperando le puntate che ho perso nelle ultime settimane. Ma mi è venuto in mente che tempo addietro avevo scaricato un'app chiamata <a href="https://streetcomplete.app/">StreetComplete</a> dopo aver ascoltato una puntata di <a href="https://digitalia.fm/720/">Digitalia</a> e ho pensto che fosse un buon momento per provarla.</p>
+<p>Quest'app applica la <strong>gamification</strong> alle mappe di <a href="https://www.openstreetmap.org">OpenStreetMap</a> che, se non lo conoscete, è un servizio gratuito e open source di mappe basato sui contributi della community: se anche voi avete cercato alternative a Google Maps sono sicuro che vi sarete imbattiti in <a href="https://organicmaps.app/it/">OrganicMaps</a> o <a href="https://www.comaps.app/it/">CoMaps</a>, e queste si basano proprio sulle mappe di cui sopra.</p>
+<p>Dato che sono basate sui dati forniti dalla community potete immaginare, soprattutto in piccoli paesi, quante informazioni possano essere mancanti: vie senza nomi, attività commerciali con orari mancanti, tipi di strada non segnalati... <strong>Tipi di strada</strong>? Si, perchè OpenStreetMap è la base di molti servizi di mappe non solo per la navigazione automobilistica, ma anche alcuni utilizzati ad esempio nel ciclismo, quindi le informazioni con le quali si può contribuire a migliorare il progetto sono davvero innumerevoli.</p>
+<p>Questa è una tipica schermata di <strong>StreetComplete</strong>, e le icone (cliccabili) sono le <em>missioni</em> da completare inserendo i dati. Ovviamente ogni informazione inserita vi darà punti, altrimenti che <em>gamification</em> è?</p>
+<p><picture><source type="image/avif" srcset="/blog/aiutare-il-mondo-passeggiando/j2e3_pGBzK-2424.avif 2424w"><source type="image/webp" srcset="/blog/aiutare-il-mondo-passeggiando/j2e3_pGBzK-2424.webp 2424w"><img loading="lazy" decoding="async" src="/blog/aiutare-il-mondo-passeggiando/j2e3_pGBzK-2424.png" alt="Uno screenshot di StreetComplete pieno di icone che indicano le informazioni mancanti" width="2424" height="1080"></picture></p>
+<p>Chi me lo fa fare? Nessuno. Il mio contributo farà <strong>davvero la differenza</strong>? Non credo. Ma se si vuole cambiare le cose da qualche parte bisogna pur partire, no?</p>
 
         <ul class="links-nextprev">
                 <li class="links-nextprev-prev">← Precedente<br>
-                        <a href="/blog/meetup-2025/">GameMaker Meetup 2025</a>
+                        <a href="/blog/fairune/">Fairune</a>
                     </li>
                 
-                    <li class="links-nextprev-next">Successivo →<br>
-                            <a href="/blog/the-pathless/">The Pathless, su Switch, non lo consiglio</a>
-                        </li>
-                    
                 </ul>
 			</heading-anchors>
 		</main>
@@ -549,7 +523,7 @@ Nel mentre ho mandato dei vocali a <strong>Giovanni</strong> (il ragazzo che <a 
 			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
 		</footer>
 
-		<!-- This page `/blog/liespire/` was built on 2026-02-09T21:45:44.800Z -->
+		<!-- This page `/blog/aiutare-il-mondo-passeggiando/` was built on 2026-02-09T21:45:44.798Z -->
 		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
 	</body>
 </html>

@@ -5,11 +5,25 @@
   <subtitle>My personal blog.</subtitle>
   <link href="https://davidescarioni.github.io/feed/feed.xml" rel="self" />
   <link href="https://davidescarioni.github.io/" />
-  <updated>2026-02-06T00:00:00Z</updated>
+  <updated>2026-02-09T00:00:00Z</updated>
   <id>https://davidescarioni.github.io/</id>
   <author>
     <name>Davide Scarioni</name>
   </author>
+  <entry>
+    <title>Aiutare il mondo passeggiando</title>
+    <link href="https://davidescarioni.github.io/blog/aiutare-il-mondo-passeggiando/" />
+    <updated>2026-02-09T00:00:00Z</updated>
+    <id>https://davidescarioni.github.io/blog/aiutare-il-mondo-passeggiando/</id>
+    <content type="html">&lt;p&gt;Durante le mie camminate insieme a mia figlia nel passeggino, lei si appisola quasi subito e mi lascia minuti e minuti di silenzio, quindi ho cercato di trovare attività per &lt;em&gt;riempire&lt;/em&gt; questi momenti. Si lo so, &lt;strong&gt;la noia fa bene&lt;/strong&gt;, ma il mio paese è comunque fin troppo noioso per camminare guardandosi intorno &lt;em&gt;e basta&lt;/em&gt; :D.&lt;/p&gt;
+&lt;p&gt;I podcast in questi casi sono ottimi, e sto recuperando le puntate che ho perso nelle ultime settimane. Ma mi è venuto in mente che tempo addietro avevo scaricato un&#39;app chiamata &lt;a href=&quot;https://streetcomplete.app/&quot;&gt;StreetComplete&lt;/a&gt; dopo aver ascoltato una puntata di &lt;a href=&quot;https://digitalia.fm/720/&quot;&gt;Digitalia&lt;/a&gt; e ho pensto che fosse un buon momento per provarla.&lt;/p&gt;
+&lt;p&gt;Quest&#39;app applica la &lt;strong&gt;gamification&lt;/strong&gt; alle mappe di &lt;a href=&quot;https://www.openstreetmap.org&quot;&gt;OpenStreetMap&lt;/a&gt; che, se non lo conoscete, è un servizio gratuito e open source di mappe basato sui contributi della community: se anche voi avete cercato alternative a Google Maps sono sicuro che vi sarete imbattiti in &lt;a href=&quot;https://organicmaps.app/it/&quot;&gt;OrganicMaps&lt;/a&gt; o &lt;a href=&quot;https://www.comaps.app/it/&quot;&gt;CoMaps&lt;/a&gt;, e queste si basano proprio sulle mappe di cui sopra.&lt;/p&gt;
+&lt;p&gt;Dato che sono basate sui dati forniti dalla community potete immaginare, soprattutto in piccoli paesi, quante informazioni possano essere mancanti: vie senza nomi, attività commerciali con orari mancanti, tipi di strada non segnalati... &lt;strong&gt;Tipi di strada&lt;/strong&gt;? Si, perchè OpenStreetMap è la base di molti servizi di mappe non solo per la navigazione automobilistica, ma anche alcuni utilizzati ad esempio nel ciclismo, quindi le informazioni con le quali si può contribuire a migliorare il progetto sono davvero innumerevoli.&lt;/p&gt;
+&lt;p&gt;Questa è una tipica schermata di &lt;strong&gt;StreetComplete&lt;/strong&gt;, e le icone (cliccabili) sono le &lt;em&gt;missioni&lt;/em&gt; da completare inserendo i dati. Ovviamente ogni informazione inserita vi darà punti, altrimenti che &lt;em&gt;gamification&lt;/em&gt; è?&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/aiutare-il-mondo-passeggiando/j2e3_pGBzK-2424.avif 2424w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/aiutare-il-mondo-passeggiando/j2e3_pGBzK-2424.webp 2424w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/aiutare-il-mondo-passeggiando/j2e3_pGBzK-2424.png&quot; alt=&quot;Uno screenshot di StreetComplete pieno di icone che indicano le informazioni mancanti&quot; width=&quot;2424&quot; height=&quot;1080&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;Chi me lo fa fare? Nessuno. Il mio contributo farà &lt;strong&gt;davvero la differenza&lt;/strong&gt;? Non credo. Ma se si vuole cambiare le cose da qualche parte bisogna pur partire, no?&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Fairune</title>
     <link href="https://davidescarioni.github.io/blog/fairune/" />
@@ -297,39 +311,6 @@ Quest&#39;ultimo punto è nato per il semplice motivo che, quando è stato prova
 Poi, essendo anche utente MacOs, spesso devo posticipare la prova di indie perchè la maggior parte sono disponibili solo per Windows, quindi poter provare un gioco direttamente dalla pagina web è un feature che mi fa molto piacere trovare e mettere a disposizione agli altri.&lt;/p&gt;
 &lt;p&gt;Spero possa piacervi, o comunque possiate trovare qualcosa di interessante da questo mio piccolo progetto nato da una jam.&lt;/p&gt;
 &lt;p&gt;Dimenticavo: &lt;a href=&quot;https://github.com/davidescarioni/appena-prima-di-pranzo&quot;&gt;il repository Github&lt;/a&gt; del progetto è pubblico, sbirciatelo pure se vi interessa qualcosa all&#39;interno.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Installare ChromeOS Flex su un vecchio Celeron</title>
-    <link href="https://davidescarioni.github.io/blog/installare-chrome-os-flex/" />
-    <updated>2025-09-20T00:00:00Z</updated>
-    <id>https://davidescarioni.github.io/blog/installare-chrome-os-flex/</id>
-    <content type="html">&lt;p&gt;.. è assolutamente fattibile, e oserei dire che ne vale la pena.&lt;/p&gt;
-&lt;h2 id=&quot;premessa&quot;&gt;Premessa&lt;/h2&gt;
-&lt;p&gt;Il notebook di mia madre (HP Stream 14, pc portatile con Intel Celeron N3060, 4GB di RAM, 32 GB di EMMC) non è mai stato un fulmine, ma considerando che il suo utilizzo è sempre stato quello di poter effettuare ricerche sul web,la consultazione della posta elettronica e la scrittura di qualche documento Word, non mi sembrava un cattivo prodotto quando glie l&#39;ho regalato.
-Ovviamente, con il senno di poi, quei 32 GB sono stati un collo di bottiglia incredibile: nonostante tutti i documenti fossero su archiviazione esterna, anche i soli aggiornamenti di Windows 10 non riuscivano a stare in quello spazio, e questo ha fatto sì che il pc ultimamente era inutilizzabile e lento, perchè Windows insisteva costantemente a scaricare aggiornamenti riempiendo lo spazio disponibile che si trovava a disposizione.
-Dato che Windows 10 diventerà obsoleto tra poco più di un mese ho preso la palla al balzo e ho deciso di formattarlo.&lt;/p&gt;
-&lt;p&gt;Avevo due scelte davanti:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;installare una distribuzione linux &lt;em&gt;leggera&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;installare ChromeOS&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;La prima idea mi è sempre sembrata la più papabile, ma mi rendo conto che, non avendo un pc con Linux a casa, ogni tentativo di aiuto da remoto a mia madre sarebbe stato difficile.
-Chrome OS invece mi ha dato un&#39;ottima impressione dopo aver regalato un Chromebook a mio padre, che è stato contento dal primo giorno in cui l&#39;ha avviato e mi dice ancora oggi che &lt;em&gt;gli ho regalato un Ferrari&lt;/em&gt;, nonostante sia comunque un entry level (Samsung Chromebook 14).
-Ho quindi optato per la scelta di Chrome OS in versione &amp;quot;Flex&amp;quot;, che per chi non lo sapesse è la versione installabile da tutti sui propri pc con la limitazione di non poter usare le app Android ma solo la parte web e, eventualmente, il terminale linux.&lt;/p&gt;
-&lt;h2 id=&quot;prepararsi-all-installazione&quot;&gt;Prepararsi all&#39;installazione&lt;/h2&gt;
-&lt;p&gt;Per creare il supporto di installazione ci vuole una chiavetta usb da almeno 8gb veri (nel senso che la classica chiavetta usb da 8gb che il sistema rileva da 7,xx GB non va bene). Nel caso rientraste nel caso descritto tra parentesi andate al paragrafo &lt;a href=&quot;https://davidescarioni.github.io/blog/installare-chrome-os-flex/#workaround&quot;&gt;#workaround&lt;/a&gt;.
-Serve poi il browser Chrome (ma credo vada bene qualsiasi a base Chromium anche se non ho provato) nel quale installare l&#39;estensione &lt;a href=&quot;https://chromewebstore.google.com/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm&quot;&gt;Utilità ripristino Chromebook&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Una volta installata, basta seguire le indicazioni e fare un &lt;em&gt;avanti avanti avanti&lt;/em&gt;. L&#39;unico step nel quale fare attenzione è quello di selezione del modello del pc dove, anzichè scegliere effettivamente il modello posseduto, va scelta la voce &lt;strong&gt;Chrome OS Flex&lt;/strong&gt;.&lt;/p&gt;
-&lt;h3 id=&quot;workaround&quot;&gt;Workaround&lt;/h3&gt;
-&lt;p&gt;Come dicevo prima, il software per creare la chiavetta di installazione è molto pignolo sul numero di GB. Se, come me, avete a disposizione solo una chiavetta da 8gb, installate il sistema tramite Rufus usando l&#39;&lt;a href=&quot;https://dl.google.com/chromeos-flex/images/latest.bin.zip&quot;&gt;iso del sistema più recente&lt;/a&gt; (la url scarica sempre l&#39;ultima versione disponibile, l&#39;ho trovata in documentazione)&lt;/p&gt;
-&lt;h2 id=&quot;installazione&quot;&gt;Installazione&lt;/h2&gt;
-&lt;p&gt;Il mio portatile aveva già la lettura da USB come primaria, quindi mi è bastato accendere il notebook con la chiavetta inserita per cominciare l&#39;installazione. Se non è così sul vostro, potete premere un tasto per accedere alla scelta del disco da cui far partire il sistema (anche qui in &lt;a href=&quot;https://support.google.com/chromeosflex/answer/11552352?sjid=12499755134570041330-EU#boot&amp;amp;zippy=%2Cchiavi-di-avvio&quot;&gt;documentazione&lt;/a&gt;, alla voce &lt;em&gt;Chiavi di avvio&lt;/em&gt;&amp;quot;* trovate il pulsante da premere in base al marchio.&lt;/p&gt;
-&lt;p&gt;Una volta partito l&#39;installer vi verrà chiesto se volete provare il sistema oppure cancellare completamente il disco e installare Chome OS Flex (non si può fare dual boot). L&#39;opzione per provare il sistema a me non ha funzionato, così ho installato alla cieca. Il processo è veloce e non chiede praticamente altro per andare dall&#39;inzio alla fine.&lt;/p&gt;
-&lt;h2 id=&quot;avvio-del-sistema&quot;&gt;Avvio del sistema&lt;/h2&gt;
-&lt;p&gt;Niente, come dicevo il processo è molto veloce e l&#39;OS è partito senza nessun problema di driver o simili.
-Il sistema è più reattivo di prima: non è mai un fulmine, ma adesso accendere il pc per andare su una pagina web e navigarla è un&#39;esperienza decisamente più piacevole.&lt;/p&gt;
-&lt;p&gt;Ora restituisco il portatile a mia madre dopo averlo provato sporadicamente per circa un&#39;ora, aggiornerò l&#39;articolo con un feedback se fosse necessario.&lt;/p&gt;
 </content>
   </entry>
 </feed>
