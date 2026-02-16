@@ -202,17 +202,27 @@
 	</url>
 	
 	<url>
-		<loc>https://davidescarioni.github.io/blog/wavetale/</loc>
-		<lastmod>2026-01-26</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://davidescarioni.github.io/wishlist/</loc>
 		<lastmod>2026-01-26</lastmod>
 	</url>
 	
 	<url>
+		<loc>https://davidescarioni.github.io/blog/wavetale/</loc>
+		<lastmod>2026-01-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://davidescarioni.github.io/blog/fairune/</loc>
+		<lastmod>2026-02-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://davidescarioni.github.io/blog/aiutare-il-mondo-passeggiando/</loc>
+		<lastmod>2026-02-09</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://davidescarioni.github.io/feed/feed.xml</loc>
-		<lastmod>2026-01-26</lastmod>
+		<lastmod>2026-02-16</lastmod>
 	</url>
 </urlset>

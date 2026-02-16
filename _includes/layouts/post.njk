@@ -6,7 +6,7 @@ layout: layouts/base.njk
 {%- css %}{% include "node_modules/prismjs/themes/prism-okaidia.css" %}{% endcss %}
 {%- css %}{% include "public/css/prism-diff.css" %}{%- endcss %}
 <div class="post-header">
-<time class="post-date" datetime="{{ page.date | htmlDateString }}">{{ post.date.toLocaleDateString('it-IT', { day: '2-digit', month: 'long', year: 'numeric' }) | readableDate }}</time>
+<time class="post-date" datetime="{{ htmlDateString }}">{{ page.date | readableDateIT }}</time>
 <h1 class="post-title">{{ title }}</h1>
 <div>{{ description }}</div>
 <div class="post-tags">Tags: <ul class="post-metadata">
