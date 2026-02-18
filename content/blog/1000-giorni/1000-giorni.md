@@ -1,6 +1,6 @@
 ---
 title: 1000 giorni
-description:
+description: 3 anni bastano per imparare qualcosa?
 date: 2025-06-03
 tags: ["personale"]
 ---

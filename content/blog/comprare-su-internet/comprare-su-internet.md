@@ -1,5 +1,6 @@
 ---
 title: Comprare su Internet
+description: Alcune esperienze di acquisto online su siti insoliti
 date: 2025-07-16
 tags: ["personale", "videogame", "cibo"]
 ---

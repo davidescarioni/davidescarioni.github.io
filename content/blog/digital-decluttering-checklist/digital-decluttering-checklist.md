@@ -1,6 +1,6 @@
 ---
 title: Digital Decluttering Checklist
-description: Per iniziare bene l'anno
+description: Un po' di pulizia digitale per iniziare bene l'anno
 date: 2025-01-02
 tags: ["software"]
 ---

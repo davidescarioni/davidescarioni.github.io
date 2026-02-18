@@ -1,6 +1,6 @@
 ---
 title: Appena prima di pranzo
-description:
+description: Devlog delle sviluppo di una mia [micro] avventura grafica
 date: 2025-09-29
 tags: ["gmi", "videogames"]
 ---
