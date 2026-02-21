@@ -1,5 +1,5 @@
 ---
-title: Minishoot' Adventure: non sembra Zelda ma lo è
+title: Minishoot' Adventure non sembra Zelda, ma lo è
 description: La risposta alla domanda "E se Link fosse un'astronave?"
 date: 2026-02-21
 tags: ["videogames"]
