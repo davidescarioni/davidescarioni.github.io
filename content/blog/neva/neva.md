@@ -7,13 +7,13 @@ tags: ["videogames"]
 
 ![Uno dei miei momenti preferiti in Neva](./neva_7.jpeg)
 
-[GRIS](https://www.steam.com) è un gioco che ho adorato in ogni suo aspetto: incredibile graficamente, con le sue tinte acquerellate; una colonna sonora memorabile, che mi capita ancora oggi di ascoltare; un significato profondo che mi ha portato a pensarlo anche quando posavo la Switch; un gameplay essenziale ma perfettamente coerente con la storia raccontata.
+[GRIS](https://store.steampowered.com/app/683320/GRIS/) è un gioco che ho adorato in ogni suo aspetto: incredibile graficamente, con le sue tinte acquerellate; una colonna sonora memorabile, che mi capita ancora oggi di ascoltare; un significato profondo che mi ha portato a pensarlo anche quando posavo la Switch; un gameplay essenziale ma perfettamente coerente con la storia raccontata.
 
-Neva è il secondo gioco dagli stessi autori, e, nonostante il cambio di stile grafico, si riconosce al volo che **la mano è la loro**. Forse avevo troppe aspettative dato quanto scritto sopra, ma ora proverò a spiegare perchè ho apprezzato il gioco solo fino ad un certo punto.
+[Neva](https://store.steampowered.com/app/2420660/Neva/) è il secondo gioco dagli stessi autori, e, nonostante il cambio di stile grafico, si riconosce al volo che **la mano è la loro**. Forse avevo troppe aspettative dato quanto scritto sopra, ma ora proverò a spiegare perchè ho apprezzato il gioco solo fino ad un certo punto.
 
 ![Un ambiente davvero rigoglioso](./neva_8.jpeg)
 
-Come vedrete dagli screenshot della mia run presenti in questo articolo, graficamente è bellissimo, senza se e senza ma. Ci sono molte somiglianze con alcune opere dello **Studio Ghibli** (vedi in particolare il design dei nemici), ma sono loro i primi ad aver dichiarato fosse stata una loro fonte di ispirazione. Vi lascio qui [un micro documentario sullo sviluppo del gioco in cui ne parlano](https://www.youtube.com/boh).
+Come vedrete dagli screenshot della mia run presenti in questo articolo, graficamente è bellissimo, senza se e senza ma. Ci sono molte somiglianze con alcune opere dello **Studio Ghibli** (vedi in particolare il design dei nemici), ma sono loro i primi ad aver dichiarato fosse stata una loro fonte di ispirazione. Vi lascio qui [un micro documentario sullo sviluppo del gioco in cui ne parlano](https://www.youtube.com/watch?v=SfwXTZbG0JE).
 
 ![Un nemico molto grande, direttamente da DLC](./neva_12.jpeg)
 
