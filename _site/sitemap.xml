@@ -2,8 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
+		<loc>https://scario.xyz/blog/</loc>
+		<lastmod>2024-10-08</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://scario.xyz/tags/</loc>
+		<lastmod>2024-10-08</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://scario.xyz/blog/ciao/</loc>
 		<lastmod>2024-11-12</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://scario.xyz/</loc>
+		<lastmod>2024-11-15</lastmod>
 	</url>
 	
 	<url>
@@ -44,16 +59,6 @@
 	<url>
 		<loc>https://scario.xyz/blog/gita-a-lavarone/</loc>
 		<lastmod>2025-02-26</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://scario.xyz/blog/</loc>
-		<lastmod>2025-03-16</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://scario.xyz/tags/</loc>
-		<lastmod>2025-03-16</lastmod>
 	</url>
 	
 	<url>
@@ -162,7 +167,7 @@
 	</url>
 	
 	<url>
-		<loc>https://scario.xyz/</loc>
+		<loc>https://scario.xyz/about/</loc>
 		<lastmod>2025-09-29</lastmod>
 	</url>
 	
@@ -173,11 +178,6 @@
 	
 	<url>
 		<loc>https://scario.xyz/blog/liespire/</loc>
-		<lastmod>2025-11-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://scario.xyz/about/</loc>
 		<lastmod>2025-11-03</lastmod>
 	</url>
 	
@@ -203,7 +203,7 @@
 	
 	<url>
 		<loc>https://scario.xyz/wishlist/</loc>
-		<lastmod>2026-01-26</lastmod>
+		<lastmod>2026-01-09</lastmod>
 	</url>
 	
 	<url>
@@ -227,7 +227,12 @@
 	</url>
 	
 	<url>
+		<loc>https://scario.xyz/blog/neva/</loc>
+		<lastmod>2026-03-12</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://scario.xyz/feed/feed.xml</loc>
-		<lastmod>2026-02-21</lastmod>
+		<lastmod>2026-03-13</lastmod>
 	</url>
 </urlset>

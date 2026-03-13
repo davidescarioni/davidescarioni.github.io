@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="it">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Non ho amato Neva come mi aspettavo</title>
+		<meta name="description" content="Forse non sta ancora parlando a me?">
+		<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Scario Side Quest">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/* This is an arbitrary CSS string added to the bundle */
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #f1f2da;
+		--color-gray-50: #f1f2da;
+		--color-gray-90: #f1f2da;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #ffce96;
+		--text-color-link-active: #ff7777;
+		--text-color-link-visited: #ffce96;
+
+		/* Valutare se usare questo verde */
+		/* --text-color-link: #00fc7f; */
+
+		/* --background-color: #00303b; */
+		--background-color: #1d1d21;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+@view-transition {
+	navigation: auto;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 50em;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	flex: 1;
+}
+
+main > * {
+	display: flex;
+    flex-direction: column;
+}
+
+p:has(picture) {
+	align-self: center;
+}
+
+picture img {
+	max-width: 100%;
+	height: auto;
+}
+
+main,
+footer {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	display: flex;
+	justify-content: space-between;
+	gap: .5em 1em;
+	list-style: "";
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+.links-nextprev > * {
+	flex-grow: 1;
+}
+.links-nextprev-next {
+	text-align: right;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	overflow-x: auto;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Post */
+.post-header {
+	padding-bottom: 1em;
+	border-bottom: 1px solid var(--text-color);
+}
+.post-title {
+	margin-top: .2em;
+	margin-bottom: 0;
+}
+
+.post-date {
+	font-size: .8em;
+}
+
+.post-tags {
+    margin-top: 0.8em;
+    font-size: 0.8125em;
+}
+
+/* Tags */
+
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 1em 0 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<a href="/" class="home-link">Scario Side Quest</a>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/">Home</a></li>
+					<li class="nav-item"><a href="/blog/">Blog</a></li>
+					<li class="nav-item"><a href="/about/">About</a></li>
+					<li class="nav-item"><a href="/wishlist/">Whishlist</a></li>
+					<li class="nav-item"><a href="/feed/feed.xml">Feed</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			<heading-anchors>
+				
+
+<div class="post-header">
+<time class="post-date" datetime="">12 marzo 2026</time>
+<h1 class="post-title" id="non-ho-amato-neva-come-mi-aspettavo">Non ho amato Neva come mi aspettavo</h1>
+<div>Forse non sta ancora parlando a me?</div>
+<div class="post-tags">Tags: <ul class="post-metadata">
+        <li>
+            <a href="/tags/videogames/" class="post-tag">videogames</a>
+        </li>
+</ul></div>
+</div>
+<p><picture><source type="image/avif" srcset="/blog/neva/ggePbKBXfP-1280.avif 1280w"><source type="image/webp" srcset="/blog/neva/ggePbKBXfP-1280.webp 1280w"><img loading="lazy" decoding="async" src="/blog/neva/ggePbKBXfP-1280.jpeg" alt="Uno dei miei momenti preferiti in Neva" width="1280" height="800"></picture></p>
+<p><a href="https://store.steampowered.com/app/683320/GRIS/">GRIS</a> è un gioco che ho adorato in ogni suo aspetto: incredibile graficamente, con le sue tinte acquerellate; una colonna sonora memorabile, che mi capita ancora oggi di ascoltare; un significato profondo che mi ha portato a pensarlo anche quando posavo la Switch; un gameplay essenziale ma perfettamente coerente con la storia raccontata.</p>
+<p><a href="https://store.steampowered.com/app/2420660/Neva/">Neva</a> è il secondo gioco dagli stessi autori, e, nonostante il cambio di stile grafico, si riconosce al volo che <strong>la mano è la loro</strong>. Forse avevo troppe aspettative dato quanto scritto sopra, ma ora proverò a spiegare perchè ho apprezzato il gioco solo fino ad un certo punto.</p>
+<p><picture><source type="image/avif" srcset="/blog/neva/kFG8f0Lnbf-1280.avif 1280w"><source type="image/webp" srcset="/blog/neva/kFG8f0Lnbf-1280.webp 1280w"><img loading="lazy" decoding="async" src="/blog/neva/kFG8f0Lnbf-1280.jpeg" alt="Un ambiente davvero rigoglioso" width="1280" height="800"></picture></p>
+<p>Come vedrete dagli screenshot della mia run presenti in questo articolo, graficamente è bellissimo, senza se e senza ma. Ci sono molte somiglianze con alcune opere dello <strong>Studio Ghibli</strong> (vedi in particolare il design dei nemici), ma sono loro i primi ad aver dichiarato fosse stata una loro fonte di ispirazione. Vi lascio qui <a href="https://www.youtube.com/watch?v=SfwXTZbG0JE">un micro documentario sullo sviluppo del gioco in cui ne parlano</a>.</p>
+<p><picture><source type="image/avif" srcset="/blog/neva/gdyLLdw5QP-1280.avif 1280w"><source type="image/webp" srcset="/blog/neva/gdyLLdw5QP-1280.webp 1280w"><img loading="lazy" decoding="async" src="/blog/neva/gdyLLdw5QP-1280.jpeg" alt="Un nemico molto grande, direttamente da DLC" width="1280" height="800"></picture></p>
+<p>Ho forse detto nemici? Già, a differenza di GRIS, qui la nostra protagonista è equipaggiata con una spada per combattere contro degli esseri che sembrano essere usciti da un film di Miyazaki (ma trovo qualche similitutine anche con Attack on Titan... quando e se lo giocherete immagino capirete a cosa mi riferisco).
+<strong>Il sistema di combattimento</strong> è molto semplice, ma devo dire che <strong>non mi ha deluso</strong>: schivate e attacchi con combo di 3 spadate saranno le uniche frecce nella nostra faretra, ma nonostante questo le sfide che ci troveremo ad affrontare sono più impegnative di quanto mi sarei aspettato. Non difficili, sia ben chiaro, ma qualche tentativo, soprattutto i boss di fine area, me l'hanno fatto fare.</p>
+<p>Non posso nemmeno negare che il gioco non sia fatto con cura: vedere la piccola Neva che si distrae a guardare le farfalle e che bisogna richiamarla al dovere per farci seguire fa proprio capire sia quanta attenzione ci sia nei dettagli sia quanto gli sviluppatori abbiano amato produrre il gioco.</p>
+<p><picture><source type="image/avif" srcset="/blog/neva/P5miCrbvnS-1280.avif 1280w"><source type="image/webp" srcset="/blog/neva/P5miCrbvnS-1280.webp 1280w"><img loading="lazy" decoding="async" src="/blog/neva/P5miCrbvnS-1280.jpeg" alt="Cosa fare quando il mondo, anzi il TUO mondo, va a pezzi?" width="1280" height="800"></picture></p>
+<p>Cosa non mi ha convinto allora? Mentre scrivo mi sono venute in mente due questioni, una di <em>gameplay</em> e una <em>esperienziale</em>.</p>
+<p><strong>Lato gameplay</strong>, Alba, la protagonista, si muove lentamente. <strong>Troppo lentamente</strong>. Non c'è un tasto corsa, e mi sono ritrovato spesso a continaure ad usare la schivata per avere quel pizzico di scatto in più per muovermi. Il gioco invita alla contemplazione, gli ambienti sono belli, ma avrei preferito fossi io a scegliere dove e quando soffermarmi invece che farmi obbligare dal gioco, come se gli sviluppatori sapessero di aver fatto qualcosa di bello e avessero voglia di pavoneggiarsi un po'. Nel gioco è presente un collezionabile, un fiore, e spesso ad un bivio la stada corretta è da una parte e il collezionabile è dall'altra: se si imbrocca la strada corretta al primo colpo, però, sapendo quanto lentamente il personaggio si muove ho perso la voglia di tornare indietro a raccoglierlo. Ed è davvero un peccato, perchè la raccolta dei collezionabili pone davanti a sfide di platforming pensate ed interessanti.</p>
+<p>Riguardo al <strong>lato esperienziale</strong>, il mio caveat maggiore riguarda come viene trattato il tema di gioco. Se GRIS parlava di lutto, e ogni cosa (colori, power up, situazioni affrontate, <strong>musica</strong>) mi ha regalato spunti di riflessione e si è trascinato anche nella vita reale, Neva parla di genitorialità, o meglio, dovrebbe parlarne: dal mio punto di vista questo è solo la scusa per portarci ad affrontare certe situazioni con determinate condizioni di gioco, più che il vero fulcro.</p>
+<p><picture><source type="image/avif" srcset="/blog/neva/67YOSy1n1P-1280.avif 1280w"><source type="image/webp" srcset="/blog/neva/67YOSy1n1P-1280.webp 1280w"><img loading="lazy" decoding="async" src="/blog/neva/67YOSy1n1P-1280.jpeg" alt="Neva e Alba si risvegliano in un ambiente bellissimo" width="1280" height="800"></picture></p>
+<p>Mi metto però in discussione: forse il lutto è un trauma che ho comunque già provato e digerito, mentre la genitorialità per me è ancora una cosa nuova e quindi non ho potuto cogliere appieno tutto quello che il gioco aveva da offrirmi? Potrebbe essere un buon motivo per rigiocarlo tra qualche anno, magari sfruttando l'occasione per recuperare i collezionabili che non ho trovato durante la mia run.</p>
+<p>Approvato senza riserve invece il DLC <strong>Preludio</strong>: meno narrativo e più focalizzato al gameplay, propone in circa un'ora di gioco davvero tante meccaniche nuove e alcune scelte di level design interessanti.</p>
+
+        <ul class="links-nextprev">
+                <li class="links-nextprev-prev">← Precedente<br>
+                        <a href="/blog/minishoot/">Minishoot&#39; Adventure non sembra Zelda, ma lo è</a>
+                    </li>
+                
+                </ul>
+			</heading-anchors>
+		</main>
+
+		<footer>
+			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
+		</footer>
+
+		<!-- This page `/blog/neva/` was built on 2026-03-13T07:52:46.402Z -->
+		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
+	</body>
+</html>
