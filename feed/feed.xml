@@ -5,11 +5,24 @@
   <subtitle>My personal blog.</subtitle>
   <link href="https://davidescarioni.github.io/feed/feed.xml" rel="self" />
   <link href="https://davidescarioni.github.io/" />
-  <updated>2026-03-12T00:00:00Z</updated>
+  <updated>2026-03-18T00:00:00Z</updated>
   <id>https://davidescarioni.github.io/</id>
   <author>
     <name>Davide Scarioni</name>
   </author>
+  <entry>
+    <title>Rimuovere le barre nere dagli screenshot di Steam Deck</title>
+    <link href="https://davidescarioni.github.io/blog/rimuovere-bande-nere-screenshot-steam-deck/" />
+    <updated>2026-03-18T00:00:00Z</updated>
+    <id>https://davidescarioni.github.io/blog/rimuovere-bande-nere-screenshot-steam-deck/</id>
+    <content type="html">&lt;p&gt;Quando si fanno &lt;strong&gt;screenshot&lt;/strong&gt; da Steam Deck, spesso è possibile che questi presentino delle barre nere sopra e sotto all&#39;immagine: questo è dovuto al fatto che molti giochi sono ottimizzati per schermi 16:9, mentre la nostra console/pc ne ha uno in 16:10.&lt;/p&gt;
+&lt;p&gt;Per risolvere ho usato un software da riga di comando, &lt;a href=&quot;https://imagemagick.org/&quot;&gt;ImageMagick&lt;/a&gt;: è uno strumento per la manipolazione di immagini via CLI molto potente, quindi vi invito ad esplorarlo se avete anche problemi diversi oltre al ritaglio di immagini.&lt;/p&gt;
+&lt;p&gt;Lo script che riporto crea una cartella &lt;em&gt;cropped&lt;/em&gt; e copia lì dentro le immagini &lt;strong&gt;tagliate&lt;/strong&gt;, giusto per non perdere gli originali in caso di errore.
+Le immagini saranno a risoluzione 1280x720, a partire da 40px verticali (la dimensione della barra nera in alto).&lt;/p&gt;
+&lt;pre class=&quot;language-BASH&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-BASH&quot;&gt;mkdir cropped
+magick *.jpeg -crop 1280x720+0+40 +repage cropped/%d.jpeg&lt;/code&gt;&lt;/pre&gt;
+</content>
+  </entry>
   <entry>
     <title>Non ho amato Neva come mi aspettavo</title>
     <link href="https://davidescarioni.github.io/blog/neva/" />
@@ -241,39 +254,6 @@ Su Switch i compromessi sono enormi: ci sono cali di frame durante il cambio are
 &lt;strong&gt;Sono davvero l&#39;ultimo a pensare che la grafica sia un parametro importante&lt;/strong&gt; o che i downgrade siano inaccettabili, anzi, altrimenti non avrei mai giocato a giochi di terze parti su Switch: il fatto è che &lt;strong&gt;The Pathless&lt;/strong&gt;, come anche il sopra citato Journey, &lt;strong&gt;fa della resa grafica parte integrante dell&#39;atmosfera, che qui si va a perdere completamente&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Peccato.&lt;/p&gt;
 &lt;p&gt;Se vi va di provarlo, quindi, non giocatelo su &lt;strong&gt;Nintendo Switch 1&lt;/strong&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>LIESPIRE</title>
-    <link href="https://davidescarioni.github.io/blog/liespire/" />
-    <updated>2025-11-03T00:00:00Z</updated>
-    <id>https://davidescarioni.github.io/blog/liespire/</id>
-    <content type="html">&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/liespire/HunwtIU-K5-640.avif 640w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/liespire/HunwtIU-K5-640.webp 640w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/liespire/HunwtIU-K5-640.png&quot; alt=&quot;LIESPIRE banner&quot; width=&quot;640&quot; height=&quot;360&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
-&lt;p&gt;Puntuale come ogni Halloween, anche quest&#39;anno MyMadness Works sul Discord di GameMaker Italia ha proposto la TerrorOttobre, una jam spooky / horror con un tema da seguire: quello di questa edizione era &lt;strong&gt;INGANNO&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Non era mia intenzione partecipare, però poi, dal nulla, ho pensato che un bel gioco di carte in cui nascondere le vere intenzioni all&#39;avversario poteva essere una bella idea, quindi....&lt;/p&gt;
-&lt;h2 id=&quot;comincio-a-prototipare&quot;&gt;Comincio a prototipare&lt;/h2&gt;
-&lt;p&gt;Ho voluto fare un esperimento: dato che in ufficio mi chiedono sempre più di &lt;strong&gt;affidarmi a ChatGPT&lt;/strong&gt; per lo sviluppo software ma io continuo ad avere riserve a riguardo, ho deciso di usare questo progetto per fare Vibe Coding, cioè lasciare l&#39;IA a sviluppare e scrivere solo PROMPT. Se inizialmente il tutto sembrava andare correttamente (ho scelto per provare appunto un gioco nel quale potenzialmente mi poteva bastare un singolo oggetto), pian pianino l&#39;IA ha perso il contesto e &lt;strong&gt;ha cominciato a non azzeccarne più una&lt;/strong&gt;.
-Nel mentre ho mandato dei vocali a &lt;strong&gt;Giovanni&lt;/strong&gt; (il ragazzo che &lt;a href=&quot;https://davidescarioni.github.io/blog/norvegia/&quot;&gt;sono andato a trovare in Norvegia qualche mese fa&lt;/a&gt;) dato che è appassionato di giochi da tavolo, e mi ha un po&#39; smontato la mia idea.&lt;/p&gt;
-&lt;p&gt;...Idea che non vi ho ancora raccontato:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;due giocatori si sfidano a costruire &lt;strong&gt;la torre più alta&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;ogni carta ha un valore di altezza&lt;/li&gt;
-&lt;li&gt;vengono mostrate quattro carte per volta, e ne vengono scelte una per turno da entrambi i giocatori, poi si rimettono sul tavolo quattro nuove carte dal mazzo&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;a metà mazzo è posizionata una carta INGANNO&lt;/strong&gt;, che cambia una regola fondamentale del gioco, ad esempio: le carte topo smettono di moltiplicare punti, vince la torre più bassa, i mazzi pareggiano l&#39;altezza, ecc.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Quello che &lt;em&gt;Giò&lt;/em&gt; mi ha fatto notare è che è troppo determinante la fortuna, perchè la carta INGANNO può far perdere una partita perfetta e far vincere una partita giocata male.&lt;/p&gt;
-&lt;p&gt;Dato però che INGANNO era il tema della jam non potevo semplicemente toglierla, dovevo proprio cambiare il gioco dalle basi. E, siccome ChatGPT ho capito non essere ancora adeguato, avrei dovuto rifare comunque tutto da 0.&lt;/p&gt;
-&lt;h2 id=&quot;nuova-idea-memory&quot;&gt;Nuova idea: memory!&lt;/h2&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/liespire/kZOK-mabS--880.avif 880w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/liespire/kZOK-mabS--880.webp 880w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/liespire/kZOK-mabS--880.png&quot; alt=&quot;Un primo prototipo&quot; width=&quot;880&quot; height=&quot;572&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
-&lt;p&gt;Comincio da un&#39;idea che avevo scartato la scorsa competizione, cioè quella di realizzare un memory competitivo: vengono mostrate tutte le carte, poi ad inizio partita vengono girate e si gioca. L&#39;obiettivo qui non è fare &lt;em&gt;coppie&lt;/em&gt; come nel memory tradizionale, ma di andare a pescare la carta giusta al momento giusto.&lt;/p&gt;
-&lt;p&gt;L&#39;obiettivo resta sempre lo stesso, fare la torre più alta dell&#39;avversario. Cambia però l&#39;INGANNO: questo ora viene mostrato ad inizio partita tramite QR code, così che se l&#39;avversario bara ce ne possiamo rendere conto. Giusto, cosa fondamentale: il gioco multiplayer locale, perchè sviluppare una IA di un gioco di carte per una JAM è troppo &lt;em&gt;time-consuming&lt;/em&gt;... e poi quanto è bello giocare insieme a qualcun altro nella stessa stanza?&lt;/p&gt;
-&lt;p&gt;Aspetta... perchè non ho integrato la nuova gestione della carta INGANNO nel prototipo precedente? Semplicemente perchè avrei dovuto rifare tutto e un memory mi sembrava più facile e veloce da realizzare nel tempo rimasto.&lt;/p&gt;
-&lt;p&gt;Quindi... ecco a voi LIESPIRE.&lt;/p&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/liespire/kio2f9QC_t-1920.avif 1920w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/liespire/kio2f9QC_t-1920.webp 1920w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/liespire/kio2f9QC_t-1920.png&quot; alt=&quot;Le carte completamente ruotate ad inizio partita&quot; width=&quot;1920&quot; height=&quot;1080&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
-&lt;p&gt;Il gioco tra l&#39;altro l&#39;ho esportato per web (come precedentemente ho detto di voler sempre fare da ora in avanti), e giocarlo su tablet con un amico è davvero piacevole come esperienza (ma siamo alla stregua di un &amp;quot;&lt;em&gt;Oste, com&#39;è il vino&lt;/em&gt;?&amp;quot;).&lt;/p&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/liespire/TboAuCzFF--1920.avif 1920w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/liespire/TboAuCzFF--1920.webp 1920w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/liespire/TboAuCzFF--1920.png&quot; alt=&quot;Il primo minuto di una qualsiasi partita&quot; width=&quot;1920&quot; height=&quot;1080&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
-&lt;p&gt;Probabilmente non è ancora ben equilibrato perchè è stato giocato da troppe poche persone, e ho in mente di inserire almeno una nuova carta in futuro (il pipistrello, che finirà nel mazzo dell&#39;avversario e non nel proprio).&lt;/p&gt;
-&lt;p&gt;Se vi va, &lt;a href=&quot;https://scario88.itch.io/liespire&quot;&gt;qui trovate il link da dove poterlo giocare&lt;/a&gt;.&lt;/p&gt;
 </content>
   </entry>
 </feed>
