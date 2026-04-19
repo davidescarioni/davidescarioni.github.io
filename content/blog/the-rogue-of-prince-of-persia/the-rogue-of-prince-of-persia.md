@@ -1,7 +1,7 @@
 ---
 title: The Rogue of Prince of Persia
 description: Una nuova incarnazione del principe
-date: 2025-04-18
+date: 2026-04-18
 tags: ["videogames"]
 ---
 
