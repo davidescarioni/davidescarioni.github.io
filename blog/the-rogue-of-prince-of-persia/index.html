@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="it">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>The Rogue of Prince of Persia</title>
+		<meta name="description" content="Una nuova incarnazione del principe">
+		<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Scario Side Quest">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/* This is an arbitrary CSS string added to the bundle */
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #f1f2da;
+		--color-gray-50: #f1f2da;
+		--color-gray-90: #f1f2da;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #ffce96;
+		--text-color-link-active: #ff7777;
+		--text-color-link-visited: #ffce96;
+
+		/* Valutare se usare questo verde */
+		/* --text-color-link: #00fc7f; */
+
+		/* --background-color: #00303b; */
+		--background-color: #1d1d21;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+@view-transition {
+	navigation: auto;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 50em;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	flex: 1;
+}
+
+main > * {
+	display: flex;
+    flex-direction: column;
+}
+
+p:has(picture) {
+	align-self: center;
+}
+
+picture img {
+	max-width: 100%;
+	height: auto;
+}
+
+main,
+footer {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	display: flex;
+	justify-content: space-between;
+	gap: .5em 1em;
+	list-style: "";
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+.links-nextprev > * {
+	flex-grow: 1;
+}
+.links-nextprev-next {
+	text-align: right;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	overflow-x: auto;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Post */
+.post-header {
+	padding-bottom: 1em;
+	border-bottom: 1px solid var(--text-color);
+}
+.post-title {
+	margin-top: .2em;
+	margin-bottom: 0;
+}
+
+.post-date {
+	font-size: .8em;
+}
+
+.post-tags {
+    margin-top: 0.8em;
+    font-size: 0.8125em;
+}
+
+/* Tags */
+
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 1em 0 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<a href="/" class="home-link">Scario Side Quest</a>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/">Home</a></li>
+					<li class="nav-item"><a href="/blog/">Blog</a></li>
+					<li class="nav-item"><a href="/about/">About</a></li>
+					<li class="nav-item"><a href="/wishlist/">Whishlist</a></li>
+					<li class="nav-item"><a href="/feed/feed.xml">Feed</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			<heading-anchors>
+				
+
+<div class="post-header">
+<time class="post-date" datetime="">18 aprile 2025</time>
+<h1 class="post-title" id="the-rogue-of-prince-of-persia">The Rogue of Prince of Persia</h1>
+<div>Una nuova incarnazione del principe</div>
+<div class="post-tags">Tags: <ul class="post-metadata">
+        <li>
+            <a href="/tags/videogames/" class="post-tag">videogames</a>
+        </li>
+</ul></div>
+</div>
+<p><picture><source type="image/avif" srcset="/blog/the-rogue-of-prince-of-persia/ddkWmCeSCb-1280.avif 1280w"><source type="image/webp" srcset="/blog/the-rogue-of-prince-of-persia/ddkWmCeSCb-1280.webp 1280w"><img loading="lazy" decoding="async" src="/blog/the-rogue-of-prince-of-persia/ddkWmCeSCb-1280.jpeg" alt="The Rogue of Prince of Persia" width="1280" height="717"></picture></p>
+<p>Avete presente la <strong>vellutata di porri e patate</strong>? Non è il cibo più godurioso del mondo, eppure è proprio buono perché è morbito e caldo, e fa piacere mangiarlo soprattutto durante le fredde serate invernali... Lo definirei un mio cibo <strong>confort</strong>.</p>
+<p>Giocare a <a href="https://therogueprinceofpersia.com/">The Rogue of Prince of Persia</a> mi ha dato lo stesso effetto. Sarà perché è un MetroidVania con una <strong>struttura pressoché identica a Dead Cells</strong>, un gioco che già conoscevo? Oppure sarà perché <strong>il sistema di movimento è molto fluido</strong> e facile da memorizzare? O perché il gioco <strong>non è facile ma nemmeno particolarmente difficile</strong>? Probabilmente è l'insieme di tutto questi fattori che mi ha tenuto incollato per le <strong>circa 10 ore di gioco</strong>.</p>
+<p><picture><source type="image/avif" srcset="/blog/the-rogue-of-prince-of-persia/aa2Or8pJ8x-1280.avif 1280w"><source type="image/webp" srcset="/blog/the-rogue-of-prince-of-persia/aa2Or8pJ8x-1280.webp 1280w"><img loading="lazy" decoding="async" src="/blog/the-rogue-of-prince-of-persia/aa2Or8pJ8x-1280.jpeg" alt="Un'immagine dal bioma &quot;Giardini allagati&quot;" width="1280" height="800"></picture></p>
+<p>La storia del gioco ci porta nell'antica Persia, in un momento nel quale gli Unni tentano di conquistare il regno aiutati dalla <strong>magia nera</strong>. Noi impersoniamo il principe che, nel tentativo di salvare il regno, muore: qui verremo a conoscenza del ciondolo magico (o, per meglio dire, una bola) del protagonista che lo salva riavvolgendo il tempo e lo riporta all'inizio della giornata ogni volta nella quale perde la vita... una scusa perfetta per un roguelike :D
+Insomma, le vicende narrate sono poco più di una scusa, ma ho apprezzato il modo in cui la narrazione viene portata avanti: parlando con determinati personaggi o trovando indizi all'interno di certi biomi, sblocchiamo dei nuovi luoghi da visitare alla run successiva e la mappa, che inizialmente è lineare, prende più bivi a seconda dell'uscita del livello da cui decideremo di terminarlo.</p>
+<p><picture><source type="image/avif" srcset="/blog/the-rogue-of-prince-of-persia/u381ybry7j-1280.avif 1280w"><source type="image/webp" srcset="/blog/the-rogue-of-prince-of-persia/u381ybry7j-1280.webp 1280w"><img loading="lazy" decoding="async" src="/blog/the-rogue-of-prince-of-persia/u381ybry7j-1280.jpeg" alt="Un classico combattimento, in un accampamento sotto attacco" width="1280" height="800"></picture></p>
+<p>Interessante anche l'idea della <strong>mappa mentale</strong>: quando troviamo un indizio che porta avanti la trama, questo verrà disegnato a forma di grafico in cui più eventi possono intrecciarsi e questo aiuterà il protagonista a capire qual'è il passo successivo da fare per riuscire a salvare tutti i suoi cari e proseguire nella nostra avventura. L'ho trovata davvero interessante anche perchè aiuta a recuperare il <strong>filo del discorso</strong> nel caso dovessimo riprendere una partita dopo un periodo di sosta (si, lo dico spesso nelle recensioni, ma per me è un aspetto di QoL davvero importante).</p>
+<p><picture><source type="image/avif" srcset="/blog/the-rogue-of-prince-of-persia/VUmopdaKeV-1280.avif 1280w"><source type="image/webp" srcset="/blog/the-rogue-of-prince-of-persia/VUmopdaKeV-1280.webp 1280w"><img loading="lazy" decoding="async" src="/blog/the-rogue-of-prince-of-persia/VUmopdaKeV-1280.jpeg" alt="La mappa mentale ci aiutera a ricordare quale strada scegliere nelle varie run" width="1280" height="800"></picture></p>
+<p>Come anticipavo, il sistema di movimento è molto fluido ed è piacevole fare il <em>traversing</em> delle varie aree: oltre al classico <strong>walljump</strong>, ci sono il meno classico <strong>wallrun</strong> e l'inedita <strong>corsa a parete</strong> a rendere ogni partita una bellissima corsa senza soluzione di continuità, se lo vorremo.
+La <strong>corsa a parete</strong> è quel &quot;classico&quot; movimento dei vari Prince of Persia 3d nel quale potremmo camminare su una parete &quot;laterale&quot;: trasposta in 2d continua a funzionare benissimo, anche se bisogna prenderci un po' la mano per capire quanta <strong>stamina</strong> si ha per compiere questo genere di azioni.</p>
+<p><picture><source type="image/avif" srcset="/blog/the-rogue-of-prince-of-persia/9jrxnuuxzT-1280.avif 1280w"><source type="image/webp" srcset="/blog/the-rogue-of-prince-of-persia/9jrxnuuxzT-1280.webp 1280w"><img loading="lazy" decoding="async" src="/blog/the-rogue-of-prince-of-persia/9jrxnuuxzT-1280.jpeg" alt="La storia viene raccontata anche dall'ambiente" width="1280" height="800"></picture></p>
+<p>Il sistema di combattimento è molto semplice: avremo un'arma principale e una secondaria, e la principale avrà un attacco alternativo / pesante utilizzabile rispettando certe condizioni (combo lunghe o tenere premuto il pulsante di attacco, ad esempio).</p>
+<p>Funziona, perchè l'azione frenetica del gioco non ha necessariamente bisogno di un sistema di combattimento più profondo.
+Ho trovato però mal bilanciata la distribuzione della armi: nelle ultime ore dell'avventura, quando mi era già chiaro cosa fare e quale strada seguire per terminare il gioco, mi sono imbattuto in nuove armi da sbloccare, a volte addirittura meno interessanti / forti rispetto alle precedenti... Probabilmente l'uscita di un DLC con un proseguimento dell'avventura o con qualche nuovo bioma potrebbe aiutare a sistemare la distribuzione di questi elementi all'interno del gioco e il bilanciamento stesso.</p>
+<p>Giusto, bilanciamento: il gioco non si può prendere alla leggera, soprattutto dopo averlo terminato <strong>la prima volta</strong> (si, qui le cose funzionano esattamente come Hades, debuff compresi... non dico altro per evitare spoiler), ma non è nemmeno così complesso: due boss li ho addirittura battuti al primo colpo, cosa alquanto strana data la tipologia di gioco. È comunque un gioco confort come dicevo, quindi anche qualora si dovesse ripetere qualche boss più di una volta (perchè c'è stato anche questo caso, malefico <strong>Baatar</strong>) lo prenderemo davvero come un'occasione per potenziarci e arrivare a batterlo con piacere la volta successiva.</p>
+<p><picture><source type="image/avif" srcset="/blog/the-rogue-of-prince-of-persia/Naeg7hTYAH-1280.avif 1280w"><source type="image/webp" srcset="/blog/the-rogue-of-prince-of-persia/Naeg7hTYAH-1280.webp 1280w"><img loading="lazy" decoding="async" src="/blog/the-rogue-of-prince-of-persia/Naeg7hTYAH-1280.jpeg" alt="Essere in inferiorità numerica è la prassi" width="1280" height="800"></picture></p>
+<p>Il vero problema che ho trovato nel gioco è che i biomi hanno una generazione procedurale dei livelli che però reitera molto spesso situazioni ed enigmi ambientali sempre identici a sè stessi: il senso di deja-vu qui si sente molto di più rispetto ad altri roguelike.</p>
+<p>È un motivo sufficiente per non giocarlo? No, non direi. Pensate che ho riacceso il gioco per fare qualche screenshot da inserire in questo post, e non so come mi sono ritrovato incollato a terminare un run.</p>
+
+        <ul class="links-nextprev">
+                <li class="links-nextprev-prev">← Precedente<br>
+                        <a href="/blog/project-hailstorm/">Project Hailstorm</a>
+                    </li>
+                
+                    <li class="links-nextprev-next">Successivo →<br>
+                            <a href="/blog/musica-e-palestra/">Musica e palestra</a>
+                        </li>
+                    
+                </ul>
+			</heading-anchors>
+		</main>
+
+		<footer>
+			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
+		</footer>
+
+		<!-- This page `/blog/the-rogue-of-prince-of-persia/` was built on 2026-04-19T08:02:15.705Z -->
+		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
+	</body>
+</html>
