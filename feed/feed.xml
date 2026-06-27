@@ -5,11 +5,43 @@
   <subtitle>My personal blog.</subtitle>
   <link href="https://davidescarioni.github.io/feed/feed.xml" rel="self" />
   <link href="https://davidescarioni.github.io/" />
-  <updated>2026-04-18T00:00:00Z</updated>
+  <updated>2026-06-27T00:00:00Z</updated>
   <id>https://davidescarioni.github.io/</id>
   <author>
     <name>Davide Scarioni</name>
   </author>
+  <entry>
+    <title>Cancellare file su Android utilizzando il terminale di un pc</title>
+    <link href="https://davidescarioni.github.io/blog/cancellare-file-terminale-android/" />
+    <updated>2026-06-27T00:00:00Z</updated>
+    <id>https://davidescarioni.github.io/blog/cancellare-file-terminale-android/</id>
+    <content type="html">&lt;p&gt;Innanzitutto, per collegare un dispositivo Android al pc e riuscire ad operare sopra ad esso ci sono due prerequisiti:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;sul pc, avere gli &lt;strong&gt;Android Platform Tools&lt;/strong&gt; installati&lt;/li&gt;
+&lt;li&gt;sul dispositivo Android, avere il &lt;strong&gt;Debug USB&lt;/strong&gt; attivo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Possiamo verificare se abbiamo gli &lt;strong&gt;Android Platform Tools&lt;/strong&gt; installati aprendo un terminale e dando il comando&lt;/p&gt;
+&lt;pre class=&quot;language-BASH&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-BASH&quot;&gt;adb version&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Se riceveremo un errore, possiamo installarli tramite &lt;code&gt;winget&lt;/code&gt; (il gestore di pacchetti di Windows 10/11) con l&#39;istruzione&lt;/p&gt;
+&lt;pre class=&quot;language-BASH&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-BASH&quot;&gt;winget install --id Google.PlatformTools&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;e riavviando il pc (non dovrebbe essere necessario, ma a me non hanno funzionato senza).&lt;/p&gt;
+&lt;p&gt;Per verificare invece se &lt;strong&gt;Debug USB&lt;/strong&gt; è attivo sul nostro Android, apriamo le &lt;strong&gt;Opzioni Sviluppatore&lt;/strong&gt; nelle impostazioni dello smartphone e andiamo a cercare proprio la spunta Debug USB per vedere se è attiva.&lt;/p&gt;
+&lt;p&gt;Una volta che abbiamo tutto, colleghiamo lo smartphone al pc.
+Quando ci viene chiesto su Android che tipo di collegamento vogliamo, scegliamo &lt;strong&gt;Trasmissione dati&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Ora, se da Windows facciamo&lt;/p&gt;
+&lt;pre class=&quot;language-BASH&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-BASH&quot;&gt;adb devices&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;dovremmo vedere l&#39;id del nostro dispositivo collegato.&lt;/p&gt;
+&lt;p&gt;Nel mio caso volevo sapere qual&#39;era la cartella &lt;em&gt;più pesante&lt;/em&gt; presente sul telefono, backupparla sul mio pc e poi rimuoverla dallo smartphone.&lt;/p&gt;
+&lt;pre class=&quot;language-BASH&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-BASH&quot;&gt;adb shell &#39;du -sm /sdcard/* | sort -nr | head-20&#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;mi ha restituito la lista delle cartelle in ordine di grandezza.&lt;/p&gt;
+&lt;p&gt;Dato che nel mio caso il problema era la cartella dei media di WhatsApp, prima ho lanciato&lt;/p&gt;
+&lt;pre class=&quot;language-BASH&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-BASH&quot;&gt;adb pull /sdcard/Android/media/com.whatsapp/WhatsApp/Media&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;per backuppare sul pc quella cartella, e poi ho usato&lt;/p&gt;
+&lt;pre class=&quot;language-BASH&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-BASH&quot;&gt;adb shell rm -rf /sdcard/Android/media/com.whatsapp/WhatsApp/Media/*&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;per cancellare i file stessi. Ho poi riavviato lo smartphone da terminale facendo&lt;/p&gt;
+&lt;pre class=&quot;language-BASH&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-BASH&quot;&gt;adb reboot&lt;/code&gt;&lt;/pre&gt;
+</content>
+  </entry>
   <entry>
     <title>The Rogue of Prince of Persia</title>
     <link href="https://davidescarioni.github.io/blog/the-rogue-of-prince-of-persia/" />
@@ -187,64 +219,6 @@ Anche &lt;strong&gt;la trama&lt;/strong&gt;, per quanto non abbia particolari co
 &lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/and-roger/4UC9rFLSSh-960.avif 960w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/and-roger/4UC9rFLSSh-960.webp 960w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/and-roger/4UC9rFLSSh-960.png&quot; alt=&quot;Un abbraccio&quot; width=&quot;960&quot; height=&quot;540&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
 &lt;p&gt;Aggiungo un&#39;ulteriore riflessione: questa esperienza non poteva essere fatta con un media diverso dal videogioco. Anche con gli stessi argomenti e la stessa storia, qui c&#39;è un tema di &lt;em&gt;fatica&lt;/em&gt; nel compiere &lt;em&gt;determinate azioni&lt;/em&gt; che in un film, anche con una sceneggiatura migliore, non si sarebbe potuto trasmettere.&lt;/p&gt;
 &lt;p&gt;Posso dire di essere contento di averlo giocato e che non l&#39;avrei mai acquistato se non fosse stato per il consiglio di cui sopra, per cui &lt;strong&gt;grazie davvero Giulia&lt;/strong&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Secret Santa Jam 2025</title>
-    <link href="https://davidescarioni.github.io/blog/secret-santa-jam-2025/" />
-    <updated>2026-01-02T00:00:00Z</updated>
-    <id>https://davidescarioni.github.io/blog/secret-santa-jam-2025/</id>
-    <content type="html">&lt;p&gt;Come scrivevo giusto l&#39;&lt;a href=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2024/&quot;&gt;anno scorso&lt;/a&gt;, la &lt;strong&gt;Secret Santa Jam&lt;/strong&gt; è una jam organizzata sul Discord di GMI nella quale&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;[...] Ogni partecipante deve &lt;strong&gt;scrivere una letterina&lt;/strong&gt; in cui specificherà cosa gli piacerebbe ricevere, evitando di specificare generi o stili grafici così da rendere la jam il più possibile inclusiva. Per ogni partecipante verrà estratto un altro partecipante al quale &lt;strong&gt;confezionare un gioco secondo le indicazioni della letterina&lt;/strong&gt;. Il gioco verrà poi consegnato e giocato direttamente in live.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Questa volta, prima di iniziare a scrivere la mia letterina, &lt;a href=&quot;https://sites.google.com/view/noemi-frulio&quot;&gt;Nannasaurus Rex&lt;/a&gt; ha scritto sul canale della jam di voler partecipare ma di non voler sviluppare, così mi sono proposto di partecipare con lei come sviluppatore e abbiamo fatto squadra! Lavorare con lei è stata davvero una bella esperienza, perchè Nanna ha sì disegnato, ma ha anche tirato fuori un sacco di belle idee e mi ha insegnato a lavorare in team (cosa che non faccio mai), stilando un GDD, un Excel con i vari task da sviluppare e una Miro Board per prendere ispirazione negli sviluppi.&lt;/p&gt;
-&lt;h2 id=&quot;cosa-abbiamo-sviluppato&quot;&gt;Cosa abbiamo sviluppato&lt;/h2&gt;
-&lt;p&gt;Ma andiamo con ordine. La letterina che ci è arrivata da sviluppare è stata questa:&lt;/p&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/MuGj4jvQYb-512.avif 512w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/MuGj4jvQYb-512.webp 512w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/MuGj4jvQYb-512.png&quot; alt=&quot;Letterina Mad&quot; width=&quot;512&quot; height=&quot;512&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
-&lt;p&gt;Benissimo: io ho giocato a qualche &lt;strong&gt;Megaman&lt;/strong&gt; ma non avevo mai provato prima un &lt;strong&gt;Silent Hill&lt;/strong&gt;, &lt;strong&gt;Nanna&lt;/strong&gt; invece aveva giocato &lt;strong&gt;solo a quest&#39;ultimo&lt;/strong&gt;.
-Così prima di tutto ho fatto i compiti a casa: ho provato la prima mezz&#39;ora di Silent Hill per Playstation 1 (e mi sono trovato davanti un gioco molto più cinematrografico e godibile rispetto a quanto avrei mai immaginato), poi ho scelto di giocare Megaman 3 per GameBoy (odiando i boss con tutto me stesso, c&#39;è troppo poco spazio per schivare i loro attacchi!).&lt;/p&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/B49OPtftvf-768.avif 768w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/B49OPtftvf-768.webp 768w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/B49OPtftvf-768.jpeg&quot; alt=&quot;Megaman 3&quot; width=&quot;768&quot; height=&quot;1024&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
-&lt;p&gt;Ora che abbiamo tutti i mezzi, come scegliamo di rispettare la letterina? Sviluppiamo un gioco alla Silent Hill o alla Megaman?
-Beh, il gioco è per Mad, non possiamo di certo risparmiarci... perchè quindi non sviluppare qualcosa &lt;strong&gt;che contenga entrambi&lt;/strong&gt;?&lt;/p&gt;
-&lt;p&gt;Dopo un confronto, l&#39;idea che abbiamo partorito è stata quella di creare un mondo esplorabile, nel quale dobbiamo muoverci alla ricerca di pile. Queste ci servono per riuscire a giocare a MegaMan con il nostro GameBoy, ma (twist top di Nanna) i mostri sconfitti nel gioco vengono liberati nel mondo reale e saranno lì pronti ad ostacolare la nostra ricerca di pile.&lt;/p&gt;
-&lt;p&gt;Ho così sviluppato un prototipo al volo per mostare a Nanna cosa intendevo con mondo esplorabile: la mia preoccupazione era principalmente la creazione della nebbia, per cui ho limitato il movimento del giocatore a 2 direzioni per semplificarmi la vita.&lt;/p&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/6pq_N0o2XD-752.avif 752w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/6pq_N0o2XD-752.webp 752w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/6pq_N0o2XD-752.png&quot; alt=&quot;Screenshot del prototipo nelle fasi interne&quot; width=&quot;752&quot; height=&quot;500&quot;&gt;&lt;/picture&gt;
-&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/8--vBH_gwo-752.avif 752w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/8--vBH_gwo-752.webp 752w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/8--vBH_gwo-752.png&quot; alt=&quot;Altro screenshot del prototipo nelle fasi interne&quot; width=&quot;752&quot; height=&quot;500&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
-&lt;p&gt;Nanna a questo punto ha un&#39;altra bellissima idea: perchè non usare la neve al posto della nebbia? L&#39;importante è che il soprannaturale sia nascosto e fraintendibile, &lt;em&gt;eldritch piu&#39; che horror&lt;/em&gt; (ho dovuto cercare su Wikipedia, ma mi ha insegnato una cosa nuova).
-Così facendo, tra l&#39;altro, potremmo usare figure del folklore natalizio nordeuropeo come nemici. Così ecco che nascono Krampus, &lt;a href=&quot;https://en.wikipedia.org/wiki/Mari_Lwyd&quot;&gt;Mari Lwyd&lt;/a&gt; e San Nicola.&lt;/p&gt;
-&lt;p&gt;L&#39;idea iniziale, che qui condivido ma che non troverete nel gioco, è che il nemico fosse solo uno generato dalla fusione degli altri.&lt;/p&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/pwhKpacLvK-1412.avif 1412w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/pwhKpacLvK-1412.webp 1412w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/pwhKpacLvK-1412.png&quot; alt=&quot;Gli spiriti del Natale fusi tra loro&quot; width=&quot;1412&quot; height=&quot;447&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
-&lt;p&gt;Trovato poi il nome del gioco (&lt;strong&gt;Silent Night&lt;/strong&gt;, di cui ancora ci chiediamo di chi sia la paternità), il resto è stato solo sviluppo, disegno e... taglio delle feature perchè ormai devo accettare che sviluppare la sera è per me faticoso e sono lento :D&lt;/p&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/JUxt6lGM-Z-1920.avif 1920w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/JUxt6lGM-Z-1920.webp 1920w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/JUxt6lGM-Z-1920.png&quot; alt=&quot;La bellissima copertina disegnata da Nanna&quot; width=&quot;1920&quot; height=&quot;1080&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
-&lt;p&gt;Tra le feature tagliate menzioniamo:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;la possibilità di lanciare del VOV per allontanare gli spiriti, sostituita dalla possibilità di schivarli abbassandosi&lt;/li&gt;
-&lt;li&gt;dei livelli &amp;quot;veri&amp;quot; per la sezione al Game Boy, e quindi la presenza di minions nemici&lt;/li&gt;
-&lt;li&gt;una sorta di minigioco per aprire i bauli alla &amp;quot;The Witness&amp;quot;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Qualche ritocco lo faremo ancora, magari integrando il punto due, ma per il resto credo che il gioco resterà così com&#39;è. E non è necessariamente un male, dato che Mad sembra averlo davvero apprezzato. Peccato solo che il video mentre &amp;quot;scarta il regalo&amp;quot; sia andato perduto.&lt;/p&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/9tnhg4d4l5-952.avif 952w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/9tnhg4d4l5-952.webp 952w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/9tnhg4d4l5-952.png&quot; alt=&quot;Screenshot ambiente esterno&quot; width=&quot;952&quot; height=&quot;524&quot;&gt;&lt;/picture&gt;
-&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/puOZ7-ozcB-952.avif 952w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/puOZ7-ozcB-952.webp 952w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/puOZ7-ozcB-952.png&quot; alt=&quot;Screenshot ambiente interno&quot; width=&quot;952&quot; height=&quot;524&quot;&gt;&lt;/picture&gt;
-&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/yN476x-c1z-952.avif 952w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/yN476x-c1z-952.webp 952w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/yN476x-c1z-952.png&quot; alt=&quot;Screenshot gioco su console&quot; width=&quot;952&quot; height=&quot;524&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
-&lt;p&gt;Spazio ai ringraziamenti ora:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;innanzitutto a Nannasaurus Rex, una compagna di team fantastica piena di idee e bravissima nel disegno&lt;/li&gt;
-&lt;li&gt;a &lt;a href=&quot;https://tiz010.itch.io/&quot;&gt;Tiz&lt;/a&gt; per il suo script per la gestione degli input&lt;/li&gt;
-&lt;li&gt;ad &lt;a href=&quot;https://www.alexofalco.com&quot;&gt;AlexoFalco&lt;/a&gt; per il &lt;a href=&quot;https://gamemakeritalia.it/posts/traduzione-e-internazionalizzazione-con-game-maker/&quot;&gt;tutorial sulla gestione del multilinguismo su Game Maker&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;a &lt;a href=&quot;https://santiagocalzolari.wordpress.com/&quot;&gt;Freeflip&lt;/a&gt; perchè, dopo aver visto la live, mi ha scritto per aiutarmi a correggere come vengono disegnate le particelle&lt;/li&gt;
-&lt;li&gt;Enrico Maria Perlini per aver aiutato Nanna con l&#39;utilizzo di Reaper per gli SFx.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;EDIT 26/01: dopo che Nanna ha aggiunto la traduzione in spagnolo abbiamo pubblicato il gioco su itch! Se ti va di provarlo e vuole lasciarci un feedback puoi farlo cliccando &lt;a href=&quot;https://scario88.itch.io/silent-night&quot;&gt;qui&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;cosa-abbiamo-ricevuto&quot;&gt;Cosa abbiamo ricevuto&lt;/h2&gt;
-&lt;p&gt;Io e Nanna abbiamo una passione in comune, quindi è stato facile redigere la letterina:&lt;/p&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/y5U5yAmRxw-1190.avif 1190w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/y5U5yAmRxw-1190.webp 1190w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/y5U5yAmRxw-1190.png&quot; alt=&quot;Letterina Scario Nanna&quot; width=&quot;1190&quot; height=&quot;1683&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
-&lt;p&gt;Siamo stati fortunati: siamo stati pescati da &lt;a href=&quot;https://goldensun-it.itch.io/&quot;&gt;Goldensun&lt;/a&gt; e abbiamo ricevuti Dino Slop, un puzzle dove bisogna usare dinosauri di forma e dimensione diverse per raggiungere la bandierina di fine livello.s&lt;/p&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/hFwZaJL6pw-957.avif 957w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/hFwZaJL6pw-957.webp 957w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/hFwZaJL6pw-957.png&quot; alt=&quot;Velociraptor e Tartarugosauro&quot; width=&quot;957&quot; height=&quot;641&quot;&gt;&lt;/picture&gt;
-&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/jjMaG4V8-4-957.avif 957w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/jjMaG4V8-4-957.webp 957w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://davidescarioni.github.io/blog/secret-santa-jam-2025/jjMaG4V8-4-957.png&quot; alt=&quot;Il mitico Strettosauro è senza limiti&quot; width=&quot;957&quot; height=&quot;641&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
-&lt;p&gt;Golden si è detto non completamente soddisfatto per la mancanza di polish e di qualche bug, ma a noi è sinceramente piaciuto... Anzi, spero che lo porti avanti e lo chiuda come desidera, è davvero una bella idea!&lt;/p&gt;
-&lt;p&gt;Non è stato pubblicato da nessuna parte se non sul &lt;a href=&quot;https://discord.com/invite/juj4yEF2Yv&quot;&gt;Discord di GMI&lt;/a&gt;, quindi ti consiglio di fare un salto all&#39;interno della community per riuscire a giocarlo!&lt;/p&gt;
-&lt;p&gt;E con questo si conclude anche la Secret Santa 2025. Non c&#39;è stato nessun partecipante segreto o gioco segreto da consegnare, ma nonostante questo è stata faticola e soddisfacente come al solito ;) Ci si legge l&#39;anno prossimo!&lt;/p&gt;
 </content>
   </entry>
 </feed>
