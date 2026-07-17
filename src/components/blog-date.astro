@@ -1,0 +1,18 @@
+---
+interface BlogDateProps {
+  date: string;
+}
+
+type Props = BlogDateProps;
+const { date } = Astro.props;
+---
+
+<time datetime={date}>
+  {
+    new Date(date).toLocaleDateString("it-IT", {
+      day: "numeric",
+      month: "long",
+      year: "numeric",
+    })
+  }
+</time>

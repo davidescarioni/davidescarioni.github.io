@@ -1,0 +1,41 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { type Game } from "../utils/types";
+
+const pageTitle = "Games";
+
+const allPosts = Object.values(
+  import.meta.glob<Game>("./games/*.md", { eager: true }),
+);
+
+const orderedGames = allPosts.sort(
+  (a, b) =>
+    new Date(b.frontmatter.title).valueOf() -
+    new Date(a.frontmatter.title).valueOf(),
+);
+---
+
+<BaseLayout title={pageTitle}>
+  <p>Tutti (o quasi) i giochi che ho sviluppato o ai quali ho partecipato.</p>
+
+  <ul class="card-games-list" aria-label="Articoli del blog">
+    {
+      orderedGames.map((game) => (
+        <li class="card-games-list__item">
+          <a href={game.url}>
+            <img
+              class:list={[
+                "card-games-list__item-image",
+                game.frontmatter.status === "draft" &&
+                  "card-games-list__item-image--draft",
+              ]}
+              src={game.frontmatter.banner}
+              alt={game.frontmatter.title}
+            />
+            <span class="sr-only">{game.frontmatter.title}</span>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</BaseLayout>

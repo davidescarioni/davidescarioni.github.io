@@ -1,45 +1,23 @@
 {
-	"name": "scario-side-quest",
-	"version": "1.0.0",
-	"description": "Il mio piccolo angolo nel web",
-	"type": "module",
-	"scripts": {
-		"build": "npx @11ty/eleventy",
-		"build-nocolor": "cross-env NODE_DISABLE_COLORS=1 npx @11ty/eleventy",
-		"build-ghpages": "npx @11ty/eleventy",
-		"start": "npx @11ty/eleventy --serve --quiet",
-		"start-ghpages": "npx @11ty/eleventy --serve --quiet",
-		"debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy",
-		"debugstart": "cross-env DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
-		"benchmark": "cross-env DEBUG=Eleventy:Benchmark* npx @11ty/eleventy"
-	},
-	"author": {
-		"name": "Scario"
-	},
-	"license": "MIT",
-	"engines": {
-		"node": ">=18"
-	},
-	"funding": {
-		"type": "opencollective",
-		"url": "https://opencollective.com/11ty"
-	},
-	"bugs": {
-		"url": "https://github.com/11ty/scario-side-quest/issues"
-	},
-	"homepage": "https://github.com/11ty/scario-side-quest#readme",
-	"devDependencies": {
-		"@11ty/eleventy": "^3.0.0",
-		"@11ty/eleventy-img": "^5.0.0",
-		"@11ty/eleventy-navigation": "^0.3.5",
-		"@11ty/eleventy-plugin-rss": "^2.0.2",
-		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-		"cross-env": "^7.0.3",
-		"luxon": "^3.5.0",
-		"zod": "^3.23.8",
-		"zod-validation-error": "^3.3.1"
-	},
-	"dependencies": {
-		"@zachleat/heading-anchors": "^1.0.1"
-	}
+  "name": "astro-blog",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "astro dev",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/rss": "^4.0.19",
+    "@fontsource/maple-mono": "^5.2.6",
+    "astro": "^7.0.9",
+    "typescript": "^7.0.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.5",
+    "prettier-plugin-astro": "^0.14.1",
+    "sass": "^1.99.0"
+  }
 }
