@@ -24,12 +24,11 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 24
+          node-version: 20
+          cache: "npm"
 
-      - name: Clean install (workaround for npm optional deps bug)
-        run: |
-          rm -f package-lock.json
-          npm install
+      - name: Clean install
+        run: npm ci --force
 
       - name: Build
         run: npm run build
