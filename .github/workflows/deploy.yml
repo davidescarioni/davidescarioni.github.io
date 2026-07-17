@@ -26,8 +26,10 @@ jobs:
         with:
           node-version: 22
 
-      - name: Install
-        run: npm install --no-optional=false
+      - name: Clean install (workaround for npm optional deps bug)
+        run: |
+          rm -f package-lock.json
+          npm install
 
       - name: Build
         run: npm run build
