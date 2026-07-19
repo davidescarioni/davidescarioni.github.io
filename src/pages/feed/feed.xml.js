@@ -1,4 +1,3 @@
-// src/pages/feed/feed.xml.js
 import rss from '@astrojs/rss';
 
 export async function GET(context) {
@@ -10,12 +9,15 @@ export async function GET(context) {
     (a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf()
   );
 
-  const items = sortedPosts.map((post) => ({
-    title: post.frontmatter.title,
-    description: post.frontmatter.description ?? undefined,
-    pubDate: new Date(post.frontmatter.date),
-    link: post.url,
-  }));
+  const items = await Promise.all(
+    sortedPosts.map(async (post) => ({
+      title: post.frontmatter.title,
+      description: post.frontmatter.description ?? undefined,
+      pubDate: new Date(post.frontmatter.date),
+      link: post.url,
+      content: await post.compiledContent(),
+    }))
+  );
 
   return rss({
     title: 'Scario Side Quest',
