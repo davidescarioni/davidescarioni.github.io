@@ -14,6 +14,7 @@ export interface Game {
     banner: string;
     link: string;
     relatedLinks: string[];
+    downloadUrls: string[];
     status: GameStatus;
   };
   url: string;
