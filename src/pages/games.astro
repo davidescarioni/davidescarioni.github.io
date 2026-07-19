@@ -5,24 +5,24 @@ import { type Game } from "../utils/types";
 const pageTitle = "Games";
 
 const allPosts = Object.values(
-  import.meta.glob<Game>("./games/*.md", { eager: true }),
+	import.meta.glob<Game>("./games/*.md", { eager: true })
 );
 
 const orderedGames = allPosts.sort(
-  (a, b) =>
-    new Date(b.frontmatter.title).valueOf() -
-    new Date(a.frontmatter.title).valueOf(),
+	(a, b) =>
+		new Date(b.frontmatter.title).valueOf() -
+		new Date(a.frontmatter.title).valueOf()
 );
 ---
 
 <BaseLayout title={pageTitle}>
-  <p>Tutti (o quasi) i giochi che ho sviluppato o ai quali ho partecipato.</p>
+	<p>Tutti (o quasi) i giochi che ho sviluppato o ai quali ho partecipato.</p>
 
-  <ul class="card-games-list" aria-label="Articoli del blog">
-    {
-      orderedGames.map((game) => (
-        <li class="card-games-list__item">
-          <a href={game.url}>
+	<ul class="card-games-list" aria-label="Articoli del blog">
+		{
+			orderedGames.map((game) => (
+				<li class="card-games-list__item">
+					{/* <a href={game.url}>
             <img
               class:list={[
                 "card-games-list__item-image",
@@ -33,9 +33,22 @@ const orderedGames = allPosts.sort(
               alt={game.frontmatter.title}
             />
             <span class="sr-only">{game.frontmatter.title}</span>
-          </a>
-        </li>
-      ))
-    }
-  </ul>
+          </a> */}
+
+					<a
+						href={game.frontmatter.link}
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<img
+							class="card-games-list__item-image"
+							src={game.frontmatter.banner}
+							alt={game.frontmatter.title}
+						/>
+						<span class="sr-only">{game.frontmatter.title}</span>
+					</a>
+				</li>
+			))
+		}
+	</ul>
 </BaseLayout>
