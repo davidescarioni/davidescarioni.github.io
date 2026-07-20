@@ -5,10 +5,10 @@ import Footer from "../components/footer.astro";
 import Hero from "../components/hero.astro";
 
 interface BaseLayoutProps {
-  title: string;
-  description?: string;
-  date?: string;
-  tags?: string[];
+	title: string;
+	description?: string;
+	date?: string;
+	tags?: string[];
 }
 
 type Props = BaseLayoutProps;
@@ -17,17 +17,17 @@ const { title, description, date, tags } = Astro.props;
 ---
 
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Scario Side Quest</title>
-  </head>
-  <body>
-    <Header />
-    <main>
-      <Hero title={title} description={description} date={date} tags={tags} />
-      <slot />
-    </main>
-    <Footer />
-  </body>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Scario Side Quest</title>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<Hero title={title} description={description} date={date} tags={tags} />
+			<slot />
+		</main>
+		<Footer />
+	</body>
 </html>
