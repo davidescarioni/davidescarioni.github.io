@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Prince of Persia - The Lost Crown è bellissimo
 description:
 date: 2025-06-09
-tags: ["videogames", "switch"]
+tags: ["videogames"]
 ---
 ![Banner iconico di Prince of Persia - The Lost Crown](../../assets/pop-banner.jpg)
 
