@@ -3,7 +3,7 @@ layout: ../layouts/MarkdownPageLayout.astro
 title: "Whishlist"
 ---
 
-Sicuramente è capitato anche a voi che qualcuno vi chieda cosa vogliate per Natale / Compleanno / ecc. Io sono fortunatamente nella posizione di poter dire di non aver bisogno di nulla: ho un lavoro, una casa, una compagna, una salute decente... non ho davvero niente di cui lamentarmi.
+Sicuramente è capitato anche a voi che qualcuno vi chieda cosa vogliate per Natale / Compleanno / ecc. Io sono fortunatamente nella posizione di poter dire di non aver bisogno di nulla: ho un lavoro, una casa, una bellissima famiglia, una salute decente... non ho davvero niente di cui lamentarmi.
 
 Ma effettivamente ci sono cose che desidero, delle passioni che mi piacerebbe approfondire o delle esperienze che vorrei fare. Da qui nasce questa pagina.
 È una **lista dei desideri** vera e propria.
@@ -66,9 +66,13 @@ Il gioco che più mi piacerebbe provare in digitale (perchè ha una versione fis
 
 ![Uno screenshot di Animal Well](../assets/wl-animal-well.jpg)
 
-Il gioco fisico che più bramo per **Nintendo Switch** invece è [Donkey Kong Tropical Freeze](https://www.nintendo.com/it-it/games/oms/dkc-tf/index.html), un platform con protagonista lo scimmione amico / antagonista di Mario che ho provato ad una Milano Games Week e che mi ha davvero colpito
+Il gioco fisico che più vorrei giocare per **Nintendo Switch** invece è [Donkey Kong Tropical Freeze](https://www.nintendo.com/it-it/games/oms/dkc-tf/index.html), un platform con protagonista lo scimmione amico / antagonista di Mario che ho provato ad una Milano Games Week e che mi ha davvero colpito in positivo.
 
 ![Uno screenshot di Donkey Kong Tropical Freeze](../assets/wl-donkey-kong.jpg)
+
+Sempre relativo ai VideoGames, mi piacerebbero molto le guide ufficiali di [The Legend of Zelda: Breath of the Wild](https://www.piggyback.com/it/guide/the-legend-of-zelda/) e di [The Legend of Zelda: Tears of the Kingdom](https://www.piggyback.com/it/guide/the-legend-of-zelda-tears-of-the-kingdom/). Ho giocato e terminato entrambi i titoli, ma ho lasciato molti misteri irrisolti nel mio percorso verso il completamento. Le due guide mi permetterebbero di scroprire quello che mi manca, oltre ad essere bellissime in sè da sfogliare.
+
+![Le copertine delle due guide di Zelda](../assets/wl-zelda.png)
 
 ## Libri
 
@@ -81,20 +85,18 @@ Se allarghiamo invece la categiria, ultimamente mi sto appassionando ai **bookaz
 
 Tra i più interessanti che conosco e che mi piacerebbe sfogliare ci sono:
 
-- i bookasine realizzati dagli italianissimi [RoundTwo Publishing](https://roundtwo.world/), in particolare [Void Arcana](https://roundtwo.world/pages/void-arcana), interamente dedicato ai due Hollow Knight (che sono tra i miei giochi preferiti)
+<!-- - i bookazine realizzati dagli italianissimi [RoundTwo Publishing](https://roundtwo.world/), in particolare [Void Arcana](https://roundtwo.world/pages/void-arcana), interamente dedicato ai due Hollow Knight (che sono tra i miei giochi preferiti) -->
 - [Storie di Videogame 2 e 3](https://itomi.shop/products/sdvg3), due libri che trattano la storia produttiva dietro ad alcune delle saghe videoludiche più famose. Ho il primo volume e l'ho davvero apprezzato.
 - [TUNIC - Design Works](https://www.lostincult.co.uk/tunic) di [LostInCult](https://www.lostincult.co.uk), un libro dedicato allo sviluppo del gioco TUNIC, uno dei miei preferiti di sempre.
 - [The SNES Pixel Book](https://www.bitmapbooks.com/collections/all-books/products/the-snes-pixel-book?) di [Bitmap Books](https://www.bitmapbooks.com), un libro interamente dedicato al Super Nintendo
 
-![La copertina di Void Arcana](../assets/wl-void-arcana.jpeg)
+<!-- ![La copertina di Void Arcana](../assets/wl-void-arcana.jpeg) -->
 ![Le due copertine di TUNIC - Design Works](../assets/wl-tunic-design-works.jpeg)
 ![The SNES Pixel Book](../assets/wl-snes-pixel-book.jpeg)
 
 Passando invece a qualcosa di più classico, anche se più vicino alla manualistica come genere, c'è [La Scienza delle Pulizie](https://www.amazon.it/scienza-pulizie-detersivo-candeggina-bicarbonato/dp/8858043030) di Dario Bressanini: dopo aver letto i suoi libri sulle verdure e sulla pasticceria, sarei davvero curioso di conoscere l'aspetto chimico delle pulizie, e capire quali strumenti sono davvero efficaci (bicarbonato e detersivo per i piatti, ad esempio, sono davvero utili un po' per tutto?)
 
 ![Copertina de La Scienza delle Pulizie](../assets/wl-scienza-pulizie.jpg)
-
-
 
 ## Nuove passioni
 
@@ -104,6 +106,7 @@ Raggruppo in questa sezione due _cose_ che mi piacerebbe imparare a fare, entram
 - _Fare_ gli amigurumi
 
 **Stampare in 3d** è qualcosa che mi ispira da quando le stampanti 3d sono entrate nel mercato _consumer_: prendere un oggetto digitale e portarlo nel mondo reale è qualcosa di incredibile a mio modo di vedere. Avevo letto _da qualche parte_ che sulla Stazione Spaziale Internazionale avevano bisogno di uno strumento e, dalla Terra, gli era stato mandato il progetto digitale che loro si sono stampati per poi utilizzarlo... è la cosa pià vicina alla **magia** che io conosca :D.
+
 Due cose mi hanno sempre fermato: il costo e il non sapere esattamente cosa farci. Ora però esistono hardware discretamente economici (come la [Bambu lab A1 mini](https://eu.store.bambulab.com/it/products/a1-mini)) e ho trovato anche un buon motivo per possederne una: [Gridfinity](https://gridfinity.xyz/), un sistema open source per organizzare principalmente oggetti nei cassetti ed avere tutto in ordine. Si si lo so cosa stai pensando, ma io lo trovo bellissimo e davvero utile :D
 
 Passiamo invece agli [amigurumi](https://it.wikipedia.org/wiki/Amigurumi): praticamente sono dei piccoli pupazzi all'uncinetto, e trovo davvero belli quelli molto "tondi". Esistono molti kit online per iniziare a farli, ma ho paura di buttare soldi e tempo comprandone uno perchè non ho mai cucito / ricamato (o qualsiasi verbo vada in concordanza, come vedete non sono sul pezzo).
