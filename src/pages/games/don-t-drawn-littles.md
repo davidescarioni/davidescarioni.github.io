@@ -6,6 +6,7 @@ banner: /images/don-t-drown-littles.png
 downloadUrls: ["https://v3.globalgamejam.org/2020/games/dont-drown-little-3"]
 relatedLinks: []
 status: "draft"
+releasedDate: 2020
 ---
 
 You find a hidden cave that holds the secret to immortality. Do you knows what it means?

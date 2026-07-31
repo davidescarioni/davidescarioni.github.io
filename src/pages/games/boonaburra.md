@@ -6,6 +6,7 @@ banner: /images/boonaburra-banner.png
 downloadUrls: ["https://scario88.itch.io/boonaburra"]
 relatedLinks: []
 status: "draft"
+releasedDate: 2024
 ---
 
 In **Boonaburra**, you discover a mysterious place deep within the forest after hearing rumors of something that can grant one of your wishes, but with a significant caveat.

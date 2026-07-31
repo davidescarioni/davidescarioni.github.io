@@ -6,6 +6,7 @@ banner: /images/silent-night-banner.png
 downloadUrls: ["https://scario88.itch.io/silent-night"]
 relatedLinks: []
 status: "draft"
+releasedDate: 2026
 ---
 
 **Silent Night** is a mistery game with 2D platformer elements.

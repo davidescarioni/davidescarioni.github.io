@@ -6,6 +6,7 @@ banner: /images/de-spelunca-ex-elementis-banner.png
 downloadUrls: ["https://scario88.itch.io/de-spelunca-ex-elementis"]
 relatedLinks: []
 status: "draft"
+releasedDate: 2019
 ---
 
 A young mage has been corrupted by the power of the elements. You, as his previous master, are the only hope to save him.

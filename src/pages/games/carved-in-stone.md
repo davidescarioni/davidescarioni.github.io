@@ -6,6 +6,7 @@ banner: /images/carved-in-stone-banner.jpeg
 downloadUrls: ["https://scario88.itch.io/carved-in-stone"]
 relatedLinks: []
 status: "draft"
+releasedDate: 2026
 ---
 
 You find a hidden cave that holds the secret to immortality. Do you knows what it means?

@@ -16,6 +16,7 @@ export interface Game {
     relatedLinks: string[];
     downloadUrls: string[];
     status: GameStatus;
+    releasedDate: number;
   };
   url: string;
 }

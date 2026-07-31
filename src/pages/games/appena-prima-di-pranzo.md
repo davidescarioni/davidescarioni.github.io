@@ -6,6 +6,7 @@ banner: /images/appena-prima-di-pranzo.png
 downloadUrls: ["https://scario88.itch.io/appena-prima-di-pranzo"]
 relatedLinks: []
 status: "draft"
+releasedDate: 2023
 ---
 
 NOTE: this game is available only in Italian

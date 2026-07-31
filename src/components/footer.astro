@@ -1,5 +1,37 @@
-<footer>
-	<p>
-		<a href={`https://scario.xyz`}>Scario Side Quest</a>
-	</p>
+---
+const links = [
+	{
+		label: "github",
+		url: "https://github.com/davidescarioni",
+	},
+	{
+		label: "mastodon",
+		url: "https://mastodon.social/@scario",
+	},
+	{
+		label: "bluesky",
+		url: "https://bsky.app/profile/scario.bsky.social",
+	},
+];
+---
+
+<footer class="footer">
+	<div class="footer__content-left">
+		<p>
+			Sviluppato con <a
+				href="https://astro.build"
+				target="_blank"
+				rel="noopener noreferrer">Astro</a
+			>
+		</p>
+	</div>
+	<div class="footer__content-right">
+		{
+			links.map((link) => (
+				<a href={link.url} target="_blank" rel="noopener noreferrer">
+					{link.label}
+				</a>
+			))
+		}
+	</div>
 </footer>

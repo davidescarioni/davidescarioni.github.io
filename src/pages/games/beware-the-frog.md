@@ -6,4 +6,5 @@ banner: /images/beware-the-frog.png
 downloadUrls: ["https://scario88.itch.io/beware-the-frog"]
 relatedLinks: []
 status: "draft"
+releasedDate: 2022
 ---

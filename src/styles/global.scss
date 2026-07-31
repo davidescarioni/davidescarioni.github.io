@@ -57,10 +57,21 @@ main {
   }
 }
 
-footer {
+.footer {
   background-color: var(--light-gray);
+  border-radius: 1em;
   margin-top: auto;
-  padding: 8px;
+  padding: 8px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__content-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+  }
 }
 
 * {
