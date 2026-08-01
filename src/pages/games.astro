@@ -15,14 +15,16 @@ const orderedGames = allPosts.sort(
 );
 ---
 
-<BaseLayout title={pageTitle}>
-	<p>Tutti (o quasi) i giochi che ho sviluppato o ai quali ho partecipato.</p>
-
-	<ul class="card-games-list" aria-label="Articoli del blog">
-		{
-			orderedGames.map((game) => (
-				<li class="card-games-list__item">
-					{/* <a href={game.url}>
+<BaseLayout
+	title={pageTitle}
+	description="Tutti (o quasi) i giochi che ho sviluppato o ai quali ho partecipato."
+>
+	<div class="page-details">
+		<ul class="card-games-list" aria-label="Articoli del blog">
+			{
+				orderedGames.map((game) => (
+					<li class="card-games-list__item">
+						{/* <a href={game.url}>
             <img
               class:list={[
                 "card-games-list__item-image",
@@ -35,20 +37,21 @@ const orderedGames = allPosts.sort(
             <span class="sr-only">{game.frontmatter.title}</span>
           </a> */}
 
-					<a
-						href={game.frontmatter.downloadUrls[0]}
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						<img
-							class="card-games-list__item-image"
-							src={game.frontmatter.banner}
-							alt={game.frontmatter.title}
-						/>
-						<span class="sr-only">{game.frontmatter.title}</span>
-					</a>
-				</li>
-			))
-		}
-	</ul>
+						<a
+							href={game.frontmatter.downloadUrls[0]}
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img
+								class="card-games-list__item-image"
+								src={game.frontmatter.banner}
+								alt={game.frontmatter.title}
+							/>
+							<span class="sr-only">{game.frontmatter.title}</span>
+						</a>
+					</li>
+				))
+			}
+		</ul>
+	</div>
 </BaseLayout>
