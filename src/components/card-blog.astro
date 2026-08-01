@@ -2,19 +2,32 @@
 import BlogDate from "./blog-date.astro";
 
 interface CardBlogProps {
-  date: string;
-  title: string;
-  description?: string;
-  url: string;
+	date: string;
+	title: string;
+	description?: string;
+	tags?: string[];
+	url: string;
 }
 
 type Props = CardBlogProps;
 
-const { date, title, description, url } = Astro.props;
+const { date, title, description, tags, url } = Astro.props;
 ---
 
 <div class="card-blog">
-  <BlogDate date={date} />
-  <h3 class="card-blog__title"><a href={url}>{title}</a></h3>
-  {description && <div class="card-blog__description">{description}</div>}
+	<BlogDate date={date} />
+	<h3 class="card-blog__title"><a href={url}>{title}</a></h3>
+	{
+		tags && tags.length > 0 && (
+			<div class="card-blog__tags">
+				Tag(s):
+				{tags.map((tag) => (
+					<span class="card-blog__tag">
+						<a href={`/tags/${tag}/`}>#{tag}</a>
+					</span>
+				))}
+			</div>
+		)
+	}
+	{description && <div class="card-blog__description">{description}</div>}
 </div>

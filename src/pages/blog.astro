@@ -4,32 +4,49 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import { type Post } from "../utils/types";
 
 const allPosts = Object.values(
-  import.meta.glob<Post>("./blog/*.md", { eager: true })
+	import.meta.glob<Post>("./blog/*.md", { eager: true })
 );
 
 const orderedPosts = allPosts.sort(
-  (a, b) =>
-    new Date(b.frontmatter.date).valueOf() -
-    new Date(a.frontmatter.date).valueOf()
+	(a, b) =>
+		new Date(b.frontmatter.date).valueOf() -
+		new Date(a.frontmatter.date).valueOf()
 );
+
+const tags = [
+	...new Set(allPosts.map((post: any) => post.frontmatter.tags).flat()),
+];
 
 const pageTitle = "Blog";
 ---
 
-<BaseLayout title={pageTitle}>
-  <p>Tutti i post che ho scritto</p>
-  <ul class="blog-post-list" aria-label="Articoli del blog">
-    {
-      orderedPosts.map((post) => (
-        <li class="blog-post-list__item">
-          <CardBlog
-            date={post.frontmatter.date}
-            title={post.frontmatter.title}
-            description={post.frontmatter.description}
-            url={post.url}
-          />
-        </li>
-      ))
-    }
-  </ul>
+<BaseLayout title={pageTitle} description="Tutti i post che ho scritto">
+	<ul class="blog-post-list" aria-label="Articoli del blog">
+		{
+			orderedPosts.map((post) => (
+				<li class="blog-post-list__item">
+					<CardBlog
+						date={post.frontmatter.date}
+						title={post.frontmatter.title}
+						description={post.frontmatter.description}
+						url={post.url}
+					/>
+				</li>
+			))
+		}
+	</ul>
+
+	<div class="tags-list">
+		<p>Tags:</p>
+		<ul class="tags">
+			{
+				tags &&
+					tags.map((tag) => (
+						<li class="tag">
+							<a href={`/tags/${tag}/`}>{tag}</a>
+						</li>
+					))
+			}
+		</ul>
+	</div>
 </BaseLayout>
