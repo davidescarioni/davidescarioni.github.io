@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: The Rogue of Prince of Persia
 description: Una nuova incarnazione del principe
 date: 2026-04-18
-tags: ["videogames"]
+tags: ['videogames']
 ---
 
 ![The Rogue of Prince of Persia](../../assets/the-rogue.jpg)

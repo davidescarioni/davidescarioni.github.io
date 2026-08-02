@@ -3,26 +3,26 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: A cosa ho giocato nel 2024
 description: O, per meglio dire, cosa ho terminato
 date: 2025-01-13
-tags: ["videogames"]
+tags: ['videogames']
 ---
 
 Da due anni a questa parte sto tenendo traccia dei videogiochi che compro, di quanto spendo e di quanti ne finisco: mi piace farlo perchè mi rende più consapevole del tempo e del costo che ha una delle mie principali passioni.
 
 Uno dei motivi che mi ha spinto ad aprire questo blog è anche quello di avere un posto in cui parlarne. Perchè quindi non iniziare facendo un recap di cosa ho giocato nell'ultimo anno? Credevo che il 2023 mi avesse regalato le mie migliori esperienze videoludiche recenti, ma ci sono stati dei picchi quest'anno che quasi mi stavo dimenticando.
 
-Non saranno delle vere e proprie recensioni: non sapendo che avrei aperto un blog, quello che scriverò saranno solo le mie impressioni *a freddo*, ma ci tengo comunque a metterle nero su bianco.
+Non saranno delle vere e proprie recensioni: non sapendo che avrei aperto un blog, quello che scriverò saranno solo le mie impressioni _a freddo_, ma ci tengo comunque a metterle nero su bianco.
 
 Bando alle ciance, cominciamo! Ecco quali giochi ho finito quest'anno, in rigoroso ordine di completamento.
 
 ## Nuclear Blaze
 
-Piattaforma: *Steam Deck*
+Piattaforma: _Steam Deck_
 
 ![Nuclear Blaze](../../assets/nuclear-blaze.png)
 
 [Nuclear Blaze](https://store.steampowered.com/app/1662480/Nuclear_Blaze/) è un gioco che ho acquistato "a scatola chiusa", non avevo idea di cosa fosse prima che Steam me lo proponesse durante i saldi tra i suggeriti: e devo dire che è stato un buon consiglio.
 
-*Nuclear* è un mix tra un gioco d'azione e un puzzle game. È un gioco *dritto*, senza biforcazioni o senza possibilità di ripercorrere vecchie stanze, si va semplicemente dal punto A al punto B per passare alla stanza successiva: i due punti però sono ostacolati da incendi e noi, nei panni di un pompiere particolarmente ligio al lavoro, avremo il compito di spegnerli, magari salvando più gattini in pericolo possibile: lo definisco puzzle perchè il nostro (quasi) unico nemico è il fuoco, e riuscire a spegnerlo prima che l'incendio si propaghi dovendo al tempo stesso gestire la quantità d'acqua che abbiamo con noi fa davvero lavorare le nostre cellule grigie più di quanto ci si potrebbe aspettare.
+_Nuclear_ è un mix tra un gioco d'azione e un puzzle game. È un gioco _dritto_, senza biforcazioni o senza possibilità di ripercorrere vecchie stanze, si va semplicemente dal punto A al punto B per passare alla stanza successiva: i due punti però sono ostacolati da incendi e noi, nei panni di un pompiere particolarmente ligio al lavoro, avremo il compito di spegnerli, magari salvando più gattini in pericolo possibile: lo definisco puzzle perchè il nostro (quasi) unico nemico è il fuoco, e riuscire a spegnerlo prima che l'incendio si propaghi dovendo al tempo stesso gestire la quantità d'acqua che abbiamo con noi fa davvero lavorare le nostre cellule grigie più di quanto ci si potrebbe aspettare.
 
 Dal punto di vista grafico, Nuclear Blaze è davvero appagante: tante particelle, gestione delle luci fantastica, inquadrature e scene di intermezzo con un taglio spiccatamente cinematografico... Non ho davvero nulla di negativo da dire in merito.
 
@@ -34,30 +34,30 @@ Ultima nota positiva: il gioco presenta una grande attenzione sull'accessibilit�
 
 ## New Super Lucky's Tale
 
-Piattaforma: *Steam Deck*
+Piattaforma: _Steam Deck_
 
 ![New Super Lucky's Tale](../../assets/new-super-luckys-tale.png)
 
 È difficile trovare un buon platform 3d al di fuori del classico Mario. Anzi, potrei addirittura dire che è difficile trovare platform 3d in generale.
-[New Super Lucky's Tale](https://store.steampowered.com/app/1038300/New_Super_Luckys_Tale/) fortunatamente è un platform 3d davvero davvero carino: controlliamo una volpe che viaggia tra mondi tramite un libro magico alla ricerca della propria famiglia, separata dal cattivo di turno. Si, la trama non è il suo forte, e nemmeno la difficoltà: se escludiamo il mondo post-game (quello davvero eccezionale, oserei dire), il resto del gioco  è discretamente facile. L'ho comunque apprezzato perchè è molto vario nelle situazioni proposte, è coloratissimo e simpatico, proprio un gioco che ti mette di buon umore mentre lo stai provando.
+[New Super Lucky's Tale](https://store.steampowered.com/app/1038300/New_Super_Luckys_Tale/) fortunatamente è un platform 3d davvero davvero carino: controlliamo una volpe che viaggia tra mondi tramite un libro magico alla ricerca della propria famiglia, separata dal cattivo di turno. Si, la trama non è il suo forte, e nemmeno la difficoltà: se escludiamo il mondo post-game (quello davvero eccezionale, oserei dire), il resto del gioco è discretamente facile. L'ho comunque apprezzato perchè è molto vario nelle situazioni proposte, è coloratissimo e simpatico, proprio un gioco che ti mette di buon umore mentre lo stai provando.
 Non aspettatevi comunque un capolavoro: è un collectaton abbastanza classico, e la sola meccanica del potersi muovere anche sottoterra a mo' di talpa non ve lo farà acquistare se non vi piace il genere.
 
 ## Froggo's Adventure: Verdant Venture
 
-Piattaforma: *Steam Deck*
+Piattaforma: _Steam Deck_
 
 ![Froggo's Adventure: Verdant Venture](../../assets/froggos-adventure-verdant-venture.png)
 
 Visto per caso su X, quando il gioco è uscito e ho visto il suo prezzo irrisorio di 1€ ho deciso di prenderlo al volo.
 [Froggo's Adventure: Verdant Venture](https://store.steampowered.com/app/2854780/Froggos_Adventure_Verdant_Venture/) è un gioco che sembra uscito direttamente dal NES, ed ha una cura pazzesca nel farlo: non è solo la palette a ricordarlo, è proprio una sensazione che riesce a trasmetterti "pad alla mano". Ho giocato a molti giochi indie anche più costosi che non presentano una cura simile.
 
-Non l'ho detto, ma Froggo's è un platform vecchia scuola, con il personaggio principale che ha una meccanica *alla Yoshi*, nel senso che può usare la sua lingua per catturare e lanciare i nemici, solo che in questo caso può anche usarla per attivare interruttori o colpire blocchi da distruggere.
+Non l'ho detto, ma Froggo's è un platform vecchia scuola, con il personaggio principale che ha una meccanica _alla Yoshi_, nel senso che può usare la sua lingua per catturare e lanciare i nemici, solo che in questo caso può anche usarla per attivare interruttori o colpire blocchi da distruggere.
 
 È un platform intrinsecamente vecchio, ma davvero ben fatto: capirete se siete nel target anche solo guardando gli screenshot.
 
 ## Metroid: Zero Mission
 
-Piattaforma: *Miyoo Mini Plus*
+Piattaforma: _Miyoo Mini Plus_
 
 ![Metroid: Zero Mission](../../assets/zero-mission.png)
 
@@ -69,7 +69,7 @@ Infatti:
 - è sempre chiaro il nostro obiettivo, che ci verrà segnalato sulla mappa: il backtracking incentrato sulla scoperta c'è sempre, ma è legato più che altro al ritrovamente di potenziamenti opzionali
 - i punti di salvataggio sono numerosi, così da non dover rifare sezioni molto lunghe in caso di dipartita della protagonista
 - i power up sono presenti in gran numero, ed è difficile non trovarne nessuno in una sessione di gioco
-- il senso di progressione è davvero percepibile, e andando avanti sentiremo che la protagonista sta diventando una *macchina da guerra*. Per me questo tra l'altro è un punto che deve essere fondamentale quando gioco ad un MetroidVania
+- il senso di progressione è davvero percepibile, e andando avanti sentiremo che la protagonista sta diventando una _macchina da guerra_. Per me questo tra l'altro è un punto che deve essere fondamentale quando gioco ad un MetroidVania
 
 I punti elencati sopra non sono dei pro in generale, ma in un gioco pensato per essere giocato in mobilità e per brevi sessioni trovo che le scelte siano davvero tutte azzeccate.
 
@@ -77,7 +77,7 @@ Se poi consideriamo che lo stile grafico scelto, per me, tocca su GBA l'apice de
 
 ## Luigi's Mansion 3
 
-Piattaforma: *Nintendo Switch*
+Piattaforma: _Nintendo Switch_
 
 ![Luigi's Mansion 3](../../assets/luigis-mansion-3.png)
 
@@ -92,7 +92,7 @@ Probabilmente quindi la verità sta nel mezzo: il gioco è generalmente bello, m
 
 ## Hades
 
-Piattaforma: *Steam Deck*
+Piattaforma: _Steam Deck_
 
 ![Hades](../../assets/hades.png)
 
@@ -101,18 +101,18 @@ Grazie davvero **Andrea** per avermelo inaspettatamente regalato.
 
 ## Brume
 
-Piattaforma: *Steam Deck*
+Piattaforma: _Steam Deck_
 
 ![Brume](../../assets/brume.png)
 
-[Brume](https://store.steampowered.com/app/1119800/Brume/) è un souls-like indie creato da [Sokpop](https://www.sokpop.co), un collettivo di sviluppatori olandesi: è uno di quei giochi che *conosco solo io*, come dicono i miei amici IRL quando ne parlo.
+[Brume](https://store.steampowered.com/app/1119800/Brume/) è un souls-like indie creato da [Sokpop](https://www.sokpop.co), un collettivo di sviluppatori olandesi: è uno di quei giochi che _conosco solo io_, come dicono i miei amici IRL quando ne parlo.
 L'ho definito souls-like, ma io non ne ho mai giocato uno all'infuori di questo: qui c'è un'avventura criptica, mostri che ti uccidono in breve se non capisci il loro pattern d'attacco, scorciatoie che collegano zone prima inaccessibili... cose che dovrebbero rientrare in questo genere insomma.
 
 È lungo il giusto (circa 2 ore di gioco), ha una grafica low poly che mi ha colpito subito, e l'ho trovato davvero divertente portarlo a termine: non è bilanciatissimo, ma l'atmosfera e il gameplay semplice non mi hanno fatto demordere nonostante l'elevata difficoltà.
 
 ## Finding Xavier
 
-Piattaforma: *Steam Deck*
+Piattaforma: _Steam Deck_
 
 ![Finding Xavier](../../assets/finding-xavier.png)
 
@@ -120,16 +120,16 @@ Quando ho visto questo gioco su YouTube, mi sono detto che non era possibile.
 
 Quando ho visto questo gioco su Steam, mi sono detto che non era possibile.
 
-No, non è possibile che un gioco del genere venga venduto, perchè un gioco così *saprei farlo anche io*: e no, non è detto in maniera denigratoria, tutto l'opposto. È il gioco che mi ha spinto a provare a fare anche io una cosa simile, e da lì è nato il mio [Boonaburra](https://scario88.itch.io/boonaburra)... ed è lì ho capito perchè Finding Xavier viene venduto mentre il mio è gratis su itch xD Insomma, giocarlo è stata comunque un'esperienza formativa.
+No, non è possibile che un gioco del genere venga venduto, perchè un gioco così _saprei farlo anche io_: e no, non è detto in maniera denigratoria, tutto l'opposto. È il gioco che mi ha spinto a provare a fare anche io una cosa simile, e da lì è nato il mio [Boonaburra](https://scario88.itch.io/boonaburra)... ed è lì ho capito perchè Finding Xavier viene venduto mentre il mio è gratis su itch xD Insomma, giocarlo è stata comunque un'esperienza formativa.
 
-[Finding Xavier](https://store.steampowered.com/app/2254210/Finding_Xavier/) è un platform "alla Celeste", tutto lo ricorda: la presenza dei *classici* coyote jump e jump buffer, il modo in cui la telecamera si sposta, il modo in cui il protagonista esiste nel mondo di gioco.
-Ha anche qualcosa di caratteristico che lo differenzia: non tutte le meccaniche che recuperiamo all'interno del mondo *metroidvaniesco* del gioco possono essere usate insieme, ma va scelto di volta in volta un subset delle stesse in base a quanto è grosso il nostro inventario. Non l'ho trovata un'idea vincente, ma capisco il motivo per cui è stata realizzata.
+[Finding Xavier](https://store.steampowered.com/app/2254210/Finding_Xavier/) è un platform "alla Celeste", tutto lo ricorda: la presenza dei _classici_ coyote jump e jump buffer, il modo in cui la telecamera si sposta, il modo in cui il protagonista esiste nel mondo di gioco.
+Ha anche qualcosa di caratteristico che lo differenzia: non tutte le meccaniche che recuperiamo all'interno del mondo _metroidvaniesco_ del gioco possono essere usate insieme, ma va scelto di volta in volta un subset delle stesse in base a quanto è grosso il nostro inventario. Non l'ho trovata un'idea vincente, ma capisco il motivo per cui è stata realizzata.
 
 Non è un capolavoro, ci sono gioco gratis su itch che, secondo me, fanno meglio (vedi [Escape the Temple of Kashteki](https://securas.itch.io/temple-of-kashteki), ad esempio): costa però molto poco ed è istruttivo (nel bene e nel male) se siete sviluppatori.
 
 ## Planet of Lana
 
-Piattaforma: *Steam Deck*
+Piattaforma: _Steam Deck_
 
 ![Planet of Lana](../../assets/planet-of-lana.jpeg)
 
@@ -138,11 +138,11 @@ Non ho mai fatto così tanti screenshot come in questo gioco (anche l'immagine q
 
 Il gioco in sè è corto, o meglio, lungo il giusto. Anche questo non è un capolavoro, ma mi ha divertito, e soprattutto il gioco è esattamamente come ce lo si immagina dopo aver visto il trailer.
 
-Grazie ancora *Stefano e Andrea* per il regalo ;)
+Grazie ancora _Stefano e Andrea_ per il regalo ;)
 
 ## Castaway
 
-Piattaforma: *Steam Deck*
+Piattaforma: _Steam Deck_
 
 ![Castaway](../../assets/castaway.jpeg)
 
@@ -150,7 +150,7 @@ Piattaforma: *Steam Deck*
 
 ## Super Mario Land 3: WarioLand
 
-Piattaforma: *Miyoo Mini Plus*
+Piattaforma: _Miyoo Mini Plus_
 
 ![Super Mario Land 3: WarioLand](../../assets/wario-land.png)
 
@@ -158,16 +158,16 @@ WarioLand non l'ho mai posseduto da bambino, ma lo aveva mio cugino: quando ci t
 
 ## Hollow Floor
 
-Piattaforma: *Steam Deck*
+Piattaforma: _Steam Deck_
 
 ![Hollow Floor](../../assets/hollow-floor.jpg)
 
-Altro gioco che *conosco solo io*, questa volta incredibilmente scoperto grazie alla sua demo proposta su Indiexpo.
-[Hollow Floor](https://store.steampowered.com/app/2815150/Hollow_Floor/) sembra essere un *platform in cui non si salta*, tanto che leggendo i commenti della demo molti utenti pensano ci sia un problema tecnico per il quale non si possa fare. In realtà il gioco è quello che ora va di moda chiamare un MetroidBrania: un mondo aperto in cui bisogna capire come funzionano le cose perchè nessuno te le spiega. E, devo dire, il gioco lo fa bene, nonostante sia davvero un prodotto piccolo piccolo sviluppato con PICO-8. Decisamente di nicchia, ma l'ho apprezzato.
+Altro gioco che _conosco solo io_, questa volta incredibilmente scoperto grazie alla sua demo proposta su Indiexpo.
+[Hollow Floor](https://store.steampowered.com/app/2815150/Hollow_Floor/) sembra essere un _platform in cui non si salta_, tanto che leggendo i commenti della demo molti utenti pensano ci sia un problema tecnico per il quale non si possa fare. In realtà il gioco è quello che ora va di moda chiamare un MetroidBrania: un mondo aperto in cui bisogna capire come funzionano le cose perchè nessuno te le spiega. E, devo dire, il gioco lo fa bene, nonostante sia davvero un prodotto piccolo piccolo sviluppato con PICO-8. Decisamente di nicchia, ma l'ho apprezzato.
 
 ## The Legend of Zelda: Tears of the Kingdom
 
-Piattaforma: *Nintendo Switch*
+Piattaforma: _Nintendo Switch_
 
 ![The Legend of Zelda: Tears of the Kingdom](../../assets/tears-of-the-kingdom.png)
 
@@ -177,7 +177,7 @@ TOTK è enorme, pieno di cose da fare nel modo in cui più ci piace, avendo dei 
 - Perchè lo odio? No, non perchè riutilizza molto del gioco precedente (ho vissuto un'epoca in cui i sequel era scontato riciclassero asset e meccaniche, e che fossero dei more of the same), ma per due motivi
 
   - A differenza del primo, qui la sospensione di incredulità (e quindi l'immersività all'interno del mondo di gioco) secondo me è peggiore del primo capitolo: qui da un momento all'altro delle isole cadono dal cielo, si formano dei buchi nel terreno che portano chissà dove e il castello di Hyrule si solleva in aria: come è possibile che gli abitanti possano vivere tranquillamente la loro vita, chiedendoti aiuto per montare cartelli o per spiare qualcuno durante un concorso di moda? Nel primo capitolo per lo meno erano passati cento anni dalla calamità, quindi accetto che la gente viva la sua quotidianità prendendo per fatto immutabile la coesistenza con mostri di vario tipo.
-  - La libertà di gioco è un plus, è davvero quasi come giocare con i lego, ma spesso mi è sembrato di *barare* per completare i puzzle di gioco: se ho la possibilità di attaccare un missile ad uno scudo per salire di vari metri, perchè dovrei fare una scarpinata interminabile? È vero, questo fa in modo che l'avventura sia davvero tua, ma mi piace vedere come i designer pensano che una sezione andrebbe affrontata. Ho preferito BOTW in questo caso, perchè lì la mia avventura era semplicemente dettata da quante e quali quest seguire o meno.
+  - La libertà di gioco è un plus, è davvero quasi come giocare con i lego, ma spesso mi è sembrato di _barare_ per completare i puzzle di gioco: se ho la possibilità di attaccare un missile ad uno scudo per salire di vari metri, perchè dovrei fare una scarpinata interminabile? È vero, questo fa in modo che l'avventura sia davvero tua, ma mi piace vedere come i designer pensano che una sezione andrebbe affrontata. Ho preferito BOTW in questo caso, perchè lì la mia avventura era semplicemente dettata da quante e quali quest seguire o meno.
 
 - Perchè lo amo? Perchè è un gioco che mi da' nostalgia, quello che mi fa dire "Sai cosa? Adesso lo accendo, risolvo un paio di sacrari, batto qualche grublin, e poi passo ad altro". È proprio bello da giocare, si respira lo spirito Nintendo in ogni angolo del gioco.
 
@@ -185,7 +185,7 @@ Insomma, per me BOTK è stato un gioco migliore sotto molti aspetti, ma non poss
 
 ## TOEM: A Photo Adventure
 
-Piattaforma: *Steam Deck*
+Piattaforma: _Steam Deck_
 
 ![TOEM](../../assets/toem.jpg)
 
@@ -195,7 +195,7 @@ In generale però è un gioco che consiglio a chi voglia giocare ad un passatemp
 
 ## Gato Roboto
 
-Piattaforma: *Nintendo Switch*
+Piattaforma: _Nintendo Switch_
 
 ![Gato Roboto](../../assets/gato-roboto.png)
 
@@ -217,7 +217,7 @@ Anche questo gioco dura il giusto (poco più di 2h), non allunga il brodo e sfru
 
 ## Mind Over Magnet
 
-Piattaforma: *Steam Deck*
+Piattaforma: _Steam Deck_
 
 ![Mind Over Magnet](../../assets/mind-over-magnet.png)
 
@@ -232,7 +232,7 @@ Due note che mi sono piaciute particolarmente:
 
 ## Kirby e la Terra Perduta
 
-Piattaforma: *Nintendo Switch*
+Piattaforma: _Nintendo Switch_
 
 ![Kirby e la Terra Perduta](../../assets/kirby-e-la-terra-perduta.png)
 

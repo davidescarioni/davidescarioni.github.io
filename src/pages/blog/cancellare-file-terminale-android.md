@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Cancellare file su Android utilizzando il terminale di un pc
 description: Può tornare utile se vi è mai capitato di non poter avviare un dispositivo correttamente perchè troppo pieno
 date: 2026-06-27
-tags: ["software"]
+tags: ['software']
 ---
 
 Innanzitutto, per collegare un dispositivo Android al pc e riuscire ad operare sopra ad esso ci sono due prerequisiti:

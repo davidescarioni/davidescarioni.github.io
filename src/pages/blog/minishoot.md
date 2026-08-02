@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Minishoot' Adventure non sembra Zelda, ma lo è
 description: La risposta alla domanda "E se Link fosse un'astronave?"
 date: 2026-02-21
-tags: ["videogames"]
+tags: ['videogames']
 ---
 
 [Minishoot' Adventure](https://store.steampowered.com/app/1634860/Minishoot_Adventures/) è un **gioco d'avventura** 2d molto classico: c'è una mappa ampia, elementi che bloccano la nostra strana, interruttori da premere e nemici da sconfiggere. Il _twist_ del gioco è che il nostro eroe è un'**astronave**: no, il nostro protagonista non è a bordo di questa, è proprio essa stessa, così come anche gli altri NPC con il quale ci troveremo a che fare.

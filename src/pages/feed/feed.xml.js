@@ -6,7 +6,9 @@ export async function GET(context) {
   );
 
   const sortedPosts = allPosts.sort(
-    (a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf()
+    (a, b) =>
+      new Date(b.frontmatter.date).valueOf() -
+      new Date(a.frontmatter.date).valueOf()
   );
 
   const items = await Promise.all(

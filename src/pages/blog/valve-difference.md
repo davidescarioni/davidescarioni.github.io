@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: La Valve Difference.
 description: Valve preserva i videogiochi, e lo fa molto bene.
 date: 2024-11-16
-tags: ["videogames"]
+tags: ['videogames']
 ---
 
 ![Half-Life 2 Logo](../../assets/hl2wallpaper.jpg)

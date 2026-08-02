@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Wavetale
 description: Un'avventura platform dove è più divertente surfare che saltare
 date: 2026-01-30
-tags: ["videogames"]
+tags: ['videogames']
 ---
 
 ![Schermata di titolo del gioco](../../assets/wavetale-intro.jpeg)

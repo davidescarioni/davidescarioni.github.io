@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Ciao, ci sono anch'io.
 description: Ora ho anche io un piccolo spazio del web tutto per me.
 date: 2024-11-12
-tags: ["personale"]
+tags: ['personale']
 ---
 
 Ciao, mi chiamo Davide ma sul web mi faccio chiamare **Scario**: non è un nickname molto originale dato che è anche il soprannome che ho sin dalle scuole medie, ma è diventato da anni il mio alter ego sul web e va bene così.
@@ -28,7 +28,7 @@ Così sono partito dal chiedere consiglio a [Manuel Monreale](https://manuelmore
 
 > _Allora, concordo con lo scrivere per te e non farti problemi per l’argomento. Alla fine il bello dei blog personali è che sono appunto personali. E in quanto persone siamo variegati. Ci sta quindi che il blog rifletta chi sei tu in tutte le tue sfumature_.
 
-E niente, queste poche parole mi hanno convinto a buttarmi. Comincerò scrivendo di tutto quello che mi interessa, senza remore.  E lo farò in italiano per evitare qualsiasi tipo di frizione che, almeno inizialmente, potrebbero tenermi lontano dallo scrivere.
+E niente, queste poche parole mi hanno convinto a buttarmi. Comincerò scrivendo di tutto quello che mi interessa, senza remore. E lo farò in italiano per evitare qualsiasi tipo di frizione che, almeno inizialmente, potrebbero tenermi lontano dallo scrivere.
 
 E che tecnologia utilizzo? Ho deciso di partire dalla [base blog di 11ty/eleventy](https://github.com/11ty/eleventy-base-blog) (un framework per siti statici) con modifiche minime giusto per lanciare un blog funzionante nel minor tempo possibile, e che personalizzerò pian piano per renderlo davvero mio.
 

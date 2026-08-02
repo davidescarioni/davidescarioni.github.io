@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Il mio primo NAS
 description:
 date: 2025-08-18
-tags: ["software"]
+tags: ['software']
 ---
 
 Dopo tanto, tantissimo tergiversare, mi sono deciso a comprare un NAS. E' un mio pallido da anni perchè ho paura di perdere dati: da ragazzo ho cambiato più sistemi di archiviazione e ho ancora roba un po' sparsa tra dischi removibili e cloud, e vorrei finalmente avere un punto centralizzato con tutto dentro.
@@ -14,7 +14,7 @@ Nel frattempo è cresciuta anche la mia allergia a servizi che, nonostante siano
 Ho scelto di acquistare un [Ugreen DXP2800](https://nas-eu.ugreen.com/en-it/products/ugreen-nasync-dxp2800-nas-storage?from=mega-menu): ho avuto occhi solo per Synology negli anni passati ma, date le loro ultime [decisioni aziendali volte a limitare la libertà di scelta degli utenti](https://www.dday.it/redazione/52749/synology-meno-funzioni-sui-nas-consumer-se-non-si-usano-dischi-certificati-o-marchiati-synology), ho preferito acquistare la new entry del settore. Rispetto alla concorrenza è più performante (ha un processore Intel N100, quindi niente ARM), 8GB di RAM espandibili, capienda di 2 dischi da 3.5/2.5 + 2 nvme da usare come dischi stessi o come cache. Io ho scelto di acquistare due dischi Seagate IronWolf da 4tb al momento.
 Avevo un po' di timore per il sistema operativo, ma, dopo tante ricerche, sembra che sia ben supportato e di facile compresione (punto fondamentale, di Reti ho fatto un esame in università ma non direi proprio di essere sul pezzo).
 
-Elenco qui come ho cominciato ad usare il mio *disco di rete intelligente*.
+Elenco qui come ho cominciato ad usare il mio _disco di rete intelligente_.
 
 ## Time Machine
 
@@ -34,7 +34,7 @@ Negli ultimi anni ho acquistato 3 giochi splendidi che avevano la colonna sonora
 
 I primi due hanno la colonna sonora scaricabile in digitale, ma non sapevo bene dove salvarla: le avevo "parcheggiate" su OneDrive, ma ascoltare in remoto è sempre stato un'impresa, e tra l'altro mi sono accorto che deficitavano di parecchi metadati.
 
-Ho così creato una cartella sul NAS, l'ho *montata* su MacOS e ho usato il software gratuito [MusicBrainz Picard](https://picard.musicbrainz.org/) per aggiungere i metadati mancanti (tra l'altro pensavo dovesse essere un'operazione manuale e invece ha fatto tutto in automatico, top). Ora dal NAS, usando l'applicazione Musica, riesco perfettamente ad ascoltare le tracce da remoto.
+Ho così creato una cartella sul NAS, l'ho _montata_ su MacOS e ho usato il software gratuito [MusicBrainz Picard](https://picard.musicbrainz.org/) per aggiungere i metadati mancanti (tra l'altro pensavo dovesse essere un'operazione manuale e invece ha fatto tutto in automatico, top). Ora dal NAS, usando l'applicazione Musica, riesco perfettamente ad ascoltare le tracce da remoto.
 
 Death's Door invece presenta una OST in CD, ma non ho nessun lettore a casa.... se non nel Thinkpad di cui accennavo sopra. Devo imparare a ripparlo e a salvarlo sopra.
 

@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Un mese impegnativo
 description:
 date: 2025-09-19
-tags: ["personale"]
+tags: ['personale']
 ---
 
 A causa di un temporale, un fulmine ha colpito la centralina telefonica e il mio modem / router si è rotto.
@@ -14,5 +14,5 @@ A causa dello stesso temporale, il robot tagliaerba si è guastato.
 
 A causa di un incidente, che fortunatamente non ha ferito persone, una macchina ha distrutto la mia auto.
 
-Si, è stato un mese decisamente impegnativo. Fortunatamente *sono solo cose*, per cui tutto si può sistemare.
+Si, è stato un mese decisamente impegnativo. Fortunatamente _sono solo cose_, per cui tutto si può sistemare.
 Che fatica, però.

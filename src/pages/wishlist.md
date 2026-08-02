@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/MarkdownPageLayout.astro
-title: "Whishlist"
+title: 'Whishlist'
 ---
 
 Sicuramente è capitato anche a voi che qualcuno vi chieda cosa vogliate per Natale / Compleanno / ecc. Io sono fortunatamente nella posizione di poter dire di non aver bisogno di nulla: ho un lavoro, una casa, una bellissima famiglia, una salute decente... non ho davvero niente di cui lamentarmi.
@@ -86,11 +86,13 @@ Se allarghiamo invece la categiria, ultimamente mi sto appassionando ai **bookaz
 Tra i più interessanti che conosco e che mi piacerebbe sfogliare ci sono:
 
 <!-- - i bookazine realizzati dagli italianissimi [RoundTwo Publishing](https://roundtwo.world/), in particolare [Void Arcana](https://roundtwo.world/pages/void-arcana), interamente dedicato ai due Hollow Knight (che sono tra i miei giochi preferiti) -->
+
 - [Storie di Videogame 2 e 3](https://itomi.shop/products/sdvg3), due libri che trattano la storia produttiva dietro ad alcune delle saghe videoludiche più famose. Ho il primo volume e l'ho davvero apprezzato.
 - [TUNIC - Design Works](https://www.lostincult.co.uk/tunic) di [LostInCult](https://www.lostincult.co.uk), un libro dedicato allo sviluppo del gioco TUNIC, uno dei miei preferiti di sempre.
 - [The SNES Pixel Book](https://www.bitmapbooks.com/collections/all-books/products/the-snes-pixel-book?) di [Bitmap Books](https://www.bitmapbooks.com), un libro interamente dedicato al Super Nintendo
 
 <!-- ![La copertina di Void Arcana](../assets/wl-void-arcana.jpeg) -->
+
 ![Le due copertine di TUNIC - Design Works](../assets/wl-tunic-design-works.jpeg)
 ![The SNES Pixel Book](../assets/wl-snes-pixel-book.jpeg)
 

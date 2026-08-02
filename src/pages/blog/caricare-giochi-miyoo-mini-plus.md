@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Caricare giochi sulla Miyoo Mini Plus tramite WiFi
 description: Basato su Onion OS 4.3
 date: 2024-12-30
-tags: ["tutorial", "miyoo mini plus"]
+tags: ['tutorial', 'miyoo mini plus']
 ---
 
 - Dalla console, navigare sotto _Apps -> Tweaks -> Network -> HTTP: Web-based file sync_

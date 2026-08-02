@@ -3,13 +3,13 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Il mio nuovo modo di giocare
 description: O, almeno, nuovo per me.
 date: 2024-12-12
-tags: ["videogames"]
+tags: ['videogames']
 ---
 
-Ho avuto precedentemente un *Nintendo 2ds*, e ora gioco su *Nintendo Switch* e *Steam Deck*.
+Ho avuto precedentemente un _Nintendo 2ds_, e ora gioco su _Nintendo Switch_ e _Steam Deck_.
 
-Perchè mai non ho approfondito prima il funzionamento dello *standby* sulle console? È **la svolta**!
-Soprattutto ora che gioco principalmente nei ritagli di tempo, poter *mettere in pausa* per lungo tempo la console con un gioco avviato mi permette di giocare di più, perchè:
+Perchè mai non ho approfondito prima il funzionamento dello _standby_ sulle console? È **la svolta**!
+Soprattutto ora che gioco principalmente nei ritagli di tempo, poter _mettere in pausa_ per lungo tempo la console con un gioco avviato mi permette di giocare di più, perchè:
 
 - evitato i tempi anche lunghi sia di console che di gioco
 - non devo cercare punti di salvataggio nei giochi che lo richiedono

@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/MarkdownPageLayout.astro
-title: "About"
+title: 'About'
 ---
 
 Mi chiamo Davide, sono un _ragazzo_ nato nel 1988 e online mi firmo come **Scario**: mi riconosci facilmente dall’avatar di Donatello delle Tartarughe Ninja in pixel art.

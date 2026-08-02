@@ -1,10 +1,10 @@
-export type GameStatus = "draft" | "published" | "updated";
+export type GameStatus = 'draft' | 'published' | 'updated';
 export interface Post {
   frontmatter: {
     title: string;
     description: string;
     date: string;
-    tags?: string[]
+    tags?: string[];
   };
   url: string;
 }

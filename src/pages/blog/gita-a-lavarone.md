@@ -3,10 +3,10 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Una gita a Lavarone
 description: Giusto un paio di giorni, ma piacevoli
 date: 2025-02-26
-tags: ["gita"]
+tags: ['gita']
 ---
 
-*Commento dopo la rilettura: ok, non sono proprio portato per la scrittura :D ma data la mia scarsa memoria ci tengo comunque a mantenere questo post nel caso possa servire in futuro*
+_Commento dopo la rilettura: ok, non sono proprio portato per la scrittura :D ma data la mia scarsa memoria ci tengo comunque a mantenere questo post nel caso possa servire in futuro_
 
 Sono stato con la mia compagna a Bertoldi, una piccola frazione di Lavarone, grazie ad un cofanetto Emozione3 che ci era stato regalato e che stavamo per far scadere.
 

@@ -1,5 +1,5 @@
-@import "@fontsource/maple-mono/400.css";
-@import "@fontsource/maple-mono/400-italic.css";
+@import '@fontsource/maple-mono/400.css';
+@import '@fontsource/maple-mono/400-italic.css';
 
 :root {
   --color-primary: #bd3b9a;
@@ -18,7 +18,7 @@
 
 html {
   background-color: #f8fafc;
-  font-family: "Maple Mono", monospace;
+  font-family: 'Maple Mono', monospace;
 }
 
 header {
@@ -53,7 +53,7 @@ main {
   margin-bottom: 40px;
 
   @media screen and (max-width: 992px) {
-    font-size: 0,95rem;
+    font-size: 0, 95rem;
   }
 }
 
@@ -82,7 +82,7 @@ h1 {
   font-size: 2.5rem;
 
   @media screen and (max-width: 992px) {
-    font-size: 1.85rem
+    font-size: 1.85rem;
   }
 }
 
@@ -99,7 +99,7 @@ p {
 
 .navigation {
   display: flex;
-  gap: .5rem;
+  gap: 0.5rem;
 }
 
 .hero {
@@ -119,7 +119,7 @@ p {
 
     @media screen and (min-width: 992px) {
       &:before {
-        content: "-";
+        content: '-';
         margin-right: 1em;
       }
     }
@@ -225,10 +225,7 @@ p {
 
   &__tags {
     display: flex;
-    gap: .5em;
-    background-color: var(--light-gray);
-    padding: .5em;
-    margin-inline: -.5em;
+    gap: 0.5em;
   }
 
   &__description {

@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Milano Indies, seconda edizione
 description:
 date: 2025-03-30
-tags: ["videogames"]
+tags: ['videogames']
 ---
 
 ![Locandina Milano Indies](../../assets/milano-indies-nemiex.jpg)

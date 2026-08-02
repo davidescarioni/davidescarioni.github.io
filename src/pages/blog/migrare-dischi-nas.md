@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Migrare i dischi di un NAS ad un altro modello
 description:
 date: 2025-11-17
-tags: ["software"]
+tags: ['software']
 ---
 
 ## Premessa

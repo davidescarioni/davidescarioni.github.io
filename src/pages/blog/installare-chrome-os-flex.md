@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Installare ChromeOS Flex su un vecchio Celeron
 description:
 date: 2025-09-20
-tags: ["tech"]
+tags: ['tech']
 ---
 
 .. è assolutamente fattibile, e oserei dire che ne vale la pena.
@@ -16,11 +16,11 @@ Dato che Windows 10 diventerà obsoleto tra poco più di un mese ho preso la pal
 
 Avevo due scelte davanti:
 
-- installare una distribuzione linux *leggera*
+- installare una distribuzione linux _leggera_
 - installare ChromeOS
 
 La prima idea mi è sempre sembrata la più papabile, ma mi rendo conto che, non avendo un pc con Linux a casa, ogni tentativo di aiuto da remoto a mia madre sarebbe stato difficile.
-Chrome OS invece mi ha dato un'ottima impressione dopo aver regalato un Chromebook a mio padre, che è stato contento dal primo giorno in cui l'ha avviato e mi dice ancora oggi che *gli ho regalato un Ferrari*, nonostante sia comunque un entry level (Samsung Chromebook 14).
+Chrome OS invece mi ha dato un'ottima impressione dopo aver regalato un Chromebook a mio padre, che è stato contento dal primo giorno in cui l'ha avviato e mi dice ancora oggi che _gli ho regalato un Ferrari_, nonostante sia comunque un entry level (Samsung Chromebook 14).
 Ho quindi optato per la scelta di Chrome OS in versione "Flex", che per chi non lo sapesse è la versione installabile da tutti sui propri pc con la limitazione di non poter usare le app Android ma solo la parte web e, eventualmente, il terminale linux.
 
 ## Prepararsi all'installazione
@@ -28,7 +28,7 @@ Ho quindi optato per la scelta di Chrome OS in versione "Flex", che per chi non 
 Per creare il supporto di installazione ci vuole una chiavetta usb da almeno 8gb veri (nel senso che la classica chiavetta usb da 8gb che il sistema rileva da 7,xx GB non va bene). Nel caso rientraste nel caso descritto tra parentesi andate al paragrafo [#workaround](#workaround).
 Serve poi il browser Chrome (ma credo vada bene qualsiasi a base Chromium anche se non ho provato) nel quale installare l'estensione [Utilità ripristino Chromebook](https://chromewebstore.google.com/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm).
 
-Una volta installata, basta seguire le indicazioni e fare un *avanti avanti avanti*. L'unico step nel quale fare attenzione è quello di selezione del modello del pc dove, anzichè scegliere effettivamente il modello posseduto, va scelta la voce **Chrome OS Flex**.
+Una volta installata, basta seguire le indicazioni e fare un _avanti avanti avanti_. L'unico step nel quale fare attenzione è quello di selezione del modello del pc dove, anzichè scegliere effettivamente il modello posseduto, va scelta la voce **Chrome OS Flex**.
 
 ### Workaround
 
@@ -36,7 +36,7 @@ Come dicevo prima, il software per creare la chiavetta di installazione è molto
 
 ## Installazione
 
-Il mio portatile aveva già la lettura da USB come primaria, quindi mi è bastato accendere il notebook con la chiavetta inserita per cominciare l'installazione. Se non è così sul vostro, potete premere un tasto per accedere alla scelta del disco da cui far partire il sistema (anche qui in [documentazione](https://support.google.com/chromeosflex/answer/11552352?sjid=12499755134570041330-EU#boot&zippy=%2Cchiavi-di-avvio), alla voce *Chiavi di avvio* trovate il pulsante da premere in base al marchio.
+Il mio portatile aveva già la lettura da USB come primaria, quindi mi è bastato accendere il notebook con la chiavetta inserita per cominciare l'installazione. Se non è così sul vostro, potete premere un tasto per accedere alla scelta del disco da cui far partire il sistema (anche qui in [documentazione](https://support.google.com/chromeosflex/answer/11552352?sjid=12499755134570041330-EU#boot&zippy=%2Cchiavi-di-avvio), alla voce _Chiavi di avvio_ trovate il pulsante da premere in base al marchio.
 
 Una volta partito l'installer vi verrà chiesto se volete provare il sistema oppure cancellare completamente il disco e installare Chome OS Flex (non si può fare dual boot). L'opzione per provare il sistema a me non ha funzionato, così ho installato alla cieca. Il processo è veloce e non chiede praticamente altro per andare dall'inzio alla fine.
 

@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: The Pathless, su Switch, non lo consiglio
 description:
 date: 2025-11-07
-tags: ["videogames"]
+tags: ['videogames']
 ---
 
 ![La prima schermata di gioco](../../assets/the-pathless-intro.jpg)

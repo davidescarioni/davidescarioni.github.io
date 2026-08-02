@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Digital Decluttering Checklist
 description: Un po' di pulizia digitale per iniziare bene l'anno
 date: 2025-01-02
-tags: ["software"]
+tags: ['software']
 ---
 
 Da qualche mese ho un Mac Mini, e, poco prima di andarlo a ritirare, avevo fatto una bellissima lista di tutto quello che avrei voluto sistemare tra i miei contenuti digitali sparsi sul vecchio fisso e sul portatile.

@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: GameMaker Meetup 2025
 description: Torniamo a vederci dopo due anni
 date: 2025-11-02
-tags: ["gmi", "videogames"]
+tags: ['gmi', 'videogames']
 ---
 
 Come avevo anticipato nel post della [Milano Games Week 2024](/blog/milano-games-week-2024/), non era davvero mia intenzione organizzare un altro Meetup per GameMaker

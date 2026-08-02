@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Tobla - Divine Path
 description:
 date: 2025-05-19
-tags: ["videogames"]
+tags: ['videogames']
 ---
 
 ![La locandina di Tobla - Divine Path](../../assets/tobla-title-screen.jpg)

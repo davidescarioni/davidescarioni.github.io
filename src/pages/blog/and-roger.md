@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: and Roger
 description: Più che un gioco, un'esperienza
 date: 2026-01-08
-tags: ["videogames"]
+tags: ['videogames']
 ---
 
 ![Banner di gioco](../../assets/and-roger-banner.png)

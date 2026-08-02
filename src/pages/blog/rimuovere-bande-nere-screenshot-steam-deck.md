@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Rimuovere le barre nere dagli screenshot di Steam Deck
 description: Risolviamo il problema con uno script.
 date: 2026-03-18
-tags: ["software"]
+tags: ['software']
 ---
 
 Quando si fanno **screenshot** da Steam Deck, spesso è possibile che questi presentino delle barre nere sopra e sotto all'immagine: questo è dovuto al fatto che molti giochi sono ottimizzati per schermi 16:9, mentre la nostra console/pc ne ha uno in 16:10.

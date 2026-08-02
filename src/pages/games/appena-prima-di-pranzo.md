@@ -3,9 +3,9 @@ layout: ../../layouts/MarkdownGameLayout.astro
 title: Appena prima di pranzo
 description: Un piccolo MetroidVania in 8bit
 banner: /images/appena-prima-di-pranzo.png
-downloadUrls: ["https://scario88.itch.io/appena-prima-di-pranzo"]
+downloadUrls: ['https://scario88.itch.io/appena-prima-di-pranzo']
 relatedLinks: []
-status: "draft"
+status: 'draft'
 releasedDate: 2023
 ---
 

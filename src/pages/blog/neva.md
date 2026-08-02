@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Non ho amato Neva come mi aspettavo
 description: Forse non sta ancora parlando a me?
 date: 2026-03-12
-tags: ["videogames"]
+tags: ['videogames']
 ---
 
 ![Uno dei miei momenti preferiti in Neva](../../assets/neva_7.jpeg)

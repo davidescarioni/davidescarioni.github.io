@@ -3,12 +3,12 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Ho riparato (ancora) un Logitech Mx Master 2s
 description: Se anche il tuo è bloccato, qui troverai la soluzione
 date: 2026-03-30
-tags: ["tech"]
+tags: ['tech']
 ---
 
 Vi è mai capitato che il vostro mouse Logitech Mx Master 2s non recepisse più nessun movimento, ma è ancora possibile fare click?
 
-Se si non preoccupatevi, il mouse non è da buttare, basta un cacciavite e un po' di pazienza per rimetterlo *quasi* a nuovo. Non è nemmeno un problema così raro: anche ai miei colleghi di ufficio con lo stesso mouse è capitato, quindi è probabilmente **un difetto intrinseco nella costruzione del prodotto**.
+Se si non preoccupatevi, il mouse non è da buttare, basta un cacciavite e un po' di pazienza per rimetterlo _quasi_ a nuovo. Non è nemmeno un problema così raro: anche ai miei colleghi di ufficio con lo stesso mouse è capitato, quindi è probabilmente **un difetto intrinseco nella costruzione del prodotto**.
 
 Il problema è dovuto al fatto che il **thumb button** (il bottone invisibile posizionato esattamente sotto a dove poggia il pollice) rimane incastrato: purtroppo non è disattivabile da software, e per far funzionare il mouse va **sbloccato** a mano.
 

@@ -3,9 +3,9 @@ layout: ../../layouts/MarkdownGameLayout.astro
 title: Liespire
 description: Un piccolo MetroidVania in 8bit
 banner: /images/liespire-banner.png
-downloadUrls: ["https://scario88.itch.io/liespire"]
+downloadUrls: ['https://scario88.itch.io/liespire']
 relatedLinks: []
-status: "draft"
+status: 'draft'
 releasedDate: 2025
 ---
 

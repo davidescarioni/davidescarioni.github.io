@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Stardrop, il mio gioco per la Compe 2025
 description:
 date: 2025-06-04
-tags: ["gmi", "videogames"]
+tags: ['gmi', 'videogames']
 ---
 
 ![Schermata del titolo del gioco](../../assets/stardrop-title-screen.png)
