@@ -3,9 +3,9 @@ layout: ../../layouts/MarkdownGameLayout.astro
 title: Silent Night
 description: Un regalo per Mad
 banner: /images/silent-night-banner.png
-downloadUrls: ['https://scario88.itch.io/silent-night']
+downloadUrls: ["https://scario88.itch.io/silent-night"]
 relatedLinks: []
-status: 'draft'
+status: "draft"
 releasedDate: 2026
 ---
 

@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Steam Next Fest 2025, cosa ho provato
 description:
 date: 2025-06-14
-tags: ['videogames']
+tags: ["videogames"]
 ---
 
 Si, lo Steam Next Fest non è ancora finito, ma sono in partenza per un viaggio all'estero e non avrò modo di giocare settimana prossima, per cui lascio qui i miei feedback prima che le demo vengano rimosse da Steam.

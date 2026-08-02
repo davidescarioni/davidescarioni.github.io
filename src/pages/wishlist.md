@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/MarkdownPageLayout.astro
-title: 'Whishlist'
+title: "Whishlist"
 ---
 
 Sicuramente è capitato anche a voi che qualcuno vi chieda cosa vogliate per Natale / Compleanno / ecc. Io sono fortunatamente nella posizione di poter dire di non aver bisogno di nulla: ho un lavoro, una casa, una bellissima famiglia, una salute decente... non ho davvero niente di cui lamentarmi.

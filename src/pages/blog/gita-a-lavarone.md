@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Una gita a Lavarone
 description: Giusto un paio di giorni, ma piacevoli
 date: 2025-02-26
-tags: ['gita']
+tags: ["gita"]
 ---
 
 _Commento dopo la rilettura: ok, non sono proprio portato per la scrittura :D ma data la mia scarsa memoria ci tengo comunque a mantenere questo post nel caso possa servire in futuro_

@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Milano Games Week 2024
 description: anche quest'anno solo fiera e niente Meetup
 date: 2024-11-24
-tags: ['gmi', 'videogames']
+tags: ["gmi", "videogames"]
 ---
 
 Sono stato tre volte alla Milano Games Week:

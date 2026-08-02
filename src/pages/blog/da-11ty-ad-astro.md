@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Da 11ty ad Astro
 description: Finalmente, dopo più di un anno, posso dire di avere un blog "tutto mio"
 date: 2026-07-17
-tags: ['personale']
+tags: ["personale"]
 ---
 
 Lo avevo accennato [almeno una volta](./ciao/) qui sul blog]: visto che avevo la motivazione e non volevo sbattere la testa nel **progetto perfetto** prima di pubblicare un blog, ho preso lo starter blog di [11ty](https://www.11ty.dev/) e ho cominciato a scrivere. Ed è andato bene così, era un esperimento.

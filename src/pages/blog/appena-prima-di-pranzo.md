@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Appena prima di pranzo
 description: Devlog delle sviluppo di una mia [micro] avventura grafica
 date: 2025-09-29
-tags: ['gmi', 'videogames']
+tags: ["gmi", "videogames"]
 ---
 
 Ho recentemente pubblicato Appena prima di pranzo, un piccolissimo gioco sviluppato per la jam a tema "Nostalgia". Lo potete trovare su [itch.io](https://scario88.itch.io/appena-prima-di-pranzo) e su [indiexpo](https://www.indiexpo.net/it/games/appena-prima-di-pranzo).

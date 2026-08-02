@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Ho riparato (ancora) un Logitech Mx Master 2s
 description: Se anche il tuo è bloccato, qui troverai la soluzione
 date: 2026-03-30
-tags: ['tech']
+tags: ["tech"]
 ---
 
 Vi è mai capitato che il vostro mouse Logitech Mx Master 2s non recepisse più nessun movimento, ma è ancora possibile fare click?

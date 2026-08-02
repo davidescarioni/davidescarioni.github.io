@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Aiutare il mondo passeggiando
 description: Contribuiamo ad un progetto open source
 date: 2026-02-09
-tags: ['personale']
+tags: ["personale"]
 ---
 
 Durante le mie camminate insieme a mia figlia nel passeggino, lei si appisola quasi subito e mi lascia minuti e minuti di silenzio, quindi ho cercato di trovare attività per _riempire_ questi momenti. Si lo so, **la noia fa bene**, ma il mio paese è comunque fin troppo noioso per camminare guardandosi intorno _e basta_ :D.

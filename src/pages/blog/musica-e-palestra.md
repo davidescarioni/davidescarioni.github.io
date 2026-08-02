@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Musica e palestra
 description:
 date: 2025-04-30
-tags: ['personale']
+tags: ["personale"]
 ---
 
 Ho sempre trovato che ascoltare musica durante lo sport fosse solo un accompagnamento per non annoiarsi. Anzi, la trovavo proprio una distrazione fastidiosa: nuotare / correre senza musica mi permetteva di perdermi nei miei pensieri, quasi l'equivalente di una meditazione.

@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Una passeggiata di 24km
 description:
 date: 2025-05-21
-tags: ['personale']
+tags: ["personale"]
 ---
 
 Sabato, in compagnia della mia compagna, sua madre e altre centinaia di persone, abbiamo fatto la _pazzia_ di fare la Milano - Abbiategrasso, una passeggiata accanto al naviglio di circa 24km.

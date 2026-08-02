@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Project Hailstorm
 description:
 date: 2025-04-15
-tags: ['videogames']
+tags: ["videogames"]
 ---
 
 [Project Hailstorm](https://store.steampowered.com/app/3388760/Project_Hailstorm/) è un _atmosferic walking simulator_ della durata di 15 minuti che si può scaricare gratis da Steam.

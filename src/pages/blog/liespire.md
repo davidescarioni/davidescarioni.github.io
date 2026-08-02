@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: LIESPIRE
 description: Il mio gioco per la Terror0ttobre 2025
 date: 2025-11-03
-tags: ['gmi', 'videogames']
+tags: ["gmi", "videogames"]
 ---
 
 ![LIESPIRE banner](../../assets/liespire-banner.png)

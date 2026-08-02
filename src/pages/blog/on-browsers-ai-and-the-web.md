@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: On Browsers, AI and the web
 description:
 date: 2025-06-12
-tags: ['personale']
+tags: ["personale"]
 ---
 
 **Manuel Monreale** nel suo blog post [On Browser,s AI, and the web](https://manuelmoreale.com/on-browsers-ai-and-the-web), parla del fatto che alcune compagnie stiano trattando le pagine web come meri strumenti da dare in pasto all'AI, e che c'è il pericolo che questa diventerà il modo delle persone non tecniche per interfacciarsi con internet.

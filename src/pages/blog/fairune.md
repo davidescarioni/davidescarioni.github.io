@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Fairune
 description: Sembra Zelda ma non è
 date: 2026-02-06
-tags: ['videogames']
+tags: ["videogames"]
 ---
 
 ![Banner di gioco](../../assets/fairune-banner.jpg)

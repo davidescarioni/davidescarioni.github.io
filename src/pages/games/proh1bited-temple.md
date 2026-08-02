@@ -3,9 +3,9 @@ layout: ../../layouts/MarkdownGameLayout.astro
 title: Proh1bited Temple
 description: L'immortalità è ad un passo, sta a te saperla riconoscere
 banner: /images/proh1bited-temple.jpeg
-downloadUrls: ['https://scario88.itch.io/proh1bited-temple']
+downloadUrls: ["https://scario88.itch.io/proh1bited-temple"]
 relatedLinks: []
-status: 'draft'
+status: "draft"
 releasedDate: 2021
 ---
 

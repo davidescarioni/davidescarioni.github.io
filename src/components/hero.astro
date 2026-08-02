@@ -2,10 +2,10 @@
 import BlogDate from "./blog-date.astro";
 
 interface HeroProps {
-  title: string;
-  description?: string;
-  date?: string;
-  tags?: string[];
+	title: string;
+	description?: string;
+	date?: string;
+	tags?: string[];
 }
 
 type Props = HeroProps;
@@ -14,29 +14,30 @@ const { title, description, date, tags } = Astro.props;
 ---
 
 <div class="hero">
-  <h1 class="hero__title">{title}</h1>
-  {
-    description && (
-      <div class="hero__description">
-        <em>{description}</em>
-      </div>
-    )
-  }
-  {
-    (date || tags) && (
-      <div class="hero__data">
-        {date && <BlogDate date={date} />}
-        {tags && (
-          <div class="hero__tags">
-            Tag(s):
-            {tags && tags.map((tag: string) => (
-              <a class="tag" href={`/tags/${tag}`}>
-                #{tag}
-              </a>
-            ))}
-          </div>
-        )}
-      </div>
-    )
-  }
+	<h1 class="hero__title">{title}</h1>
+	{
+		description && (
+			<div class="hero__description">
+				<em>{description}</em>
+			</div>
+		)
+	}
+	{
+		(date || tags) && (
+			<div class="hero__data">
+				{date && <BlogDate date={date} />}
+				{tags && (
+					<div class="hero__tags">
+						Tag(s):
+						{tags &&
+							tags.map((tag: string) => (
+								<a class="tag" href={`/tags/${tag}`}>
+									#{tag}
+								</a>
+							))}
+					</div>
+				)}
+			</div>
+		)
+	}
 </div>

@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: 1000 giorni
 date: 2025-06-03
 description: 3 anni bastano per imparare qualcosa?
-tags: ['personale']
+tags: ["personale"]
 ---
 
 Oggi è il 1000° giorno di fila nel quale completo almeno una lezione su Duolingo

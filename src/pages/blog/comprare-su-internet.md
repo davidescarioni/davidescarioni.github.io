@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Comprare su Internet
 description: Alcune esperienze di acquisto online su siti insoliti
 date: 2025-07-16
-tags: ['personale', 'videogame', 'cibo']
+tags: ["personale", "videogame", "cibo"]
 ---
 
 Amazon ha avuto il grande merito di _sdoganare_ gli acquisti online: ricordo, tempo addietro, che comprare qualcosa dalla rete regalava solo ansie e paura sulla possibilità che venissero rubati i soldi spesi o che i prodotti venduti non fossero reali.

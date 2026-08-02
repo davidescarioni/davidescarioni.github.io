@@ -3,19 +3,13 @@ import CardBlog from "../components/card-blog.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { type Post } from "../utils/types";
 
-const allPosts = Object.values(
-	import.meta.glob<Post>("./blog/*.md", { eager: true })
-);
+const allPosts = Object.values(import.meta.glob<Post>("./blog/*.md", { eager: true }));
 
 const orderedPosts = allPosts.sort(
-	(a, b) =>
-		new Date(b.frontmatter.date).valueOf() -
-		new Date(a.frontmatter.date).valueOf()
+	(a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf()
 );
 
-const tags = [
-	...new Set(allPosts.map((post: any) => post.frontmatter.tags).flat()),
-];
+const tags = [...new Set(allPosts.map((post: Post) => post.frontmatter.tags).flat())];
 
 const pageTitle = "Blog";
 ---

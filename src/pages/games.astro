@@ -4,14 +4,11 @@ import { type Game } from "../utils/types";
 
 const pageTitle = "Games";
 
-const allPosts = Object.values(
-	import.meta.glob<Game>("./games/*.md", { eager: true })
-);
+const allPosts = Object.values(import.meta.glob<Game>("./games/*.md", { eager: true }));
 
 const orderedGames = allPosts.sort(
 	(a, b) =>
-		new Date(b.frontmatter.releasedDate).valueOf() -
-		new Date(a.frontmatter.releasedDate).valueOf()
+		new Date(b.frontmatter.releasedDate).valueOf() - new Date(a.frontmatter.releasedDate).valueOf()
 );
 ---
 
@@ -37,11 +34,7 @@ const orderedGames = allPosts.sort(
             <span class="sr-only">{game.frontmatter.title}</span>
           </a> */}
 
-						<a
-							href={game.frontmatter.downloadUrls[0]}
-							target="_blank"
-							rel="noopener noreferrer"
-						>
+						<a href={game.frontmatter.downloadUrls[0]} target="_blank" rel="noopener noreferrer">
 							<img
 								class="card-games-list__item-image"
 								src={game.frontmatter.banner}

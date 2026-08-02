@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: I videogiochi non scadono
 description:
 date: 2025-08-14
-tags: ['videogames']
+tags: ["videogames"]
 ---
 
 Ho sentito questa affermazione da Fossetti di [Round Two](https://www.youtube.com/@RoundTwoTwitch), e non potrei essere più d’accordo.

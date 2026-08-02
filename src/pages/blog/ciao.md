@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Ciao, ci sono anch'io.
 description: Ora ho anche io un piccolo spazio del web tutto per me.
 date: 2024-11-12
-tags: ['personale']
+tags: ["personale"]
 ---
 
 Ciao, mi chiamo Davide ma sul web mi faccio chiamare **Scario**: non è un nickname molto originale dato che è anche il soprannome che ho sin dalle scuole medie, ma è diventato da anni il mio alter ego sul web e va bene così.

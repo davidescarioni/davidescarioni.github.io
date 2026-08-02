@@ -1,16 +1,15 @@
 ---
-import BlogDate from "../components/blog-date.astro";
 import BaseLayout from "./BaseLayout.astro";
 const { frontmatter } = Astro.props;
 ---
 
 <BaseLayout
-  title={frontmatter.title}
-  description={frontmatter.description}
-  date={frontmatter.date}
-  tags={frontmatter.tags}
+	title={frontmatter.title}
+	description={frontmatter.description}
+	date={frontmatter.date}
+	tags={frontmatter.tags}
 >
-  <div class="article-details">
-    <slot />
-  </div>
+	<div class="article-details">
+		<slot />
+	</div>
 </BaseLayout>

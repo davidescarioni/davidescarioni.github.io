@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Bionic Bay è un bel plaftorm
 description: Rinnovare il genere senza rivoluzionarlo
 date: 2026-07-11
-tags: ['videogames']
+tags: ["videogames"]
 ---
 
 ![Title screen di Bionic Bay](../../assets/bionic-bay-banner.jpeg)

@@ -3,9 +3,9 @@ layout: ../../layouts/MarkdownGameLayout.astro
 title: De Spelunca Ex Elementis
 description: Un piccolo MetroidVania in 8bit
 banner: /images/de-spelunca-ex-elementis-banner.png
-downloadUrls: ['https://scario88.itch.io/de-spelunca-ex-elementis']
+downloadUrls: ["https://scario88.itch.io/de-spelunca-ex-elementis"]
 relatedLinks: []
-status: 'draft'
+status: "draft"
 releasedDate: 2019
 ---
 

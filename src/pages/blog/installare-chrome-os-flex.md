@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Installare ChromeOS Flex su un vecchio Celeron
 description:
 date: 2025-09-20
-tags: ['tech']
+tags: ["tech"]
 ---
 
 .. è assolutamente fattibile, e oserei dire che ne vale la pena.

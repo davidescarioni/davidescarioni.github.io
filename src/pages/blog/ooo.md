@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Öoo è una bomba
 description:
 date: 2025-08-13
-tags: ['videogames']
+tags: ["videogames"]
 ---
 
 ![Banner Öoo](../../assets/ooo-logo.png)

@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Il tuo prossimo gioco per Nintendo Switch
 description:
 date: 2025-03-21
-tags: ['videogames']
+tags: ["videogames"]
 ---
 
 _... l'hai già comprato!_

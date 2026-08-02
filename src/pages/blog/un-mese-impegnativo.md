@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Un mese impegnativo
 description:
 date: 2025-09-19
-tags: ['personale']
+tags: ["personale"]
 ---
 
 A causa di un temporale, un fulmine ha colpito la centralina telefonica e il mio modem / router si è rotto.

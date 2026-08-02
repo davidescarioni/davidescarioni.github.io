@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Rimuovere lo spin jump dal salto di New Super Mario Bros U Deluxe
 description: Correggiamo una fastidiosissima scelta di design da uno dei Mario Bros meno amati
 date: 2026-07-19
-tags: ['videogames']
+tags: ["videogames"]
 ---
 
 ## Premessa

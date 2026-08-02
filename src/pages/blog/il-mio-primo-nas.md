@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Il mio primo NAS
 description:
 date: 2025-08-18
-tags: ['software']
+tags: ["software"]
 ---
 
 Dopo tanto, tantissimo tergiversare, mi sono deciso a comprare un NAS. E' un mio pallido da anni perchè ho paura di perdere dati: da ragazzo ho cambiato più sistemi di archiviazione e ho ancora roba un po' sparsa tra dischi removibili e cloud, e vorrei finalmente avere un punto centralizzato con tutto dentro.

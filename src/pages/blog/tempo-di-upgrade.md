@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: Tempo di upgrade
 date: 2025-07-30
-tags: ['personale', 'tech']
+tags: ["personale", "tech"]
 ---
 
 Più passa il tempo, più il fare upgrade software o hardware mi sembra sempre meno un piacere e sempre più un peso, a differenza di quando ero più giovane dove anzi era quasi un momento di festa.

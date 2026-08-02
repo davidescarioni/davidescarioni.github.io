@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Finalmente ho un dominio
 description:
 date: 2025-06-02
-tags: ['personale']
+tags: ["personale"]
 ---
 
 Se siete arrivati qui lo saprete già, ma finalmente ho acquistato un dominio: [scario.xyz](https://scario.xyz).

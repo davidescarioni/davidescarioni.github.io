@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Il mio nuovo modo di giocare
 description: O, almeno, nuovo per me.
 date: 2024-12-12
-tags: ['videogames']
+tags: ["videogames"]
 ---
 
 Ho avuto precedentemente un _Nintendo 2ds_, e ora gioco su _Nintendo Switch_ e _Steam Deck_.

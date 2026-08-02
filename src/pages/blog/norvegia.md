@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Norvegia
 description:
 date: 2025-06-23
-tags: ['personale']
+tags: ["personale"]
 ---
 
 La scorsa settimana io e il mio collega Simone siamo andati a trovare un nostro ex-collega (Giovanni) ad Oslo, città nella quale si è trasferito per fare un'esperienza lavorativa all'estero. Avevo qualche timore prima di partire, perchè sono persone che frequento poco fuori dal lavoro, e visto che ormai sono anni che vado in ferie solo con la mia compagna, pensavo di aver perso un po' l'abiudine a stare con gli altri per così tanto tempo: devo dire che invece è andata bene, ci sono dei compromessi da tenere ma riesco ancora ad adattarmi facilmente.

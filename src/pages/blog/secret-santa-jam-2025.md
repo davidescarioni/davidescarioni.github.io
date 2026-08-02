@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Secret Santa Jam 2025
 description: Quella nella quale ho partecipato insieme a Nanna.
 date: 2026-01-02
-tags: ['gmi', 'videogames']
+tags: ["gmi", "videogames"]
 ---
 
 Come scrivevo giusto l'[anno scorso](/blog/secret-santa-jam-2024/), la **Secret Santa Jam** è una jam organizzata sul Discord di GMI nella quale

@@ -3,9 +3,9 @@ layout: ../../layouts/MarkdownGameLayout.astro
 title: Don't drown, littles
 description: L'immortalità è ad un passo, sta a te saperla riconoscere
 banner: /images/don-t-drown-littles.png
-downloadUrls: ['https://v3.globalgamejam.org/2020/games/dont-drown-little-3']
+downloadUrls: ["https://v3.globalgamejam.org/2020/games/dont-drown-little-3"]
 relatedLinks: []
-status: 'draft'
+status: "draft"
 releasedDate: 2020
 ---
 

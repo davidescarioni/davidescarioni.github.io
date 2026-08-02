@@ -3,9 +3,9 @@ layout: ../../layouts/MarkdownGameLayout.astro
 title: Boonaburra
 description: Un piccolo MetroidVania in 8bit
 banner: /images/boonaburra-banner.png
-downloadUrls: ['https://scario88.itch.io/boonaburra']
+downloadUrls: ["https://scario88.itch.io/boonaburra"]
 relatedLinks: []
-status: 'draft'
+status: "draft"
 releasedDate: 2024
 ---
 

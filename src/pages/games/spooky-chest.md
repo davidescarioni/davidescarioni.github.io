@@ -3,9 +3,9 @@ layout: ../../layouts/MarkdownGameLayout.astro
 title: Spooky Chest
 description: Un piccolo MetroidVania in 8bit
 banner: /images/spooky-chest-banner.png
-downloadUrls: ['https://scario88.itch.io/spooky-chest']
+downloadUrls: ["https://scario88.itch.io/spooky-chest"]
 relatedLinks: []
-status: 'draft'
+status: "draft"
 releasedDate: 2023
 ---
 

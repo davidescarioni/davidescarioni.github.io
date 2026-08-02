@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: A cosa ho giocato nel 2024
 description: O, per meglio dire, cosa ho terminato
 date: 2025-01-13
-tags: ['videogames']
+tags: ["videogames"]
 ---
 
 Da due anni a questa parte sto tenendo traccia dei videogiochi che compro, di quanto spendo e di quanti ne finisco: mi piace farlo perchè mi rende più consapevole del tempo e del costo che ha una delle mie principali passioni.

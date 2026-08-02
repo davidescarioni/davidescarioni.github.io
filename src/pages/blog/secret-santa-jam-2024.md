@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Secret Santa Jam 2024
 description: Quella nella quale ho salvato (un) Natale insieme a Mad.
 date: 2024-12-21
-tags: ['gmi', 'videogames']
+tags: ["gmi", "videogames"]
 ---
 
 La _Secret Santa Jam_ è una jam che ho proposto e che facciamo ormai da tre anni su [GameMaker Italia](https://www.gamemakeritalia.it): sono davvero contento che è stata apprezzata e portata avanti dalla community perchè è la mia preferita tra quelle che organizziamo là dentro.
