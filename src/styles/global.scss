@@ -239,14 +239,22 @@ p {
 	}
 
 	&__banner {
-		width: 246px;
+		width: 100%;
 		height: auto;
+
+		@media screen and (min-width: 576px) {
+			width: 246px;
+		}
 	}
 }
 
 .card-game {
-	flex-direction: row;
+	flex-direction: column;
 	gap: 1rem;
+
+	@media screen and (min-width: 576px) {
+		flex-direction: row;
+	}
 }
 
 .card-container {
