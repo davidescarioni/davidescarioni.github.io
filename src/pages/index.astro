@@ -1,33 +1,51 @@
 ---
+import Intro from "../components/intro.astro";
 import CardBlog from "../components/card-blog.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { type Post } from "../utils/types";
+import { type Game, type Post } from "../utils/types";
+import CardGame from "../components/card-game.astro";
 
 const allPosts = Object.values(import.meta.glob<Post>("./blog/*.md", { eager: true }));
+const allGames = Object.values(import.meta.glob<Game>("./games/*.md", { eager: true }));
 
 const orderedPosts = allPosts.sort(
 	(a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf()
 );
 
-const pageTitle = "Home Page";
+const orderedGames = allGames.sort(
+	(a, b) =>
+		new Date(b.frontmatter.releasedDate).valueOf() - new Date(a.frontmatter.releasedDate).valueOf()
+);
+
+const lastPost = orderedPosts[0];
+const lastGame = orderedGames[0];
 ---
 
-<BaseLayout title={pageTitle}>
-	<h2>Blog</h2>
+<BaseLayout title="👋 Ciao">
+	<Intro />
+	<div class="card-container">
+		<div>
+			<h2>Post più recente</h2>
 
-	<ul class="blog-post-list" aria-label="Articoli del blog">
-		{
-			orderedPosts.map((post) => (
-				<li class="blog-post-list__item">
-					<CardBlog
-						date={post.frontmatter.date}
-						title={post.frontmatter.title}
-						description={post.frontmatter.description}
-						tags={post.frontmatter.tags}
-						url={post.url}
-					/>
-				</li>
-			))
-		}
-	</ul>
+			<CardBlog
+				date={lastPost.frontmatter.date}
+				title={lastPost.frontmatter.title}
+				description={lastPost.frontmatter.description}
+				tags={lastPost.frontmatter.tags}
+				url={lastPost.url}
+			/>
+			<a href="blog/">Vedi tutti i post</a>
+		</div>
+		<div>
+			<h2>Gioco più recente</h2>
+
+			<CardGame
+				title={lastGame.frontmatter.title}
+				banner={lastGame.frontmatter.banner}
+				description={lastGame.frontmatter.description}
+				url={lastGame.url}
+			/>
+			<a href="games/">Vedi tutti i giochi</a>
+		</div>
+	</div>
 </BaseLayout>

@@ -143,6 +143,10 @@ p {
 	}
 }
 
+.intro {
+	margin-bottom: 32px;
+}
+
 .article-details {
 	margin-top: 1.5rem;
 
@@ -204,7 +208,8 @@ p {
 	list-style: none;
 }
 
-.card-blog {
+.card-blog,
+.card-game {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
@@ -232,6 +237,22 @@ p {
 		margin-top: 0.5em;
 		margin-bottom: 0;
 	}
+
+	&__banner {
+		width: 246px;
+		height: auto;
+	}
+}
+
+.card-game {
+	flex-direction: row;
+	gap: 1rem;
+}
+
+.card-container {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
 }
 
 .card-games-list {
