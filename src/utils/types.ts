@@ -18,6 +18,8 @@ export interface Game {
 		downloadUrls: string[];
 		status: GameStatus;
 		releasedDate: number;
+		showOnHomePage: boolean;
+		icon: string;
 	};
 	url: string;
 }

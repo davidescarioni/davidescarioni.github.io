@@ -7,4 +7,6 @@ downloadUrls: ["https://goldensun-it.itch.io/gmiware"]
 relatedLinks: []
 status: "draft"
 releasedDate: 2022
+showOnHomePage: false
+icon: ""
 ---

@@ -1,12 +1,14 @@
 ---
 layout: ../../layouts/MarkdownGameLayout.astro
 title: Boonaburra
-description: Un piccolo MetroidVania in 8bit
+description: Cosa faresti se avessi a disposizione un solo desiderio assolutamente egoistico a tua disposizione? Scoprilo in questo platform con mappa alla MetroidVania
 banner: /images/boonaburra-banner.png
 downloadUrls: ["https://scario88.itch.io/boonaburra"]
 relatedLinks: []
 status: "draft"
 releasedDate: 2024
+showOnHomePage: true
+icon: ""
 ---
 
 In **Boonaburra**, you discover a mysterious place deep within the forest after hearing rumors of something that can grant one of your wishes, but with a significant caveat.

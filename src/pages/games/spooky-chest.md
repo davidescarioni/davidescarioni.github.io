@@ -7,6 +7,8 @@ downloadUrls: ["https://scario88.itch.io/spooky-chest"]
 relatedLinks: []
 status: "draft"
 releasedDate: 2023
+showOnHomePage: false
+icon: ""
 ---
 
 **Spooky Chest** is a game about a (obviously) a chest that needs to catch all the ghost that are escaped from him.

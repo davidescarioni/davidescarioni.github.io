@@ -1,15 +1,17 @@
 ---
+import Icon from "./atoms/icon.astro";
+
 const links = [
 	{
-		label: "github",
+		label: "Github",
 		url: "https://github.com/davidescarioni",
 	},
 	{
-		label: "mastodon",
+		label: "Mastodon",
 		url: "https://mastodon.social/@scario",
 	},
 	{
-		label: "bluesky",
+		label: "Bluesky",
 		url: "https://bsky.app/profile/scario.bsky.social",
 	},
 ];
@@ -26,8 +28,13 @@ const links = [
 	<div class="footer__content-right">
 		{
 			links.map((link) => (
-				<a href={link.url} target="_blank" rel="noopener noreferrer">
-					{link.label}
+				<a
+					href={link.url}
+					target="_blank"
+					title={`Guarda il mio profilo su ${link.label}`}
+					rel="noopener noreferrer"
+				>
+					<Icon name={link.label.toLowerCase()} />
 				</a>
 			))
 		}

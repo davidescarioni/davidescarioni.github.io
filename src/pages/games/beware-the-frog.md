@@ -7,4 +7,6 @@ downloadUrls: ["https://scario88.itch.io/beware-the-frog"]
 relatedLinks: []
 status: "draft"
 releasedDate: 2022
+showOnHomePage: false
+icon: ""
 ---

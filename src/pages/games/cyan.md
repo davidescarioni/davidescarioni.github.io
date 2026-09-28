@@ -7,4 +7,6 @@ downloadUrls: ["https://www.indiexpo.net/it/games/cyan"]
 relatedLinks: []
 status: "draft"
 releasedDate: 2019
+showOnHomePage: false
+icon: ""
 ---

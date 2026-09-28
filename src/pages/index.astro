@@ -18,10 +18,12 @@ const orderedGames = allGames.sort(
 );
 
 const lastPost = orderedPosts[0];
-const lastGame = orderedGames[0];
+const gamesToShow = orderedGames.filter((game) => game.frontmatter.showOnHomePage);
+
+console.log(gamesToShow);
 ---
 
-<BaseLayout title="👋 Ciao">
+<BaseLayout title="Ciao!">
 	<Intro />
 	<div class="card-container">
 		<div>
@@ -34,18 +36,23 @@ const lastGame = orderedGames[0];
 				tags={lastPost.frontmatter.tags}
 				url={lastPost.url}
 			/>
-			<a href="blog/">Vedi tutti i post</a>
+			<a href="blog/">Vedi tutti i post {">"}</a>
 		</div>
 		<div>
-			<h2>Gioco più recente</h2>
-
-			<CardGame
-				title={lastGame.frontmatter.title}
-				banner={lastGame.frontmatter.banner}
-				description={lastGame.frontmatter.description}
-				url={lastGame.url}
-			/>
-			<a href="games/">Vedi tutti i giochi</a>
+			<h2>I miei videogame</h2>
+			<div style="border-bottom: 2px dotted var(--color-text); margin-bottom: 1.5em;">
+				{
+					gamesToShow.map((game) => (
+						<CardGame
+							title={game.frontmatter.title}
+							banner={game.frontmatter.banner}
+							description={game.frontmatter.description}
+							url={game.frontmatter.downloadUrls[0]}
+						/>
+					))
+				}
+			</div>
+			<a href="games/">Vedi tutti i giochi {">"}</a>
 		</div>
 	</div>
 </BaseLayout>

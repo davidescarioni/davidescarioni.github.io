@@ -25,9 +25,9 @@ Nel corso del tempo ho scoperto che apprezzo i caffè che tendono all'acido (sen
 
 Ho provato e apprezzato i caffè di [Ditta Artigianale](https://dittaartigianale.com/), [NOWHERE](https://nowherecoffeeroasters.com) e [iDruper](https://www.idrupercoffee.com/), e ogni volta che salgo a milano un salto da uno dei primi due lo faccio praticamente sempre per provare qualcosa di nuovo.
 
-Ho fatto poi un corso su con [Mirabilia](https://www.mirabilia.coffee/) riguardo i metodi alternativi di estrazione del caffè, e lì ho conosciuto questa realtà che vende sia singolarmente del caffè accuratamente scelto sia impacchetta delle box degustazione (singole o in abbonamento). Sono un po' costose e quindi non ho mai provato ad acquistarle, ma mi piacerebbe molto provarle prima o poi.
+Ho fatto poi un corso su con [Mirabilia](https://www.mirabilia.coffee/) riguardo i metodi alternativi di estrazione del caffè, e lì ho conosciuto questa realtà che vende sia singolarmente del caffè accuratamente scelto sia impacchetta delle box degustazione (singole o in abbonamento). Recentemente mi è stato regalato l'abbonamento espresso e mi è piaciuto molto, mi piacerebbe a questo punto provare anche il [Mirabilia Mensile](https://www.mirabilia.coffee/prodotti/mirabilia-abbonamento-a-box) per filtro.
 
-Tra i metodi alternativi di estrazione che nominavo prima c'è il filtraggio: ho a casa un filtro a pressione con il quale ho cominciato a divertirmi, ma mi piacerebbe anche provare la [Aero Press](https://caffelab.it/aeropress-aerobie-coffee-maker/), un oggetto creato dall'[inventore del Fresbee](https://en.wikipedia.org/wiki/Alan_Adler) che amava farsi un caffè buono anche fuori casa.
+A proposito di filtraggio, tra i metodi alternativi di estrazione che nominavo prima c'è proprio anche questo: ho a casa un filtro a pressione con il quale ho cominciato a divertirmi, ma mi piacerebbe anche provare la [Aero Press](https://caffelab.it/aeropress-aerobie-coffee-maker/), un oggetto creato dall'[inventore del Fresbee](https://en.wikipedia.org/wiki/Alan_Adler) che amava farsi un caffè buono anche fuori casa.
 
 ![La mitica Aero Press](../assets/wl-aero-press.jpg)
 
@@ -70,10 +70,6 @@ Il gioco fisico che più vorrei giocare per **Nintendo Switch** invece è [Donke
 
 ![Uno screenshot di Donkey Kong Tropical Freeze](../assets/wl-donkey-kong.jpg)
 
-Sempre relativo ai VideoGames, mi piacerebbero molto le guide ufficiali di [The Legend of Zelda: Breath of the Wild](https://www.piggyback.com/it/guide/the-legend-of-zelda/) e di [The Legend of Zelda: Tears of the Kingdom](https://www.piggyback.com/it/guide/the-legend-of-zelda-tears-of-the-kingdom/). Ho giocato e terminato entrambi i titoli, ma ho lasciato molti misteri irrisolti nel mio percorso verso il completamento. Le due guide mi permetterebbero di scroprire quello che mi manca, oltre ad essere bellissime in sè da sfogliare.
-
-![Le copertine delle due guide di Zelda](../assets/wl-zelda.png)
-
 ## Libri
 
 Fare il pendolare ha tanti lati negativi, ma ammetto che il fatto di essere obbligato a restare su un autobus per 1h-1h30 al giorno mi aveva dato una bella routine di lettura.
@@ -81,12 +77,11 @@ Fare il pendolare ha tanti lati negativi, ma ammetto che il fatto di essere obbl
 Da quando sono tornato a lavorare vicino a casa ho guadagnato tempo ma ho smesso di investirlo in questa attività, e leggo principalmente in ferie o quando c'è qualcosa che mi incuriosisce moltissimo. Non ne vado fiero, è sicuramente una cosa su cui dovrei migliorare... Anche se non saprei da dove iniziare. Mi piacerebbe leggere un bel giallo o thriller appassionante, ma essendo fuori dal giro non saprei da dove partire. Adoro Agatha Christie e ho letto quasi tutto quanto prodotto da lei con protagonista Poirot, e mi sono piaciuti molto libri della collana de [I Bassotti](https://www.lafeltrinelli.it/libri/collane/i-bassotti-p202848), una serie dove far conoscere racconti scritti da un autori sconosciuti ma appartenente al periodo d'oro del giallo.
 Dovrei davvero farmi consigliare da qualche lettore o dalla bibliotecaria da dove ripartire.
 
-Se allarghiamo invece la categiria, ultimamente mi sto appassionando ai **bookazine**, soprattutto a tema videogiochi: sono prodotti a metà tra un magazine e un libro con un occhio di riguardo alla veste grafica e ai materiali con i quali vengono prodotti.
+Se allarghiamo invece la categoria, ultimamente mi sto appassionando ai **bookazine**, soprattutto a tema videogiochi: sono prodotti a metà tra un magazine e un libro con un occhio di riguardo alla veste grafica e ai materiali con i quali vengono prodotti.
 
 Tra i più interessanti che conosco e che mi piacerebbe sfogliare ci sono:
 
-<!-- - i bookazine realizzati dagli italianissimi [RoundTwo Publishing](https://roundtwo.world/), in particolare [Void Arcana](https://roundtwo.world/pages/void-arcana), interamente dedicato ai due Hollow Knight (che sono tra i miei giochi preferiti) -->
-
+- i bookazine realizzati dagli italianissimi [RoundTwo Publishing](https://roundtwo.world/), in particolare [Void Arcana](https://roundtwo.world/pages/void-arcana), interamente dedicato ai due Hollow Knight (che sono tra i miei giochi preferiti)
 - [Storie di Videogame 2 e 3](https://itomi.shop/products/sdvg3), due libri che trattano la storia produttiva dietro ad alcune delle saghe videoludiche più famose. Ho il primo volume e l'ho davvero apprezzato.
 - [TUNIC - Design Works](https://www.lostincult.co.uk/tunic) di [LostInCult](https://www.lostincult.co.uk), un libro dedicato allo sviluppo del gioco TUNIC, uno dei miei preferiti di sempre.
 - [The SNES Pixel Book](https://www.bitmapbooks.com/collections/all-books/products/the-snes-pixel-book?) di [Bitmap Books](https://www.bitmapbooks.com), un libro interamente dedicato al Super Nintendo

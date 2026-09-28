@@ -7,4 +7,6 @@ downloadUrls: ["https://gamemakeritalia.itch.io/messland"]
 relatedLinks: []
 status: "draft"
 releasedDate: 2020
+showOnHomePage: false
+icon: ""
 ---

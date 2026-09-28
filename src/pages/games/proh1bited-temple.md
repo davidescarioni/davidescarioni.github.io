@@ -7,6 +7,8 @@ downloadUrls: ["https://scario88.itch.io/proh1bited-temple"]
 relatedLinks: []
 status: "draft"
 releasedDate: 2021
+showOnHomePage: false
+icon: ""
 ---
 
 You find a hidden cave that holds the secret to immortality. Do you knows what it means?

@@ -1,6 +1,6 @@
 ---
 interface CardGameProps {
-	banner: string;
+	banner?: string;
 	title: string;
 	description?: string;
 	url: string;
@@ -8,13 +8,10 @@ interface CardGameProps {
 
 type Props = CardGameProps;
 
-const { title, description, url, banner } = Astro.props;
+const { title, description, url } = Astro.props;
 ---
 
 <div class="card-game">
-	<img src={banner} alt={title} class="card-game__banner" />
-	<div class="card-game__content">
-		<h3 class="card-game__title"><a href={url}>{title}</a></h3>
-		{description && <div class="card-game__description">{description}</div>}
-	</div>
+	<h3 class="card-game__title"><a href={url}>{title}</a></h3>
+	{description && <div class="card-game__description">{description}</div>}
 </div>

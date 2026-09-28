@@ -1,0 +1,15 @@
+.card-game {
+	margin-bottom: 1.1rem;
+
+	&__title {
+		display: block;
+		margin-top: 0;
+		margin-bottom: 0.25em;
+		padding-right: 0.5em;
+	}
+
+	&__description {
+		display: inline-block;
+		margin-bottom: 0;
+	}
+}

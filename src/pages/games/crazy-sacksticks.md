@@ -7,4 +7,6 @@ downloadUrls: ["https://gamemakeritalia.itch.io/crazy-sacksticks"]
 relatedLinks: []
 status: "draft"
 releasedDate: 2024
+showOnHomePage: false
+icon: ""
 ---

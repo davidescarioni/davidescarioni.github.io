@@ -7,4 +7,6 @@ downloadUrls: ["https://scario88.itch.io/asso"]
 relatedLinks: []
 status: "draft"
 releasedDate: 2024
+showOnHomePage: false
+icon: ""
 ---

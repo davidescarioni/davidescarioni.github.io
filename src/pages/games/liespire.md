@@ -7,6 +7,8 @@ downloadUrls: ["https://scario88.itch.io/liespire"]
 relatedLinks: []
 status: "draft"
 releasedDate: 2025
+showOnHomePage: false
+icon: ""
 ---
 
 **LIESPIRE** is a Memory-style card game for two players.
