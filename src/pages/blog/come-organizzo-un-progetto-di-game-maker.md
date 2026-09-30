@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: Come organizzo un progetto di Game Maker.
+title: Come organizzo un progetto di Game Maker
 description: Se ho imparato qualcosa in questi anni è che avere un progetto ordinato aiuta a sviluppare, soprattutto se si vuole mettere mano a vecchi progetti
 date: 2026-09-30
 tags: ["game-development"]
