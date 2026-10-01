@@ -1,0 +1,40 @@
+.hero {
+	margin-top: 2.5rem;
+	margin-bottom: 1rem;
+
+	&__title {
+		margin-top: 0;
+		line-height: 1.1;
+		margin-bottom: 0.25rem;
+	}
+
+	&__tags {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+
+		@media screen and (min-width: 992px) {
+			&:before {
+				content: "-";
+				margin-right: 1em;
+			}
+		}
+	}
+
+	&__data {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5em;
+		background-color: #efefef;
+		padding-block: 0.5em;
+		padding-inline: 1em;
+		margin-top: 16px;
+		margin-inline: -1em;
+
+		@media screen and (min-width: 992px) {
+			flex-direction: row;
+			gap: 1em;
+			border-radius: 16px;
+		}
+	}
+}

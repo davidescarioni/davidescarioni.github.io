@@ -1,0 +1,26 @@
+.footer {
+	background-color: var(--light-gray);
+	border-radius: 1em;
+	margin-top: auto;
+	padding: 8px 12px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	&__content-right {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 1em;
+	}
+
+	.icon {
+		max-width: 1.1em;
+		max-height: 1.1em;
+        transition: color .25s ease-in-out;
+
+        &:hover {
+            color: var(--color-primary);
+        }
+	}
+}

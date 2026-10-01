@@ -1,0 +1,32 @@
+.card-games-list {
+	--column-number: 2;
+	display: grid;
+	grid-template-columns: repeat(var(--column-number), 1fr);
+	gap: 8px;
+	list-style: none;
+	padding: 0;
+
+	@media screen and (min-width: 992px) {
+		--column-number: 3;
+		margin-inline: -4em;
+	}
+
+	&__item-image {
+		max-width: 100%;
+		border-radius: 8px;
+		// border: 0.2vw solid rgba(0, 0, 0, 0.15);
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+		aspect-ratio: 4/3;
+
+		&:hover {
+			outline: 4px solid var(--color-primary);
+			outline-offset: -4px;
+		}
+
+		&--draft {
+			filter: grayscale(100%);
+		}
+	}
+}
