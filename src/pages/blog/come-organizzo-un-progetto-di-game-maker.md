@@ -35,9 +35,10 @@ Questo perchè mi sono reso conto di come la divisione tra Sprites e Objects, ad
 
 ## Abilitare feather + Naming convention
 
-**Feather** è il linter di GM, è una relativa novità all'interno dell'editor per cui ho cominciato ad attivarlo solo negli ultimi anni. Non è perfetto, ma mi aiuta a mantenere i progetti con le stesse naming convenction e a verificare che le funzioni abbiano dei parametri e dei return coerenti.
+[Feather](https://manual.gamemaker.io/lts/en/The_Asset_Editors/Code_Editor_Properties/Feather_Features.htm) è il linter di GM, è una relativa novità all'interno dell'editor per cui ho cominciato ad attivarlo solo negli ultimi anni. Non è perfetto, ma mi aiuta a mantenere i progetti con le stesse naming convenction e a verificare che le funzioni abbiano dei parametri e dei return coerenti.
 
-Quindi, ad esempio, il personaggio del giocatore si chiamerà sempre obj_player in tutti i progetti. Ho aperto di recente Spooky Chest e mi sono trovato il giocatore chiamato oChest: se in ogni gioco dovessi chiamare questo oggetto con quello che rappresenta, ogni volta mettere mano al codice diventa un supplizio.
+Quindi, ad esempio, il personaggio del giocatore si chiamerà sempre obj_player in tutti i progetti. Ho aperto di recente [Spooky Chest](http://scario88.itch.io/spooky-chest) e mi sono trovato il giocatore chiamato oChest: se in ogni gioco dovessi chiamare questo oggetto con quello che rappresenta, mettere mano al codice di progetti passati diventerebbe un supplizio.
+Questo screenshot rappresenta quindi lo stato del progetto prima che uniformassi l'organizzazione degli stessi:
 
 ![L'alberatura di file che ho usato su Spooky Chest... ovviamente è da rivedere](../../assets/setup-gm-old.png)
 
@@ -46,19 +47,22 @@ Quindi, ad esempio, il personaggio del giocatore si chiamerà sempre obj_player 
 Fuori dalle cartelle per averlo sempre a portata di mano (anche perchè l'IDE non permette di pinnare schede, dannazione) tengo un file script chiamato utils, e dentro lo divido in 3 parti
 
 /// MACRO
+
 /// Qui vengono inseriti ad esempio i colori usati del progetto e la variabile per attivare il debug
 
 /// ENUMS
+
 /// Solitamente li uso solo per le macchine a stati, ma mi trovo comodo averli tutti raggruppati in un unico file invece di averli sparsi per gli oggetti
 
 /// FUNCTIONS
+
 /// Qui raggruppo le funzioni che possono tornare utili a più di un oggetto, come ad esempio quelle per creare effetti particellari
 
 ![Un esempio di un file utils all'interno di un progetto](../../assets/setup-gm-utils.png)
 
 ## La room rm_init e l'oggetto obj_game_controller
 
-In tutti i miei progetti sto creando una room **rm_init** con all'interno un solo oggetto, **obj_game_controller**, persistente, che è l'oggetto che principalmente crea tutti i controller del gioco (ad esempio obj_music_controller e obj_camera_controller).
+In tutti i miei progetti sto creando una room **rm_init** con all'interno un solo oggetto, **obj_game_controller**, persistente, che è l'oggetto che principalmente crea tutti i controller del gioco (ad esempio *obj_music_controller* e *obj_camera_controller*).
 
 Qui room e oggetto vanno a braccietto per un'esigenza ben specifica: riuscire a debuggare room singolarmente senza dover giocare fino al punto preciso che mi serve.
 Per fare ciò mi torna utile che la room da far partire è sempre rm_init, e, in obj_game_controller, al termine della creazione degli altri controller, leggo la **#macro START_ROOM** che è definita tra le macro nel [file utils di cui sopra](#il-file-utils).
@@ -86,4 +90,4 @@ Ora sono arrivato ad una struttura più o meno definitiva, quindi potrebbe esser
 
 ## Prossimi step
 
-**Carved in stone** utilizza già questa struttura, il gioco per la **TerrorOttobre 2026** sta venendo sviluppato in questo modo. Nel futuro aspettatevi qualche novità su qualche vecchio progetto che verrà ripreso e riordinato.
+[Carved in stone](http://scario88.itch.io/carved-in-stone) utilizza già questa struttura, il gioco per la **TerrorOttobre 2026** sta venendo sviluppato in questo modo. Nel futuro aspettatevi qualche novità su qualche vecchio progetto che verrà ripreso e riordinato.
